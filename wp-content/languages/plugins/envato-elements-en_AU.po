@@ -1,0 +1,47 @@
+# Translation of Plugins - Envato Elements &#8211; Photos &amp; Elementor Templates - Stable (latest release) in English (Australia)
+# This file is distributed under the same license as the Plugins - Envato Elements &#8211; Photos &amp; Elementor Templates - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-04-09 10:39:24+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: en_AU\n"
+"Project-Id-Version: Plugins - Envato Elements &#8211; Photos &amp; Elementor Templates - Stable (latest release)\n"
+
+#: envato-elements.php:83
+msgid "7.2 or above"
+msgstr "7.2 or above"
+
+#. translators: %s: PHP version
+#: envato-elements.php:78
+msgid "Envato Elements requires PHP version %s+, plugin is currently NOT ACTIVE. Please contact the hosting provider. WordPress recommends version %s."
+msgstr "Envato Elements requires PHP version %s+, plugin is currently NOT ACTIVE. Please contact the hosting provider. WordPress recommends version %s."
+
+#. Author of the plugin
+msgid "Envato"
+msgstr "Envato"
+
+#. Plugin Name of the plugin
+#: inc/backend/class-welcome.php:32 inc/backend/class-welcome.php:44
+msgid "Envato Elements"
+msgstr "Envato Elements"
+
+#: inc/utils/class-extensions-api.php:155
+msgid "An error occurred, please try again"
+msgstr "An error occurred, please try again"
+
+#. translators: %s: WordPress version
+#: envato-elements.php:102
+msgid "Envato Elements requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT ACTIVE."
+msgstr "Envato Elements requires WordPress version %s+. Because you are using an earlier version, the plugin is currently NOT ACTIVE."
+
+#: inc/utils/class-extensions-api.php:161
+msgid "HTTP Error"
+msgstr "HTTP Error"
+
+#: inc/utils/class-base.php:51 inc/utils/class-base.php:62
+msgid "Something went wrong."
+msgstr "Something went wrong."

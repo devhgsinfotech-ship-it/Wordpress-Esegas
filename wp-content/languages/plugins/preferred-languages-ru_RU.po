@@ -1,0 +1,53 @@
+# Translation of Plugins - Preferred Languages - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Preferred Languages - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2025-07-17 18:09:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Preferred Languages - Stable (latest release)\n"
+
+#. Description of the plugin
+#: preferred-languages.php
+msgid "Enables you to choose languages for displaying WordPress in, in order of preference."
+msgstr "Позволяет вам выбирать языки для отображения WordPress в порядке предпочтения."
+
+#: inc/functions.php:965
+msgid "Default Language"
+msgstr "Язык по умолчанию"
+
+#. Author URI of the plugin
+#: preferred-languages.php
+msgid "https://pascalbirchler.com"
+msgstr "https://pascalbirchler.com"
+
+#. Author of the plugin
+#: preferred-languages.php
+msgid "Pascal Birchler"
+msgstr "Pascal Birchler"
+
+#. Plugin URI of the plugin
+#: preferred-languages.php
+msgid "https://github.com/swissspidy/preferred-languages/"
+msgstr "https://github.com/swissspidy/preferred-languages/"
+
+#. Plugin Name of the plugin
+#: preferred-languages.php
+msgid "Preferred Languages"
+msgstr "Preferred Languages"
+
+#: inc/functions.php:1036
+msgid "Language"
+msgstr "Язык"
+
+#: inc/functions.php:945
+msgid "Site Language"
+msgstr "Язык сайта"
+
+#: inc/functions.php:64
+msgid "List of preferred locales."
+msgstr "Список предпочитаемых языков."

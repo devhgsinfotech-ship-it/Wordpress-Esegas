@@ -1,0 +1,434 @@
+# Translation of Plugins - Insert Headers And Footers - Stable (latest release) in English (UK)
+# This file is distributed under the same license as the Plugins - Insert Headers And Footers - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-07-17 12:02:30+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: en_GB\n"
+"Project-Id-Version: Plugins - Insert Headers And Footers - Stable (latest release)\n"
+
+#. translators: 1: product name, 2: admin email address (placeholders may
+#. include <strong>)
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:800
+msgid "<strong>Thanks!</strong> You should receive a confirmation email for %1$s to your mailbox at %2$s. Please make sure you click the link in that email to complete the opt-in."
+msgstr "<strong>Thanks!</strong> You should receive a confirmation email for %1$s to your mailbox at %2$s. Please make sure you click the link in that email to complete the opt-in."
+
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:480
+msgid "Could not resend the verification email. Please try again later."
+msgstr "Could not resend the verification email. Please try again later."
+
+#. translators: 1: opening anchor, 2: closing anchor
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:716
+msgid "%1$s Opt In %2$s  "
+msgstr "%1$s Opt In %2$s  "
+
+#: lib/wpb-sdk/includes/wpb-sdk-essential-functions.php:3675
+msgid "account"
+msgstr "account"
+
+#. translators: 1: user name, 2: product name (full plugin name), 3: product
+#. name in Improve line
+#: lib/wpb-sdk/views/wpb-sdk-optin-form.php:173
+msgid "Hey <strong>%1$s</strong>,<br />If you opt-in some data about your installation of <strong>%2$s</strong> will be sent to WPBrigade.com (This doesn't include stats) and You will receive new feature updates, security notifications etc <em>No Spam, I promise.</em><br /><br />Help us <strong>Improve %3$s</strong><br /><br />"
+msgstr "Hey <strong>%1$s</strong>,<br />If you opt-in some data about your installation of <strong>%2$s</strong> will be sent to WPBrigade.com (This doesn't include stats) and You will receive new feature updates, security notifications etc <em>No Spam, I promise.</em><br /><br />Help us <strong>Improve %3$s</strong><br /><br />"
+
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:377
+msgid "Invalid product."
+msgstr "Invalid product."
+
+#: lib/wpb-sdk/views/wpb-debug.php:341
+msgid "Option not found."
+msgstr "Option not found."
+
+#: lib/wpb-sdk/views/wpb-debug.php:272
+msgid "Option not loaded. Name must start with wpb_."
+msgstr "Option not loaded. Name must start with wpb_."
+
+#. translators: 1: product name, 2: admin email address (may include <strong>)
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:788
+msgid "Please verify your email address %2$s to confirm your %1$s opt-in."
+msgstr "Please verify your email address %2$s to confirm your %1$s opt-in."
+
+#: lib/wpb-sdk/views/wpb-debug.php:343 lib/wpb-sdk/views/wpb-debug.php:345
+msgid "Option Value:"
+msgstr "Option Value:"
+
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:393
+msgid "Please wait a moment before requesting another verification email."
+msgstr "Please wait a moment before requesting another verification email."
+
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:792
+msgid "Send verification email"
+msgstr "Send verification email"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:187
+msgid "spinner"
+msgstr "spinner"
+
+#: lib/wpb-sdk/includes/wpb-sdk-essential-functions.php:3674
+#: lib/wpb-sdk/includes/wpb-sdk-essential-functions.php:3710
+msgid "WPB SDK Account"
+msgstr "WPB SDK Account"
+
+#: lib/wpb-sdk/includes/wpb-sdk-essential-functions.php:3626
+#: lib/wpb-sdk/includes/wpb-sdk-essential-functions.php:3659
+msgid "WPB SDK Debug"
+msgstr "WPB SDK Debug"
+
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:410
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:476
+msgid "Verification email sent. Please check your inbox."
+msgstr "Verification email sent. Please check your inbox."
+
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:367
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:987
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:1014
+msgid "You do not have permission to perform this action."
+msgstr "You do not have permission to perform this action."
+
+#: lib/wpb-sdk/views/wpb-debug.php:357
+msgid "Option Name (must start with wpb_):"
+msgstr "Option Name (must start with wpb_):"
+
+#: lib/wpb-sdk/views/wpb-debug.php:353
+msgid "Set DB Option"
+msgstr "Set DB Option"
+
+#: lib/wpb-sdk/views/wpb-debug.php:294
+msgid "Actions"
+msgstr "Actions"
+
+#: lib/wpb-sdk/views/wpb-debug.php:291
+msgid "This page shows sensitive data (keys, paths, user info). Do not share screenshots or leave unattended."
+msgstr "This page shows sensitive data (keys, paths, user info). Do not share screenshots or leave unattended."
+
+#: lib/wpb-sdk/views/wpb-debug.php:290
+msgid "Admin-only debug page."
+msgstr "Admin-only debug page."
+
+#: lib/wpb-sdk/views/wpb-debug.php:271
+msgid "Option not set. Name must start with wpb_."
+msgstr "Option not set. Name must start with wpb_."
+
+#: lib/wpb-sdk/views/wpb-debug.php:270
+msgid "Successfully set the option."
+msgstr "Successfully set the option."
+
+#: lib/wpb-sdk/views/account.php:228 lib/wpb-sdk/views/wpb-debug.php:25
+msgid "Debug mode is not enabled."
+msgstr "Debug mode is not enabled."
+
+#: lib/wpb-sdk/includes/wpb-sdk-essential-functions.php:3644
+#: lib/wpb-sdk/includes/wpb-sdk-essential-functions.php:3695
+#: lib/wpb-sdk/views/account.php:220 lib/wpb-sdk/views/wpb-debug.php:17
+msgid "You do not have permission to access this page."
+msgstr "You do not have permission to access this page."
+
+#. Translators: The footer textarea description
+#: classes/class-setup.php:226
+msgid "Enable to remove all custom settings and scripts added by Insert Headers and Footers upon uninstall."
+msgstr "Enable to remove all custom settings and scripts added by Insert Headers and Footers upon uninstall."
+
+#: classes/class-setup.php:224
+msgid "Remove Settings on Uninstall:"
+msgstr "Remove Settings on Uninstall:"
+
+#. Translators: The footer textarea description
+#: classes/class-setup.php:219
+msgid "Enable to remove all scripts and reset all settings made by Insert Headers and Footers upon saving."
+msgstr "Enable to remove all scripts and reset all settings made by Insert Headers and Footers upon saving."
+
+#: classes/class-setup.php:217
+msgid "Factory Reset:"
+msgstr "Factory Reset:"
+
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:914
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:945
+msgid "Sorry, you are not allowed to edit this item."
+msgstr "Sorry, you are not allowed to edit this item."
+
+#: wp-headers-and-footers.php:214
+msgid "Activate"
+msgstr "Activate"
+
+#: lib/wpb-sdk/views/wpb-sdk-optin-form.php:190
+msgid "Skip This Step"
+msgstr "Skip This Step"
+
+#. translators: 1: opening anchor, 2: closing anchor
+#: lib/wpb-sdk/includes/class-wpb-opt-manager.php:709
+msgid "%1$s Opt Out %2$s  "
+msgstr "%1$s Opt Out %2$s  "
+
+#: lib/wpb-sdk/views/wpb-sdk-optin-form.php:185
+msgid "Allow and Continue"
+msgstr "Allow and Continue"
+
+#. Translators: Diagnostic
+#: classes/class-setup.php:287
+msgid "Diagnostic %1$sLog%2$s"
+msgstr "Diagnostic %1$sLog%2$s"
+
+#: classes/class-setup.php:245
+msgid "Insert Headers And Footers"
+msgstr "Insert Headers And Footers"
+
+#: classes/class-setup.php:144
+msgid "Help & Troubleshooting"
+msgstr "Help & Troubleshooting"
+
+#: classes/class-diagnostics-log.php:136
+msgid "WP Headers and Footers Log File Downloaded Successfully!"
+msgstr "WP Headers and Footers Log File Downloaded Successfully!"
+
+#: classes/class-diagnostics-log.php:133
+msgid "Download Log File"
+msgstr "Download Log File"
+
+#: classes/class-settings-api.php:574
+msgid "Analytify: Google Analytics for WordPress "
+msgstr "Analytify: Google Analytics for WordPress "
+
+#: classes/class-settings-api.php:568
+msgid "LoginPress: Login Page Customizer"
+msgstr "LoginPress: Login Page Customizer"
+
+#. Author URI of the plugin
+#: wp-headers-and-footers.php
+msgid "https://wpbrigade.com/?utm_source=wp-headers-and-footers&utm_medium=author-uri-link"
+msgstr "https://wpbrigade.com/?utm_source=wp-headers-and-footers&utm_medium=author-uri-link"
+
+#. Plugin URI of the plugin
+#: wp-headers-and-footers.php
+msgid "https://www.WPBrigade.com/wordpress/plugins/wp-headers-and-footers/?utm_source=?utm_source=wp-headers-and-footers&utm_medium=author-uri-link"
+msgstr "https://www.WPBrigade.com/wordpress/plugins/wp-headers-and-footers/?utm_source=?utm_source=wp-headers-and-footers&utm_medium=author-uri-link"
+
+#: classes/class-setup.php:291
+msgid "Support"
+msgstr "Support"
+
+#: classes/class-setup.php:207
+msgid "Footer's Priority:"
+msgstr "Footer's Priority:"
+
+#. Translators: The body textarea description
+#. Translators: The footer textarea description
+#: classes/class-setup.php:199 classes/class-setup.php:209
+msgid "The priority for %1$s tag. %2$sDefault is 10%3$s"
+msgstr "The priority for %1$s tag. %2$sDefault is 10%3$s"
+
+#: classes/class-setup.php:197
+msgid "Body's Priority:"
+msgstr "Body's Priority:"
+
+#. Translators: The header textarea description
+#: classes/class-setup.php:189
+msgid "The priority for %1$s section. %2$sDefault is 10%3$s"
+msgstr "The priority for %1$s section. %2$sDefault is 10%3$s"
+
+#: classes/class-setup.php:187
+msgid "Header's Priority:"
+msgstr "Header's Priority:"
+
+#: classes/class-setup.php:140
+msgid "Set your priorities for each script tag."
+msgstr "Set your priorities for each script tag."
+
+#: classes/class-setup.php:135
+msgid "Scripts"
+msgstr "Scripts"
+
+#: classes/class-notifications.php:141
+msgid "Never show again"
+msgstr "Never show again"
+
+#: classes/class-notifications.php:140
+msgid "Maybe Later"
+msgstr "Maybe Later"
+
+#: classes/class-notifications.php:139
+msgid "I've already left a review"
+msgstr "I've already left a review"
+
+#: classes/class-notifications.php:138
+msgid "Sure! I'd love to!"
+msgstr "Sure! I'd love to!"
+
+#: classes/class-notifications.php:136
+msgid "We hope you've enjoyed using Inline Headers And Footers! Would you consider leaving us a review on WordPress.org?"
+msgstr "We hope you've enjoyed using Inline Headers And Footers! Would you consider leaving us a review on WordPress.org?"
+
+#: classes/class-notifications.php:135
+msgid "Leave A Review?"
+msgstr "Leave A Review?"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:190
+msgid "Cancel"
+msgstr "Cancel"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:183
+msgid "Anonymous feedback"
+msgstr "Anonymous feedback"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:175
+msgid "Would you like to share what's other reason?"
+msgstr "Would you like to share what's other reason?"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:174
+msgid "Kindly tell us the reason so we can improve."
+msgstr "Kindly tell us the reason so we can improve."
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:170
+msgid "Other"
+msgstr "Other"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:163
+msgid "It's a temporary deactivation. I'm just debugging an issue."
+msgstr "It's a temporary deactivation. I'm just debugging an issue."
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:156
+msgid "I no longer need the plugin"
+msgstr "I no longer need the plugin"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:149
+msgid "The plugin suddenly stopped working"
+msgstr "The plugin suddenly stopped working"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:142
+msgid "The plugin broke my site"
+msgstr "The plugin broke my site"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:136
+msgid "What's the plugin's name?"
+msgstr "What's the plugin's name?"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:135
+msgid "Kindly tell us the name of plugin"
+msgstr "Kindly tell us the name of plugin"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:131
+msgid "I found a better plugin"
+msgstr "I found a better plugin"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:124
+msgid "I only needed the plugin for a short period"
+msgstr "I only needed the plugin for a short period"
+
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:119
+msgid "If you have a moment, please let us know why you are deactivating:"
+msgstr "If you have a moment, please let us know why you are deactivating:"
+
+#. translators: %s: product name
+#: lib/wpb-sdk/views/wpb-sdk-deactivate-form.php:116
+msgid "Quick feedback about %s"
+msgstr "Quick feedback about %s"
+
+#. Translators: The body textarea description
+#. Translators: The footer textarea description
+#: classes/class-setup.php:173 classes/class-setup.php:180
+msgid "These scripts will be printed below the %1$s tag."
+msgstr "These scripts will be printed below the %1$s tag."
+
+#: classes/class-setup.php:171
+msgid "Scripts in Body"
+msgstr "Scripts in Body"
+
+#. Plugin Name of the plugin
+#: wp-headers-and-footers.php
+msgid "WP Headers And Footers"
+msgstr "WP Headers And Footers"
+
+#: classes/class-settings-api.php:585
+msgid "Under Construction & Maintenance mode"
+msgstr "Under Construction & Maintenance mode"
+
+#: classes/class-settings-api.php:580
+msgid "Simple Social Buttons"
+msgstr "Simple Social Buttons"
+
+#: classes/plugin-meta.php:59
+msgid "Rate"
+msgstr "Rate"
+
+#: classes/plugin-meta.php:56
+msgid "Vote!"
+msgstr "Vote!"
+
+#: classes/class-settings-api.php:579 classes/class-settings-api.php:584
+msgid "Socialize your Website"
+msgstr "Socialise your Website"
+
+#: classes/class-settings-api.php:573
+msgid "Share with your facebook friends about this awesome plugin."
+msgstr "Share with your Facebook friends about this awesome plugin."
+
+#: classes/class-settings-api.php:567
+msgid "Customize your login screen"
+msgstr "Customise your login screen"
+
+#: classes/class-setup.php:178
+msgid "Scripts in Footer"
+msgstr "Scripts in Footer"
+
+#. Translators: The header textarea description
+#: classes/class-setup.php:166
+msgid "These scripts will be printed in the %1$s section."
+msgstr "These scripts will be printed in the %1$s section."
+
+#: classes/class-setup.php:164
+msgid "Scripts in Header"
+msgstr "Scripts in Header"
+
+#: classes/class-setup.php:139
+msgid "Settings"
+msgstr "Settings"
+
+#: classes/class-settings-api.php:563
+msgid "Recommended Plugins"
+msgstr "Recommended Plugins"
+
+#: classes/class-settings-api.php:556
+msgid "Rate on WordPress.org"
+msgstr "Rate on WordPress.org"
+
+#: classes/class-settings-api.php:550
+msgid "Share on Facebook"
+msgstr "Share on Facebook"
+
+#: classes/class-settings-api.php:549
+msgid "Share with your facebook friends about this awesome plugin"
+msgstr "Share with your facebook friends about this awesome plugin"
+
+#: classes/class-settings-api.php:544
+msgid "Share on X/Twitter"
+msgstr "Share on X/Twitter"
+
+#: classes/class-settings-api.php:543
+msgid "Post to Twitter Now"
+msgstr "Post to Twitter Now"
+
+#: classes/class-settings-api.php:540
+msgid "Spread the Word"
+msgstr "Spread the Word"
+
+#: classes/class-settings-api.php:374
+msgid "Choose File"
+msgstr "Choose File"
+
+#. Author of the plugin
+#: wp-headers-and-footers.php
+msgid "WPBrigade"
+msgstr "WPBrigade"
+
+#. Description of the plugin
+#: wp-headers-and-footers.php
+msgid "Allows you to insert code or text in the header or footer of your WordPress site."
+msgstr "Allows you to insert code or text in the header or footer of your WordPress site."
+
+#: classes/class-setup.php:83
+msgid "WP Headers and Footers"
+msgstr "WP Headers and Footers"

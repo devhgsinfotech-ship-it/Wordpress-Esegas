@@ -1,0 +1,44 @@
+# Translation of Plugins - Preferred Languages - Stable (latest release) in English (Australia)
+# This file is distributed under the same license as the Plugins - Preferred Languages - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-10-04 09:51:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: en_AU\n"
+"Project-Id-Version: Plugins - Preferred Languages - Stable (latest release)\n"
+
+#. Author URI of the plugin
+#: preferred-languages.php
+msgid "https://pascalbirchler.com"
+msgstr "https://pascalbirchler.com"
+
+#. Author of the plugin
+#: preferred-languages.php
+msgid "Pascal Birchler"
+msgstr "Pascal Birchler"
+
+#. Plugin URI of the plugin
+#: preferred-languages.php
+msgid "https://github.com/swissspidy/preferred-languages/"
+msgstr "https://github.com/swissspidy/preferred-languages/"
+
+#. Plugin Name of the plugin
+#: preferred-languages.php
+msgid "Preferred Languages"
+msgstr "Preferred Languages"
+
+#: inc/functions.php:1036
+msgid "Language"
+msgstr "Language"
+
+#: inc/functions.php:945
+msgid "Site Language"
+msgstr "Site Language"
+
+#: inc/functions.php:64
+msgid "List of preferred locales."
+msgstr "List of preferred locales."

@@ -1,0 +1,98 @@
+services:
+
+  mysql:
+    image: mysql:8.0
+    container_name: wordpress_local_mysql
+    restart: unless-stopped
+
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./mysql/my.cnf:/etc/mysql/conf.d/custom.cnf
+
+    networks:
+      - wordpress_network
+
+
+  redis:
+    image: redis:7-alpine
+    container_name: wordpress_local_redis
+    restart: unless-stopped
+    command: redis-server --maxmemory 256mb --maxmemory-policy allkeys-lru
+    networks:
+      - wordpress_network
+
+
+  wordpress:
+    image: wordpress:php8.2-apache
+    container_name: wordpress_local
+    restart: unless-stopped
+
+    environment:
+      WORDPRESS_DB_HOST: mysql:3306
+      WORDPRESS_DB_NAME: ${MYSQL_DATABASE}
+      WORDPRESS_DB_USER: ${MYSQL_USER}
+      WORDPRESS_DB_PASSWORD: ${MYSQL_PASSWORD}
+      WORDPRESS_CONFIG_EXTRA: |
+        define( 'WP_MEMORY_LIMIT', '512M' );
+        define( 'WP_MAX_MEMORY_LIMIT', '512M' );
+        define( 'WP_POST_REVISIONS', 5 );
+        define( 'AUTOSAVE_INTERVAL', 300 );
+        define( 'EMPTY_TRASH_DAYS', 7 );
+        define( 'WP_CRON_LOCK_TIMEOUT', 60 );
+        define( 'WP_REDIS_HOST', 'redis' );
+        define( 'WP_REDIS_PORT', 6379 );
+
+    ports:
+      - "${WORDPRESS_PORT}:80"
+
+    volumes:
+      - wordpress_data:/var/www/html
+      - ./wp-content:/var/www/html/wp-content
+      - ./php/uploads.ini:/usr/local/etc/php/conf.d/uploads.ini
+      - ./php/opcache.ini:/usr/local/etc/php/conf.d/opcache.ini
+
+    depends_on:
+      - mysql
+      - redis
+
+    networks:
+      - wordpress_network
+
+
+  phpmyadmin:
+    image: phpmyadmin:latest
+    container_name: wordpress_local_phpmyadmin
+    restart: unless-stopped
+
+    environment:
+      PMA_HOST: mysql
+      PMA_USER: root
+      PMA_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+
+    ports:
+      - "8091:80"
+
+    depends_on:
+      - mysql
+
+    networks:
+      - wordpress_network
+
+
+networks:
+  wordpress_network:
+    driver: bridge
+
+
+volumes:
+  mysql_data:
+    driver: local
+
+  wordpress_data:
+    driver: local

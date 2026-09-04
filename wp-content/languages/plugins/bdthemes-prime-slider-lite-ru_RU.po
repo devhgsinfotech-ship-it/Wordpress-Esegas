@@ -1,0 +1,5691 @@
+# Translation of Plugins - Prime Slider Addons for Elementor &#8211; Widgets, Templates &amp; Elementor Addons - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Prime Slider Addons for Elementor &#8211; Widgets, Templates &amp; Elementor Addons - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-07-21 17:25:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Prime Slider Addons for Elementor &#8211; Widgets, Templates &amp; Elementor Addons - Stable (latest release)\n"
+
+#: modules/storker/widgets/storker.php:1774
+msgid "By"
+msgstr "От"
+
+#: admin/module-settings.php:489
+msgid "Ring"
+msgstr "Кольцо"
+
+#: modules/elysium/widgets/elysium.php:516
+msgid "Shadow"
+msgstr "Тень"
+
+#: modules/elysium/widgets/elysium.php:315
+msgid "Space between"
+msgstr "Отступ между"
+
+#: modules/elysium/widgets/elysium.php:426
+msgid "Overlay color"
+msgstr "Цвет наложения"
+
+#: modules/elysium/widgets/elysium.php:503
+msgid "Border radius"
+msgstr "Радиус рамки"
+
+#: includes/setup-wizard/views/integration.php:76
+msgid "Last Updated:"
+msgstr "Последнее обновление:"
+
+#: admin/module-settings.php:69
+msgid "Cloud"
+msgstr "Облако"
+
+#: modules/general/widgets/general.php:1265
+msgid "Width (%)"
+msgstr "Ширина (%)"
+
+#: modules/mount/widgets/mount.php:912
+msgid "Arrow Spacing"
+msgstr "Расстояние между стрелками"
+
+#: includes/setup-wizard/prime-slider-others-plugin.php:145
+#: includes/setup-wizard/views/integration.php:67
+msgid "Retry"
+msgstr "Повторить"
+
+#: traits/global-widget-controls.php:2149
+msgid "Previous"
+msgstr "Назад"
+
+#: includes/class-elements-wpml-compatibility.php:144
+msgid "Days"
+msgstr "Дни"
+
+#: includes/class-elements-wpml-compatibility.php:149
+msgid "Hours"
+msgstr "Часа"
+
+#: includes/class-elements-wpml-compatibility.php:154
+msgid "Minutes"
+msgstr "Минуты"
+
+#: includes/class-elements-wpml-compatibility.php:159
+msgid "Seconds"
+msgstr "Секунды"
+
+#: includes/class-elements-wpml-compatibility.php:314
+msgid "Header Title"
+msgstr "Заголовок в шапке"
+
+#: includes/class-elements-wpml-compatibility.php:319
+msgid "Header Description"
+msgstr "Описание в Шапке"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-crossroad.php:53
+msgid "Modal Title"
+msgstr "Заголовок модального окна"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-knily.php:42
+msgid "Social Title"
+msgstr "Название соцсети"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:32
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:88
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:144
+msgid "Product Title"
+msgstr "Название товара"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:34
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:90
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:146
+msgid "Product Text"
+msgstr "Текст товара"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:36
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:92
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:148
+msgid "Product Price"
+msgstr "Цена товара"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:40
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:96
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:152
+msgid "Product Link"
+msgstr "Ссылка товара"
+
+#: includes/setup-wizard/class-remote-data-handler.php:151
+#: includes/setup-wizard/class-remote-data-handler.php:156
+#: includes/setup-wizard/prime-slider-others-plugin.php:492
+msgid "Security check failed."
+msgstr "Проверка безопасности не удалась."
+
+#: includes/class-elements-wpml-compatibility.php:402
+msgid "Previous Slide"
+msgstr "Предыдущий слайд"
+
+#: includes/class-elements-wpml-compatibility.php:407
+msgid "Next Slide"
+msgstr "Следующий слайд"
+
+#: includes/class-elements-wpml-compatibility.php:292
+#: modules/elysium/widgets/elysium.php:351
+#: modules/pacific/widgets/pacific.php:295
+msgid "Previous Text"
+msgstr "Предыдущий текст"
+
+#: includes/class-elements-wpml-compatibility.php:287
+#: modules/elysium/widgets/elysium.php:361
+#: modules/pacific/widgets/pacific.php:314
+msgid "Next Text"
+msgstr "Следующий текст"
+
+#: modules/pacific/widgets/pacific.php:262
+msgid "Read More Text"
+msgstr "Текст Читать далее"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-general.php:54
+#: includes/compatiblity/wpml/class-wpml-prime-slider-isolate.php:61
+msgid "YouTube Link"
+msgstr "Ссылка на YouTube"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-isolate.php:63
+msgid "Vimeo Link"
+msgstr "Ссылка Vimeo"
+
+#: includes/setup-wizard/init.php:411 includes/setup-wizard/init.php:506
+#: includes/setup-wizard/init.php:601
+msgid "Unauthorized"
+msgstr "Неавторизованный"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-astoria.php:115
+#: includes/compatiblity/wpml/class-wpml-prime-slider-blog.php:40
+#: includes/compatiblity/wpml/class-wpml-prime-slider-dragon.php:112
+#: includes/compatiblity/wpml/class-wpml-prime-slider-flexure.php:103
+#: includes/compatiblity/wpml/class-wpml-prime-slider-fluent.php:45
+#: includes/compatiblity/wpml/class-wpml-prime-slider-general.php:119
+#: includes/compatiblity/wpml/class-wpml-prime-slider-isolate.php:131
+#: includes/compatiblity/wpml/class-wpml-prime-slider-monster.php:98
+#: includes/compatiblity/wpml/class-wpml-prime-slider-mount.php:98
+#: includes/compatiblity/wpml/class-wpml-prime-slider-pagepiling.php:111
+#: includes/compatiblity/wpml/class-wpml-prime-slider-sequester.php:110
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woocommerce.php:40
+msgid "Social Icon Link"
+msgstr "Ссылка значка соцсети"
+
+#: modules/rubix/widgets/rubix.php:91
+msgid "1"
+msgstr "1"
+
+#: modules/rubix/widgets/rubix.php:92
+msgid "2"
+msgstr "2"
+
+#: modules/rubix/widgets/rubix.php:93
+msgid "3"
+msgstr "3"
+
+#: admin/class-rollback-version.php:399
+msgid "Size:"
+msgstr "Размер:"
+
+#: admin/class-settings-api.php:471
+msgid "View "
+msgstr "Просмотр "
+
+#: admin/class-settings-api.php:471
+msgid "Demo"
+msgstr "Демо"
+
+#: includes/setup-wizard/init.php:197 includes/setup-wizard/init.php:198
+msgid "Setup Wizard"
+msgstr "Мастер установки"
+
+#: admin/admin-settings.php:1029
+msgid "Compare Free Vs Pro"
+msgstr "Сравнение Free и Pro"
+
+#: includes/setup-wizard/init.php:457
+msgid "No Title"
+msgstr "Без названия"
+
+#: admin/admin-settings.php:1048
+msgid "View Templates"
+msgstr "Просмотр шаблонов"
+
+#: includes/setup-wizard/views/features.php:83
+msgid "Save and Continue"
+msgstr "Сохранить и продолжить"
+
+#: admin/admin-settings.php:1059
+msgid "Contact Us"
+msgstr "Свяжитесь с нами"
+
+#: includes/setup-wizard/views/features.php:92
+#: includes/setup-wizard/views/good-to-go.php:88
+#: includes/setup-wizard/views/integration.php:307
+msgid "Previous Step"
+msgstr "Предыдущий шаг"
+
+#: admin/admin-settings.php:1069
+msgid "24/7 Support"
+msgstr "Круглосуточная поддержка"
+
+#: includes/setup-wizard/views/good-to-go.php:41
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: admin/admin-settings.php:1113
+msgid "Join Our Community"
+msgstr "Присоединяйтесь к нашему сообществу"
+
+#: includes/setup-wizard/views/good-to-go.php:44
+msgid "Import"
+msgstr "Импорт"
+
+#: admin/admin-settings.php:1401
+msgid "Save Settings"
+msgstr "Сохранить Настройки"
+
+#: includes/setup-wizard/views/good-to-go.php:62
+msgid "Documentation"
+msgstr "Документация"
+
+#: admin/admin-settings.php:1428
+msgid "Create New Page"
+msgstr "Создать новую страницу"
+
+#: admin/admin-settings.php:2787
+#: includes/setup-wizard/prime-slider-others-plugin.php:382
+msgid "Installing..."
+msgstr "Установка..."
+
+#: includes/setup-wizard/views/render.php:25
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: admin/admin-settings.php:2802
+#: includes/setup-wizard/prime-slider-others-plugin.php:397
+msgid "Installed!"
+msgstr "Установлен!"
+
+#: includes/setup-wizard/views/render.php:27
+msgid "Integration"
+msgstr "Интеграция"
+
+#: admin/admin-settings.php:3118
+msgid "White Label Settings"
+msgstr "Настройки Белой этикетки"
+
+#: includes/setup-wizard/views/welcome.php:51
+msgid "Get Started"
+msgstr "Начать"
+
+#: admin/admin-settings.php:175 admin/admin-settings.php:3885
+#: admin/admin-settings.php:4247
+#: includes/setup-wizard/prime-slider-others-plugin.php:525
+msgid "Security check failed"
+msgstr "Проверка безопасности не удалась"
+
+#: admin/admin-settings.php:3136
+msgid "Activate License"
+msgstr "Активировать лицензию"
+
+#: admin/admin-settings.php:876 admin/admin-settings.php:4134
+#: admin/class-settings-api.php:897
+msgid "Extra Options"
+msgstr "Дополнительные параметры"
+
+#: admin/admin-settings.php:3139
+msgid "Get License"
+msgstr "Получить лицензию"
+
+#: admin/admin-settings.php:885 admin/class-settings-api.php:902
+msgid "System Status"
+msgstr "Состояние системы"
+
+#: admin/admin-settings.php:3229
+msgid "Remove"
+msgstr "Удалить"
+
+#: admin/admin-settings.php:3236
+msgid "Upload Icon"
+msgstr "Добавить значок"
+
+#: admin/admin-settings.php:3270
+msgid "Upload Logo"
+msgstr "Загрузить логотип"
+
+#: includes/setup-wizard/class-remote-data-handler.php:300
+#: includes/setup-wizard/class-remote-data-handler.php:305
+#: includes/setup-wizard/prime-slider-others-plugin.php:59
+#: includes/setup-wizard/prime-slider-others-plugin.php:64
+#: includes/setup-wizard/views/integration.php:30
+#: includes/setup-wizard/views/integration.php:35
+msgid "Unknown"
+msgstr "Неизвестно"
+
+#: includes/setup-wizard/class-remote-data-handler.php:320
+#: includes/setup-wizard/prime-slider-others-plugin.php:79
+#: includes/setup-wizard/views/integration.php:50
+msgid "%d day ago"
+msgid_plural "%d days ago"
+msgstr[0] "%d день назад"
+msgstr[1] "%d дн. назад"
+msgstr[2] "%d дн. назад"
+
+#: includes/setup-wizard/prime-slider-others-plugin.php:328
+#: includes/setup-wizard/views/integration.php:247
+msgid "Downloads: "
+msgstr "Скачивания: "
+
+#: includes/setup-wizard/prime-slider-others-plugin.php:320
+#: includes/setup-wizard/views/integration.php:75
+#: includes/setup-wizard/views/integration.php:277
+msgid "ratings"
+msgstr "рейтинг"
+
+#: admin/admin-settings.php:3974
+#: includes/setup-wizard/prime-slider-others-plugin.php:351
+msgid "Activate"
+msgstr "Активировать"
+
+#: admin/admin-settings.php:4009 admin/admin-settings.php:4035
+msgid "CSS"
+msgstr "CSS"
+
+#: admin/admin-settings.php:4088
+msgid "Pages"
+msgstr "Страницы"
+
+#: admin/admin-settings.php:4098
+msgid "Recent Posts"
+msgstr "Свежие записи"
+
+#: admin/class-rollback-version.php:379
+msgid "Warning:"
+msgstr "Внимание:"
+
+#: admin/admin-settings.php:3106
+msgid "Prime Slider Pro is installed but not activated. Please activate it to access White Label functionality."
+msgstr "Prime Slider Pro установлен, но не активирован. Активируйте его, чтобы получить доступ к функциональности White Label."
+
+#: admin/admin-settings.php:3080
+msgid "Prime Slider Pro is not installed. Please install it to access White Label functionality."
+msgstr "Prime Slider Pro не установлен. Установить его, чтобы получить доступ к функциональности White Label."
+
+#: includes/setup-wizard/views/welcome.php:37
+msgid "Professional templates to jumpstart your projects"
+msgstr "Профессиональные шаблоны для запуска Ваших проектов"
+
+#: includes/setup-wizard/class-remote-data-handler.php:317
+#: includes/setup-wizard/prime-slider-others-plugin.php:76
+#: includes/setup-wizard/views/integration.php:47
+msgid "%d hour ago"
+msgid_plural "%d hours ago"
+msgstr[0] "%d час назад"
+msgstr[1] "%d часа назад"
+msgstr[2] "%d часов назад"
+
+#: includes/setup-wizard/class-remote-data-handler.php:314
+#: includes/setup-wizard/prime-slider-others-plugin.php:73
+#: includes/setup-wizard/views/integration.php:44
+msgid "%d minute ago"
+msgid_plural "%d minutes ago"
+msgstr[0] "%d минута назад"
+msgstr[1] "%d минуты назад"
+msgstr[2] "%d минут назад"
+
+#: includes/setup-wizard/class-remote-data-handler.php:323
+#: includes/setup-wizard/prime-slider-others-plugin.php:82
+#: includes/setup-wizard/views/integration.php:53
+msgid "%d month ago"
+msgid_plural "%d months ago"
+msgstr[0] "%d месяц назад"
+msgstr[1] "%d месяца назад"
+msgstr[2] "%d месяцев назад"
+
+#: includes/setup-wizard/class-remote-data-handler.php:326
+#: includes/setup-wizard/prime-slider-others-plugin.php:85
+#: includes/setup-wizard/views/integration.php:56
+msgid "%d year ago"
+msgid_plural "%d years ago"
+msgstr[0] "%d год назад"
+msgstr[1] "%d гола назад"
+msgstr[2] "%d лет назад"
+
+#: admin/admin-settings.php:4063
+msgid "-- Select pages/posts to exclude --"
+msgstr "-- Выбрать страницы/записи для исключения"
+
+#: admin/admin-settings.php:1114
+msgid "A platform for the opportunity to network, collaboration and innovation"
+msgstr "Платформа для создания сетей, сотрудничества и инноваций"
+
+#: admin/admin-settings.php:1106
+msgid "A way to eliminate the challenges you might face"
+msgstr "Способ устранить проблемы, с которыми Вы можете столкнуться"
+
+#: admin/admin-settings.php:3109
+msgid "Activate Pro"
+msgstr "Активировать Pro"
+
+#: includes/setup-wizard/views/integration.php:69
+#: includes/setup-wizard/views/integration.php:216
+msgid "ACTIVE"
+msgstr "АКТИВНЫЙ"
+
+#: includes/setup-wizard/prime-slider-others-plugin.php:288
+#: includes/setup-wizard/views/integration.php:237
+msgid "Active Installs: "
+msgstr "Активные установки: "
+
+#: admin/class-rollback-version.php:492
+msgid "An error occurred during rollback. Please try again."
+msgstr "Во время отката произошла ошибка. Попробуйте еще раз."
+
+#: admin/admin-settings.php:1096
+msgid "An invaluable resource for mastering WordPress, Elementor, and Web Creation"
+msgstr "Бесценный ресурс для освоения WordPress, Elementor и создания сайтов"
+
+#: admin/class-rollback-version.php:466
+msgid "Are you sure you want to rollback to version"
+msgstr "Вы уверены, что хотите откатиться к версии"
+
+#: admin/class-rollback-version.php:393
+msgid "Backup Date:"
+msgstr "Дата создания резервной копии:"
+
+#: admin/class-rollback-version.php:394
+msgid "Backup Type:"
+msgstr "Тип резервного копирования:"
+
+#: admin/admin-settings.php:1044
+msgid "Build your wordpress websites of any niche—not from scratch and in a single click."
+msgstr "Создавайте свои сайты на wordpress в любой нише - не с нуля и в один клик."
+
+#: includes/setup-wizard/views/welcome.php:44
+msgid "Built with performance in mind for lightning-fast websites"
+msgstr "Созданный с учетом требований производительности для молниеносных веб-сайтов"
+
+#: includes/setup-wizard/views/render.php:26
+msgid "Choose Features"
+msgstr "Выбрать функции"
+
+#: admin/admin-settings.php:4030
+msgid "Code added here will be injected before the closing &lt;/body&gt; tag of your website."
+msgstr "Добавленный здесь код будет вставлен перед закрывающим тегом &lt;/body> Вашего сайта."
+
+#: admin/admin-settings.php:4004
+msgid "Code added here will be injected into the &lt;head&gt; section of your website."
+msgstr "Добавленный здесь код будет введен в раздел &lt;head> Вашего сайта."
+
+#: includes/setup-wizard/views/good-to-go.php:71
+msgid "Contact our customer support team"
+msgstr "Свяжитесь с нашей командой поддержки клиентов"
+
+#: admin/admin-settings.php:1014
+msgid "Create Your Sleek Website with Prime Slider Pro!"
+msgstr "Создайте свой изящный сайт с помощью Prime Slider Pro!"
+
+#: admin/class-rollback-version.php:375
+msgid "Current Version:"
+msgstr "Текущая версия:"
+
+#: admin/admin-settings.php:4117
+msgid "Custom code saved successfully!"
+msgstr "Пользовательский код успешно сохранен!"
+
+#: admin/admin-settings.php:4139
+msgid "Custom CSS & JS"
+msgstr "Пользовательские CSS и JS"
+
+#: admin/admin-settings.php:4140
+msgid "White Label"
+msgstr "Белая этикетка"
+
+#: admin/admin-settings.php:4264
+msgid "White label access token has been revoked successfully"
+msgstr "Токен доступа к белой этикетке был успешно отозван"
+
+#: admin/admin-settings.php:3146
+msgid "White Label functionality is available for Agency, Extended, Developer, AppSumo Lifetime, and other eligible license holders. Some licenses may include special white label permissions."
+msgstr "Функциональность \"белой этикетки\" доступна для владельцев лицензий Agency, Extended, Developer, AppSumo Lifetime и других. Некоторые лицензии могут включать специальные разрешения на использование \"белой этикетки\"."
+
+#: admin/admin-settings.php:220
+msgid "White label settings saved successfully"
+msgstr "Настройки белой этикетки успешно сохранены"
+
+#: admin/admin-settings.php:3733
+msgid "Single Site"
+msgstr "Отдельный сайт"
+
+#: admin/admin-settings.php:3158
+msgid "Enable White Label Mode"
+msgstr "Включить режим \"Белая этикетка\""
+
+#: includes/setup-wizard/init.php:476
+msgid "Failed to create page!"
+msgstr "Не удалось создать страницы!"
+
+#: admin/class-rollback-version.php:396
+msgid "Files:"
+msgstr "Файлы:"
+
+#: includes/setup-wizard/views/features.php:31
+msgid "Filter by:"
+msgstr "Фильтр по:"
+
+#: includes/setup-wizard/views/render.php:28
+msgid "Good to Go"
+msgstr "Готово к работе"
+
+#: includes/setup-wizard/views/good-to-go.php:55
+msgid "Helpful Resources"
+msgstr "Полезные Ресурсы"
+
+#: admin/admin-settings.php:4018 admin/admin-settings.php:4044
+msgid "JS"
+msgstr "JS"
+
+#: includes/setup-wizard/class-remote-data-handler.php:311
+#: includes/setup-wizard/prime-slider-others-plugin.php:70
+#: includes/setup-wizard/views/integration.php:41
+msgid "Just now"
+msgstr "Только что"
+
+#: includes/setup-wizard/prime-slider-others-plugin.php:335
+#: includes/setup-wizard/views/integration.php:285
+#: includes/setup-wizard/views/integration.php:287
+msgid "Last Updated: "
+msgstr "Обновление: "
+
+#: admin/admin-settings.php:3132
+msgid "License Not Activated"
+msgstr "Лицензия не активирована"
+
+#: includes/setup-wizard/init.php:555
+msgid "Missing plugins"
+msgstr "Отсутствующие плагины"
+
+#: admin/module-settings.php:598
+msgid "Motion"
+msgstr "Движение"
+
+#: admin/admin-settings.php:894 admin/class-settings-api.php:907
+msgid "Other Plugins"
+msgstr "Другие плагины"
+
+#: admin/admin-settings.php:3896
+#: includes/setup-wizard/prime-slider-others-plugin.php:536
+msgid "Plugin slug is required"
+msgstr "Необходим ярлык плагина"
+
+#: admin/admin-settings.php:913 admin/class-settings-api.php:920
+msgid "Rollback Version"
+msgstr "Откатить версию"
+
+#: admin/admin-settings.php:1122
+msgid "Show Your Love"
+msgstr "Покажите свою любовь"
+
+#: admin/admin-settings.php:867 admin/admin-settings.php:955
+msgid "Special Features"
+msgstr "Особые функции"
+
+#: admin/class-rollback-version.php:466
+msgid "This action cannot be undone."
+msgstr "Это действие нельзя отменить."
+
+#: admin/admin-settings.php:3148
+msgid "Upgrade License"
+msgstr "Улучшение лицензии"
+
+#: admin/admin-settings.php:1095
+msgid "Watch Video Tutorials"
+msgstr "Смотреть видео-уроки"
+
+#: admin/admin-settings.php:3374
+msgid "White label settings saved successfully!"
+msgstr "Настройки белой этикетки успешно сохранены!"
+
+#: admin/admin-settings.php:3890
+#: includes/setup-wizard/prime-slider-others-plugin.php:530
+msgid "You do not have permission to install plugins"
+msgstr "У вас нет разрешения на установку плагинов"
+
+#: includes/setup-wizard/views/welcome.php:29
+msgid "60+ Widgets"
+msgstr "60+ виджетов"
+
+#: includes/setup-wizard/views/features.php:45
+msgid "Search widgets..."
+msgstr "Виджеты поиска..."
+
+#: admin/admin-settings.php:3984
+#: includes/setup-wizard/prime-slider-others-plugin.php:355
+msgid "Install"
+msgstr "Установка"
+
+#: includes/setup-wizard/views/integration.php:68
+#: includes/setup-wizard/views/integration.php:212
+msgid "Recommended"
+msgstr "Рекомендуется"
+
+#: modules/general/widgets/general.php:2488
+msgid "Separator Color"
+msgstr "Цвет разделителя"
+
+#: traits/global-widget-controls.php:421
+msgid "Center Center"
+msgstr "В самом центре"
+
+#: traits/global-widget-controls.php:465 traits/global-widget-controls.php:471
+msgid "Repeat"
+msgstr "Повтор"
+
+#: traits/global-widget-controls.php:472
+msgid "Repeat-x"
+msgstr "Повторить по х"
+
+#: traits/global-widget-controls.php:473
+msgid "Repeat-y"
+msgstr "Повторить по у"
+
+#: traits/global-widget-controls.php:493
+msgid "Auto"
+msgstr "Авто"
+
+#: traits/global-widget-controls.php:494
+msgid "Cover"
+msgstr "Обложка"
+
+#: traits/global-widget-controls.php:495
+msgid "Contain"
+msgstr "Поместить"
+
+#: traits/global-widget-controls.php:470
+msgid "No-repeat"
+msgstr "Без повтора"
+
+#: includes/setup-wizard/prime-slider-others-plugin.php:361
+msgid "Learn More"
+msgstr "Читать больше"
+
+#: admin/class-settings-api.php:345 admin/class-settings-api.php:711
+msgid "View"
+msgstr "Посмотреть"
+
+#: admin/class-settings-api.php:345 admin/class-settings-api.php:711
+msgid "Video Tutorial"
+msgstr "Видеоурок"
+
+#: bdthemes-prime-slider.php:181
+msgid "Yay! Great that you're using Prime Slider"
+msgstr "Ура! Здорово, что Вы используете Prime Slider"
+
+#: bdthemes-prime-slider.php:182
+msgid "Loved using Prime Slider on your website? Share your experience in a review and help us spread the love to everyone right now. Good words will help the community."
+msgstr "Понравилось использовать Prime Slider на Вашем сайте? Поделитесь своим опытом в отзыве и помогите нам распространить любовь среди всех прямо сейчас. Добрые слова помогут сообществу."
+
+#: traits/global-widget-controls.php:1242
+msgid "Slider ratio to width and height, such as 16:9"
+msgstr "Соотношение ширины и высоты слайдера, например, 16:9"
+
+#: admin/admin-settings.php:3615
+msgid "from here."
+msgstr "отсюда."
+
+#: modules/vertex/widgets/vertex.php:666
+msgid "Icon Typography (Deprecated)"
+msgstr "Типографика значка (устаревшая)"
+
+#: admin/admin.php:145
+msgid "Go to settings"
+msgstr "Перейти в \"Настройки\""
+
+#: modules/woocommerce/widgets/woocommerce.php:723
+msgid "Regular"
+msgstr "Обычный"
+
+#: modules/woocommerce/widgets/woocommerce.php:761
+msgid "Sale"
+msgstr "Распродажа"
+
+#: modules/isolate/widgets/isolate.php:1564
+msgid "Typography (Depricated)"
+msgstr "Типографика (устарело)"
+
+#: modules/isolate/widgets/isolate.php:886
+msgid "Slide Fill Color"
+msgstr "Цвет заливки слайда"
+
+#: modules/isolate/widgets/isolate.php:2172
+#: modules/woocommerce/widgets/woocommerce.php:1149
+#: modules/woocommerce/widgets/woocommerce.php:1287
+#: modules/woocommerce/widgets/woocommerce.php:1542
+msgid "Horizontal"
+msgstr "Горизонтально"
+
+#: modules/isolate/widgets/isolate.php:747
+#: modules/pagepiling/widgets/pagepiling.php:440
+#: modules/woocommerce/widgets/woocommerce.php:327
+msgid "Wrapper"
+msgstr "Обертка"
+
+#: modules/blog/widgets/blog.php:1695
+msgid "Admin Text Color"
+msgstr "Цвет текста админа"
+
+#: modules/general/widgets/general.php:1331
+msgid "Middle"
+msgstr "Посередине"
+
+#: modules/general/widgets/general.php:2155
+msgid "Button Size"
+msgstr "Размер кнопки"
+
+#: modules/general/widgets/general.php:1323
+msgid "Vertical Align"
+msgstr "Вертикальное выравнивание"
+
+#: modules/general/widgets/general.php:2256
+msgid "Dot Size"
+msgstr "Размер точки"
+
+#: modules/general/widgets/general.php:2299
+msgid "Dots Radius"
+msgstr "Радиус точек"
+
+#: traits/global-widget-controls.php:1270
+msgid "Enable Responsive Height"
+msgstr "Включить адаптивную высоту"
+
+#: admin/admin-feeds.php:71
+msgid "Learn more..."
+msgstr "Подробнее..."
+
+#: admin/admin-feeds.php:133 admin/admin-feeds.php:160
+msgid "Items Not Found"
+msgstr "Элементы не найдены"
+
+#: admin/module-settings.php:334
+msgid "Pandora"
+msgstr "Pandora"
+
+#: modules/flogia/widgets/flogia.php:984
+msgid "Gap"
+msgstr "Промежуток"
+
+#: modules/general/widgets/general.php:521
+#: modules/isolate/widgets/isolate.php:571
+#: traits/global-widget-controls.php:614 traits/global-widget-controls.php:2117
+msgid "Facebook"
+msgstr "Facebook"
+
+#: modules/general/widgets/general.php:531
+#: modules/isolate/widgets/isolate.php:579
+#: traits/global-widget-controls.php:622 traits/global-widget-controls.php:2121
+msgid "Twitter"
+msgstr "Twitter"
+
+#: modules/general/widgets/general.php:541
+#: modules/isolate/widgets/isolate.php:587
+#: traits/global-widget-controls.php:630 traits/global-widget-controls.php:2125
+msgid "Instagram"
+msgstr "Instagram"
+
+#: modules/mount/widgets/mount.php:268
+msgid "Fb"
+msgstr "Fb"
+
+#: modules/mount/widgets/mount.php:274
+msgid "Tw"
+msgstr "Tw"
+
+#: modules/mount/widgets/mount.php:280
+msgid "Ig"
+msgstr "Ig"
+
+#: modules/pagepiling/widgets/pagepiling.php:323
+msgid "Fb."
+msgstr "Fb."
+
+#: modules/pagepiling/widgets/pagepiling.php:329
+msgid "Tw."
+msgstr "Tw."
+
+#: modules/pagepiling/widgets/pagepiling.php:335
+msgid "In."
+msgstr "In."
+
+#: modules/flogia/widgets/flogia.php:250
+#: modules/isolate/widgets/isolate.php:1414
+#: modules/isolate/widgets/isolate.php:2420
+#: traits/global-widget-controls.php:416
+msgid "Position"
+msgstr "Позиция"
+
+#: modules/flogia/widgets/flogia.php:1175
+#: modules/pagepiling/widgets/pagepiling.php:1142
+msgid "Vertical Offset"
+msgstr "Вертикальное смещение"
+
+#: modules/multiscroll/widgets/multiscroll.php:451
+msgid "Button Vertical Offset"
+msgstr "Кнопка Вертикальное смещение"
+
+#: modules/general/widgets/general.php:808
+msgid "Secondary Shape Color"
+msgstr "Цвет вторичной формы"
+
+#: modules/general/skins/skin-crelly.php:142
+msgid "Overview"
+msgstr "Обзор"
+
+#: admin/class-settings-api.php:1065
+msgid "Search widget..."
+msgstr "Поисковый виджет..."
+
+#: admin/admin-settings.php:2971
+msgid "All rights reserved by"
+msgstr "Все права защищены"
+
+#: admin/admin-settings.php:2969
+msgid "Team."
+msgstr "Команда."
+
+#: admin/admin-settings.php:2969
+msgid "Prime Slider plugin made with love by"
+msgstr "Плагин Prime Slider, созданный с любовью"
+
+#: admin/admin-settings.php:3763
+msgid "Currently Turned Off"
+msgstr "В настоящее время выключено"
+
+#: admin/admin-settings.php:3760
+msgid "Currently Turned On"
+msgstr "В настоящее время включено"
+
+#: admin/admin-settings.php:3699
+msgid "Min: 32M Recommended"
+msgstr "Мин: 32M Рекомендуется"
+
+#: admin/admin-settings.php:3668
+msgid "Min: 90 Recommended"
+msgstr "Мин: 90 Рекомендуется"
+
+#: admin/admin-settings.php:3647
+msgid "PHP Version:"
+msgstr "Версия PHP:"
+
+#: admin/admin-settings.php:1153 admin/admin-settings.php:1336
+msgid "Purchase Now"
+msgstr "Купить сейчас"
+
+#: admin/admin-settings.php:1328
+msgid " Video Tutorial"
+msgstr " Видеоурок"
+
+#: admin/admin-settings.php:1325
+msgid " Interactive Effects"
+msgstr " Интерактивные эффекты"
+
+#: admin/admin-settings.php:1322
+msgid " Trusted Payment Methods"
+msgstr " Надежные способы оплаты"
+
+#: admin/admin-settings.php:1314
+msgid " With Live Chat Support"
+msgstr " С поддержкой живого чата"
+
+#: admin/admin-settings.php:1311
+msgid " Custom Field Integration"
+msgstr " Интеграция пользовательских полей"
+
+#: admin/admin-settings.php:1308
+msgid " Special Discount!"
+msgstr " Специальная скидка!"
+
+#: admin/admin-settings.php:1300
+msgid " Third Party Plugins"
+msgstr " Сторонние плагины"
+
+#: admin/admin-settings.php:1297
+msgid " 24/7 Premium Support"
+msgstr " круглосуточная премиум-поддержка"
+
+#: admin/admin-settings.php:1294
+msgid " Super-Flexible Widgets"
+msgstr " Супергибкие виджеты"
+
+#: admin/admin-settings.php:1286
+msgid " Dynamic Content"
+msgstr " Динамический контент"
+
+#: admin/admin-settings.php:1283
+msgid " Refund or Cancel Anytime"
+msgstr " Возврат или отмена в любое время"
+
+#: admin/admin-settings.php:1280
+msgid " Incredibly Advanced"
+msgstr " Невероятно продвинутый"
+
+#: admin/admin-settings.php:1229
+msgid "Elementor Extended Widgets"
+msgstr "Расширенные виджеты Elementor"
+
+#: admin/admin-settings.php:1222
+msgid "Ready Made Blocks"
+msgstr "Готовые блоки"
+
+#: admin/admin-settings.php:1215
+msgid "Ready Made Pages"
+msgstr "Готовые страницы"
+
+#: admin/admin-settings.php:1257
+msgid "Priority Support"
+msgstr "Приоритетная поддержка"
+
+#: admin/admin-settings.php:1250
+msgid " Theme Pro Features"
+msgstr " Особенности темы Pro"
+
+#: admin/admin-settings.php:1208
+msgid "Updates & Support"
+msgstr "Обновления И Поддержка"
+
+#: admin/admin-settings.php:1201
+msgid "Proper Documentation"
+msgstr "Надлежащая документация"
+
+#: admin/admin-settings.php:1194
+msgid "Dynamic Content & Custom Fields Capabilities"
+msgstr "Возможности динамического контента и пользовательских полей"
+
+#: admin/admin-settings.php:1187
+msgid "Theme Compatibility"
+msgstr "Совместимость с темой"
+
+#: admin/admin-settings.php:1180
+msgid "Free have 3+ Widgets but Pro have 3+ 3rd party widgets"
+msgstr "В Free есть 3+ виджета, а в Pro - 3+ виджетов сторонних производителей"
+
+#: admin/admin-settings.php:1173
+msgid "Free have 27+ Widgets but Pro have 21+ core widgets"
+msgstr "В бесплатном варианте есть 27+ виджетов, а в Pro - 21+ основных виджетов"
+
+#: admin/admin-settings.php:1166
+msgid "Features"
+msgstr "Особенности"
+
+#: admin/admin-settings.php:1149
+msgid " Free Vs Pro"
+msgstr " Бесплатный и профессиональный"
+
+#: admin/admin-settings.php:1149
+msgid "Just Compare With "
+msgstr "Просто сравните с"
+
+#: admin/admin-settings.php:1148
+msgid "WHY GO WITH PRO?"
+msgstr "ПОЧЕМУ СТОИТ ВЫБРАТЬ ПРОФЕССИОНАЛА?"
+
+#: admin/admin-settings.php:3453
+msgid "System Requirement"
+msgstr "Системные требования"
+
+#: admin/admin-settings.php:3594
+msgid "Total Active Widgets Status"
+msgstr "Всего активных виджетов Статус"
+
+#: admin/admin-settings.php:3589
+msgid "3rd Party:"
+msgstr "3-я сторона:"
+
+#: admin/admin-settings.php:3588
+msgid "Core:"
+msgstr "Ядро:"
+
+#: admin/admin-settings.php:3573
+msgid "3rd Party Widgets Status"
+msgstr "состояние сторонних виджетов"
+
+#: admin/admin-settings.php:3556
+msgid "3rd Party"
+msgstr "Сторонние"
+
+#: admin/admin-settings.php:3539
+msgid "Core Widgets Status"
+msgstr "Состояние основных виджетов"
+
+#: admin/admin-settings.php:3522
+msgid "Core"
+msgstr "Ядро"
+
+#: admin/admin-settings.php:3505
+msgid "Total Widgets Status"
+msgstr "Общее состояние виджетов"
+
+#: admin/admin-settings.php:3497 admin/admin-settings.php:3531
+#: admin/admin-settings.php:3565 admin/admin-settings.php:3590
+msgid "Total:"
+msgstr "Итого:"
+
+#: admin/admin-settings.php:3494 admin/admin-settings.php:3528
+#: admin/admin-settings.php:3562
+msgid "Unused:"
+msgstr "Неиспользованные:"
+
+#: admin/admin-settings.php:3491 admin/admin-settings.php:3525
+#: admin/admin-settings.php:3559
+msgid "Used:"
+msgstr "Использовано:"
+
+#: admin/admin-settings.php:3488
+msgid "All Widgets"
+msgstr "Все виджеты"
+
+#: admin/admin-settings.php:1063
+msgid "Request a Feature"
+msgstr "Запросить функцию"
+
+#: admin/admin-settings.php:3773
+msgid "Note:"
+msgstr "Примечание:"
+
+#: admin/admin-settings.php:3652 admin/admin-settings.php:3655
+#: admin/admin-settings.php:3668 admin/admin-settings.php:3671
+#: admin/admin-settings.php:3683 admin/admin-settings.php:3686
+#: admin/admin-settings.php:3699 admin/admin-settings.php:3702
+msgid "Currently:"
+msgstr "В настоящее время:"
+
+#: admin/admin-settings.php:3756
+msgid "Debug Mode:"
+msgstr "Режим отладки:"
+
+#: admin/admin-settings.php:3664
+msgid "Max execution time:"
+msgstr "Макс. время выполнения:"
+
+#: admin/admin-settings.php:3678
+msgid "Memory Limit:"
+msgstr "Лимит памяти:"
+
+#: admin/admin-settings.php:3710
+msgid "Uploads folder writable:"
+msgstr "Загружает папку, доступную для записи:"
+
+#: admin/admin-settings.php:3683
+msgid "Min: 512M Recommended"
+msgstr "Мин: 512M Рекомендуется"
+
+#: modules/blog/widgets/blog.php:1660 modules/isolate/widgets/isolate.php:872
+msgid "Wrapper Spacing"
+msgstr "Отступы контейнера"
+
+#: modules/isolate/widgets/isolate.php:420
+msgid "This option will work only for mobile view."
+msgstr "Эта опция работает только для мобильного просмотра."
+
+#: modules/isolate/widgets/isolate.php:394
+msgid "This option will work only for desktop view."
+msgstr "Эта опция работает только в режиме рабочего стола."
+
+#: admin/class-settings-api.php:1047
+msgid "Unused"
+msgstr "Не используется"
+
+#: admin/class-settings-api.php:1047
+msgid "Don't need unused widget? Click on the Deactivate All button."
+msgstr "Не нужен неиспользуемый виджет? Нажмите на кнопку \"Деактивировать все\"."
+
+#: admin/class-settings-api.php:1040
+msgid "Used"
+msgstr "Используемый"
+
+#: admin/class-settings-api.php:1115
+#: includes/setup-wizard/views/features.php:41
+msgid "Others"
+msgstr "Другие"
+
+#: includes/setup-wizard/views/features.php:40
+msgid "Swiper"
+msgstr "Swiper слайдер"
+
+#: admin/class-settings-api.php:1109
+#: includes/setup-wizard/views/features.php:39
+msgid "eCommerce"
+msgstr "eCommerce"
+
+#: admin/class-settings-api.php:1106
+#: includes/setup-wizard/views/features.php:38
+msgid "Post"
+msgstr "Запись"
+
+#: admin/class-settings-api.php:1097
+#: includes/setup-wizard/views/features.php:35
+msgid "Static"
+msgstr "Статический"
+
+#: admin/admin-feeds.php:167 admin/class-settings-api.php:1094
+#: includes/setup-wizard/views/features.php:34
+msgid "New"
+msgstr "Новый"
+
+#: admin/admin-settings.php:1168 admin/class-settings-api.php:1024
+msgid "Pro"
+msgstr "Pro"
+
+#: admin/admin-settings.php:1167 admin/class-settings-api.php:1020
+msgid "Free"
+msgstr "Бесплатно"
+
+#: admin/class-settings-api.php:499
+msgid "Install the plugin first then you can activate this widget."
+msgstr "Сначала установите плагин, а затем активируйте этот виджет."
+
+#: admin/class-settings-api.php:496
+msgid "Download and install plugin first then you can activate this widget."
+msgstr "Сначала скачайте и установите плагин, а затем можете активировать этот виджет."
+
+#: admin/class-settings-api.php:492
+msgid "Activate the plugin first then you can activate this widget."
+msgstr "Сначала активируйте плагин, а затем можно активировать этот виджет."
+
+#: admin/class-settings-api.php:448
+msgid "Total Used"
+msgstr "Всего использовано"
+
+#: admin/class-settings-api.php:230
+msgid "Pro widget only works with Pro version."
+msgstr "Виджет Pro работает только с версией Pro."
+
+#: admin/class-settings-api.php:175
+msgid "Submit here"
+msgstr "Отправить здесь"
+
+#: admin/class-settings-api.php:175
+msgid ">Ops! Your Searched widget not found! Do you have any idea? If yes, "
+msgstr "> Опс! Искомый виджет не найден! У вас есть идеи? Если да,"
+
+#: modules/tango/widgets/tango.php:307
+msgid "Item Up Down"
+msgstr "Элемент Вверх Вниз"
+
+#: modules/pacific/widgets/pacific.php:1083
+msgid "TEXT"
+msgstr "Текст"
+
+#: modules/elysium/widgets/elysium.php:164
+#: modules/general/widgets/general.php:259
+#: modules/isolate/widgets/isolate.php:284
+#: modules/mercury/widgets/mercury.php:181 modules/mount/widgets/mount.php:140
+#: modules/pacific/widgets/pacific.php:205
+#: modules/pagepiling/widgets/pagepiling.php:158
+#: modules/rubix/widgets/rubix.php:226
+#: modules/sequester/widgets/sequester.php:171
+#: modules/sniper/widgets/sniper.php:132
+#: modules/storker/widgets/storker.php:182 modules/tango/widgets/tango.php:147
+msgid "Additional Options"
+msgstr "Дополнительные опции"
+
+#: modules/blog/widgets/blog.php:796 modules/blog/widgets/blog.php:1489
+msgid "Container Width"
+msgstr "Ширина контейнера"
+
+#: modules/tango/widgets/tango.php:214
+msgid "Slider Bottom Spacing"
+msgstr "Нижнее расстояние между ползунками"
+
+#: includes/class-pro-widget-map.php:30
+msgid "See it in Action"
+msgstr "Смотрите в действии"
+
+#: includes/setup-wizard/views/features.php:85
+#: includes/setup-wizard/views/integration.php:300
+msgid "Skip"
+msgstr "Пропустить"
+
+#: admin/admin-settings.php:1023 admin/module-settings.php:642
+msgid "Adaptive Background"
+msgstr "Адаптивный фон"
+
+#: admin/module-settings.php:268
+msgid "Material"
+msgstr "Материал"
+
+#: admin/admin-settings.php:858 admin/admin-settings.php:951
+msgid "Extensions"
+msgstr "Расширения"
+
+#: modules/flogia/widgets/flogia.php:885
+msgid "Thumbs"
+msgstr "Превью"
+
+#: modules/flogia/widgets/flogia.php:841
+msgid "AVATAR"
+msgstr "АВАТАРКА"
+
+#: modules/flogia/widgets/flogia.php:211
+msgid "Show Thumbs"
+msgstr "Показывать миниатюры"
+
+#: modules/flogia/widgets/flogia.php:153
+msgid "Justify"
+msgstr "Выровнять"
+
+#: modules/flogia/widgets/flogia.php:124
+msgid "End"
+msgstr "Конец"
+
+#: modules/flogia/widgets/flogia.php:116
+msgid "Start"
+msgstr "Начало"
+
+#: traits/global-widget-controls.php:1487
+msgid "Text Hide On"
+msgstr "Скрытие текста Вкл"
+
+#: traits/global-widget-controls.php:882
+msgid "Show Price"
+msgstr "Показать цену"
+
+#: modules/mercury/widgets/mercury.php:253
+#: modules/storker/widgets/storker.php:255
+#: traits/global-widget-controls.php:2057
+msgid "Rewind"
+msgstr "Перемотка"
+
+#: modules/blog/widgets/blog.php:1972 modules/general/widgets/general.php:2196
+#: modules/sequester/widgets/sequester.php:1067
+msgid "DOTS"
+msgstr "Точки"
+
+#: modules/pacific/widgets/pacific.php:1112
+msgid "IMAGE"
+msgstr "ФОТО"
+
+#: modules/pacific/widgets/pacific.php:985
+msgid "MODAL"
+msgstr "МОДАЛЬ"
+
+#: modules/omatic/widgets/omatic.php:922
+#: modules/storker/widgets/storker.php:1088
+#: modules/storker/widgets/storker.php:1200
+#: modules/storker/widgets/storker.php:1297
+msgid "ARROWS"
+msgstr "ARROWS"
+
+#: modules/omatic/widgets/omatic.php:186
+msgid "Content Vertical Spacing"
+msgstr "Вертикальный интервал содержимого"
+
+#: modules/omatic/widgets/omatic.php:139
+msgid "Ps Item Three"
+msgstr "Пункт третий"
+
+#: modules/omatic/widgets/omatic.php:134
+msgid "Ps Item Two"
+msgstr "Пункт второй"
+
+#: modules/omatic/widgets/omatic.php:129
+msgid "Ps Item One"
+msgstr "Пункт первый"
+
+#: modules/mercury/widgets/mercury.php:568
+#: modules/pacific/widgets/pacific.php:567
+msgid "Author Hover Color"
+msgstr "Цвет наведения автора"
+
+#: modules/mercury/widgets/mercury.php:342
+#: modules/storker/widgets/storker.php:347
+#: traits/global-widget-controls.php:1208
+msgid "Creative 5"
+msgstr "Креатив 5"
+
+#: modules/mercury/widgets/mercury.php:341
+#: modules/storker/widgets/storker.php:346
+#: traits/global-widget-controls.php:1207
+msgid "Creative 4"
+msgstr "Креатив 4"
+
+#: modules/mercury/widgets/mercury.php:340
+#: modules/storker/widgets/storker.php:345
+#: traits/global-widget-controls.php:1206
+msgid "Creative 3"
+msgstr "Креатив 3"
+
+#: modules/mercury/widgets/mercury.php:339
+#: modules/storker/widgets/storker.php:344
+#: traits/global-widget-controls.php:1205
+msgid "Creative 2"
+msgstr "Креатив 2"
+
+#: modules/mercury/widgets/mercury.php:338
+#: modules/storker/widgets/storker.php:343
+#: traits/global-widget-controls.php:1204
+msgid "Creative 1"
+msgstr "Креатив 1"
+
+#: modules/mercury/widgets/mercury.php:334
+#: modules/storker/widgets/storker.php:339
+#: traits/global-widget-controls.php:1200
+msgid "Creative Effect"
+msgstr "Творческий эффект"
+
+#: modules/mercury/widgets/mercury.php:322
+#: modules/storker/widgets/storker.php:327
+#: traits/global-widget-controls.php:1188
+msgid "wind"
+msgstr "ветер"
+
+#: modules/mercury/widgets/mercury.php:321
+#: modules/storker/widgets/storker.php:326
+#: traits/global-widget-controls.php:1187
+msgid "wave-x"
+msgstr "wave-x"
+
+#: modules/mercury/widgets/mercury.php:320
+#: modules/storker/widgets/storker.php:325
+#: traits/global-widget-controls.php:1186
+msgid "stretch"
+msgstr "растянуть"
+
+#: modules/mercury/widgets/mercury.php:319
+#: modules/storker/widgets/storker.php:324
+#: traits/global-widget-controls.php:1185
+msgid "squares"
+msgstr "квадраты"
+
+#: modules/mercury/widgets/mercury.php:318
+#: modules/storker/widgets/storker.php:323
+#: traits/global-widget-controls.php:1184
+msgid "slices"
+msgstr "ломтиков"
+
+#: modules/mercury/widgets/mercury.php:317
+#: modules/storker/widgets/storker.php:322
+#: traits/global-widget-controls.php:1183
+msgid "shutters"
+msgstr "жалюзи"
+
+#: modules/mercury/widgets/mercury.php:316
+#: modules/storker/widgets/storker.php:321
+#: traits/global-widget-controls.php:1182
+msgid "ripple"
+msgstr "пульсация"
+
+#: modules/mercury/widgets/mercury.php:315
+#: modules/storker/widgets/storker.php:320
+#: traits/global-widget-controls.php:1181
+msgid "pixelize"
+msgstr "пикселизировать"
+
+#: modules/mercury/widgets/mercury.php:314
+#: modules/storker/widgets/storker.php:319
+#: traits/global-widget-controls.php:1180
+msgid "polygons-wind"
+msgstr "полигоны-ветер"
+
+#: modules/mercury/widgets/mercury.php:313
+#: modules/storker/widgets/storker.php:318
+#: traits/global-widget-controls.php:1179
+msgid "polygons-morph"
+msgstr "polygons-morph"
+
+#: modules/mercury/widgets/mercury.php:312
+#: modules/storker/widgets/storker.php:317
+#: traits/global-widget-controls.php:1178
+msgid "polygons-fall"
+msgstr "полигоны-осень"
+
+#: modules/mercury/widgets/mercury.php:311
+#: modules/storker/widgets/storker.php:316
+#: traits/global-widget-controls.php:1177
+msgid "peel-y"
+msgstr "шелуха"
+
+#: modules/mercury/widgets/mercury.php:310
+#: modules/storker/widgets/storker.php:315
+#: traits/global-widget-controls.php:1176
+msgid "peel-x"
+msgstr "peel-x"
+
+#: modules/mercury/widgets/mercury.php:309
+#: modules/storker/widgets/storker.php:314
+#: traits/global-widget-controls.php:1175
+msgid "page-curl"
+msgstr "page-curl"
+
+#: modules/mercury/widgets/mercury.php:308
+#: modules/storker/widgets/storker.php:313
+#: traits/global-widget-controls.php:1174
+msgid "morph-y"
+msgstr "морф-й"
+
+#: modules/mercury/widgets/mercury.php:307
+#: modules/storker/widgets/storker.php:312
+#: traits/global-widget-controls.php:1173
+msgid "morph-x"
+msgstr "морф-х"
+
+#: modules/mercury/widgets/mercury.php:306
+#: modules/storker/widgets/storker.php:311
+#: traits/global-widget-controls.php:1172
+msgid "flyeye"
+msgstr "flyeye"
+
+#: modules/mercury/widgets/mercury.php:305
+#: modules/storker/widgets/storker.php:310
+#: traits/global-widget-controls.php:1171
+msgid "dots"
+msgstr "точек"
+
+#: modules/mercury/widgets/mercury.php:304
+#: modules/storker/widgets/storker.php:309
+#: traits/global-widget-controls.php:1170
+msgid "random"
+msgstr "случайный"
+
+#: modules/mercury/widgets/mercury.php:300
+#: modules/storker/widgets/storker.php:305
+#: traits/global-widget-controls.php:1166
+msgid "GL Shader"
+msgstr "Шейдер GL"
+
+#: modules/mercury/widgets/mercury.php:291
+#: modules/storker/widgets/storker.php:296
+#: traits/global-widget-controls.php:1157
+msgid "Creative"
+msgstr "Творческий"
+
+#: modules/mercury/widgets/mercury.php:290
+#: modules/storker/widgets/storker.php:295
+#: traits/global-widget-controls.php:1156
+msgid "GL"
+msgstr "GL"
+
+#: modules/mercury/widgets/mercury.php:289
+#: modules/storker/widgets/storker.php:294
+#: traits/global-widget-controls.php:1155
+msgid "Tinder"
+msgstr "Tinder"
+
+#: modules/mercury/widgets/mercury.php:288
+#: traits/global-widget-controls.php:1154
+msgid "Slicer"
+msgstr "Слайсер"
+
+#: modules/mercury/widgets/mercury.php:287
+#: modules/storker/widgets/storker.php:292
+#: traits/global-widget-controls.php:1153
+msgid "Shutters"
+msgstr "Жалюзи"
+
+#: modules/mercury/widgets/mercury.php:284
+#: modules/storker/widgets/storker.php:289
+#: traits/global-widget-controls.php:1150
+msgid "Cube"
+msgstr "Куб"
+
+#: modules/mercury/widgets/mercury.php:278
+#: modules/storker/widgets/storker.php:283
+#: traits/global-widget-controls.php:1144
+msgid "Swiper Effect"
+msgstr "Эффект свипера"
+
+#: modules/general/widgets/general.php:632
+msgid "Draggable"
+msgstr "Перетаскиваемый"
+
+#: modules/flogia/widgets/flogia.php:973
+msgid "Thumbs Margin"
+msgstr "Маржа больших пальцев"
+
+#: modules/flogia/widgets/flogia.php:961
+msgid "Title Margin"
+msgstr "Отступ заголовка"
+
+#: modules/flogia/widgets/flogia.php:949
+msgid "Title Padding"
+msgstr "Отступы заголовка"
+
+#: modules/fiestar/widgets/fiestar.php:664
+#: modules/omatic/widgets/omatic.php:957
+msgid "Style 23"
+msgstr "Стиль 23"
+
+#: modules/fiestar/widgets/fiestar.php:663
+#: modules/omatic/widgets/omatic.php:956
+msgid "Style 22"
+msgstr "Стиль 22"
+
+#: modules/fiestar/widgets/fiestar.php:662
+#: modules/omatic/widgets/omatic.php:955
+msgid "Style 21"
+msgstr "Стиль 21"
+
+#: modules/fiestar/widgets/fiestar.php:661
+#: modules/omatic/widgets/omatic.php:954
+msgid "Style 20"
+msgstr "Стиль 20"
+
+#: modules/fiestar/widgets/fiestar.php:660
+#: modules/omatic/widgets/omatic.php:953
+msgid "Style 19"
+msgstr "Стиль 19"
+
+#: modules/fiestar/widgets/fiestar.php:659
+#: modules/omatic/widgets/omatic.php:952
+msgid "Style 18"
+msgstr "Стиль 18"
+
+#: modules/fiestar/widgets/fiestar.php:658
+#: modules/omatic/widgets/omatic.php:951
+msgid "Style 17"
+msgstr "Стиль 17"
+
+#: modules/fiestar/widgets/fiestar.php:657
+#: modules/omatic/widgets/omatic.php:950
+msgid "Style 16"
+msgstr "Стиль 16"
+
+#: modules/fiestar/widgets/fiestar.php:656
+#: modules/omatic/widgets/omatic.php:949
+msgid "Style 15"
+msgstr "Стиль 15"
+
+#: modules/fiestar/widgets/fiestar.php:655
+#: modules/omatic/widgets/omatic.php:948
+msgid "Style 14"
+msgstr "Стиль 14"
+
+#: modules/fiestar/widgets/fiestar.php:654
+#: modules/omatic/widgets/omatic.php:947
+msgid "Style 13"
+msgstr "Стиль 13"
+
+#: modules/fiestar/widgets/fiestar.php:653
+#: modules/omatic/widgets/omatic.php:946
+msgid "Style 12"
+msgstr "Стиль 12"
+
+#: modules/fiestar/widgets/fiestar.php:652
+#: modules/omatic/widgets/omatic.php:945
+msgid "Style 11"
+msgstr "Стиль 11"
+
+#: modules/fiestar/widgets/fiestar.php:651
+#: modules/omatic/widgets/omatic.php:944
+msgid "Style 10"
+msgstr "Стиль 10"
+
+#: modules/fiestar/widgets/fiestar.php:650
+#: modules/omatic/widgets/omatic.php:943
+msgid "Style 9"
+msgstr "Стиль 9"
+
+#: modules/fiestar/widgets/fiestar.php:649
+#: modules/omatic/widgets/omatic.php:942
+msgid "Style 8"
+msgstr "Стиль 8"
+
+#: modules/fiestar/widgets/fiestar.php:648
+#: modules/omatic/widgets/omatic.php:941
+msgid "Style 7"
+msgstr "Стиль 7"
+
+#: modules/fiestar/widgets/fiestar.php:647
+#: modules/omatic/widgets/omatic.php:940
+msgid "Style 6"
+msgstr "Стиль 6"
+
+#: modules/fiestar/widgets/fiestar.php:646
+#: modules/omatic/widgets/omatic.php:939
+msgid "Style 5"
+msgstr "Стиль 5"
+
+#: modules/fiestar/widgets/fiestar.php:645
+#: modules/omatic/widgets/omatic.php:938
+msgid "Style 4"
+msgstr "Стиль 4"
+
+#: modules/fiestar/widgets/fiestar.php:644
+#: modules/omatic/widgets/omatic.php:937
+msgid "Style 3"
+msgstr "Стиль 3"
+
+#: modules/fiestar/widgets/fiestar.php:643
+#: modules/omatic/widgets/omatic.php:936
+msgid "Style 2"
+msgstr "Стиль 2"
+
+#: modules/fiestar/widgets/fiestar.php:642
+#: modules/omatic/widgets/omatic.php:935
+msgid "Style 1"
+msgstr "Стиль 1"
+
+#: modules/fiestar/widgets/fiestar.php:637
+#: modules/omatic/widgets/omatic.php:930
+msgid "Arrows Icon"
+msgstr "Значок стрелки"
+
+#: modules/dragon/widgets/dragon.php:389
+msgid "Content Width"
+msgstr "Ширина контента"
+
+#: admin/module-settings.php:577
+msgid "Titanic"
+msgstr "Титаник"
+
+#: admin/module-settings.php:323 modules/omatic/module.info.php:5
+#: modules/omatic/widgets/omatic.php:29
+msgid "Omatic"
+msgstr "Omatic"
+
+#: modules/mercury/widgets/mercury.php:265
+#: modules/storker/widgets/storker.php:267
+#: traits/global-widget-controls.php:2069
+msgid "Mousewheel"
+msgstr "Мышка"
+
+#: modules/rubix/widgets/rubix.php:1194
+msgid "META"
+msgstr "Свойства"
+
+#: modules/pacific/widgets/pacific.php:1024
+#: modules/rubix/widgets/rubix.php:1148
+#: modules/storker/widgets/storker.php:1059
+msgid "TITLE"
+msgstr "ЗАГОЛОВОК"
+
+#: modules/rubix/widgets/rubix.php:1111
+msgid "LINE"
+msgstr "LINE"
+
+#: modules/multiscroll/widgets/multiscroll.php:583
+msgid "Note: Right now the Autoplay only works on Preview Mode/FrontEnd. So don't feel confusion about Editor mode."
+msgstr "Примечание: Сейчас автовоспроизведение работает только в режиме предварительного просмотра/переднего плана. Поэтому не стоит путаться в режиме редактора."
+
+#: modules/multiscroll/widgets/multiscroll.php:561
+msgid "Make sure you enabled Loop Bottom."
+msgstr "Убедитесь, что вы включили функцию Loop Bottom."
+
+#: modules/multiscroll/widgets/multiscroll.php:543
+msgid "Loop Top"
+msgstr "Loop Top"
+
+#: modules/multiscroll/widgets/multiscroll.php:534
+msgid "Loop Bottom"
+msgstr "Loop Bottom"
+
+#: modules/isolate/widgets/isolate.php:802
+msgid "Content / Primary Background Color"
+msgstr "Содержание / Основной цвет фона"
+
+#: modules/isolate/widgets/isolate.php:196
+msgid "Goggle Map Embed URL"
+msgstr "Goggle Map Embed URL"
+
+#: modules/isolate/widgets/isolate.php:178
+msgid "Vimeo Source"
+msgstr "Источник Vimeo"
+
+#: modules/isolate/widgets/isolate.php:160
+msgid "YouTube Source"
+msgstr "Источник YouTube"
+
+#: modules/isolate/widgets/isolate.php:142
+msgid "Video Source"
+msgstr "Источник видео"
+
+#: modules/isolate/widgets/isolate.php:134
+msgid "Google Map"
+msgstr "Google Map"
+
+#: modules/isolate/widgets/isolate.php:133
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: modules/isolate/widgets/isolate.php:132
+msgid "YouTube"
+msgstr "YouTube"
+
+#: modules/isolate/widgets/isolate.php:130
+msgid "Website"
+msgstr "Сайт"
+
+#: modules/isolate/widgets/isolate.php:129
+msgid "Selected Image"
+msgstr "Избранное изображение"
+
+#: modules/isolate/widgets/isolate.php:124
+msgid "Lightbox/Link"
+msgstr "Будет добавлена иконка для ссылки на лайтбокс"
+
+#: modules/general/widgets/general.php:343
+msgid "Show Button Icon"
+msgstr "Значок кнопки «Показать»"
+
+#: modules/flogia/widgets/flogia.php:222
+msgid "Thumbs Hide On"
+msgstr "Пальцы прячутся"
+
+#: traits/global-widget-controls.php:370
+msgid "Speed"
+msgstr "Скорость"
+
+#: traits/global-widget-controls.php:360
+msgid "Ease Out In Bounce"
+msgstr "Облегчение при отскоке"
+
+#: traits/global-widget-controls.php:359
+msgid "Ease Out In Back"
+msgstr "Облегчение работы в задней части"
+
+#: traits/global-widget-controls.php:358
+msgid "Ease Out In Circ"
+msgstr "Уменьшение кругооборота"
+
+#: traits/global-widget-controls.php:357
+msgid "Ease Out In Expo"
+msgstr "Ease Out In Expo"
+
+#: traits/global-widget-controls.php:356
+msgid "Ease Out In Sine"
+msgstr "Разрядность В синусе"
+
+#: traits/global-widget-controls.php:355
+msgid "Ease Out In Quint"
+msgstr "Облегчить работу в Quint"
+
+#: traits/global-widget-controls.php:354
+msgid "Ease Out In Quart"
+msgstr "Уменьшение расхода в кварце"
+
+#: traits/global-widget-controls.php:353
+msgid "Ease Out In Cubic"
+msgstr "Облегчение в кубах"
+
+#: traits/global-widget-controls.php:352
+msgid "Ease Out In Quad"
+msgstr "Упрощение выхода в квадрате"
+
+#: traits/global-widget-controls.php:351
+msgid "Ease Out Bounce"
+msgstr "Облегчение отскока"
+
+#: traits/global-widget-controls.php:339
+msgid "Easing"
+msgstr "Смягчение"
+
+#: traits/global-widget-controls.php:329
+msgid "Bottom to top"
+msgstr "Снизу вверх"
+
+#: traits/global-widget-controls.php:328
+msgid "Top to Bottom"
+msgstr "Сверху вниз"
+
+#: traits/global-widget-controls.php:326
+msgid "Right to Left"
+msgstr "Справа налево"
+
+#: traits/global-widget-controls.php:325
+msgid "Left to Right"
+msgstr "Слева направо"
+
+#: traits/global-widget-controls.php:321
+msgid "Direction"
+msgstr "Направление"
+
+#: modules/general/widgets/general.php:2277
+#: modules/general/widgets/general.php:2364
+msgid "Dots Vertical Spacing"
+msgstr "Точки Вертикальный интервал"
+
+#: modules/general/widgets/general.php:2341
+msgid "Dots Horizontal Spacing"
+msgstr "Точки Горизонтальное расстояние"
+
+#: modules/general/widgets/general.php:2320
+msgid "Dots Space Between"
+msgstr "Точки Пространство между точками"
+
+#: modules/general/widgets/general.php:1839
+#: modules/general/widgets/general.php:1858
+msgid "Icon Space Between"
+msgstr "Значок Пространство между"
+
+#: modules/fiestar/widgets/fiestar.php:234 modules/tango/widgets/tango.php:318
+msgid "Item Wrapper Link"
+msgstr "Ссылка на картинку элемента"
+
+#: traits/global-widget-controls.php:1123
+msgid "Transform Origin"
+msgstr "Трансформация оригинала"
+
+#: traits/global-widget-controls.php:1105
+msgid "rotationX"
+msgstr "rotationX"
+
+#: traits/global-widget-controls.php:1087
+msgid "rotationY"
+msgstr "rotationY"
+
+#: traits/global-widget-controls.php:1050
+msgid "Transition Duration"
+msgstr "Продолжительность перехода"
+
+#: traits/global-widget-controls.php:1031
+msgid "Perspective"
+msgstr "Перспектива"
+
+#: traits/global-widget-controls.php:1014
+msgid "Animation Options"
+msgstr "Настройки анимации"
+
+#: traits/global-widget-controls.php:997
+msgid "Animation On"
+msgstr "Без Анимации"
+
+#: modules/blog/widgets/blog.php:540 modules/dragon/widgets/dragon.php:272
+#: modules/flogia/widgets/flogia.php:326
+#: modules/general/widgets/general.php:710
+#: modules/isolate/widgets/isolate.php:720 modules/mount/widgets/mount.php:328
+#: modules/sequester/widgets/sequester.php:308
+#: modules/woocommerce/widgets/woocommerce.php:294
+#: modules/woolamp/widgets/woolamp.php:322
+msgid "Animation Of"
+msgstr "Без Анимации"
+
+#: modules/blog/widgets/blog.php:1722
+msgid "Featured Post (Thumbs)"
+msgstr "Featured Post (Thumbs)"
+
+#: modules/blog/widgets/blog.php:414
+msgid "Select Posts"
+msgstr "Выбрать записи"
+
+#: modules/blog/widgets/blog.php:403
+msgid "Featured Item"
+msgstr "Избранные"
+
+#: admin/module-settings.php:783
+msgid "Just hit the button below to enable the Reveal Effects on any slider inside Prime Slider"
+msgstr "Просто нажмите кнопку ниже, чтобы включить эффект Reveal Effects для любого слайдера внутри Prime Slider"
+
+#: admin/admin-settings.php:1022 admin/admin-settings.php:1264
+#: admin/module-settings.php:782 admin/module-settings.php:790
+#: traits/global-widget-controls.php:292 traits/global-widget-controls.php:300
+msgid "Reveal Effects"
+msgstr "Эффекты раскрытия"
+
+#: admin/module-settings.php:707 modules/woolamp/widgets/woolamp.php:31
+msgid "WooLamp"
+msgstr "WooLamp"
+
+#: admin/module-settings.php:681 modules/woocircle/widgets/woocircle.php:31
+msgid "WooCircle"
+msgstr "WooCircle"
+
+#: admin/module-settings.php:630
+msgid "Woo HotSpot"
+msgstr "Woo HotSpot"
+
+#: admin/module-settings.php:147
+msgid "Escape"
+msgstr "Escape"
+
+#: admin/module-settings.php:80
+msgid "Coddle"
+msgstr "Coddle"
+
+#: modules/blog/widgets/blog.php:521 modules/blog/widgets/blog.php:529
+#: modules/dragon/widgets/dragon.php:253 modules/dragon/widgets/dragon.php:261
+#: modules/flogia/widgets/flogia.php:308 modules/flogia/widgets/flogia.php:316
+#: modules/general/widgets/general.php:691
+#: modules/general/widgets/general.php:699
+#: modules/isolate/widgets/isolate.php:701
+#: modules/isolate/widgets/isolate.php:709 modules/mount/widgets/mount.php:309
+#: modules/mount/widgets/mount.php:317
+#: modules/sequester/widgets/sequester.php:289
+#: modules/sequester/widgets/sequester.php:297
+#: modules/woocommerce/widgets/woocommerce.php:275
+#: modules/woocommerce/widgets/woocommerce.php:283
+#: modules/woolamp/widgets/woolamp.php:303
+#: modules/woolamp/widgets/woolamp.php:311
+msgid "Advanced Animation"
+msgstr "Продвинутая анимация"
+
+#: traits/global-widget-controls.php:350
+msgid "Ease Out Back"
+msgstr "Постепенное замедление Back"
+
+#: traits/global-widget-controls.php:349
+msgid "Ease Out Circ"
+msgstr "Постепенное замедление Circ"
+
+#: traits/global-widget-controls.php:344
+msgid "Ease Out Cubic"
+msgstr "Постепенное замедление Cubic"
+
+#: traits/global-widget-controls.php:348
+msgid "Ease Out Expo"
+msgstr "Постепенное замедление Expo"
+
+#: traits/global-widget-controls.php:343
+msgid "Ease Out Quad"
+msgstr "Постепенное замедление Quad"
+
+#: traits/global-widget-controls.php:345
+msgid "Ease Out Quart"
+msgstr "Постепенное замедление Quart"
+
+#: traits/global-widget-controls.php:346
+msgid "Ease Out Quint"
+msgstr "Постепенное замедление Quint"
+
+#: traits/global-widget-controls.php:347
+msgid "Ease Out Sine"
+msgstr "Постепенное замедление Sine"
+
+#: modules/pagepiling/widgets/pagepiling.php:415
+msgid "AutoPlay Duration"
+msgstr "Продолжительность автовоспроизведения"
+
+#: admin/module-settings.php:213
+msgid "Fortune"
+msgstr "Фортуна"
+
+#: modules/sniper/widgets/sniper.php:649
+msgid "Active Line Color"
+msgstr "Цвет активной линии"
+
+#: modules/sniper/widgets/sniper.php:638
+msgid "line Color"
+msgstr "цвет линии"
+
+#: modules/sniper/widgets/sniper.php:629
+msgid "Scrollbar"
+msgstr "Полоса Прокрутки"
+
+#: modules/sniper/widgets/sniper.php:601
+msgid "Pagination Total Color"
+msgstr "Пагинация Всего цветов"
+
+#: modules/sniper/widgets/sniper.php:587
+msgid "Pagination Color"
+msgstr "Цвет элементов пагинации"
+
+#: modules/sniper/widgets/sniper.php:578
+msgid "Fraction Pagination"
+msgstr "Пагинация фракций"
+
+#: modules/sniper/widgets/sniper.php:520
+msgid "Grid Line Color"
+msgstr "Цвет линии сетки"
+
+#: modules/sniper/widgets/sniper.php:509
+msgid "Grid Line"
+msgstr "Линия сетки"
+
+#: modules/sniper/widgets/sniper.php:406
+msgid "First Word Active Color"
+msgstr "Первое слово Активный цвет"
+
+#: modules/sniper/widgets/sniper.php:119
+msgid "Sniper Slide 5"
+msgstr "Снайперский слайд 5"
+
+#: modules/sniper/widgets/sniper.php:114
+msgid "Sniper Slide 4"
+msgstr "Снайперский слайд 4"
+
+#: modules/sniper/widgets/sniper.php:109
+msgid "Sniper Slide 3"
+msgstr "Снайперский слайд 3"
+
+#: modules/sniper/widgets/sniper.php:104
+msgid "Sniper Slide 2"
+msgstr "Снайперский слайд 2"
+
+#: modules/sniper/widgets/sniper.php:99
+msgid "Sniper Slide 1"
+msgstr "Снайперский слайд 1"
+
+#: includes/class-duplicator.php:186
+msgctxt "Admin String"
+msgid "Duplicate Template"
+msgstr "Дублирование шаблона"
+
+#: includes/class-duplicator.php:184
+msgctxt "Admin String"
+msgid "Duplicate Page"
+msgstr "Копирование страниц"
+
+#: includes/class-duplicator.php:182
+msgctxt "Admin String"
+msgid "Duplicate Post"
+msgstr "Клонирование записей"
+
+#: includes/class-duplicator.php:90
+msgid "%1$s - [Duplicated]"
+msgstr "%1$s - [Дублировано]"
+
+#: admin/module-settings.php:760
+msgid "Just hit the button below to enable the duplicator. It can duplicate anything like posts,pages and elementor templates. A masterclass duplication with just one click."
+msgstr "Просто нажмите кнопку ниже, чтобы включить дубликатор. Он может дублировать все, что угодно: посты, страницы и шаблоны elementor. Мастер-класс дублирования одним щелчком мыши."
+
+#: admin/admin-settings.php:1021 admin/admin-settings.php:1243
+#: admin/module-settings.php:759 admin/module-settings.php:767
+msgid "Duplicator"
+msgstr "Дубликатор"
+
+#: admin/module-settings.php:743
+msgid "Live Copy/Paste"
+msgstr "Живое копирование/вставка"
+
+#: admin/module-settings.php:736
+msgid "Live copy is a copy feature that allow you to copy and paste content from one domain to another. For example you can copy demo content directly from our demo website."
+msgstr "Live copy - это функция копирования, позволяющая копировать и вставлять содержимое с одного домена на другой. Например, вы можете скопировать демо-контент непосредственно с нашего демо-сайта."
+
+#: admin/admin-settings.php:1236 admin/module-settings.php:735
+msgid "Live Copy or Paste"
+msgstr "Живое копирование или вставка"
+
+#: admin/module-settings.php:533 modules/sniper/module.info.php:5
+#: modules/sniper/widgets/sniper.php:26
+msgid "Sniper"
+msgstr "Снайпер"
+
+#: admin/module-settings.php:455
+msgid "Remote Thumbs"
+msgstr "Удаленные пальцы"
+
+#: admin/module-settings.php:444
+msgid "Remote Pagination"
+msgstr "Удаленная пагинация"
+
+#: admin/module-settings.php:433
+msgid "Remote Fraction"
+msgstr "Удаленная фракция"
+
+#: admin/module-settings.php:422
+msgid "Remote Arrows"
+msgstr "Стрелки пульта дистанционного управления"
+
+#: admin/module-settings.php:37
+msgid "Avatar"
+msgstr "Аватар"
+
+#: admin/class-settings-api.php:1078
+#: includes/setup-wizard/views/features.php:48
+msgid "Deactivate All"
+msgstr "Деактивировать все"
+
+#: admin/class-settings-api.php:1073
+#: includes/setup-wizard/views/features.php:47
+msgid "Activate All"
+msgstr "Активировать все"
+
+#: admin/admin.php:129 admin/class-settings-api.php:857
+msgid "License"
+msgstr "Лицензия"
+
+#: admin/admin-settings.php:3472
+msgid "This feature is not working because the Elementor Usage Data Sharing feature is Not Enabled."
+msgstr "Эта функция не работает, поскольку функция Elementor Usage Data Sharing не включена."
+
+#: admin/admin-settings.php:849 admin/admin-settings.php:947
+#: admin/admin-settings.php:1180
+msgid "3rd Party Widgets"
+msgstr "Сторонние виджеты"
+
+#: modules/woocircle/widgets/woocircle.php:1040
+msgid "margin"
+msgstr "отступ"
+
+#: modules/tango/widgets/tango.php:471
+msgid "Item Match Height"
+msgstr "Высота соответствия элемента"
+
+#: modules/tango/widgets/tango.php:459
+msgid "Slide Shadows"
+msgstr "Тени от слайдов"
+
+#: modules/tango/widgets/tango.php:437
+msgid "Depth"
+msgstr "Глубина"
+
+#: modules/tango/widgets/tango.php:415
+msgid "Modifier"
+msgstr "Модификатор"
+
+#: modules/tango/widgets/tango.php:393
+msgid "Stretch"
+msgstr "Растянуть"
+
+#: modules/tango/widgets/tango.php:371
+msgid "Rotate"
+msgstr "Поворот"
+
+#: modules/tango/widgets/tango.php:357
+msgid "Coverflow Effect"
+msgstr "Эффект покровного потока"
+
+#: modules/mercury/widgets/mercury.php:285
+#: modules/storker/widgets/storker.php:290 modules/tango/widgets/tango.php:346
+#: traits/global-widget-controls.php:1151
+msgid "Coverflow"
+msgstr "Покрытие"
+
+#: admin/class-settings-api.php:1103
+#: includes/setup-wizard/views/features.php:37
+#: modules/tango/widgets/tango.php:345
+msgid "Carousel"
+msgstr "Карусель"
+
+#: modules/tango/widgets/tango.php:88 modules/tango/widgets/tango.php:118
+#: modules/tango/widgets/tango.php:123 modules/tango/widgets/tango.php:128
+#: modules/tango/widgets/tango.php:133 modules/tango/widgets/tango.php:657
+msgid "Label"
+msgstr "Метка"
+
+#: modules/tango/widgets/tango.php:268
+msgid "Pagination Hide on Mobile"
+msgstr "Скрытие пагинации на мобильных устройствах"
+
+#: modules/tango/widgets/tango.php:251
+msgid "Center Arrows"
+msgstr "Центральные стрелки"
+
+#: modules/tango/widgets/tango.php:237
+msgid "Show Label"
+msgstr "Показать надпись"
+
+#: modules/pacific/widgets/pacific.php:1004
+msgid "Cross Icon Hover Color"
+msgstr "Цвет наведения значка креста"
+
+#: modules/pacific/widgets/pacific.php:993
+msgid "Cross Icon Color"
+msgstr "Цвет перехода иконки"
+
+#: modules/tango/widgets/tango.php:721
+msgid "Arrows"
+msgstr "Стрелки"
+
+#: modules/elysium/widgets/elysium.php:150 modules/tango/widgets/tango.php:134
+msgid "Item Four"
+msgstr "Пункт четвертый"
+
+#: modules/elysium/widgets/elysium.php:145 modules/tango/widgets/tango.php:129
+msgid "Item Three"
+msgstr "Пункт третий"
+
+#: modules/elysium/widgets/elysium.php:140 modules/tango/widgets/tango.php:124
+msgid "Item Two"
+msgstr "Пункт второй"
+
+#: modules/elysium/widgets/elysium.php:136
+#: modules/elysium/widgets/elysium.php:141
+#: modules/elysium/widgets/elysium.php:146
+#: modules/elysium/widgets/elysium.php:151
+msgid "Prime Slider Addons for elementor!"
+msgstr "Prime Slider Addons для elementor!"
+
+#: modules/elysium/widgets/elysium.php:135 modules/tango/widgets/tango.php:119
+msgid "Item One"
+msgstr "Пункт первый"
+
+#: modules/elysium/widgets/elysium.php:171
+#: modules/omatic/widgets/omatic.php:159
+msgid "Slider Height"
+msgstr "Высота слайдера"
+
+#: admin/module-settings.php:566 modules/tango/module.info.php:5
+#: modules/tango/widgets/tango.php:30
+msgid "Tango"
+msgstr "641Б"
+
+#: admin/module-settings.php:400
+msgid "Prism"
+msgstr "Призма"
+
+#: admin/module-settings.php:136 modules/elysium/module.info.php:5
+#: modules/elysium/widgets/elysium.php:31
+msgid "Elysium"
+msgstr "Элизиум"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-reveal.php:52
+msgid "Image Caption"
+msgstr "Подпись к изображению"
+
+#: modules/isolate/widgets/isolate.php:2143
+#: modules/woocommerce/widgets/woocommerce.php:1169
+#: modules/woocommerce/widgets/woocommerce.php:1307
+#: modules/woocommerce/widgets/woocommerce.php:1562
+msgid "Vertical"
+msgstr "Вертикальное смещение"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-flexure.php:49
+#: modules/dragon/widgets/dragon.php:90 modules/elysium/widgets/elysium.php:91
+#: modules/general/widgets/general.php:105
+#: modules/isolate/widgets/isolate.php:102 modules/omatic/widgets/omatic.php:78
+#: modules/sequester/widgets/sequester.php:92
+#: modules/tango/widgets/tango.php:528
+#: modules/woocommerce/widgets/woocommerce.php:377
+msgid "Content"
+msgstr "Содержимое"
+
+#: modules/dragon/widgets/dragon.php:119
+#: modules/elysium/widgets/elysium.php:110
+#: modules/general/widgets/general.php:213
+#: modules/isolate/widgets/isolate.php:230
+#: modules/omatic/widgets/omatic.php:102
+#: modules/sequester/widgets/sequester.php:116
+msgid "Optional"
+msgstr "Optional"
+
+#: modules/pacific/widgets/pacific.php:87
+msgid "Style"
+msgstr "Стиль"
+
+#: modules/pacific/widgets/pacific.php:348
+msgid "Carousel Settings"
+msgstr "Настройки карусели"
+
+#: modules/elysium/widgets/elysium.php:789
+#: modules/isolate/widgets/isolate.php:2275 modules/mount/widgets/mount.php:942
+#: modules/pacific/widgets/pacific.php:908 modules/tango/widgets/tango.php:939
+#: modules/woocommerce/widgets/woocommerce.php:1471
+msgid "Pagination"
+msgstr "Разбивка на страницы"
+
+#: modules/pacific/widgets/pacific.php:252 modules/rubix/widgets/rubix.php:258
+#: traits/global-widget-controls.php:1511
+msgid "Show Read More"
+msgstr "Показать подробнее"
+
+#: modules/woocircle/widgets/woocircle.php:178
+#: modules/woocommerce/widgets/woocommerce.php:227
+#: modules/woolamp/widgets/woolamp.php:266
+msgid "Product"
+msgstr "Товар"
+
+#: admin/class-settings-api.php:1017
+#: includes/setup-wizard/views/features.php:33
+#: traits/query-controls/group-query/group-control-query.php:253
+msgid "All"
+msgstr "Все"
+
+#: modules/flogia/widgets/flogia.php:800
+#: traits/query-controls/group-query/group-control-query.php:303
+#: traits/query-controls/group-query/group-control-query.php:323
+msgid "Author"
+msgstr "Автор"
+
+#: traits/query-controls/group-query/group-control-query.php:132
+msgid "Exclude"
+msgstr "Исключить"
+
+#: traits/query-controls/group-query/group-control-query.php:142
+msgid "Exclude By"
+msgstr "Исключить по"
+
+#: traits/query-controls/group-query/group-control-query.php:64
+msgid "Include"
+msgstr "Включить"
+
+#: traits/query-controls/group-query/group-control-query.php:74
+msgid "Include By"
+msgstr "Включить по"
+
+#: modules/dragon/widgets/dragon.php:139
+#: modules/elysium/widgets/elysium.php:130
+#: modules/mercury/widgets/mercury.php:373
+#: modules/omatic/widgets/omatic.php:123
+#: modules/pacific/widgets/pacific.php:414 modules/rubix/widgets/rubix.php:355
+msgid "Items"
+msgstr "Элементы"
+
+#: traits/query-controls/group-query/group-control-query.php:305
+#: traits/query-controls/group-query/group-control-query.php:325
+msgid "Menu Order"
+msgstr "Порядок меню"
+
+#: traits/query-controls/group-query/group-control-query.php:296
+#: traits/query-controls/group-query/group-control-query.php:316
+msgid "Order By"
+msgstr "Сортировать по"
+
+#: traits/query-controls/group-query/group-control-query.php:254
+msgid "Past Day"
+msgstr "Прошлый день"
+
+#: traits/query-controls/group-query/group-control-query.php:256
+msgid "Past Month"
+msgstr "Прошлый месяц"
+
+#: traits/query-controls/group-query/group-control-query.php:255
+msgid "Past Week"
+msgstr "Прошлая неделя"
+
+#: traits/query-controls/group-query/group-control-query.php:258
+msgid "Past Year"
+msgstr "Прошлый год"
+
+#: traits/query-controls/group-query/group-control-query.php:400
+msgid "Query ID"
+msgstr "ID запроса"
+
+#: traits/query-controls/group-query/group-control-query.php:19
+msgid "Source"
+msgstr "Источник"
+
+#: traits/query-controls/group-query/group-control-query.php:80
+#: traits/query-controls/group-query/group-control-query.php:108
+#: traits/query-controls/group-query/group-control-query.php:150
+#: traits/query-controls/group-query/group-control-query.php:199
+msgid "Terms"
+msgstr "Термины"
+
+#: traits/query-controls/group-query/group-control-query.php:301
+#: traits/query-controls/group-query/group-control-query.php:321
+msgid "ID"
+msgstr "ID"
+
+#: modules/elysium/widgets/elysium.php:193
+#: modules/mercury/widgets/mercury.php:85
+msgid "Image Height"
+msgstr "Высота изображения"
+
+#: traits/query-controls/group-query/group-control-query.php:39
+#: traits/query-controls/group-query/group-control-query.php:162
+msgid "Search & Select"
+msgstr "Поиск и выбор"
+
+#: modules/fiestar/widgets/fiestar.php:282
+#: modules/pacific/widgets/pacific.php:361 modules/rubix/widgets/rubix.php:297
+#: modules/sniper/widgets/sniper.php:230 modules/tango/widgets/tango.php:485
+#: modules/vertex/widgets/vertex.php:245
+msgid "Slides to Scroll"
+msgstr "Прокручивать слайдов"
+
+#: modules/multiscroll/widgets/multiscroll.php:570
+#: traits/global-widget-controls.php:1886
+msgid "Autoplay Speed"
+msgstr "Скорость листания"
+
+#: traits/global-widget-controls.php:1914
+msgid "Grab Cursor"
+msgstr "Захват курсора"
+
+#: modules/mercury/widgets/mercury.php:508 modules/rubix/widgets/rubix.php:528
+#: modules/storker/widgets/storker.php:540
+#: modules/woocircle/widgets/woocircle.php:580
+#: modules/woocommerce/widgets/woocommerce.php:407
+msgid "Max Width"
+msgstr "Макс. ширина"
+
+#: traits/global-widget-controls.php:1956
+msgid "Separator"
+msgstr "Разделитель"
+
+#: modules/general/widgets/general.php:1181
+msgid "Top Spacing"
+msgstr "Расстояние сверху"
+
+#: modules/blog/widgets/blog.php:1148 modules/blog/widgets/blog.php:1296
+#: modules/fiestar/widgets/fiestar.php:543
+#: modules/flogia/widgets/flogia.php:736
+#: modules/mercury/widgets/mercury.php:579
+#: modules/mercury/widgets/mercury.php:714
+#: modules/omatic/widgets/omatic.php:651 modules/omatic/widgets/omatic.php:1058
+#: modules/pacific/widgets/pacific.php:578
+#: modules/pacific/widgets/pacific.php:699
+#: modules/pagepiling/widgets/pagepiling.php:1097
+#: modules/rubix/widgets/rubix.php:781 modules/storker/widgets/storker.php:628
+#: modules/storker/widgets/storker.php:883
+#: modules/storker/widgets/storker.php:1423
+#: modules/vertex/widgets/vertex.php:518
+#: modules/woocommerce/widgets/woocommerce.php:1108
+#: modules/woocommerce/widgets/woocommerce.php:1519
+#: modules/woolamp/widgets/woolamp.php:1052
+#: modules/woolamp/widgets/woolamp.php:1192
+#: traits/global-widget-controls.php:791
+msgid "Space Between"
+msgstr "Расстояние между"
+
+#: modules/blog/widgets/blog.php:689 modules/dragon/widgets/dragon.php:457
+#: modules/elysium/widgets/elysium.php:603
+#: modules/fiestar/widgets/fiestar.php:445
+#: modules/flogia/widgets/flogia.php:501
+#: modules/general/widgets/general.php:915
+#: modules/isolate/widgets/isolate.php:937
+#: modules/multiscroll/widgets/multiscroll.php:703
+#: modules/omatic/widgets/omatic.php:504 modules/omatic/widgets/omatic.php:624
+#: modules/storker/widgets/storker.php:496
+#: modules/vertex/widgets/vertex.php:420
+#: modules/woocommerce/widgets/woocommerce.php:474
+#: modules/woolamp/widgets/woolamp.php:401
+msgid "Text Stroke"
+msgstr "Контур текста"
+
+#: admin/class-settings-api.php:1100
+#: includes/setup-wizard/views/features.php:36
+#: modules/flogia/widgets/flogia.php:1032
+#: modules/isolate/widgets/isolate.php:451
+#: modules/isolate/widgets/isolate.php:2133
+#: modules/vertex/widgets/vertex.php:106 traits/global-widget-controls.php:405
+#: traits/global-widget-controls.php:496 traits/global-widget-controls.php:1017
+#: traits/query-controls/group-query/group-control-query.php:259
+msgid "Custom"
+msgstr "Произвольно"
+
+#: modules/flogia/widgets/flogia.php:227
+#: modules/isolate/widgets/isolate.php:465
+#: traits/global-widget-controls.php:1492
+msgid "Desktop"
+msgstr "Компьютер"
+
+#: modules/flogia/widgets/flogia.php:229
+#: modules/isolate/widgets/isolate.php:493
+#: traits/global-widget-controls.php:1494
+msgid "Mobile"
+msgstr "Телефон"
+
+#: modules/flogia/widgets/flogia.php:228
+#: modules/isolate/widgets/isolate.php:479
+#: traits/global-widget-controls.php:1493
+msgid "Tablet"
+msgstr "Планшет"
+
+#: modules/blog/widgets/blog.php:1410
+msgid "Box Shadow"
+msgstr "Тень от блока"
+
+#: modules/general/widgets/general.php:1462
+#: modules/general/widgets/general.php:1667
+msgid "Icon Style"
+msgstr "Стиль значка"
+
+#: modules/blog/widgets/blog.php:1567 modules/rubix/widgets/rubix.php:598
+#: modules/sequester/widgets/sequester.php:730
+#: modules/sequester/widgets/sequester.php:807
+msgid "Icon"
+msgstr "Иконка"
+
+#: modules/elysium/widgets/elysium.php:397
+#: modules/flogia/widgets/flogia.php:411
+#: modules/mercury/widgets/mercury.php:389 modules/mount/widgets/mount.php:412
+#: modules/pacific/widgets/pacific.php:457 modules/rubix/widgets/rubix.php:371
+#: modules/storker/widgets/storker.php:401 modules/tango/widgets/tango.php:536
+#: modules/vertex/widgets/vertex.php:311
+#: modules/woolamp/widgets/woolamp.php:376
+msgid "Content Padding"
+msgstr "Внутренний отступ для содержимого"
+
+#: modules/sequester/widgets/sequester.php:373
+msgid "Opacity"
+msgstr "Прозрачность"
+
+#: modules/general/widgets/general.php:1327
+#: modules/isolate/widgets/isolate.php:423 modules/rubix/widgets/rubix.php:156
+#: modules/storker/widgets/storker.php:1627
+msgid "Top"
+msgstr "Верх"
+
+#: modules/isolate/widgets/isolate.php:418
+msgid "Column Position"
+msgstr "Позиция колонок"
+
+#: modules/general/widgets/general.php:1335
+#: modules/isolate/widgets/isolate.php:427
+#: modules/pagepiling/widgets/pagepiling.php:378
+#: modules/rubix/widgets/rubix.php:160 modules/storker/widgets/storker.php:1635
+msgid "Bottom"
+msgstr "Низ"
+
+#: modules/multiscroll/widgets/multiscroll.php:434
+msgid "Button Position"
+msgstr "Положение кнопки"
+
+#: modules/pagepiling/widgets/pagepiling.php:832
+msgid "Divider Color"
+msgstr "Цвет делителя"
+
+#: modules/elysium/widgets/elysium.php:849
+#: modules/elysium/widgets/elysium.php:913
+#: modules/fiestar/widgets/fiestar.php:131
+#: modules/flogia/widgets/flogia.php:1041 modules/omatic/widgets/omatic.php:707
+#: modules/omatic/widgets/omatic.php:858
+#: modules/pagepiling/widgets/pagepiling.php:226
+#: modules/pagepiling/widgets/pagepiling.php:1080
+#: modules/rubix/widgets/rubix.php:403 modules/rubix/widgets/rubix.php:1131
+#: modules/sniper/widgets/sniper.php:139 modules/storker/widgets/storker.php:89
+#: modules/tango/widgets/tango.php:197 modules/vertex/widgets/vertex.php:116
+#: traits/global-widget-controls.php:1279
+msgid "Height"
+msgstr "Высота"
+
+#: modules/blog/widgets/blog.php:1623 modules/dragon/widgets/dragon.php:881
+#: modules/flogia/widgets/flogia.php:850 modules/flogia/widgets/flogia.php:1029
+#: modules/general/widgets/general.php:1524
+#: modules/isolate/widgets/isolate.php:2113
+#: modules/isolate/widgets/isolate.php:2392
+#: modules/mercury/widgets/mercury.php:853 modules/rubix/widgets/rubix.php:946
+#: modules/storker/widgets/storker.php:1434
+#: modules/storker/widgets/storker.php:1546 modules/tango/widgets/tango.php:821
+#: modules/tango/widgets/tango.php:979 modules/vertex/widgets/vertex.php:673
+#: modules/woocircle/widgets/woocircle.php:1232
+#: modules/woocommerce/widgets/woocommerce.php:1431
+#: traits/global-widget-controls.php:488
+msgid "Size"
+msgstr "Размер"
+
+#: modules/elysium/widgets/elysium.php:612
+#: modules/elysium/widgets/elysium.php:722
+#: modules/fiestar/widgets/fiestar.php:436
+#: modules/general/widgets/general.php:972
+#: modules/isolate/widgets/isolate.php:946
+#: modules/mercury/widgets/mercury.php:463 modules/mount/widgets/mount.php:567
+#: modules/multiscroll/widgets/multiscroll.php:694
+#: modules/omatic/widgets/omatic.php:514 modules/omatic/widgets/omatic.php:634
+#: modules/pacific/widgets/pacific.php:525
+#: modules/pacific/widgets/pacific.php:1075
+#: modules/pagepiling/widgets/pagepiling.php:511
+#: modules/rubix/widgets/rubix.php:483 modules/storker/widgets/storker.php:487
+#: modules/tango/widgets/tango.php:647 modules/vertex/widgets/vertex.php:412
+msgid "Text Shadow"
+msgstr "Тень текста"
+
+#: modules/dragon/widgets/dragon.php:858
+#: modules/elysium/widgets/elysium.php:559
+#: modules/elysium/widgets/elysium.php:767
+#: modules/fiestar/widgets/fiestar.php:415
+#: modules/flogia/widgets/flogia.php:449 modules/flogia/widgets/flogia.php:821
+#: modules/mercury/widgets/mercury.php:425 modules/mount/widgets/mount.php:471
+#: modules/omatic/widgets/omatic.php:422
+#: modules/pacific/widgets/pacific.php:493
+#: modules/pacific/widgets/pacific.php:872
+#: modules/pacific/widgets/pacific.php:928
+#: modules/pacific/widgets/pacific.php:1043 modules/rubix/widgets/rubix.php:445
+#: modules/sniper/widgets/sniper.php:363
+#: modules/storker/widgets/storker.php:449
+#: modules/storker/widgets/storker.php:600 modules/tango/widgets/tango.php:627
+#: modules/vertex/widgets/vertex.php:391
+#: modules/woocircle/widgets/woocircle.php:1221
+#: modules/woolamp/widgets/woolamp.php:1162
+msgid "Hover Color"
+msgstr "Цвет при наведении"
+
+#: traits/global-widget-controls.php:942
+msgid "Animation Speed"
+msgstr "Скорость анимации"
+
+#: traits/global-widget-controls.php:110
+msgid "Arrow Size"
+msgstr "Размер стрелки"
+
+#: modules/mercury/widgets/mercury.php:241
+#: modules/storker/widgets/storker.php:243
+#: traits/global-widget-controls.php:957 traits/global-widget-controls.php:2031
+#: traits/global-widget-controls.php:2045
+msgid "Loop"
+msgstr "Зациклить"
+
+#: modules/blog/widgets/blog.php:250 traits/global-widget-controls.php:1580
+msgid "Show Date"
+msgstr "Показать дату"
+
+#: modules/fiestar/widgets/fiestar.php:210
+#: traits/global-widget-controls.php:1397
+#: traits/global-widget-controls.php:1425
+msgid "Title HTML Tag"
+msgstr "HTML-тег заголовка"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-motion.php:39
+#: includes/compatiblity/wpml/class-wpml-prime-slider-multiscroll.php:48
+#: includes/compatiblity/wpml/class-wpml-prime-slider-pagepiling.php:46
+#: includes/compatiblity/wpml/class-wpml-prime-slider-sequester.php:52
+#: includes/compatiblity/wpml/class-wpml-prime-slider-turnar.php:39
+#: modules/multiscroll/widgets/multiscroll.php:94
+msgid "Description"
+msgstr "Описание"
+
+#: modules/multiscroll/widgets/multiscroll.php:285
+#: modules/woocircle/widgets/woocircle.php:212
+msgid "Item"
+msgstr "Элемент"
+
+#: modules/dragon/widgets/dragon.php:168
+#: modules/multiscroll/widgets/multiscroll.php:482
+#: modules/omatic/widgets/omatic.php:152
+msgid "Additional Settings"
+msgstr "Расширенные настройки"
+
+#: modules/blog/widgets/blog.php:106 modules/flogia/widgets/flogia.php:93
+#: modules/general/widgets/general.php:271
+#: modules/mercury/widgets/mercury.php:107
+#: modules/multiscroll/widgets/multiscroll.php:345
+#: modules/pagepiling/widgets/pagepiling.php:208
+#: modules/storker/widgets/storker.php:111
+#: modules/woocircle/widgets/woocircle.php:571
+msgid "Content Max Width"
+msgstr "Макс. ширина содержимого"
+
+#: modules/multiscroll/widgets/multiscroll.php:380
+#: modules/pagepiling/widgets/pagepiling.php:260
+#: modules/sequester/widgets/sequester.php:234
+msgid "Justified"
+msgstr "По ширине"
+
+#: modules/multiscroll/widgets/multiscroll.php:393
+msgid "Show Image"
+msgstr "Показать изображение"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-pagepiling.php:44
+#: modules/multiscroll/widgets/multiscroll.php:721
+msgid "Subtitle"
+msgstr "Подзаголовок"
+
+#: modules/flogia/widgets/flogia.php:112
+#: modules/isolate/widgets/isolate.php:392
+#: modules/multiscroll/widgets/multiscroll.php:320
+msgid "Content Position"
+msgstr "Позиция содержимого"
+
+#: includes/helper.php:371
+msgid "Edit Template"
+msgstr "Редактировать шаблон"
+
+#: modules/blog/widgets/blog.php:307 modules/elysium/widgets/elysium.php:231
+#: modules/fiestar/widgets/fiestar.php:166
+#: modules/flogia/widgets/flogia.php:137 modules/flogia/widgets/flogia.php:1005
+#: modules/general/widgets/general.php:302
+#: modules/isolate/widgets/isolate.php:362
+#: modules/mercury/widgets/mercury.php:136 modules/mount/widgets/mount.php:186
+#: modules/multiscroll/widgets/multiscroll.php:364
+#: modules/pacific/widgets/pacific.php:160
+#: modules/pagepiling/widgets/pagepiling.php:244
+#: modules/rubix/widgets/rubix.php:181
+#: modules/sequester/widgets/sequester.php:218
+#: modules/sniper/widgets/sniper.php:185
+#: modules/storker/widgets/storker.php:129
+#: modules/storker/widgets/storker.php:1623 modules/tango/widgets/tango.php:282
+#: modules/vertex/widgets/vertex.php:177
+#: modules/woocircle/widgets/woocircle.php:85
+#: modules/woocommerce/widgets/woocommerce.php:187
+#: modules/woolamp/widgets/woolamp.php:92
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: traits/query-controls/group-query/group-control-query.php:237
+msgid "All Products"
+msgstr "Все товары"
+
+#: modules/woocircle/widgets/woocircle.php:291
+#: modules/woocircle/widgets/woocircle.php:669
+#: modules/woocommerce/widgets/woocommerce.php:712
+#: modules/woolamp/widgets/woolamp.php:644
+#: traits/query-controls/group-query/group-control-query.php:327
+msgid "Price"
+msgstr "Цена"
+
+#: admin/admin.php:123 admin/admin.php:145
+msgid "Settings"
+msgstr "Настройки"
+
+#: traits/query-controls/group-query/group-control-query.php:239
+msgid "Featured"
+msgstr "Рекомендуемое"
+
+#: modules/dragon/widgets/dragon.php:680
+#: modules/pagepiling/widgets/pagepiling.php:682
+#: modules/pagepiling/widgets/pagepiling.php:763
+#: modules/rubix/widgets/rubix.php:895 modules/rubix/widgets/rubix.php:1007
+msgid "Icon Color"
+msgstr "Цвет значка"
+
+#: modules/woocommerce/widgets/woocommerce.php:90
+msgid "Image Width"
+msgstr "Ширина изображения"
+
+#: modules/general/widgets/general.php:1229
+#: modules/isolate/widgets/isolate.php:1009
+#: modules/isolate/widgets/isolate.php:1649
+#: modules/multiscroll/widgets/multiscroll.php:967
+#: modules/rubix/widgets/rubix.php:1120 modules/rubix/widgets/rubix.php:1254
+#: modules/rubix/widgets/rubix.php:1319
+#: modules/sequester/widgets/sequester.php:875
+#: modules/woolamp/widgets/woolamp.php:490
+msgid "Line Color"
+msgstr "Цвет линии"
+
+#: modules/woocircle/widgets/woocircle.php:1115
+#: modules/woocommerce/widgets/woocommerce.php:952
+#: modules/woolamp/widgets/woolamp.php:894
+msgid "Quantity"
+msgstr "Количество"
+
+#: modules/woocircle/widgets/woocircle.php:338
+#: modules/woocircle/widgets/woocircle.php:716
+#: modules/woolamp/widgets/woolamp.php:694
+msgid "Sale Price"
+msgstr "Цена распродажи"
+
+#: modules/blog/widgets/blog.php:213
+msgid "Show Meta"
+msgstr "Показать мета"
+
+#: modules/blog/widgets/blog.php:1814 modules/dragon/widgets/dragon.php:792
+#: modules/elysium/widgets/elysium.php:743
+#: modules/elysium/widgets/elysium.php:800
+#: modules/fiestar/widgets/fiestar.php:466
+#: modules/flogia/widgets/flogia.php:514 modules/flogia/widgets/flogia.php:615
+#: modules/flogia/widgets/flogia.php:719 modules/flogia/widgets/flogia.php:868
+#: modules/isolate/widgets/isolate.php:2377
+#: modules/mercury/widgets/mercury.php:436
+#: modules/mercury/widgets/mercury.php:619 modules/mount/widgets/mount.php:787
+#: modules/multiscroll/widgets/multiscroll.php:682
+#: modules/multiscroll/widgets/multiscroll.php:743
+#: modules/multiscroll/widgets/multiscroll.php:786
+#: modules/multiscroll/widgets/multiscroll.php:1129
+#: modules/omatic/widgets/omatic.php:877
+#: modules/pacific/widgets/pacific.php:513
+#: modules/pacific/widgets/pacific.php:595
+#: modules/pacific/widgets/pacific.php:1063 modules/rubix/widgets/rubix.php:456
+#: modules/rubix/widgets/rubix.php:703 modules/rubix/widgets/rubix.php:1168
+#: modules/sequester/widgets/sequester.php:936
+#: modules/storker/widgets/storker.php:460
+#: modules/storker/widgets/storker.php:611
+#: modules/storker/widgets/storker.php:806 modules/tango/widgets/tango.php:687
+#: modules/tango/widgets/tango.php:841 modules/tango/widgets/tango.php:862
+#: modules/vertex/widgets/vertex.php:441
+#: modules/woocircle/widgets/woocircle.php:390
+#: modules/woocircle/widgets/woocircle.php:768
+#: modules/woocommerce/widgets/woocommerce.php:574
+#: modules/woocommerce/widgets/woocommerce.php:796
+#: modules/woolamp/widgets/woolamp.php:533
+#: modules/woolamp/widgets/woolamp.php:736 traits/global-widget-controls.php:76
+msgid "Spacing"
+msgstr "Отступ"
+
+#: modules/blog/widgets/blog.php:1871
+#: modules/multiscroll/widgets/multiscroll.php:250
+#: modules/rubix/widgets/rubix.php:1266
+#: modules/storker/widgets/storker.php:1188
+#: modules/storker/widgets/storker.php:1285
+msgid "Title Color"
+msgstr "Цвет заголовка"
+
+#: admin/module-settings.php:668 modules/woocommerce/widgets/woocommerce.php:29
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: modules/dragon/widgets/dragon.php:869
+#: modules/pacific/widgets/pacific.php:940
+#: modules/pagepiling/widgets/pagepiling.php:1052
+#: modules/sniper/widgets/sniper.php:377 modules/tango/widgets/tango.php:965
+#: modules/woocommerce/widgets/woocommerce.php:1495
+#: modules/woolamp/widgets/woolamp.php:1173
+msgid "Active Color"
+msgstr "Активный цвет"
+
+#: traits/global-widget-controls.php:279
+msgid "Ascending"
+msgstr "По возрастанию"
+
+#: traits/global-widget-controls.php:235
+msgid "Categories"
+msgstr "Рубрики"
+
+#: modules/rubix/widgets/rubix.php:556 traits/global-widget-controls.php:263
+#: traits/query-controls/group-query/group-control-query.php:249
+#: traits/query-controls/group-query/group-control-query.php:302
+#: traits/query-controls/group-query/group-control-query.php:322
+msgid "Date"
+msgstr "Дата"
+
+#: modules/blog/widgets/blog.php:586 modules/blog/widgets/blog.php:1366
+#: modules/blog/widgets/blog.php:1447 modules/blog/widgets/blog.php:1587
+#: modules/blog/widgets/blog.php:1934 modules/blog/widgets/blog.php:2090
+#: modules/dragon/widgets/dragon.php:318 modules/dragon/widgets/dragon.php:561
+#: modules/dragon/widgets/dragon.php:575 modules/flogia/widgets/flogia.php:372
+#: modules/general/widgets/general.php:127
+#: modules/general/widgets/general.php:750
+#: modules/general/widgets/general.php:959
+#: modules/general/widgets/general.php:2112
+#: modules/general/widgets/general.php:2414
+#: modules/isolate/widgets/isolate.php:760
+#: modules/isolate/widgets/isolate.php:830
+#: modules/isolate/widgets/isolate.php:1108
+#: modules/isolate/widgets/isolate.php:1265
+#: modules/isolate/widgets/isolate.php:1280
+#: modules/isolate/widgets/isolate.php:1359
+#: modules/isolate/widgets/isolate.php:1374
+#: modules/isolate/widgets/isolate.php:1502
+#: modules/isolate/widgets/isolate.php:2032
+#: modules/isolate/widgets/isolate.php:2226
+#: modules/isolate/widgets/isolate.php:2242 modules/mount/widgets/mount.php:374
+#: modules/mount/widgets/mount.php:554
+#: modules/multiscroll/widgets/multiscroll.php:604
+#: modules/omatic/widgets/omatic.php:285 modules/omatic/widgets/omatic.php:295
+#: modules/omatic/widgets/omatic.php:445 modules/omatic/widgets/omatic.php:567
+#: modules/omatic/widgets/omatic.php:777 modules/omatic/widgets/omatic.php:986
+#: modules/omatic/widgets/omatic.php:1104
+#: modules/pagepiling/widgets/pagepiling.php:449
+#: modules/pagepiling/widgets/pagepiling.php:942
+#: modules/sequester/widgets/sequester.php:671
+#: modules/sequester/widgets/sequester.php:750
+#: modules/sequester/widgets/sequester.php:782
+#: modules/sequester/widgets/sequester.php:827
+#: modules/sequester/widgets/sequester.php:1041
+#: modules/sequester/widgets/sequester.php:1161
+#: modules/sniper/widgets/sniper.php:306 modules/tango/widgets/tango.php:560
+#: modules/woocircle/widgets/woocircle.php:358
+#: modules/woocircle/widgets/woocircle.php:556
+#: modules/woocircle/widgets/woocircle.php:562
+#: modules/woocircle/widgets/woocircle.php:736
+#: modules/woocircle/widgets/woocircle.php:994
+#: modules/woocircle/widgets/woocircle.php:1088
+#: modules/woocircle/widgets/woocircle.php:1133
+#: modules/woocommerce/widgets/woocommerce.php:340
+#: modules/woocommerce/widgets/woocommerce.php:527
+#: modules/woocommerce/widgets/woocommerce.php:610
+#: modules/woocommerce/widgets/woocommerce.php:842
+#: modules/woocommerce/widgets/woocommerce.php:924
+#: modules/woocommerce/widgets/woocommerce.php:973
+#: modules/woocommerce/widgets/woocommerce.php:1388
+#: modules/woocommerce/widgets/woocommerce.php:1607
+#: modules/woolamp/widgets/woolamp.php:573
+#: modules/woolamp/widgets/woolamp.php:785
+#: modules/woolamp/widgets/woolamp.php:856
+#: modules/woolamp/widgets/woolamp.php:912
+#: traits/global-widget-controls.php:311
+msgid "Background"
+msgstr "Фон"
+
+#: modules/blog/widgets/blog.php:1024 modules/blog/widgets/blog.php:1234
+#: modules/blog/widgets/blog.php:1458 modules/blog/widgets/blog.php:2105
+#: modules/fiestar/widgets/fiestar.php:605
+#: modules/fiestar/widgets/fiestar.php:792
+#: modules/flogia/widgets/flogia.php:784
+#: modules/general/widgets/general.php:1646
+#: modules/general/widgets/general.php:1703
+#: modules/general/widgets/general.php:1953
+#: modules/general/widgets/general.php:2426
+#: modules/isolate/widgets/isolate.php:1386
+#: modules/isolate/widgets/isolate.php:1606
+#: modules/isolate/widgets/isolate.php:1812
+#: modules/isolate/widgets/isolate.php:1964
+#: modules/isolate/widgets/isolate.php:2258
+#: modules/isolate/widgets/isolate.php:2318
+#: modules/mercury/widgets/mercury.php:776
+#: modules/mercury/widgets/mercury.php:922 modules/mount/widgets/mount.php:839
+#: modules/multiscroll/widgets/multiscroll.php:953
+#: modules/multiscroll/widgets/multiscroll.php:1032
+#: modules/multiscroll/widgets/multiscroll.php:1166
+#: modules/omatic/widgets/omatic.php:1114
+#: modules/pacific/widgets/pacific.php:761
+#: modules/pagepiling/widgets/pagepiling.php:783
+#: modules/pagepiling/widgets/pagepiling.php:1013
+#: modules/rubix/widgets/rubix.php:843 modules/rubix/widgets/rubix.php:1026
+#: modules/rubix/widgets/rubix.php:1240 modules/rubix/widgets/rubix.php:1305
+#: modules/sequester/widgets/sequester.php:793
+#: modules/sequester/widgets/sequester.php:989
+#: modules/sequester/widgets/sequester.php:1053
+#: modules/sequester/widgets/sequester.php:1107
+#: modules/sequester/widgets/sequester.php:1173
+#: modules/storker/widgets/storker.php:775
+#: modules/storker/widgets/storker.php:945
+#: modules/storker/widgets/storker.php:1174
+#: modules/storker/widgets/storker.php:1228
+#: modules/storker/widgets/storker.php:1271
+#: modules/storker/widgets/storker.php:1325 modules/tango/widgets/tango.php:921
+#: modules/vertex/widgets/vertex.php:580 modules/vertex/widgets/vertex.php:729
+#: modules/woocircle/widgets/woocircle.php:526
+#: modules/woocircle/widgets/woocircle.php:946
+#: modules/woocircle/widgets/woocircle.php:1099
+#: modules/woocommerce/widgets/woocommerce.php:620
+#: modules/woocommerce/widgets/woocommerce.php:935
+#: modules/woocommerce/widgets/woocommerce.php:1219
+#: modules/woocommerce/widgets/woocommerce.php:1619
+#: modules/woolamp/widgets/woolamp.php:878
+#: modules/woolamp/widgets/woolamp.php:1120
+#: traits/global-widget-controls.php:150 traits/global-widget-controls.php:193
+#: traits/global-widget-controls.php:857
+msgid "Border Color"
+msgstr "Цвет границы"
+
+#: traits/global-widget-controls.php:278
+msgid "Descending"
+msgstr "По убыванию"
+
+#: modules/general/widgets/general.php:137
+#: modules/general/widgets/general.php:170
+#: modules/isolate/widgets/isolate.php:1176
+#: modules/multiscroll/widgets/multiscroll.php:130
+#: modules/multiscroll/widgets/multiscroll.php:151
+#: modules/multiscroll/widgets/multiscroll.php:175
+#: modules/multiscroll/widgets/multiscroll.php:199
+#: modules/multiscroll/widgets/multiscroll.php:223
+#: modules/omatic/widgets/omatic.php:272 modules/tango/widgets/tango.php:551
+#: traits/global-widget-controls.php:1815
+msgid "Image"
+msgstr "Изображение"
+
+#: modules/vertex/widgets/vertex.php:103 traits/global-widget-controls.php:1646
+msgid "Image Size"
+msgstr "Размер изображения"
+
+#: modules/blog/widgets/blog.php:94 modules/fiestar/widgets/fiestar.php:81
+#: modules/flogia/widgets/flogia.php:81 modules/mercury/widgets/mercury.php:78
+#: modules/pacific/widgets/pacific.php:80 modules/rubix/widgets/rubix.php:78
+#: modules/storker/widgets/storker.php:82 modules/tango/widgets/tango.php:341
+#: modules/vertex/widgets/vertex.php:79
+#: modules/woocircle/widgets/woocircle.php:67
+#: modules/woocommerce/widgets/woocommerce.php:78
+#: modules/woolamp/widgets/woolamp.php:80
+msgid "Layout"
+msgstr "Макет"
+
+#: modules/general/widgets/general.php:489
+#: modules/isolate/widgets/isolate.php:545 modules/mount/widgets/mount.php:252
+#: modules/pagepiling/widgets/pagepiling.php:307
+#: traits/global-widget-controls.php:588 traits/global-widget-controls.php:2103
+msgid "Link"
+msgstr "Ссылка"
+
+#: modules/blog/widgets/blog.php:915 modules/blog/widgets/blog.php:1099
+#: modules/blog/widgets/blog.php:1385 modules/blog/widgets/blog.php:1603
+#: modules/blog/widgets/blog.php:1957 modules/elysium/widgets/elysium.php:869
+#: modules/fiestar/widgets/fiestar.php:359
+#: modules/fiestar/widgets/fiestar.php:519
+#: modules/fiestar/widgets/fiestar.php:708
+#: modules/flogia/widgets/flogia.php:686 modules/flogia/widgets/flogia.php:937
+#: modules/general/widgets/general.php:996
+#: modules/general/widgets/general.php:1131
+#: modules/general/widgets/general.php:1390
+#: modules/general/widgets/general.php:1509
+#: modules/general/widgets/general.php:1790
+#: modules/general/widgets/general.php:2137
+#: modules/isolate/widgets/isolate.php:1198
+#: modules/isolate/widgets/isolate.php:1300
+#: modules/isolate/widgets/isolate.php:1521
+#: modules/isolate/widgets/isolate.php:1705
+#: modules/isolate/widgets/isolate.php:1890
+#: modules/isolate/widgets/isolate.php:2055
+#: modules/isolate/widgets/isolate.php:2361
+#: modules/mercury/widgets/mercury.php:690
+#: modules/mercury/widgets/mercury.php:841 modules/mount/widgets/mount.php:589
+#: modules/mount/widgets/mount.php:767
+#: modules/multiscroll/widgets/multiscroll.php:634
+#: modules/multiscroll/widgets/multiscroll.php:855
+#: modules/multiscroll/widgets/multiscroll.php:1043
+#: modules/omatic/widgets/omatic.php:373 modules/omatic/widgets/omatic.php:463
+#: modules/omatic/widgets/omatic.php:584 modules/omatic/widgets/omatic.php:725
+#: modules/omatic/widgets/omatic.php:895 modules/omatic/widgets/omatic.php:1005
+#: modules/pacific/widgets/pacific.php:445
+#: modules/pacific/widgets/pacific.php:675
+#: modules/pacific/widgets/pacific.php:1130
+#: modules/pagepiling/widgets/pagepiling.php:712
+#: modules/pagepiling/widgets/pagepiling.php:961
+#: modules/pagepiling/widgets/pagepiling.php:1116
+#: modules/rubix/widgets/rubix.php:633 modules/rubix/widgets/rubix.php:757
+#: modules/rubix/widgets/rubix.php:922 modules/rubix/widgets/rubix.php:1088
+#: modules/sequester/widgets/sequester.php:690
+#: modules/sequester/widgets/sequester.php:916
+#: modules/storker/widgets/storker.php:703
+#: modules/storker/widgets/storker.php:859
+#: modules/storker/widgets/storker.php:1035
+#: modules/storker/widgets/storker.php:1124
+#: modules/storker/widgets/storker.php:1503
+#: modules/storker/widgets/storker.php:1608 modules/tango/widgets/tango.php:591
+#: modules/tango/widgets/tango.php:780 modules/vertex/widgets/vertex.php:323
+#: modules/vertex/widgets/vertex.php:494 modules/vertex/widgets/vertex.php:645
+#: modules/woocircle/widgets/woocircle.php:444
+#: modules/woocircle/widgets/woocircle.php:865
+#: modules/woocircle/widgets/woocircle.php:1016
+#: modules/woocircle/widgets/woocircle.php:1154
+#: modules/woocommerce/widgets/woocommerce.php:545
+#: modules/woocommerce/widgets/woocommerce.php:864
+#: modules/woocommerce/widgets/woocommerce.php:994
+#: modules/woocommerce/widgets/woocommerce.php:1084
+#: modules/woocommerce/widgets/woocommerce.php:1409
+#: modules/woolamp/widgets/woolamp.php:501
+#: modules/woolamp/widgets/woolamp.php:807
+#: modules/woolamp/widgets/woolamp.php:933
+#: modules/woolamp/widgets/woolamp.php:1028
+#: traits/global-widget-controls.php:742
+msgid "Border Radius"
+msgstr "Скругление углов"
+
+#: modules/blog/widgets/blog.php:982 modules/blog/widgets/blog.php:1206
+#: modules/blog/widgets/blog.php:1310 modules/blog/widgets/blog.php:1429
+#: modules/blog/widgets/blog.php:1856 modules/blog/widgets/blog.php:2068
+#: modules/dragon/widgets/dragon.php:711 modules/dragon/widgets/dragon.php:813
+#: modules/fiestar/widgets/fiestar.php:579
+#: modules/fiestar/widgets/fiestar.php:765
+#: modules/flogia/widgets/flogia.php:1226
+#: modules/general/widgets/general.php:1924
+#: modules/general/widgets/general.php:2037
+#: modules/general/widgets/general.php:2388
+#: modules/isolate/widgets/isolate.php:1340
+#: modules/isolate/widgets/isolate.php:1577
+#: modules/isolate/widgets/isolate.php:1783
+#: modules/isolate/widgets/isolate.php:1931
+#: modules/isolate/widgets/isolate.php:2204
+#: modules/mercury/widgets/mercury.php:750
+#: modules/mercury/widgets/mercury.php:896 modules/mount/widgets/mount.php:813
+#: modules/multiscroll/widgets/multiscroll.php:926
+#: modules/omatic/widgets/omatic.php:1085
+#: modules/pacific/widgets/pacific.php:735
+#: modules/pacific/widgets/pacific.php:824
+#: modules/pagepiling/widgets/pagepiling.php:745
+#: modules/pagepiling/widgets/pagepiling.php:887
+#: modules/pagepiling/widgets/pagepiling.php:984
+#: modules/rubix/widgets/rubix.php:817 modules/rubix/widgets/rubix.php:989
+#: modules/rubix/widgets/rubix.php:1225
+#: modules/sequester/widgets/sequester.php:763
+#: modules/sequester/widgets/sequester.php:962
+#: modules/sequester/widgets/sequester.php:1139
+#: modules/storker/widgets/storker.php:746
+#: modules/storker/widgets/storker.php:919
+#: modules/storker/widgets/storker.php:1159 modules/tango/widgets/tango.php:886
+#: modules/vertex/widgets/vertex.php:554 modules/vertex/widgets/vertex.php:703
+#: modules/woocircle/widgets/woocircle.php:498
+#: modules/woocircle/widgets/woocircle.php:919
+#: modules/woocircle/widgets/woocircle.php:1070
+#: modules/woocommerce/widgets/woocommerce.php:594
+#: modules/woocommerce/widgets/woocommerce.php:906
+#: modules/woocommerce/widgets/woocommerce.php:1193
+#: modules/woocommerce/widgets/woocommerce.php:1331
+#: modules/woocommerce/widgets/woocommerce.php:1585
+#: modules/woolamp/widgets/woolamp.php:553
+#: modules/woolamp/widgets/woolamp.php:849
+#: modules/woolamp/widgets/woolamp.php:1092
+#: traits/global-widget-controls.php:132 traits/global-widget-controls.php:830
+msgid "Hover"
+msgstr "Наведение"
+
+#: modules/woocircle/widgets/woocircle.php:179
+#: modules/woocommerce/widgets/woocommerce.php:228
+#: modules/woolamp/widgets/woolamp.php:267
+#: traits/global-widget-controls.php:226
+#: traits/query-controls/group-query/group-control-query.php:149
+#: traits/query-controls/group-query/group-control-query.php:777
+msgid "Manual Selection"
+msgstr "Ручной выбор"
+
+#: modules/blog/widgets/blog.php:460 modules/general/widgets/general.php:580
+#: modules/isolate/widgets/isolate.php:626
+#: modules/isolate/widgets/isolate.php:2130
+#: modules/woocommerce/widgets/woocommerce.php:1140
+#: modules/woocommerce/widgets/woocommerce.php:1278
+#: modules/woocommerce/widgets/woocommerce.php:1533
+#: traits/global-widget-controls.php:65 traits/global-widget-controls.php:1344
+msgid "Offset"
+msgstr "Смещение"
+
+#: traits/global-widget-controls.php:266
+#: traits/query-controls/group-query/group-control-query.php:306
+#: traits/query-controls/group-query/group-control-query.php:326
+msgid "Random"
+msgstr "Случайный"
+
+#: traits/global-widget-controls.php:225
+msgid "Show All"
+msgstr "Показать все"
+
+#: modules/elysium/widgets/elysium.php:834
+#: modules/elysium/widgets/elysium.php:902
+#: modules/flogia/widgets/flogia.php:1066 modules/omatic/widgets/omatic.php:689
+#: modules/omatic/widgets/omatic.php:840
+#: modules/pagepiling/widgets/pagepiling.php:1063
+#: modules/vertex/widgets/vertex.php:137 traits/global-widget-controls.php:511
+msgid "Width"
+msgstr "Ширина"
+
+#: modules/blog/widgets/blog.php:311 modules/blog/widgets/blog.php:339
+#: modules/elysium/widgets/elysium.php:235
+#: modules/fiestar/widgets/fiestar.php:170
+#: modules/flogia/widgets/flogia.php:141 modules/flogia/widgets/flogia.php:1009
+#: modules/general/widgets/general.php:306
+#: modules/isolate/widgets/isolate.php:366
+#: modules/isolate/widgets/isolate.php:397
+#: modules/isolate/widgets/isolate.php:2426
+#: modules/mercury/widgets/mercury.php:140 modules/mount/widgets/mount.php:190
+#: modules/multiscroll/widgets/multiscroll.php:368
+#: modules/multiscroll/widgets/multiscroll.php:439
+#: modules/multiscroll/widgets/multiscroll.php:522
+#: modules/pacific/widgets/pacific.php:164
+#: modules/pagepiling/widgets/pagepiling.php:248
+#: modules/pagepiling/widgets/pagepiling.php:377
+#: modules/rubix/widgets/rubix.php:185
+#: modules/sequester/widgets/sequester.php:222
+#: modules/sniper/widgets/sniper.php:189
+#: modules/storker/widgets/storker.php:133 modules/tango/widgets/tango.php:286
+#: modules/vertex/widgets/vertex.php:181
+#: modules/woocircle/widgets/woocircle.php:89
+#: modules/woocommerce/widgets/woocommerce.php:191
+#: modules/woolamp/widgets/woolamp.php:96
+msgid "Left"
+msgstr "Лево"
+
+#: modules/blog/widgets/blog.php:861 modules/blog/widgets/blog.php:1059
+#: modules/blog/widgets/blog.php:1268 modules/blog/widgets/blog.php:1348
+#: modules/blog/widgets/blog.php:1736 modules/blog/widgets/blog.php:1912
+#: modules/dragon/widgets/dragon.php:658 modules/dragon/widgets/dragon.php:763
+#: modules/elysium/widgets/elysium.php:816
+#: modules/fiestar/widgets/fiestar.php:485
+#: modules/fiestar/widgets/fiestar.php:674
+#: modules/flogia/widgets/flogia.php:897 modules/flogia/widgets/flogia.php:1195
+#: modules/general/widgets/general.php:1738
+#: modules/general/widgets/general.php:1987
+#: modules/general/widgets/general.php:2088
+#: modules/isolate/widgets/isolate.php:1245
+#: modules/isolate/widgets/isolate.php:1484
+#: modules/isolate/widgets/isolate.php:1665
+#: modules/isolate/widgets/isolate.php:1847
+#: modules/isolate/widgets/isolate.php:2010
+#: modules/mercury/widgets/mercury.php:638
+#: modules/mercury/widgets/mercury.php:807 modules/mount/widgets/mount.php:719
+#: modules/multiscroll/widgets/multiscroll.php:820
+#: modules/multiscroll/widgets/multiscroll.php:1005
+#: modules/omatic/widgets/omatic.php:967
+#: modules/pacific/widgets/pacific.php:641
+#: modules/pacific/widgets/pacific.php:795
+#: modules/pagepiling/widgets/pagepiling.php:664
+#: modules/pagepiling/widgets/pagepiling.php:813
+#: modules/pagepiling/widgets/pagepiling.php:924
+#: modules/rubix/widgets/rubix.php:722 modules/rubix/widgets/rubix.php:877
+#: modules/rubix/widgets/rubix.php:1065
+#: modules/sequester/widgets/sequester.php:651
+#: modules/sequester/widgets/sequester.php:857
+#: modules/sequester/widgets/sequester.php:1019
+#: modules/storker/widgets/storker.php:669
+#: modules/storker/widgets/storker.php:825
+#: modules/storker/widgets/storker.php:1012
+#: modules/storker/widgets/storker.php:1405 modules/tango/widgets/tango.php:734
+#: modules/vertex/widgets/vertex.php:460 modules/vertex/widgets/vertex.php:611
+#: modules/woocircle/widgets/woocircle.php:976
+#: modules/woocommerce/widgets/woocommerce.php:511
+#: modules/woocommerce/widgets/woocommerce.php:824
+#: modules/woocommerce/widgets/woocommerce.php:1048
+#: modules/woocommerce/widgets/woocommerce.php:1250
+#: modules/woocommerce/widgets/woocommerce.php:1366
+#: modules/woolamp/widgets/woolamp.php:471
+#: modules/woolamp/widgets/woolamp.php:767
+#: modules/woolamp/widgets/woolamp.php:992 traits/global-widget-controls.php:29
+#: traits/global-widget-controls.php:704
+msgid "Normal"
+msgstr "Обычное"
+
+#: modules/blog/widgets/blog.php:319 modules/blog/widgets/blog.php:347
+#: modules/elysium/widgets/elysium.php:243
+#: modules/fiestar/widgets/fiestar.php:178
+#: modules/flogia/widgets/flogia.php:149 modules/flogia/widgets/flogia.php:1017
+#: modules/general/widgets/general.php:314
+#: modules/isolate/widgets/isolate.php:374
+#: modules/isolate/widgets/isolate.php:401
+#: modules/isolate/widgets/isolate.php:2430
+#: modules/mercury/widgets/mercury.php:148 modules/mount/widgets/mount.php:198
+#: modules/multiscroll/widgets/multiscroll.php:376
+#: modules/multiscroll/widgets/multiscroll.php:438
+#: modules/multiscroll/widgets/multiscroll.php:521
+#: modules/pacific/widgets/pacific.php:172
+#: modules/pagepiling/widgets/pagepiling.php:256
+#: modules/rubix/widgets/rubix.php:193
+#: modules/sequester/widgets/sequester.php:230
+#: modules/sniper/widgets/sniper.php:197
+#: modules/storker/widgets/storker.php:141 modules/tango/widgets/tango.php:294
+#: modules/vertex/widgets/vertex.php:189
+#: modules/woocircle/widgets/woocircle.php:97
+#: modules/woocommerce/widgets/woocommerce.php:199
+#: modules/woolamp/widgets/woolamp.php:104
+msgid "Right"
+msgstr "Право"
+
+#: modules/general/widgets/general.php:145
+msgid "Youtube"
+msgstr "Youtube"
+
+#: modules/isolate/widgets/isolate.php:1440
+msgid "Animation"
+msgstr "Анимация"
+
+#: modules/multiscroll/widgets/multiscroll.php:560
+#: modules/pagepiling/widgets/pagepiling.php:405
+#: traits/global-widget-controls.php:910 traits/global-widget-controls.php:1877
+msgid "Autoplay"
+msgstr "Проиграть автоматически"
+
+#: modules/blog/widgets/blog.php:889 modules/blog/widgets/blog.php:1010
+#: modules/flogia/widgets/flogia.php:666 modules/flogia/widgets/flogia.php:773
+#: modules/flogia/widgets/flogia.php:915 modules/flogia/widgets/flogia.php:1112
+#: modules/isolate/widgets/isolate.php:1595
+#: modules/isolate/widgets/isolate.php:1635
+#: modules/isolate/widgets/isolate.php:1865
+#: modules/isolate/widgets/isolate.php:1949
+#: modules/pagepiling/widgets/pagepiling.php:1002
+#: modules/sniper/widgets/sniper.php:294
+msgid "Background Color"
+msgstr "Цвет фона"
+
+#: traits/query-controls/group-query/group-control-query.php:270
+msgid "Before"
+msgstr "До"
+
+#: includes/helper.php:436 includes/helper.php:452 includes/helper.php:466
+#: includes/helper.php:480 modules/flogia/widgets/flogia.php:260
+#: modules/isolate/widgets/isolate.php:1422
+#: traits/global-widget-controls.php:429
+msgid "Bottom Right"
+msgstr "Низ Право"
+
+#: modules/blog/widgets/blog.php:850 modules/dragon/widgets/dragon.php:648
+#: modules/general/widgets/general.php:1314
+#: modules/isolate/widgets/isolate.php:1234
+#: modules/multiscroll/widgets/multiscroll.php:807
+#: modules/pagepiling/widgets/pagepiling.php:652
+#: modules/sequester/widgets/sequester.php:638
+#: modules/storker/widgets/storker.php:656
+msgid "Button"
+msgstr "Кнопка"
+
+#: admin/class-settings-api.php:647
+msgid "Choose File"
+msgstr "Выберите файл"
+
+#: modules/general/widgets/general.php:498
+#: modules/isolate/widgets/isolate.php:554
+#: traits/global-widget-controls.php:597
+msgid "Choose Icon"
+msgstr "Выбрать значок"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-astoria.php:46
+#: includes/compatiblity/wpml/class-wpml-prime-slider-avatar.php:40
+#: includes/compatiblity/wpml/class-wpml-prime-slider-coddle.php:50
+#: includes/compatiblity/wpml/class-wpml-prime-slider-crossroad.php:47
+#: includes/compatiblity/wpml/class-wpml-prime-slider-dragon.php:44
+#: includes/compatiblity/wpml/class-wpml-prime-slider-elysium.php:39
+#: includes/compatiblity/wpml/class-wpml-prime-slider-escape.php:45
+#: includes/compatiblity/wpml/class-wpml-prime-slider-flexure.php:43
+#: includes/compatiblity/wpml/class-wpml-prime-slider-fortune.php:46
+#: includes/compatiblity/wpml/class-wpml-prime-slider-general.php:46
+#: includes/compatiblity/wpml/class-wpml-prime-slider-isolate.php:47
+#: includes/compatiblity/wpml/class-wpml-prime-slider-monster.php:36
+#: includes/compatiblity/wpml/class-wpml-prime-slider-motion.php:36
+#: includes/compatiblity/wpml/class-wpml-prime-slider-mount.php:39
+#: includes/compatiblity/wpml/class-wpml-prime-slider-multiscroll.php:44
+#: includes/compatiblity/wpml/class-wpml-prime-slider-omatic.php:42
+#: includes/compatiblity/wpml/class-wpml-prime-slider-pagepiling.php:42
+#: includes/compatiblity/wpml/class-wpml-prime-slider-pandora.php:36
+#: includes/compatiblity/wpml/class-wpml-prime-slider-paranoia.php:39
+#: includes/compatiblity/wpml/class-wpml-prime-slider-pieces.php:35
+#: includes/compatiblity/wpml/class-wpml-prime-slider-prism.php:36
+#: includes/compatiblity/wpml/class-wpml-prime-slider-reveal.php:40
+#: includes/compatiblity/wpml/class-wpml-prime-slider-sequester.php:42
+#: includes/compatiblity/wpml/class-wpml-prime-slider-sniper.php:41
+#: includes/compatiblity/wpml/class-wpml-prime-slider-tango.php:41
+#: includes/compatiblity/wpml/class-wpml-prime-slider-titanic.php:36
+#: includes/compatiblity/wpml/class-wpml-prime-slider-turnar.php:36
+#: modules/blog/widgets/blog.php:544 modules/blog/widgets/blog.php:641
+#: modules/blog/widgets/blog.php:1785 modules/dragon/widgets/dragon.php:277
+#: modules/dragon/widgets/dragon.php:409
+#: modules/elysium/widgets/elysium.php:536
+#: modules/fiestar/widgets/fiestar.php:393
+#: modules/flogia/widgets/flogia.php:330 modules/flogia/widgets/flogia.php:425
+#: modules/general/widgets/general.php:480
+#: modules/general/widgets/general.php:715
+#: modules/general/widgets/general.php:836
+#: modules/isolate/widgets/isolate.php:536
+#: modules/isolate/widgets/isolate.php:725
+#: modules/isolate/widgets/isolate.php:905
+#: modules/mercury/widgets/mercury.php:403 modules/mount/widgets/mount.php:243
+#: modules/mount/widgets/mount.php:333 modules/mount/widgets/mount.php:427
+#: modules/multiscroll/widgets/multiscroll.php:660
+#: modules/omatic/widgets/omatic.php:400
+#: modules/pacific/widgets/pacific.php:471
+#: modules/pagepiling/widgets/pagepiling.php:298
+#: modules/pagepiling/widgets/pagepiling.php:477
+#: modules/rubix/widgets/rubix.php:423
+#: modules/sequester/widgets/sequester.php:313
+#: modules/sequester/widgets/sequester.php:399
+#: modules/sniper/widgets/sniper.php:339
+#: modules/storker/widgets/storker.php:427 modules/tango/widgets/tango.php:605
+#: modules/vertex/widgets/vertex.php:369
+#: modules/woocircle/widgets/woocircle.php:233
+#: modules/woocircle/widgets/woocircle.php:611
+#: modules/woocommerce/widgets/woocommerce.php:298
+#: modules/woocommerce/widgets/woocommerce.php:425
+#: modules/woolamp/widgets/woolamp.php:326
+#: modules/woolamp/widgets/woolamp.php:391
+#: traits/global-widget-controls.php:264 traits/global-widget-controls.php:579
+#: traits/global-widget-controls.php:1750
+#: traits/global-widget-controls.php:2094
+#: traits/query-controls/group-query/group-control-query.php:300
+#: traits/query-controls/group-query/group-control-query.php:320
+msgid "Title"
+msgstr "Заголовок"
+
+#: includes/class-elements-wpml-compatibility.php:164
+#: includes/compatiblity/wpml/class-wpml-prime-slider-astoria.php:61
+#: includes/compatiblity/wpml/class-wpml-prime-slider-avatar.php:48
+#: includes/compatiblity/wpml/class-wpml-prime-slider-coddle.php:62
+#: includes/compatiblity/wpml/class-wpml-prime-slider-crossroad.php:65
+#: includes/compatiblity/wpml/class-wpml-prime-slider-dragon.php:48
+#: includes/compatiblity/wpml/class-wpml-prime-slider-escape.php:54
+#: includes/compatiblity/wpml/class-wpml-prime-slider-fortune.php:61
+#: includes/compatiblity/wpml/class-wpml-prime-slider-general.php:50
+#: includes/compatiblity/wpml/class-wpml-prime-slider-isolate.php:55
+#: includes/compatiblity/wpml/class-wpml-prime-slider-motion.php:42
+#: includes/compatiblity/wpml/class-wpml-prime-slider-multiscroll.php:52
+#: includes/compatiblity/wpml/class-wpml-prime-slider-pagepiling.php:52
+#: includes/compatiblity/wpml/class-wpml-prime-slider-paranoia.php:54
+#: includes/compatiblity/wpml/class-wpml-prime-slider-reveal.php:58
+#: includes/compatiblity/wpml/class-wpml-prime-slider-sequester.php:48
+#: includes/compatiblity/wpml/class-wpml-prime-slider-turnar.php:42
+#: modules/multiscroll/widgets/multiscroll.php:116
+#: traits/global-widget-controls.php:1843
+msgid "Button Link"
+msgstr "Ссылка кнопки"
+
+#: includes/helper.php:495
+msgid "div"
+msgstr "div"
+
+#: includes/helper.php:489
+msgid "H1"
+msgstr "H1"
+
+#: includes/helper.php:490
+msgid "H2"
+msgstr "H2"
+
+#: includes/helper.php:491
+msgid "H3"
+msgstr "H3"
+
+#: includes/helper.php:492
+msgid "H4"
+msgstr "H4"
+
+#: includes/helper.php:493
+msgid "H5"
+msgstr "H5"
+
+#: includes/helper.php:494
+msgid "H6"
+msgstr "H6"
+
+#: modules/blog/widgets/blog.php:1131 modules/general/widgets/general.php:1822
+#: modules/general/widgets/general.php:2175
+#: modules/isolate/widgets/isolate.php:1552
+#: modules/isolate/widgets/isolate.php:1737
+#: modules/omatic/widgets/omatic.php:1041 modules/vertex/widgets/vertex.php:690
+#: traits/global-widget-controls.php:774
+msgid "Icon Size"
+msgstr "Размер значка"
+
+#: modules/blog/widgets/blog.php:1635 modules/isolate/widgets/isolate.php:1754
+#: modules/pagepiling/widgets/pagepiling.php:724
+#: modules/pagepiling/widgets/pagepiling.php:843
+msgid "Icon Spacing"
+msgstr "Отступы иконки"
+
+#: modules/omatic/widgets/omatic.php:671 modules/omatic/widgets/omatic.php:822
+msgid "Line"
+msgstr "Линия"
+
+#: traits/global-widget-controls.php:274
+#: traits/query-controls/group-query/group-control-query.php:339
+msgid "Order"
+msgstr "Порядок"
+
+#: modules/blog/widgets/blog.php:596 modules/dragon/widgets/dragon.php:329
+#: modules/flogia/widgets/flogia.php:383 modules/flogia/widgets/flogia.php:926
+#: modules/flogia/widgets/flogia.php:1123
+#: modules/general/widgets/general.php:760
+#: modules/isolate/widgets/isolate.php:773 modules/mount/widgets/mount.php:385
+#: modules/sequester/widgets/sequester.php:359
+#: modules/sniper/widgets/sniper.php:312
+#: modules/storker/widgets/storker.php:382 modules/tango/widgets/tango.php:566
+#: modules/woocommerce/widgets/woocommerce.php:350
+msgid "Overlay Color"
+msgstr "Цвет наложения"
+
+#: modules/blog/widgets/blog.php:677 modules/blog/widgets/blog.php:785
+#: modules/blog/widgets/blog.php:1289 modules/blog/widgets/blog.php:1419
+#: modules/blog/widgets/blog.php:1710 modules/blog/widgets/blog.php:1806
+#: modules/blog/widgets/blog.php:1846 modules/dragon/widgets/dragon.php:445
+#: modules/dragon/widgets/dragon.php:509 modules/dragon/widgets/dragon.php:591
+#: modules/fiestar/widgets/fiestar.php:427
+#: modules/fiestar/widgets/fiestar.php:569
+#: modules/flogia/widgets/flogia.php:475 modules/flogia/widgets/flogia.php:580
+#: modules/flogia/widgets/flogia.php:711 modules/flogia/widgets/flogia.php:833
+#: modules/general/widgets/general.php:900
+#: modules/general/widgets/general.php:1064
+#: modules/general/widgets/general.php:1257
+#: modules/general/widgets/general.php:2007
+#: modules/isolate/widgets/isolate.php:1059
+#: modules/isolate/widgets/isolate.php:1123
+#: modules/isolate/widgets/isolate.php:1921
+#: modules/isolate/widgets/isolate.php:2102
+#: modules/isolate/widgets/isolate.php:2350
+#: modules/mercury/widgets/mercury.php:454
+#: modules/mercury/widgets/mercury.php:526
+#: modules/mercury/widgets/mercury.php:597
+#: modules/mercury/widgets/mercury.php:740 modules/mount/widgets/mount.php:487
+#: modules/mount/widgets/mount.php:970
+#: modules/multiscroll/widgets/multiscroll.php:916
+#: modules/omatic/widgets/omatic.php:523 modules/omatic/widgets/omatic.php:643
+#: modules/omatic/widgets/omatic.php:812
+#: modules/pacific/widgets/pacific.php:505
+#: modules/pacific/widgets/pacific.php:607
+#: modules/pacific/widgets/pacific.php:725
+#: modules/pacific/widgets/pacific.php:814
+#: modules/pacific/widgets/pacific.php:897
+#: modules/pacific/widgets/pacific.php:965
+#: modules/pacific/widgets/pacific.php:1055
+#: modules/pacific/widgets/pacific.php:1104
+#: modules/pagepiling/widgets/pagepiling.php:528
+#: modules/pagepiling/widgets/pagepiling.php:577
+#: modules/pagepiling/widgets/pagepiling.php:626
+#: modules/pagepiling/widgets/pagepiling.php:974
+#: modules/rubix/widgets/rubix.php:474 modules/rubix/widgets/rubix.php:546
+#: modules/rubix/widgets/rubix.php:588 modules/rubix/widgets/rubix.php:670
+#: modules/rubix/widgets/rubix.php:807 modules/rubix/widgets/rubix.php:979
+#: modules/rubix/widgets/rubix.php:1186 modules/rubix/widgets/rubix.php:1215
+#: modules/sequester/widgets/sequester.php:459
+#: modules/sequester/widgets/sequester.php:525
+#: modules/sequester/widgets/sequester.php:577
+#: modules/sniper/widgets/sniper.php:422 modules/sniper/widgets/sniper.php:479
+#: modules/sniper/widgets/sniper.php:618
+#: modules/storker/widgets/storker.php:478
+#: modules/storker/widgets/storker.php:558
+#: modules/storker/widgets/storker.php:646
+#: modules/storker/widgets/storker.php:736
+#: modules/storker/widgets/storker.php:909
+#: modules/storker/widgets/storker.php:1080
+#: modules/storker/widgets/storker.php:1149
+#: modules/vertex/widgets/vertex.php:403 modules/vertex/widgets/vertex.php:544
+#: modules/woocircle/widgets/woocircle.php:330
+#: modules/woocircle/widgets/woocircle.php:382
+#: modules/woocircle/widgets/woocircle.php:708
+#: modules/woocircle/widgets/woocircle.php:760
+#: modules/woocircle/widgets/woocircle.php:803
+#: modules/woocommerce/widgets/woocommerce.php:463
+#: modules/woocommerce/widgets/woocommerce.php:656
+#: modules/woocommerce/widgets/woocommerce.php:753
+#: modules/woocommerce/widgets/woocommerce.php:789
+#: modules/woocommerce/widgets/woocommerce.php:1270
+#: modules/woocommerce/widgets/woocommerce.php:1509
+#: modules/woolamp/widgets/woolamp.php:428
+#: modules/woolamp/widgets/woolamp.php:611
+#: modules/woolamp/widgets/woolamp.php:686
+#: modules/woolamp/widgets/woolamp.php:727
+#: traits/global-widget-controls.php:122
+msgid "Typography"
+msgstr "Типографика"
+
+#: includes/class-elements-wpml-compatibility.php:211
+#: includes/class-elements-wpml-compatibility.php:236
+#: includes/class-elements-wpml-compatibility.php:341
+#: includes/compatiblity/wpml/class-wpml-prime-slider-astoria.php:58
+#: includes/compatiblity/wpml/class-wpml-prime-slider-avatar.php:46
+#: includes/compatiblity/wpml/class-wpml-prime-slider-coddle.php:59
+#: includes/compatiblity/wpml/class-wpml-prime-slider-crossroad.php:62
+#: includes/compatiblity/wpml/class-wpml-prime-slider-escape.php:51
+#: includes/compatiblity/wpml/class-wpml-prime-slider-fortune.php:58
+#: includes/compatiblity/wpml/class-wpml-prime-slider-multiscroll.php:50
+#: includes/compatiblity/wpml/class-wpml-prime-slider-pagepiling.php:48
+#: includes/compatiblity/wpml/class-wpml-prime-slider-paranoia.php:48
+#: includes/compatiblity/wpml/class-wpml-prime-slider-reveal.php:49
+#: includes/compatiblity/wpml/class-wpml-prime-slider-sequester.php:46
+#: modules/blog/widgets/blog.php:164 modules/blog/widgets/blog.php:476
+#: modules/general/widgets/general.php:596
+#: modules/isolate/widgets/isolate.php:642
+#: modules/multiscroll/widgets/multiscroll.php:105
+#: traits/global-widget-controls.php:1359
+#: traits/global-widget-controls.php:1701
+#: traits/global-widget-controls.php:1832
+msgid "Button Text"
+msgstr "Текст кнопки"
+
+#: includes/helper.php:497
+msgid "p"
+msgstr "p"
+
+#: modules/blog/widgets/blog.php:366 modules/fiestar/widgets/fiestar.php:257
+#: modules/flogia/widgets/flogia.php:274
+#: modules/mercury/widgets/mercury.php:169
+#: modules/pacific/widgets/pacific.php:193 modules/rubix/widgets/rubix.php:214
+#: modules/storker/widgets/storker.php:162
+#: modules/vertex/widgets/vertex.php:220
+#: modules/woocircle/widgets/woocircle.php:165
+#: modules/woocommerce/widgets/woocommerce.php:214
+#: modules/woolamp/widgets/woolamp.php:253
+msgid "Query"
+msgstr "Запрос"
+
+#: modules/multiscroll/widgets/multiscroll.php:878
+#: traits/global-widget-controls.php:99
+msgid "Radius"
+msgstr "Радиус"
+
+#: modules/blog/widgets/blog.php:151
+#: modules/multiscroll/widgets/multiscroll.php:425
+#: traits/global-widget-controls.php:1676
+#: traits/global-widget-controls.php:1691
+msgid "Show Button"
+msgstr "Показать кнопку"
+
+#: modules/general/skins/skin-slide.php:16
+#: modules/general/widgets/general.php:646
+#: modules/mercury/widgets/mercury.php:282
+#: modules/storker/widgets/storker.php:287
+#: traits/global-widget-controls.php:1148
+msgid "Slide"
+msgstr "Скольжение"
+
+#: includes/helper.php:496
+msgid "span"
+msgstr "span"
+
+#: modules/fiestar/widgets/fiestar.php:200
+#: traits/global-widget-controls.php:1387
+#: traits/global-widget-controls.php:1415
+msgid "Show Title"
+msgstr "Показать заголовок"
+
+#: modules/general/widgets/general.php:141
+#: modules/isolate/widgets/isolate.php:131
+msgid "Video"
+msgstr "Видео"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-general.php:52
+#: includes/compatiblity/wpml/class-wpml-prime-slider-isolate.php:59
+#: modules/general/widgets/general.php:185
+msgid "Video Link"
+msgstr "Ссылка на видео"
+
+#: modules/blog/widgets/blog.php:1899 modules/dragon/widgets/dragon.php:837
+#: modules/elysium/widgets/elysium.php:340
+#: modules/elysium/widgets/elysium.php:732
+#: modules/fiestar/widgets/fiestar.php:626
+#: modules/flogia/widgets/flogia.php:1147
+#: modules/general/widgets/general.php:2063
+#: modules/isolate/widgets/isolate.php:1985
+#: modules/mercury/widgets/mercury.php:797 modules/mount/widgets/mount.php:859
+#: modules/multiscroll/widgets/multiscroll.php:508
+#: modules/multiscroll/widgets/multiscroll.php:992
+#: modules/omatic/widgets/omatic.php:913
+#: modules/pacific/widgets/pacific.php:850
+#: modules/pagepiling/widgets/pagepiling.php:1033
+#: modules/sequester/widgets/sequester.php:1009
+#: modules/sniper/widgets/sniper.php:538
+#: modules/storker/widgets/storker.php:1358 modules/tango/widgets/tango.php:713
+#: modules/vertex/widgets/vertex.php:601
+#: modules/woocircle/widgets/woocircle.php:1202
+#: modules/woocommerce/widgets/woocommerce.php:1356
+#: modules/woolamp/widgets/woolamp.php:1140
+msgid "Navigation"
+msgstr "Навигация"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-astoria.php:55
+#: includes/compatiblity/wpml/class-wpml-prime-slider-coddle.php:56
+#: includes/compatiblity/wpml/class-wpml-prime-slider-elysium.php:43
+#: includes/compatiblity/wpml/class-wpml-prime-slider-escape.php:57
+#: includes/compatiblity/wpml/class-wpml-prime-slider-fortune.php:55
+#: includes/compatiblity/wpml/class-wpml-prime-slider-omatic.php:46
+#: includes/compatiblity/wpml/class-wpml-prime-slider-paranoia.php:45
+#: includes/compatiblity/wpml/class-wpml-prime-slider-prism.php:39
+#: includes/compatiblity/wpml/class-wpml-prime-slider-reveal.php:46
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:30
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:86
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woohotspot.php:142
+#: modules/blog/widgets/blog.php:545 modules/blog/widgets/blog.php:1677
+#: modules/blog/widgets/blog.php:1825 modules/elysium/widgets/elysium.php:690
+#: modules/flogia/widgets/flogia.php:558
+#: modules/isolate/widgets/isolate.php:1087
+#: modules/mercury/widgets/mercury.php:474
+#: modules/multiscroll/widgets/multiscroll.php:764
+#: modules/omatic/widgets/omatic.php:743 modules/omatic/widgets/omatic.php:758
+#: modules/pagepiling/widgets/pagepiling.php:603
+#: modules/rubix/widgets/rubix.php:494 modules/rubix/widgets/rubix.php:569
+#: modules/storker/widgets/storker.php:506
+#: modules/woocircle/widgets/woocircle.php:784
+#: modules/woocommerce/widgets/woocommerce.php:634
+#: traits/global-widget-controls.php:1799
+#: traits/global-widget-controls.php:2156
+#: traits/global-widget-controls.php:2175
+msgid "Text"
+msgstr "Текст"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-astoria.php:49
+#: includes/compatiblity/wpml/class-wpml-prime-slider-coddle.php:47
+#: includes/compatiblity/wpml/class-wpml-prime-slider-dragon.php:42
+#: includes/compatiblity/wpml/class-wpml-prime-slider-fortune.php:52
+#: includes/compatiblity/wpml/class-wpml-prime-slider-general.php:44
+#: includes/compatiblity/wpml/class-wpml-prime-slider-isolate.php:49
+#: includes/compatiblity/wpml/class-wpml-prime-slider-monster.php:39
+#: includes/compatiblity/wpml/class-wpml-prime-slider-mount.php:41
+#: includes/compatiblity/wpml/class-wpml-prime-slider-multiscroll.php:42
+#: includes/compatiblity/wpml/class-wpml-prime-slider-omatic.php:40
+#: includes/compatiblity/wpml/class-wpml-prime-slider-pandora.php:39
+#: includes/compatiblity/wpml/class-wpml-prime-slider-paranoia.php:42
+#: includes/compatiblity/wpml/class-wpml-prime-slider-reveal.php:43
+#: includes/compatiblity/wpml/class-wpml-prime-slider-sequester.php:44
+#: includes/compatiblity/wpml/class-wpml-prime-slider-sniper.php:39
+#: includes/compatiblity/wpml/class-wpml-prime-slider-tango.php:39
+#: includes/compatiblity/wpml/class-wpml-prime-slider-titanic.php:39
+#: modules/dragon/widgets/dragon.php:276 modules/dragon/widgets/dragon.php:487
+#: modules/general/widgets/general.php:239
+#: modules/general/widgets/general.php:243
+#: modules/general/widgets/general.php:247
+#: modules/general/widgets/general.php:714
+#: modules/general/widgets/general.php:1042
+#: modules/isolate/widgets/isolate.php:260
+#: modules/isolate/widgets/isolate.php:265
+#: modules/isolate/widgets/isolate.php:270
+#: modules/isolate/widgets/isolate.php:724
+#: modules/isolate/widgets/isolate.php:1038 modules/mount/widgets/mount.php:332
+#: modules/mount/widgets/mount.php:632 modules/omatic/widgets/omatic.php:533
+#: modules/omatic/widgets/omatic.php:548
+#: modules/pagepiling/widgets/pagepiling.php:554
+#: modules/sequester/widgets/sequester.php:312
+#: modules/sequester/widgets/sequester.php:503
+#: modules/sniper/widgets/sniper.php:457 traits/global-widget-controls.php:1784
+msgid "Sub Title"
+msgstr "Подзаголовок"
+
+#: modules/blog/widgets/blog.php:1167 modules/blog/widgets/blog.php:1882
+#: modules/dragon/widgets/dragon.php:667 modules/dragon/widgets/dragon.php:720
+#: modules/dragon/widgets/dragon.php:770 modules/dragon/widgets/dragon.php:820
+#: modules/flogia/widgets/flogia.php:810
+#: modules/general/widgets/general.php:1757 modules/mount/widgets/mount.php:698
+#: modules/multiscroll/widgets/multiscroll.php:272
+#: modules/pacific/widgets/pacific.php:802
+#: modules/pacific/widgets/pacific.php:831
+#: modules/pacific/widgets/pacific.php:861
+#: modules/pagepiling/widgets/pagepiling.php:671
+#: modules/pagepiling/widgets/pagepiling.php:752
+#: modules/rubix/widgets/rubix.php:884 modules/rubix/widgets/rubix.php:996
+#: traits/global-widget-controls.php:658
+msgid "Text Color"
+msgstr "Цвет текста"
+
+#: admin/admin.php:105 includes/setup-wizard/views/good-to-go.php:78
+msgid "Video Tutorials"
+msgstr "Видеоуроки"
+
+#: modules/blog/widgets/blog.php:444 modules/general/widgets/general.php:564
+#: modules/isolate/widgets/isolate.php:610
+#: traits/global-widget-controls.php:1328
+msgid "Duration"
+msgstr "Длительность"
+
+#: modules/mercury/widgets/mercury.php:286
+#: modules/storker/widgets/storker.php:291
+#: traits/global-widget-controls.php:1152
+msgid "Flip"
+msgstr "Перевернуть"
+
+#: traits/global-widget-controls.php:1253
+msgid "Minimum Height"
+msgstr "Минимальная высота"
+
+#: traits/global-widget-controls.php:931 traits/global-widget-controls.php:1898
+msgid "Pause on Hover"
+msgstr "Пауза при наведении"
+
+#: modules/general/widgets/general.php:648
+#: traits/global-widget-controls.php:1069
+msgid "Scale"
+msgstr "Масштаб"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-astoria.php:52
+#: includes/compatiblity/wpml/class-wpml-prime-slider-avatar.php:42
+#: includes/compatiblity/wpml/class-wpml-prime-slider-coddle.php:53
+#: includes/compatiblity/wpml/class-wpml-prime-slider-dragon.php:50
+#: includes/compatiblity/wpml/class-wpml-prime-slider-elysium.php:41
+#: includes/compatiblity/wpml/class-wpml-prime-slider-escape.php:48
+#: includes/compatiblity/wpml/class-wpml-prime-slider-flexure.php:46
+#: includes/compatiblity/wpml/class-wpml-prime-slider-fortune.php:49
+#: includes/compatiblity/wpml/class-wpml-prime-slider-general.php:56
+#: includes/compatiblity/wpml/class-wpml-prime-slider-isolate.php:57
+#: includes/compatiblity/wpml/class-wpml-prime-slider-monster.php:42
+#: includes/compatiblity/wpml/class-wpml-prime-slider-mount.php:43
+#: includes/compatiblity/wpml/class-wpml-prime-slider-multiscroll.php:46
+#: includes/compatiblity/wpml/class-wpml-prime-slider-omatic.php:44
+#: includes/compatiblity/wpml/class-wpml-prime-slider-pandora.php:42
+#: includes/compatiblity/wpml/class-wpml-prime-slider-paranoia.php:51
+#: includes/compatiblity/wpml/class-wpml-prime-slider-pieces.php:38
+#: includes/compatiblity/wpml/class-wpml-prime-slider-prism.php:42
+#: includes/compatiblity/wpml/class-wpml-prime-slider-reveal.php:55
+#: includes/compatiblity/wpml/class-wpml-prime-slider-sequester.php:50
+#: includes/compatiblity/wpml/class-wpml-prime-slider-sniper.php:43
+#: includes/compatiblity/wpml/class-wpml-prime-slider-tango.php:43
+#: includes/compatiblity/wpml/class-wpml-prime-slider-titanic.php:42
+#: traits/global-widget-controls.php:1765
+msgid "Title Link"
+msgstr "Ссылка заголовка"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-avatar.php:44
+#: includes/compatiblity/wpml/class-wpml-prime-slider-crossroad.php:59
+#: includes/compatiblity/wpml/class-wpml-prime-slider-dragon.php:52
+#: includes/compatiblity/wpml/class-wpml-prime-slider-general.php:58
+#: includes/compatiblity/wpml/class-wpml-prime-slider-isolate.php:51
+#: modules/blog/widgets/blog.php:759 modules/dragon/widgets/dragon.php:278
+#: modules/dragon/widgets/dragon.php:539 modules/flogia/widgets/flogia.php:331
+#: modules/general/widgets/general.php:716
+#: modules/general/widgets/general.php:1094
+#: modules/isolate/widgets/isolate.php:726
+#: modules/sequester/widgets/sequester.php:314
+#: modules/sequester/widgets/sequester.php:555
+#: modules/woocommerce/widgets/woocommerce.php:299
+#: modules/woolamp/widgets/woolamp.php:327
+#: modules/woolamp/widgets/woolamp.php:586
+#: traits/global-widget-controls.php:1861
+msgid "Excerpt"
+msgstr "Анонс"
+
+#: includes/helper.php:431 includes/helper.php:463
+#: modules/blog/widgets/blog.php:315 modules/blog/widgets/blog.php:343
+#: modules/elysium/widgets/elysium.php:239
+#: modules/fiestar/widgets/fiestar.php:174
+#: modules/flogia/widgets/flogia.php:120 modules/flogia/widgets/flogia.php:145
+#: modules/flogia/widgets/flogia.php:1013
+#: modules/general/widgets/general.php:310
+#: modules/isolate/widgets/isolate.php:370
+#: modules/isolate/widgets/isolate.php:1420
+#: modules/mercury/widgets/mercury.php:144 modules/mount/widgets/mount.php:194
+#: modules/multiscroll/widgets/multiscroll.php:372
+#: modules/pacific/widgets/pacific.php:168
+#: modules/pagepiling/widgets/pagepiling.php:252
+#: modules/rubix/widgets/rubix.php:189
+#: modules/sequester/widgets/sequester.php:226
+#: modules/sniper/widgets/sniper.php:193
+#: modules/storker/widgets/storker.php:137
+#: modules/storker/widgets/storker.php:1631 modules/tango/widgets/tango.php:290
+#: modules/vertex/widgets/vertex.php:185
+#: modules/woocircle/widgets/woocircle.php:93
+#: modules/woocommerce/widgets/woocommerce.php:195
+#: modules/woolamp/widgets/woolamp.php:100
+#: traits/global-widget-controls.php:327
+msgid "Center"
+msgstr "Центр"
+
+#: includes/helper.php:427 modules/fiestar/widgets/fiestar.php:641
+#: modules/omatic/widgets/omatic.php:934 traits/global-widget-controls.php:420
+#: traits/global-widget-controls.php:469 traits/global-widget-controls.php:492
+#: traits/global-widget-controls.php:1016
+msgid "Default"
+msgstr "По умолчанию"
+
+#: includes/helper.php:380 modules/blog/widgets/blog.php:585
+#: modules/dragon/widgets/dragon.php:317 modules/flogia/widgets/flogia.php:371
+#: modules/flogia/widgets/flogia.php:1031
+#: modules/general/widgets/general.php:749
+#: modules/isolate/widgets/isolate.php:450
+#: modules/isolate/widgets/isolate.php:759
+#: modules/isolate/widgets/isolate.php:2132 modules/mount/widgets/mount.php:373
+#: modules/omatic/widgets/omatic.php:284 modules/vertex/widgets/vertex.php:105
+#: modules/woocommerce/widgets/woocommerce.php:339
+#: traits/global-widget-controls.php:404
+msgid "None"
+msgstr "Нет"
+
+#: includes/helper.php:434 includes/helper.php:450 includes/helper.php:464
+#: includes/helper.php:478 modules/flogia/widgets/flogia.php:258
+#: modules/isolate/widgets/isolate.php:1421
+#: traits/global-widget-controls.php:428
+msgid "Bottom Left"
+msgstr "Низ Лево"
+
+#: includes/helper.php:381 modules/general/widgets/general.php:647
+#: modules/mercury/widgets/mercury.php:283
+#: modules/storker/widgets/storker.php:288
+#: traits/global-widget-controls.php:1149
+msgid "Fade"
+msgstr "Выцветание"
+
+#: includes/helper.php:406 modules/blog/widgets/blog.php:581
+#: modules/dragon/widgets/dragon.php:313
+#: modules/elysium/widgets/elysium.php:420
+#: modules/flogia/widgets/flogia.php:367
+#: modules/general/widgets/general.php:745
+#: modules/isolate/widgets/isolate.php:755 modules/mount/widgets/mount.php:369
+#: modules/omatic/widgets/omatic.php:280
+#: modules/pacific/widgets/pacific.php:422
+#: modules/pagepiling/widgets/pagepiling.php:455
+#: modules/storker/widgets/storker.php:387
+#: modules/woocommerce/widgets/woocommerce.php:335
+msgid "Overlay"
+msgstr "Перекрытие"
+
+#: includes/helper.php:428 includes/helper.php:445 includes/helper.php:460
+#: includes/helper.php:475 modules/flogia/widgets/flogia.php:256
+#: modules/isolate/widgets/isolate.php:1418
+#: traits/global-widget-controls.php:425
+msgid "Top Left"
+msgstr "Сверху слева"
+
+#: includes/helper.php:430 includes/helper.php:447 includes/helper.php:462
+#: includes/helper.php:477 modules/flogia/widgets/flogia.php:257
+#: modules/isolate/widgets/isolate.php:1419
+#: traits/global-widget-controls.php:426
+msgid "Top Right"
+msgstr "Верх Право"
+
+#: includes/helper.php:432 includes/helper.php:448
+#: modules/flogia/widgets/flogia.php:254 traits/global-widget-controls.php:422
+msgid "Center Left"
+msgstr "Центр Лево"
+
+#: includes/helper.php:433 includes/helper.php:449
+#: modules/flogia/widgets/flogia.php:255 traits/global-widget-controls.php:423
+msgid "Center Right"
+msgstr "Центр Право"
+
+#: includes/helper.php:417 modules/blog/widgets/blog.php:651
+#: modules/blog/widgets/blog.php:770 modules/blog/widgets/blog.php:873
+#: modules/blog/widgets/blog.php:994 modules/blog/widgets/blog.php:1066
+#: modules/blog/widgets/blog.php:1213 modules/blog/widgets/blog.php:1275
+#: modules/blog/widgets/blog.php:1317 modules/blog/widgets/blog.php:1355
+#: modules/blog/widgets/blog.php:1436 modules/blog/widgets/blog.php:1574
+#: modules/blog/widgets/blog.php:1684 modules/blog/widgets/blog.php:1794
+#: modules/blog/widgets/blog.php:1834 modules/dragon/widgets/dragon.php:419
+#: modules/dragon/widgets/dragon.php:497 modules/dragon/widgets/dragon.php:549
+#: modules/dragon/widgets/dragon.php:846
+#: modules/elysium/widgets/elysium.php:547
+#: modules/elysium/widgets/elysium.php:701
+#: modules/elysium/widgets/elysium.php:755
+#: modules/elysium/widgets/elysium.php:823
+#: modules/elysium/widgets/elysium.php:891
+#: modules/fiestar/widgets/fiestar.php:404
+#: modules/fiestar/widgets/fiestar.php:492
+#: modules/fiestar/widgets/fiestar.php:586
+#: modules/fiestar/widgets/fiestar.php:681
+#: modules/fiestar/widgets/fiestar.php:772
+#: modules/flogia/widgets/flogia.php:435 modules/flogia/widgets/flogia.php:568
+#: modules/flogia/widgets/flogia.php:655 modules/flogia/widgets/flogia.php:762
+#: modules/flogia/widgets/flogia.php:904 modules/flogia/widgets/flogia.php:1101
+#: modules/general/widgets/general.php:133
+#: modules/general/widgets/general.php:155
+#: modules/general/widgets/general.php:885
+#: modules/general/widgets/general.php:1052
+#: modules/general/widgets/general.php:1104
+#: modules/general/widgets/general.php:1360
+#: modules/general/widgets/general.php:1473
+#: modules/general/widgets/general.php:1611
+#: modules/general/widgets/general.php:1678
+#: modules/general/widgets/general.php:1745
+#: modules/general/widgets/general.php:1931
+#: modules/general/widgets/general.php:1994
+#: modules/general/widgets/general.php:2044
+#: modules/isolate/widgets/isolate.php:915
+#: modules/isolate/widgets/isolate.php:996
+#: modules/isolate/widgets/isolate.php:1048
+#: modules/isolate/widgets/isolate.php:1097
+#: modules/isolate/widgets/isolate.php:1251
+#: modules/isolate/widgets/isolate.php:1346
+#: modules/isolate/widgets/isolate.php:1491
+#: modules/isolate/widgets/isolate.php:1584
+#: modules/isolate/widgets/isolate.php:1672
+#: modules/isolate/widgets/isolate.php:1790
+#: modules/isolate/widgets/isolate.php:1854
+#: modules/isolate/widgets/isolate.php:1938
+#: modules/mercury/widgets/mercury.php:414
+#: modules/mercury/widgets/mercury.php:485
+#: modules/mercury/widgets/mercury.php:557
+#: modules/mercury/widgets/mercury.php:645
+#: modules/mercury/widgets/mercury.php:757
+#: modules/mercury/widgets/mercury.php:814
+#: modules/mercury/widgets/mercury.php:903 modules/mount/widgets/mount.php:457
+#: modules/mount/widgets/mount.php:642 modules/mount/widgets/mount.php:726
+#: modules/mount/widgets/mount.php:820 modules/mount/widgets/mount.php:954
+#: modules/multiscroll/widgets/multiscroll.php:147
+#: modules/multiscroll/widgets/multiscroll.php:161
+#: modules/multiscroll/widgets/multiscroll.php:195
+#: modules/multiscroll/widgets/multiscroll.php:209
+#: modules/multiscroll/widgets/multiscroll.php:671
+#: modules/multiscroll/widgets/multiscroll.php:732
+#: modules/multiscroll/widgets/multiscroll.php:775
+#: modules/multiscroll/widgets/multiscroll.php:827
+#: modules/multiscroll/widgets/multiscroll.php:933
+#: modules/multiscroll/widgets/multiscroll.php:1012
+#: modules/multiscroll/widgets/multiscroll.php:1155
+#: modules/omatic/widgets/omatic.php:411 modules/omatic/widgets/omatic.php:555
+#: modules/omatic/widgets/omatic.php:678 modules/omatic/widgets/omatic.php:765
+#: modules/omatic/widgets/omatic.php:829 modules/omatic/widgets/omatic.php:974
+#: modules/omatic/widgets/omatic.php:1092
+#: modules/pacific/widgets/pacific.php:482
+#: modules/pacific/widgets/pacific.php:556
+#: modules/pacific/widgets/pacific.php:648
+#: modules/pacific/widgets/pacific.php:742
+#: modules/pacific/widgets/pacific.php:916
+#: modules/pacific/widgets/pacific.php:1032
+#: modules/pacific/widgets/pacific.php:1092
+#: modules/pagepiling/widgets/pagepiling.php:488
+#: modules/pagepiling/widgets/pagepiling.php:565
+#: modules/pagepiling/widgets/pagepiling.php:614
+#: modules/pagepiling/widgets/pagepiling.php:820
+#: modules/pagepiling/widgets/pagepiling.php:894
+#: modules/pagepiling/widgets/pagepiling.php:931
+#: modules/pagepiling/widgets/pagepiling.php:991
+#: modules/pagepiling/widgets/pagepiling.php:1041
+#: modules/rubix/widgets/rubix.php:392 modules/rubix/widgets/rubix.php:434
+#: modules/rubix/widgets/rubix.php:505 modules/rubix/widgets/rubix.php:576
+#: modules/rubix/widgets/rubix.php:605 modules/rubix/widgets/rubix.php:729
+#: modules/rubix/widgets/rubix.php:824 modules/rubix/widgets/rubix.php:1157
+#: modules/rubix/widgets/rubix.php:1203
+#: modules/sequester/widgets/sequester.php:429
+#: modules/sequester/widgets/sequester.php:513
+#: modules/sequester/widgets/sequester.php:565
+#: modules/sequester/widgets/sequester.php:658
+#: modules/sequester/widgets/sequester.php:739
+#: modules/sequester/widgets/sequester.php:770
+#: modules/sequester/widgets/sequester.php:816
+#: modules/sequester/widgets/sequester.php:864
+#: modules/sequester/widgets/sequester.php:969
+#: modules/sniper/widgets/sniper.php:349 modules/sniper/widgets/sniper.php:467
+#: modules/storker/widgets/storker.php:438
+#: modules/storker/widgets/storker.php:517
+#: modules/storker/widgets/storker.php:589
+#: modules/storker/widgets/storker.php:676
+#: modules/storker/widgets/storker.php:756
+#: modules/storker/widgets/storker.php:832
+#: modules/storker/widgets/storker.php:926
+#: modules/storker/widgets/storker.php:1068
+#: modules/storker/widgets/storker.php:1097
+#: modules/storker/widgets/storker.php:1209
+#: modules/storker/widgets/storker.php:1306
+#: modules/storker/widgets/storker.php:1412
+#: modules/storker/widgets/storker.php:1535 modules/tango/widgets/tango.php:616
+#: modules/tango/widgets/tango.php:668 modules/tango/widgets/tango.php:744
+#: modules/tango/widgets/tango.php:896 modules/tango/widgets/tango.php:951
+#: modules/vertex/widgets/vertex.php:380 modules/vertex/widgets/vertex.php:467
+#: modules/vertex/widgets/vertex.php:561 modules/vertex/widgets/vertex.php:618
+#: modules/vertex/widgets/vertex.php:710
+#: modules/woocircle/widgets/woocircle.php:240
+#: modules/woocircle/widgets/woocircle.php:306
+#: modules/woocircle/widgets/woocircle.php:347
+#: modules/woocircle/widgets/woocircle.php:413
+#: modules/woocircle/widgets/woocircle.php:506
+#: modules/woocircle/widgets/woocircle.php:618
+#: modules/woocircle/widgets/woocircle.php:684
+#: modules/woocircle/widgets/woocircle.php:725
+#: modules/woocircle/widgets/woocircle.php:791
+#: modules/woocircle/widgets/woocircle.php:834
+#: modules/woocircle/widgets/woocircle.php:927
+#: modules/woocircle/widgets/woocircle.php:983
+#: modules/woocircle/widgets/woocircle.php:1077
+#: modules/woocircle/widgets/woocircle.php:1122
+#: modules/woocircle/widgets/woocircle.php:1210
+#: modules/woocommerce/widgets/woocommerce.php:451
+#: modules/woocommerce/widgets/woocommerce.php:517
+#: modules/woocommerce/widgets/woocommerce.php:600
+#: modules/woocommerce/widgets/woocommerce.php:644
+#: modules/woocommerce/widgets/woocommerce.php:729
+#: modules/woocommerce/widgets/woocommerce.php:767
+#: modules/woocommerce/widgets/woocommerce.php:831
+#: modules/woocommerce/widgets/woocommerce.php:913
+#: modules/woocommerce/widgets/woocommerce.php:962
+#: modules/woocommerce/widgets/woocommerce.php:1055
+#: modules/woocommerce/widgets/woocommerce.php:1200
+#: modules/woocommerce/widgets/woocommerce.php:1257
+#: modules/woocommerce/widgets/woocommerce.php:1338
+#: modules/woocommerce/widgets/woocommerce.php:1480
+#: modules/woolamp/widgets/woolamp.php:413
+#: modules/woolamp/widgets/woolamp.php:479
+#: modules/woolamp/widgets/woolamp.php:562
+#: modules/woolamp/widgets/woolamp.php:596
+#: modules/woolamp/widgets/woolamp.php:662
+#: modules/woolamp/widgets/woolamp.php:703
+#: modules/woolamp/widgets/woolamp.php:774
+#: modules/woolamp/widgets/woolamp.php:867
+#: modules/woolamp/widgets/woolamp.php:901
+#: modules/woolamp/widgets/woolamp.php:999
+#: modules/woolamp/widgets/woolamp.php:1099
+#: modules/woolamp/widgets/woolamp.php:1151
+#: traits/global-widget-controls.php:36 traits/global-widget-controls.php:139
+#: traits/global-widget-controls.php:182 traits/global-widget-controls.php:711
+#: traits/global-widget-controls.php:837
+msgid "Color"
+msgstr "Цвет"
+
+#: includes/helper.php:407
+msgid "Darken"
+msgstr "Затемнение"
+
+#: includes/helper.php:408
+msgid "Lighten"
+msgstr "Осветление"
+
+#: includes/helper.php:418
+msgid "Luminosity"
+msgstr "Яркость"
+
+#: includes/helper.php:404
+msgid "Multiply"
+msgstr "Умножение"
+
+#: includes/helper.php:416
+msgid "Saturation"
+msgstr "Насыщенность"
+
+#: includes/helper.php:405
+msgid "Screen"
+msgstr "Экран"
+
+#: includes/helper.php:429 includes/helper.php:446 includes/helper.php:461
+#: includes/helper.php:476 traits/global-widget-controls.php:424
+msgid "Top Center"
+msgstr "Верх Центр"
+
+#: modules/dragon/widgets/dragon.php:892
+msgid "Line Width"
+msgstr "Ширина строки"
+
+#: traits/query-controls/group-query/group-control-query.php:401
+msgid "Give your Query a custom unique id to allow server side filtering"
+msgstr "Дайте вашему запросу уникальный идентификатор, позволяющий фильтровать серверную сторону"
+
+#: traits/query-controls/group-query/group-control-query.php:388
+msgid "Enable to display posts only when featured image is present."
+msgstr "Включить отображение постов только при наличии основного изображения."
+
+#: traits/query-controls/group-query/group-control-query.php:387
+msgid "Only Featured Image Post"
+msgstr "Пост с одним только изображением"
+
+#: traits/query-controls/group-query/group-control-query.php:374
+msgid "Ignore Sticky Posts"
+msgstr "Игнорировать прикрепленные посты"
+
+#: traits/query-controls/group-query/group-control-query.php:354
+msgid "Hide Free Product"
+msgstr "Скрыть бесплатный продукт"
+
+#: traits/query-controls/group-query/group-control-query.php:344
+msgid "DESC"
+msgstr "По убыванию"
+
+#: traits/query-controls/group-query/group-control-query.php:343
+msgid "ASC"
+msgstr "По возрастанию"
+
+#: traits/query-controls/group-query/group-control-query.php:304
+#: traits/query-controls/group-query/group-control-query.php:324
+msgid "Comment Count"
+msgstr "Количество комментариев"
+
+#: traits/query-controls/group-query/group-control-query.php:285
+msgid "Setting an ‘After’ date will show all the posts published since the chosen date (inclusive)."
+msgstr "Установка даты \"После\" будет во всех постах, опубликованных с выбранной датой (включительно)."
+
+#: traits/query-controls/group-query/group-control-query.php:272
+msgid "Setting a ‘Before’ date will show all the posts published until the chosen date (inclusive)."
+msgstr "Установка даты \"До\" будет во всех постах, опубликованных с выбранной датой (включительно)."
+
+#: traits/query-controls/group-query/group-control-query.php:257
+msgid "Past Quarter"
+msgstr "Прошлый квартал"
+
+#: traits/query-controls/group-query/group-control-query.php:148
+msgid "Current Post"
+msgstr "Текущая запись"
+
+#: traits/query-controls/group-query/group-control-query.php:113
+#: traits/query-controls/group-query/group-control-query.php:204
+msgid "Type and select terms"
+msgstr "Введите и выберите термины"
+
+#: traits/query-controls/group-query/group-control-query.php:109
+#: traits/query-controls/group-query/group-control-query.php:200
+msgid "Terms are items in a taxonomy. The available taxonomies are: Categories, Tags, Formats and custom taxonomies."
+msgstr "Термины - это элементы таксономии. Доступны следующие таксономии: Категории, Теги, Форматы и пользовательские таксономии."
+
+#: traits/query-controls/group-query/group-control-query.php:79
+#: traits/query-controls/group-query/group-control-query.php:91
+#: traits/query-controls/group-query/group-control-query.php:147
+#: traits/query-controls/group-query/group-control-query.php:182
+msgid "Authors"
+msgstr "Авторы"
+
+#: traits/global-widget-controls.php:402
+msgid "Background Image Settings"
+msgstr "Настройки фонового изображения"
+
+#: modules/woolamp/widgets/woolamp.php:365
+msgid "NOTE: It just works on Mobile Device."
+msgstr "ПРИМЕЧАНИЕ: Это работает только на мобильных устройствах."
+
+#: modules/woolamp/widgets/woolamp.php:363
+msgid "Image Overlay Color"
+msgstr "Цвет наложения изображения"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-knily.php:45
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woolamp.php:38
+#: modules/woolamp/widgets/woolamp.php:228
+msgid "Custom Label"
+msgstr "Пользовательский ярлык"
+
+#: includes/compatiblity/wpml/class-wpml-prime-slider-woolamp.php:40
+#: modules/woolamp/widgets/woolamp.php:214
+msgid "Social Media"
+msgstr "Социальные сети"
+
+#: modules/woolamp/widgets/woolamp.php:186
+msgid "Social Share Hide on Mobile"
+msgstr "Скрытие социальных акций на мобильных устройствах"
+
+#: modules/woocommerce/module.info.php:5
+msgid "Woocommerce"
+msgstr "Woocommerce"
+
+#: modules/woocircle/widgets/woocircle.php:965
+#: modules/woolamp/widgets/woolamp.php:754
+msgid "Add to Cart Button"
+msgstr "Кнопка Добавить в корзину"
+
+#: modules/woocircle/widgets/woocircle.php:827
+#: modules/woocircle/widgets/woocircle.php:1279
+msgid "Close"
+msgstr "Закрыть"
+
+#: modules/woocircle/widgets/woocircle.php:406
+msgid "Open"
+msgstr "Открыть"
+
+#: modules/woocircle/widgets/woocircle.php:298
+#: modules/woocircle/widgets/woocircle.php:676
+#: modules/woolamp/widgets/woolamp.php:654
+msgid "Old Price"
+msgstr "Старая цена"
+
+#: modules/elysium/widgets/elysium.php:1047
+#: modules/fiestar/widgets/fiestar.php:961
+#: modules/mercury/widgets/mercury.php:1128
+#: modules/omatic/widgets/omatic.php:1205
+#: modules/pacific/widgets/pacific.php:1402
+#: modules/rubix/widgets/rubix.php:1565 modules/sniper/widgets/sniper.php:720
+#: modules/storker/widgets/storker.php:1856
+#: modules/tango/widgets/tango.php:1082 modules/vertex/widgets/vertex.php:853
+#: modules/woocircle/widgets/woocircle.php:199
+msgid "Slider"
+msgstr "Слайдер"
+
+#: traits/query-controls/group-query/group-control-query.php:328
+msgid "Sales"
+msgstr "Продажи"
+
+#: traits/global-widget-controls.php:259
+msgid "Order by"
+msgstr "Сортировать по"
+
+#: traits/query-controls/group-query/group-control-query.php:364
+msgid "Hide Out of Stock"
+msgstr "Спрятать отсутствующие в наличии"
+
+#: traits/query-controls/group-query/group-control-query.php:238
+msgid "On Sale"
+msgstr "Распродажа"
+
+#: traits/query-controls/group-query/group-control-query.php:233
+msgid "Show Product"
+msgstr "Показать продукт"
+
+#: traits/global-widget-controls.php:222
+msgctxt "Posts Query Control"
+msgid "Source"
+msgstr "Источник"
+
+#: modules/woocircle/widgets/woocircle.php:188
+#: modules/woocommerce/widgets/woocommerce.php:237
+#: modules/woolamp/widgets/woolamp.php:276
+#: traits/global-widget-controls.php:250
+#: traits/query-controls/group-query/group-control-query.php:29
+msgid "Limit"
+msgstr "Лимит"
+
+#: modules/woocircle/widgets/woocircle.php:181
+#: modules/woocommerce/widgets/woocommerce.php:230
+#: modules/woolamp/widgets/woolamp.php:269
+#: traits/query-controls/group-query/group-control-query.php:779
+msgid "Related"
+msgstr "Похожие"
+
+#: modules/woocircle/widgets/woocircle.php:180
+#: modules/woocommerce/widgets/woocommerce.php:229
+#: modules/woolamp/widgets/woolamp.php:268
+#: traits/query-controls/group-query/group-control-query.php:778
+msgid "Current Query"
+msgstr "Текущий запрос"
+
+#: modules/woocommerce/widgets/woocommerce.php:811
+#: traits/global-widget-controls.php:896
+msgid "Add to Cart"
+msgstr "Добавить в корзину"
+
+#: modules/woocircle/widgets/woocircle.php:74
+msgid "Height(vh)"
+msgstr "Высота (vh)"
+
+#: modules/vertex/widgets/vertex.php:348
+msgid "Border Line Width"
+msgstr "Ширина пограничной линии"
+
+#: modules/vertex/widgets/vertex.php:335
+msgid "Border Line Color"
+msgstr "Цвет линии границы"
+
+#: modules/vertex/module.info.php:5
+msgid "Fiesta"
+msgstr "Фиеста"
+
+#: modules/storker/widgets/storker.php:1483
+#: modules/storker/widgets/storker.php:1587
+msgid "Height(px)"
+msgstr "Высота (px)"
+
+#: modules/storker/widgets/storker.php:1454
+msgid "Advanced Size"
+msgstr "Расширенный размер"
+
+#: modules/storker/widgets/storker.php:1386
+msgid "Dots Vertical Offset"
+msgstr "Точки Вертикальное смещение"
+
+#: modules/blog/widgets/blog.php:2050 modules/storker/widgets/storker.php:1369
+msgid "Dots Horizontal Offset"
+msgstr "Точки Горизонтальное смещение"
+
+#: modules/storker/widgets/storker.php:999
+msgid "Animated Line Color"
+msgstr "Анимированный цвет линии"
+
+#: modules/storker/widgets/storker.php:974
+msgid "Height(%)"
+msgstr "Высота (%)"
+
+#: modules/blog/widgets/blog.php:624 modules/general/widgets/general.php:823
+#: modules/pagepiling/widgets/pagepiling.php:464
+#: modules/storker/widgets/storker.php:413
+msgid "Content Margin"
+msgstr "Край содержания"
+
+#: traits/global-widget-controls.php:1704
+#: traits/global-widget-controls.php:1705
+msgid "More Details"
+msgstr "Подробнее"
+
+#: modules/sequester/widgets/sequester.php:350
+msgid "Custom Overlay"
+msgstr "Пользовательское наложение"
+
+#: modules/sequester/widgets/sequester.php:158
+msgid "Sequester Slide Three"
+msgstr "Слайд третий"
+
+#: modules/sequester/widgets/sequester.php:153
+msgid "Sequester Slide Two"
+msgstr "Слайд второй"
+
+#: modules/sequester/widgets/sequester.php:148
+msgid "Sequester Slide One"
+msgstr "Слайд 1"
+
+#: modules/sequester/module.info.php:5
+msgid "sequester"
+msgstr "секвестр"
+
+#: modules/rubix/widgets/rubix.php:1277
+msgid "Meta Color"
+msgstr "Цвет мета"
+
+#: modules/rubix/widgets/rubix.php:1055 modules/storker/widgets/storker.php:966
+msgid "Thumbs Slider"
+msgstr "Слайдер больших пальцев"
+
+#: modules/rubix/widgets/rubix.php:383
+msgid "Active Line"
+msgstr "Активная линия"
+
+#: modules/rubix/widgets/rubix.php:150
+msgid "Thumbs Position"
+msgstr "Позиция больших пальцев"
+
+#: modules/rubix/widgets/rubix.php:124
+msgid "Thumbs Max Width"
+msgstr "Пальцы Максимальная ширина"
+
+#: modules/general/widgets/general.php:246
+#: modules/isolate/widgets/isolate.php:271
+msgid "Wallow"
+msgstr "Валлоу"
+
+#: modules/general/widgets/general.php:242
+#: modules/isolate/widgets/isolate.php:266
+msgid "Vibrant"
+msgstr "Vibrant"
+
+#: modules/general/widgets/general.php:238
+#: modules/isolate/widgets/isolate.php:261
+msgid "Massive"
+msgstr "Массивные"
+
+#: modules/omatic/widgets/omatic.php:128 modules/omatic/widgets/omatic.php:133
+#: modules/omatic/widgets/omatic.php:138
+msgid "Explore"
+msgstr "Исследовать"
+
+#: modules/pagepiling/widgets/pagepiling.php:285
+msgid "Social Text"
+msgstr "Социальный текст"
+
+#: modules/pagepiling/widgets/pagepiling.php:101
+msgid "Slide Image"
+msgstr "Изображение слайда"
+
+#: modules/pacific/widgets/pacific.php:1016
+msgid "Modal Background"
+msgstr "Фон модального окна"
+
+#: modules/pacific/widgets/pacific.php:977
+#: modules/woocircle/widgets/woocircle.php:547
+msgid "Modal"
+msgstr "Модальное окно"
+
+#: modules/pacific/widgets/pacific.php:628
+msgid "spacing"
+msgstr "расстояние"
+
+#: modules/pacific/widgets/pacific.php:433
+msgid "Overlay Active"
+msgstr "Наложение Активный"
+
+#: modules/mount/widgets/mount.php:176 modules/pacific/widgets/pacific.php:334
+#: traits/global-widget-controls.php:1732
+msgid "Show Pagination"
+msgstr "Показать разбивку на страницы"
+
+#: modules/rubix/widgets/rubix.php:268
+msgid "Readmore Text"
+msgstr "Читать далее Текст"
+
+#: modules/pacific/widgets/pacific.php:217
+msgid "Modal Show Title"
+msgstr "Заголовок модального шоу"
+
+#: modules/pacific/widgets/pacific.php:143 modules/rubix/widgets/rubix.php:102
+msgid "Item Height"
+msgstr "Высота элемента"
+
+#: modules/multiscroll/widgets/multiscroll.php:1072
+msgid "Height (px)"
+msgstr "Высота (px)"
+
+#: modules/multiscroll/widgets/multiscroll.php:879
+msgid "For example: %1s or Go %2s this link %3s and copy and paste the radius value."
+msgstr "Например: %1s или Перейти %2s по этой ссылке %3s и скопируйте и вставьте значение радиуса."
+
+#: modules/multiscroll/widgets/multiscroll.php:870
+msgid "Advanced Radius"
+msgstr "Расширенный радиус"
+
+#: modules/multiscroll/widgets/multiscroll.php:596
+msgid "Multiscroll Content"
+msgstr "Содержание мультискролла"
+
+#: modules/multiscroll/widgets/multiscroll.php:552
+msgid "Easing Effect"
+msgstr "Ослабление эффекта"
+
+#: modules/pagepiling/widgets/pagepiling.php:396
+msgid "loop Top"
+msgstr "макет топ"
+
+#: modules/pagepiling/widgets/pagepiling.php:387
+msgid "loop Bottom"
+msgstr "Схема боттом"
+
+#: modules/multiscroll/widgets/multiscroll.php:517
+#: modules/pagepiling/widgets/pagepiling.php:373
+msgid "Navigation Position"
+msgstr "Расположение навигации"
+
+#: modules/multiscroll/widgets/multiscroll.php:490
+#: modules/pagepiling/widgets/pagepiling.php:355
+msgid "Scrolling Speed"
+msgstr "Скорость прокрутки"
+
+#: modules/multiscroll/widgets/multiscroll.php:471
+msgid "Show Shadow Title"
+msgstr "Показать название тени"
+
+#: modules/multiscroll/widgets/multiscroll.php:333
+msgid "Image Left and Text Right"
+msgstr "Изображение слева и текст справа"
+
+#: modules/multiscroll/widgets/multiscroll.php:329
+msgid "All Content Center"
+msgstr "Весь центр содержания"
+
+#: modules/multiscroll/widgets/multiscroll.php:325
+msgid "Text Left and Image Right"
+msgstr "Текст слева и изображение справа"
+
+#: modules/multiscroll/widgets/multiscroll.php:290
+#: modules/multiscroll/widgets/multiscroll.php:296
+#: modules/multiscroll/widgets/multiscroll.php:302
+msgid "MultiScroll"
+msgstr "MultiScroll"
+
+#: modules/multiscroll/widgets/multiscroll.php:261
+msgid "Sub Title Color"
+msgstr "Цвет подзаголовка"
+
+#: modules/multiscroll/widgets/multiscroll.php:238
+msgid "Custom Style"
+msgstr "Пользовательский стиль"
+
+#: modules/multiscroll/widgets/multiscroll.php:190
+msgid "Right Background"
+msgstr "Правильный фон"
+
+#: modules/multiscroll/widgets/multiscroll.php:142
+msgid "Left Background"
+msgstr "Левый фон"
+
+#: modules/multiscroll/widgets/multiscroll.php:107
+msgid "View Details"
+msgstr "Подробнее"
+
+#: modules/multiscroll/widgets/multiscroll.php:96
+msgid "Lorem ipsum dolor sit amet."
+msgstr "Lorem ipsum dolor sit amet."
+
+#: modules/multiscroll/widgets/multiscroll.php:69
+msgid "Multiscroll Layout"
+msgstr "Макет с несколькими прокрутками"
+
+#: modules/mount/widgets/mount.php:897 modules/sniper/widgets/sniper.php:563
+msgid "Arrows Hover Color"
+msgstr "Цвет стрелки при наведении"
+
+#: modules/mount/widgets/mount.php:687
+#: modules/sequester/widgets/sequester.php:844
+#: modules/woolamp/widgets/woolamp.php:198
+#: modules/woolamp/widgets/woolamp.php:979
+msgid "Social Share"
+msgstr "Поделиться"
+
+#: modules/mount/widgets/mount.php:127
+msgid "Mount Slider Item Three"
+msgstr "Монтажный слайдер Элемент три"
+
+#: modules/mount/widgets/mount.php:122
+msgid "Mount Slider Item Two"
+msgstr "Монтажный ползунок Элемент два"
+
+#: modules/mount/widgets/mount.php:117
+msgid "Mount Slider Item One"
+msgstr "Монтажный слайдер Элемент первый"
+
+#: modules/mount/widgets/mount.php:116 modules/mount/widgets/mount.php:121
+#: modules/mount/widgets/mount.php:126
+#: modules/sequester/widgets/sequester.php:147
+#: modules/sequester/widgets/sequester.php:152
+#: modules/sequester/widgets/sequester.php:157
+msgid "This is a Label"
+msgstr "Метка"
+
+#: modules/mount/widgets/mount.php:162 modules/woolamp/widgets/woolamp.php:177
+msgid "Show Social Share"
+msgstr "Показать социальную акцию"
+
+#: modules/mercury/widgets/mercury.php:1039
+msgid "by"
+msgstr "от"
+
+#: modules/flogia/widgets/flogia.php:241
+#: modules/general/widgets/general.php:427
+#: modules/mercury/widgets/mercury.php:353
+#: modules/pacific/widgets/pacific.php:276
+#: traits/global-widget-controls.php:1718
+msgid "Show Navigation"
+msgstr "Показать навигацию"
+
+#: traits/global-widget-controls.php:1614
+msgid "Show Time"
+msgstr "Показать время"
+
+#: traits/global-widget-controls.php:1602
+msgid "This will work for Hours, Minute and Seconds"
+msgstr "Это будет работать для часов, минут и секунд"
+
+#: traits/global-widget-controls.php:1601
+msgid "Time Short Format"
+msgstr "Время Короткий формат"
+
+#: traits/global-widget-controls.php:1590
+msgid "Human Different Time"
+msgstr "Человек Другое время"
+
+#: modules/mercury/widgets/mercury.php:125 modules/rubix/widgets/rubix.php:171
+msgid "Content Reverse"
+msgstr "Обратный контент"
+
+#: modules/isolate/widgets/isolate.php:1468
+msgid "Animated Shadow Color"
+msgstr "Анимированный цвет теней"
+
+#: modules/isolate/widgets/isolate.php:1454
+msgid "Animated Border Color"
+msgstr "Анимированный цвет границы"
+
+#: modules/isolate/widgets/isolate.php:1446
+msgid "Line Bounce"
+msgstr "Линия отскока"
+
+#: modules/isolate/widgets/isolate.php:1445
+msgid "Multi Shadow"
+msgstr "Мульти Тень"
+
+#: modules/isolate/widgets/isolate.php:1444
+msgid "Shadow Pulse"
+msgstr "Shadow Pulse"
+
+#: modules/isolate/widgets/isolate.php:1403
+#: modules/pagepiling/widgets/pagepiling.php:911
+msgid "Lightbox Play Button"
+msgstr "Кнопка воспроизведения лайтбокса"
+
+#: modules/isolate/widgets/isolate.php:988
+msgid "First Word Style"
+msgstr "Стиль первого слова"
+
+#: modules/isolate/widgets/isolate.php:969
+msgid "Left Spacing"
+msgstr "Отступ слева"
+
+#: modules/isolate/widgets/isolate.php:1216
+msgid "Image Size(%)"
+msgstr "Размер изображения (%)"
+
+#: modules/isolate/widgets/isolate.php:858
+msgid "Secondary Background"
+msgstr "Вторичный фон"
+
+#: modules/isolate/widgets/isolate.php:816
+msgid "Secondary Background Color"
+msgstr "Вторичный Цвет фона"
+
+#: modules/isolate/widgets/isolate.php:508
+msgid "If you turn on this option, then no need to set exact sized image, otherwise image will set by ratio of its actual size."
+msgstr "Если вы включите эту опцию, то не нужно будет задавать точный размер изображения, иначе оно будет установлено в соотношении с его реальным размером."
+
+#: modules/isolate/widgets/isolate.php:448
+#: modules/sequester/widgets/sequester.php:252
+msgid "Image Match Height"
+msgstr "Высота совмещения изображений"
+
+#: modules/pagepiling/widgets/pagepiling.php:113
+msgid "Lightbox Source"
+msgstr "Источник Лайтбокса"
+
+#: modules/isolate/widgets/isolate.php:316
+#: modules/pagepiling/widgets/pagepiling.php:186
+msgid "Show Play Button"
+msgstr "Показать кнопку воспроизведения"
+
+#: modules/isolate/skins/skin-slice.php:19
+msgid "Slice"
+msgstr "Разрез"
+
+#: modules/elysium/widgets/elysium.php:354
+#: modules/elysium/widgets/elysium.php:1091
+#: modules/isolate/skins/skin-locate.php:79
+#: modules/pacific/widgets/pacific.php:302
+#: modules/pacific/widgets/pacific.php:305
+#: traits/global-widget-controls.php:2159
+msgid "Prev"
+msgstr "Назад"
+
+#: modules/isolate/skins/skin-locate.php:18
+msgid "Locate"
+msgstr "Расположение"
+
+#: modules/general/widgets/general.php:2208
+#: modules/isolate/widgets/isolate.php:2287
+#: modules/sequester/widgets/sequester.php:1079
+msgid "Dot Color"
+msgstr "Цвет точек"
+
+#: modules/general/widgets/general.php:1624
+msgid "Custom Background"
+msgstr "Пользовательский фон"
+
+#: modules/flogia/widgets/flogia.php:753
+#: modules/general/widgets/general.php:1602
+msgid "HOVER"
+msgstr "Наведение"
+
+#: modules/general/widgets/general.php:1570
+#: modules/general/widgets/general.php:1877
+#: modules/general/widgets/general.php:2015
+#: modules/woolamp/widgets/woolamp.php:1063
+#: modules/woolamp/widgets/woolamp.php:1203
+msgid "Horizontal Spacing"
+msgstr "Горизонтальный отступ"
+
+#: modules/general/widgets/general.php:1442
+msgid "Icon Custom Style"
+msgstr "Пользовательский стиль иконки"
+
+#: modules/flogia/widgets/flogia.php:647
+#: modules/general/widgets/general.php:1351
+msgid "NORMAL"
+msgstr "НОРМАЛЬНЫЙ"
+
+#: modules/general/widgets/general.php:1215
+msgid "Style Color"
+msgstr "Стиль Цвета"
+
+#: modules/general/widgets/general.php:947 modules/mount/widgets/mount.php:529
+msgid "Advanced Style"
+msgstr "Расширенный стиль"
+
+#: modules/general/widgets/general.php:794
+msgid "Shape Color"
+msgstr "Цвет формы"
+
+#: modules/general/widgets/general.php:1201
+#: modules/general/widgets/general.php:1897
+#: modules/isolate/widgets/isolate.php:844
+msgid "Primary Background"
+msgstr "Основной фон"
+
+#: modules/general/widgets/general.php:661
+#: modules/isolate/widgets/isolate.php:677
+msgid "Parallax Animation"
+msgstr "Параллакс анимация"
+
+#: modules/general/widgets/general.php:650
+msgid "Pull"
+msgstr "Опрос"
+
+#: modules/general/widgets/general.php:641
+msgid "Slider Animations"
+msgstr "Слайдер Анимация"
+
+#: modules/pagepiling/widgets/pagepiling.php:67
+msgid "Slide Items"
+msgstr "Элементы слайда"
+
+#: modules/general/widgets/general.php:198
+msgid "Youtube Link"
+msgstr "Ссылка на Youtube"
+
+#: modules/general/widgets/general.php:379
+msgid "Alter Button and Excerpt"
+msgstr "Кнопка \"Изменить\" и выдержка"
+
+#: modules/general/skins/skin-meteor.php:20
+msgid "Meteor"
+msgstr "Метеор"
+
+#: modules/general/skins/skin-crelly.php:16
+msgid "Crelly"
+msgstr "Crelly"
+
+#: modules/flogia/widgets/flogia.php:1556
+msgctxt "Frontend"
+msgid "Published by "
+msgstr "Опубликовано"
+
+#: modules/flogia/widgets/flogia.php:1275
+msgid "Dots Border Color"
+msgstr "Цвет границы точек"
+
+#: modules/flogia/widgets/flogia.php:1213
+#: modules/flogia/widgets/flogia.php:1244
+#: modules/flogia/widgets/flogia.php:1264
+msgid "Dots Color"
+msgstr "Цвет точек"
+
+#: modules/blog/widgets/blog.php:1478 modules/mercury/widgets/mercury.php:536
+#: modules/pacific/widgets/pacific.php:535
+#: modules/storker/widgets/storker.php:568
+msgid "Meta"
+msgstr "Мета"
+
+#: modules/flogia/widgets/flogia.php:198
+msgid "Published By"
+msgstr "Опубликовано"
+
+#: modules/fiestar/widgets/fiestar.php:755
+#: modules/mercury/widgets/mercury.php:886
+msgid "Icon Typography"
+msgstr "Шрифт иконки"
+
+#: modules/fiestar/widgets/fiestar.php:733
+#: modules/flogia/widgets/flogia.php:1158
+#: modules/mercury/widgets/mercury.php:864
+#: modules/multiscroll/widgets/multiscroll.php:1089
+#: modules/multiscroll/widgets/multiscroll.php:1109
+#: modules/pagepiling/widgets/pagepiling.php:860
+#: modules/pagepiling/widgets/pagepiling.php:1128
+#: modules/woocommerce/widgets/woocommerce.php:1449
+#: traits/global-widget-controls.php:807
+msgid "Horizontal Offset"
+msgstr "Горизонтальное смещение"
+
+#: modules/fiestar/widgets/fiestar.php:348
+msgid "Ovarlay Color"
+msgstr "Оварлейский цвет"
+
+#: traits/global-widget-controls.php:2018
+msgid "When you use carousel in any hidden place (in tabs, accordion etc) keep it yes."
+msgstr "Когда вы используете карусель в любом скрытом месте (во вкладках, аккордеоне и т. Д.), Оставьте это да."
+
+#: traits/global-widget-controls.php:2017
+msgid "Observer"
+msgstr "Наблюдатель"
+
+#: traits/global-widget-controls.php:1999
+msgid "Animation Speed (ms)"
+msgstr "Скорость анимации (мс)"
+
+#: traits/global-widget-controls.php:1986
+msgid "Drag free Mode"
+msgstr "Режим без перетаскивания"
+
+#: modules/fiestar/widgets/fiestar.php:301
+#: modules/pacific/widgets/pacific.php:380 modules/rubix/widgets/rubix.php:316
+#: modules/sniper/widgets/sniper.php:249 modules/vertex/widgets/vertex.php:264
+#: traits/global-widget-controls.php:1928
+msgid "Use even items from Layout > Columns settings for better preview."
+msgstr "Используйте даже элементы из макета > настройки столбцов для лучшего предварительного просмотра."
+
+#: modules/fiestar/widgets/fiestar.php:300
+#: modules/pacific/widgets/pacific.php:379 modules/rubix/widgets/rubix.php:315
+#: modules/sniper/widgets/sniper.php:248 modules/vertex/widgets/vertex.php:263
+#: traits/global-widget-controls.php:1927
+msgid "Center Slide"
+msgstr "Центр слайда"
+
+#: modules/blog/widgets/blog.php:499 modules/dragon/widgets/dragon.php:236
+#: modules/elysium/widgets/elysium.php:264
+#: modules/fiestar/widgets/fiestar.php:269
+#: modules/flogia/widgets/flogia.php:286
+#: modules/general/widgets/general.php:620
+#: modules/isolate/widgets/isolate.php:665
+#: modules/mercury/widgets/mercury.php:220 modules/mount/widgets/mount.php:292
+#: modules/omatic/widgets/omatic.php:230
+#: modules/pagepiling/widgets/pagepiling.php:347
+#: modules/rubix/widgets/rubix.php:284
+#: modules/sequester/widgets/sequester.php:272
+#: modules/sniper/widgets/sniper.php:217
+#: modules/storker/widgets/storker.php:226 modules/tango/widgets/tango.php:334
+#: modules/vertex/widgets/vertex.php:232
+#: modules/woocommerce/widgets/woocommerce.php:258
+#: modules/woolamp/widgets/woolamp.php:286
+msgid "Slider Settings"
+msgstr "Настройки слайдера"
+
+#: modules/blog/widgets/blog.php:1646 modules/fiestar/widgets/fiestar.php:108
+#: modules/pacific/widgets/pacific.php:120 modules/tango/widgets/tango.php:174
+msgid "Item Gap"
+msgstr "Зазор между элементами"
+
+#: modules/dragon/widgets/dragon.php:692 modules/dragon/widgets/dragon.php:733
+#: modules/dragon/widgets/dragon.php:781
+#: modules/woocircle/widgets/woocircle.php:219
+msgid "Circle Color"
+msgstr "Цвет Границы"
+
+#: modules/dragon/widgets/dragon.php:517
+#: modules/general/widgets/general.php:1072
+#: modules/isolate/widgets/isolate.php:1066 modules/mount/widgets/mount.php:661
+#: modules/pagepiling/widgets/pagepiling.php:585
+#: modules/sequester/widgets/sequester.php:533
+#: modules/sniper/widgets/sniper.php:487
+msgid "Sub Title Spacing"
+msgstr "Расстояние между подзаголовками"
+
+#: modules/blog/widgets/blog.php:1045 modules/dragon/widgets/dragon.php:750
+#: modules/mount/widgets/mount.php:221
+#: modules/woocommerce/widgets/woocommerce.php:1035
+#: traits/global-widget-controls.php:554 traits/global-widget-controls.php:691
+#: traits/global-widget-controls.php:2082
+msgid "Social Link"
+msgstr "Ссылки соцсетей"
+
+#: modules/dragon/widgets/dragon.php:155
+msgid "On Elementor"
+msgstr "На Elementor"
+
+#: modules/dragon/widgets/dragon.php:154
+#: modules/pagepiling/widgets/pagepiling.php:142
+msgid "Discover your Talents"
+msgstr "Откройте для себя свои таланты"
+
+#: modules/dragon/widgets/dragon.php:144 modules/dragon/widgets/dragon.php:149
+#: modules/pagepiling/widgets/pagepiling.php:132
+#: modules/pagepiling/widgets/pagepiling.php:137
+msgid "Addons For Elementor"
+msgstr "Аддоны для Elementor"
+
+#: modules/general/widgets/general.php:233
+#: modules/isolate/widgets/isolate.php:255 modules/mount/widgets/mount.php:111
+#: modules/omatic/widgets/omatic.php:67
+#: modules/sequester/widgets/sequester.php:142
+#: modules/sniper/widgets/sniper.php:93 modules/tango/widgets/tango.php:113
+msgid "Slider Items"
+msgstr "Елементы слайдера"
+
+#: traits/global-widget-controls.php:1800
+#: traits/global-widget-controls.php:1863
+msgid "Sed ut perspiciatis unde omnis iste natus error sit voluptatem, totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae vitae dicta sunt explicabo."
+msgstr "Sed ut perspiciatis unde omnis iste natus error sit voluptatem, totam rem aperiam, eaque ipsa quae ab illo inventore et quasi architecto beatae vitae dicta sunt explicabo."
+
+#: modules/dragon/widgets/dragon.php:210
+msgid "Show Blur Effect"
+msgstr "Показать эффект размытия"
+
+#: traits/global-widget-controls.php:1453
+msgid "Sub Title HTML Tag"
+msgstr "Подзаголовок HTML тег"
+
+#: traits/global-widget-controls.php:1631
+msgid "Show Social Link"
+msgstr "Показать ссылку соцсети"
+
+#: modules/general/widgets/general.php:355
+msgid "Show Excerpt"
+msgstr "Показать выдержку"
+
+#: modules/multiscroll/widgets/multiscroll.php:402
+#: traits/global-widget-controls.php:1443
+msgid "Show Sub Title"
+msgstr "Показать подзаголовок страницы"
+
+#: modules/blog/widgets/blog.php:2360
+msgid "Written by"
+msgstr "Автор"
+
+#: includes/class-elements-wpml-compatibility.php:250
+#: includes/class-elements-wpml-compatibility.php:377
+#: includes/class-elements-wpml-compatibility.php:424
+#: includes/class-elements-wpml-compatibility.php:463
+#: includes/class-elements-wpml-compatibility.php:509
+#: modules/blog/skins/skin-folio.php:43 modules/general/widgets/general.php:468
+#: modules/general/widgets/general.php:2592
+#: modules/isolate/skins/skin-locate.php:37 modules/mount/widgets/mount.php:234
+#: modules/mount/widgets/mount.php:1072
+#: modules/pagepiling/widgets/pagepiling.php:288
+#: traits/global-widget-controls.php:567 traits/global-widget-controls.php:2491
+msgid "Follow Us"
+msgstr "Подписывайтесь на нас"
+
+#: modules/blog/widgets/blog.php:1509
+msgid "Meta Content"
+msgstr "Тип(свойства) товара"
+
+#: modules/blog/widgets/blog.php:2035 modules/isolate/widgets/isolate.php:2333
+msgid "Active Number Color"
+msgstr "Активный номер Цвет"
+
+#: modules/blog/widgets/blog.php:2019
+msgid "Dot Number Color"
+msgstr "Номер точки Цвет"
+
+#: modules/blog/widgets/blog.php:2001 modules/general/widgets/general.php:2223
+#: modules/general/widgets/general.php:2240
+#: modules/isolate/widgets/isolate.php:2303
+#: modules/sequester/widgets/sequester.php:1093
+msgid "Active Dot Color"
+msgstr "Цвет активной точки"
+
+#: modules/blog/widgets/blog.php:1919 modules/blog/widgets/blog.php:2075
+#: modules/flogia/widgets/flogia.php:1202
+#: modules/flogia/widgets/flogia.php:1233
+#: modules/general/widgets/general.php:2095
+#: modules/general/widgets/general.php:2398
+#: modules/isolate/widgets/isolate.php:2017
+#: modules/isolate/widgets/isolate.php:2211 modules/mount/widgets/mount.php:882
+#: modules/sequester/widgets/sequester.php:1026
+#: modules/sequester/widgets/sequester.php:1146
+#: modules/sniper/widgets/sniper.php:547
+#: modules/woocommerce/widgets/woocommerce.php:1373
+#: modules/woocommerce/widgets/woocommerce.php:1592
+msgid "Arrows Color"
+msgstr "Цвет стрелок"
+
+#: modules/blog/widgets/blog.php:1530 modules/blog/widgets/blog.php:1753
+#: modules/omatic/widgets/omatic.php:339
+msgid "Blur Level"
+msgstr "Уровень размытия"
+
+#: modules/blog/widgets/blog.php:1519 modules/blog/widgets/blog.php:1745
+#: modules/omatic/widgets/omatic.php:331
+msgid "This feature will not work in the Firefox browser untill you enable browser compatibility so please %1s look here %2s"
+msgstr "Эта функция не будет работать в браузере Firefox, пока вы не включите совместимость с браузером, поэтому %1s посмотрите здесь %2s"
+
+#: modules/blog/widgets/blog.php:1517 modules/blog/widgets/blog.php:1743
+#: modules/omatic/widgets/omatic.php:329
+msgid "Glassmorphism"
+msgstr "Стекломорфизм"
+
+#: modules/storker/widgets/storker.php:1463
+#: modules/storker/widgets/storker.php:1567
+msgid "Width(px)"
+msgstr "Ширина(px)"
+
+#: modules/blog/widgets/blog.php:1193 modules/general/widgets/general.php:1911
+#: modules/isolate/widgets/isolate.php:1770
+#: traits/global-widget-controls.php:818
+msgid "Show Tooltip"
+msgstr "Показать подсказку"
+
+#: modules/blog/widgets/blog.php:827 modules/dragon/widgets/dragon.php:626
+#: modules/general/widgets/general.php:1292
+#: modules/isolate/widgets/isolate.php:1158
+#: modules/pagepiling/widgets/pagepiling.php:634
+#: modules/sequester/widgets/sequester.php:612
+#: modules/woocommerce/widgets/woocommerce.php:691
+#: modules/woolamp/widgets/woolamp.php:622
+msgid "Excerpt Spacing"
+msgstr "Расстояние между фрагментами"
+
+#: modules/dragon/widgets/dragon.php:599 modules/flogia/widgets/flogia.php:588
+#: modules/isolate/widgets/isolate.php:1131
+#: modules/multiscroll/widgets/multiscroll.php:1055
+#: modules/sequester/widgets/sequester.php:585
+#: modules/woocommerce/widgets/woocommerce.php:664
+msgid "Width (px)"
+msgstr "Ширина (px)"
+
+#: modules/blog/widgets/blog.php:741
+msgid "Separetor Color"
+msgstr "Цвет сепаратора"
+
+#: modules/blog/widgets/blog.php:721 modules/dragon/widgets/dragon.php:465
+#: modules/general/widgets/general.php:927
+#: modules/isolate/widgets/isolate.php:953 modules/mount/widgets/mount.php:509
+#: modules/pagepiling/widgets/pagepiling.php:536
+#: modules/sequester/widgets/sequester.php:481
+#: modules/woocommerce/widgets/woocommerce.php:482
+#: modules/woolamp/widgets/woolamp.php:439
+msgid "Title Spacing"
+msgstr "Интервал заголовка"
+
+#: modules/blog/widgets/blog.php:665 modules/dragon/widgets/dragon.php:433
+#: modules/flogia/widgets/flogia.php:463 modules/mount/widgets/mount.php:539
+#: modules/omatic/widgets/omatic.php:433
+#: modules/pagepiling/widgets/pagepiling.php:499
+#: modules/sequester/widgets/sequester.php:443
+#: modules/sniper/widgets/sniper.php:392
+msgid "First Word Color"
+msgstr "Первое слово Цвет"
+
+#: modules/blog/widgets/blog.php:700 modules/flogia/widgets/flogia.php:534
+#: modules/general/widgets/general.php:846 modules/mount/widgets/mount.php:437
+#: modules/sequester/widgets/sequester.php:409
+#: modules/woocommerce/widgets/woocommerce.php:435
+msgid "Title Width"
+msgstr "Ширина заголовка"
+
+#: modules/blog/widgets/blog.php:611 modules/dragon/widgets/dragon.php:343
+#: modules/flogia/widgets/flogia.php:398
+#: modules/general/widgets/general.php:774
+#: modules/isolate/widgets/isolate.php:788 modules/mount/widgets/mount.php:399
+#: modules/omatic/widgets/omatic.php:313
+#: modules/woocommerce/widgets/woocommerce.php:364
+msgid "Blend Type"
+msgstr "Тип смешивания"
+
+#: modules/blog/widgets/blog.php:587 modules/dragon/widgets/dragon.php:319
+#: modules/flogia/widgets/flogia.php:373
+#: modules/general/widgets/general.php:751
+#: modules/isolate/widgets/isolate.php:761 modules/mount/widgets/mount.php:375
+#: modules/omatic/widgets/omatic.php:286
+#: modules/woocommerce/widgets/woocommerce.php:341
+msgid "Blend"
+msgstr "Смешение"
+
+#: modules/blog/widgets/blog.php:573 modules/dragon/widgets/dragon.php:79
+#: modules/dragon/widgets/dragon.php:305 modules/elysium/widgets/elysium.php:80
+#: modules/elysium/widgets/elysium.php:381
+#: modules/fiestar/widgets/fiestar.php:340
+#: modules/flogia/widgets/flogia.php:359 modules/general/widgets/general.php:94
+#: modules/general/widgets/general.php:737
+#: modules/isolate/widgets/isolate.php:91 modules/mount/widgets/mount.php:82
+#: modules/mount/widgets/mount.php:361
+#: modules/sequester/widgets/sequester.php:81
+#: modules/sequester/widgets/sequester.php:342
+#: modules/sniper/widgets/sniper.php:64 modules/sniper/widgets/sniper.php:286
+#: modules/storker/widgets/storker.php:373 modules/tango/widgets/tango.php:79
+#: modules/vertex/widgets/vertex.php:303
+#: modules/woolamp/widgets/woolamp.php:355
+msgid "Sliders"
+msgstr "Слайдеры"
+
+#: modules/fiestar/widgets/fiestar.php:148
+#: modules/general/widgets/general.php:1549
+#: modules/vertex/widgets/vertex.php:159
+msgid "Vertical Spacing"
+msgstr "Интервал по вертикали"
+
+#: traits/global-widget-controls.php:980
+msgid "Kenburn Reverse"
+msgstr "Кенберн Реверс"
+
+#: traits/global-widget-controls.php:971
+msgid "Kenburns Animation"
+msgstr "Кенбернс Анимация"
+
+#: traits/global-widget-controls.php:919
+msgid "Autoplay Interval (ms)"
+msgstr "Автозапуск через интервал (милисекунд)"
+
+#: modules/blog/widgets/blog.php:490 modules/general/widgets/general.php:610
+#: modules/isolate/widgets/isolate.php:656
+#: traits/global-widget-controls.php:1373
+msgid "By clicking this scroll button, to which section in your page you want to go? Just write that's section ID here such 'my-header'. N.B: No need to add '#'."
+msgstr "Нажав эту кнопку прокрутки, в какой раздел страницы вы хотите перейти? Просто напишите идентификатор раздела, вот так 'my-header'. Нет необходимости добавлять '#'."
+
+#: modules/blog/widgets/blog.php:487 modules/general/widgets/general.php:607
+#: modules/isolate/widgets/isolate.php:653
+#: traits/global-widget-controls.php:1370
+msgid "Section ID"
+msgstr "ID секции"
+
+#: includes/class-elements-wpml-compatibility.php:99
+#: includes/class-elements-wpml-compatibility.php:189
+#: includes/class-elements-wpml-compatibility.php:372
+#: includes/class-elements-wpml-compatibility.php:429
+#: includes/class-elements-wpml-compatibility.php:446
+#: includes/class-elements-wpml-compatibility.php:550
+#: modules/blog/widgets/blog.php:433 modules/blog/widgets/blog.php:479
+#: modules/blog/widgets/blog.php:480 modules/blog/widgets/blog.php:1254
+#: modules/general/widgets/general.php:553
+#: modules/general/widgets/general.php:599
+#: modules/general/widgets/general.php:600
+#: modules/general/widgets/general.php:1973
+#: modules/general/widgets/general.php:2633
+#: modules/isolate/widgets/isolate.php:599
+#: modules/isolate/widgets/isolate.php:645
+#: modules/isolate/widgets/isolate.php:646
+#: modules/isolate/widgets/isolate.php:1833
+#: modules/woocommerce/widgets/woocommerce.php:1237
+#: traits/global-widget-controls.php:1318
+#: traits/global-widget-controls.php:1362
+#: traits/global-widget-controls.php:1363
+msgid "Scroll Down"
+msgstr "Прокрутить вниз"
+
+#: modules/general/widgets/general.php:454
+#: modules/general/widgets/general.php:1724
+#: modules/isolate/widgets/isolate.php:523
+#: modules/isolate/widgets/isolate.php:1623
+#: modules/pagepiling/widgets/pagepiling.php:275
+#: modules/pagepiling/widgets/pagepiling.php:800
+msgid "Social Icon"
+msgstr "Социальная иконка"
+
+#: modules/general/widgets/general.php:649
+msgid "Push"
+msgstr "От себя"
+
+#: modules/isolate/widgets/isolate.php:215
+msgid "Custom Link"
+msgstr "Пользовательская ссылка"
+
+#: modules/blog/widgets/blog.php:335
+msgid "Meta Alignment"
+msgstr "Мета Выравнивание"
+
+#: modules/blog/widgets/blog.php:295
+msgid "Show Dots"
+msgstr "Показать точки"
+
+#: modules/blog/widgets/blog.php:283 modules/fiestar/widgets/fiestar.php:244
+msgid "Show Arrows"
+msgstr "Показать стрелки"
+
+#: modules/blog/widgets/blog.php:395
+msgid "Show Featured Post"
+msgstr "Показать сообщение"
+
+#: modules/blog/widgets/blog.php:263
+msgid "Show Comments"
+msgstr "Показать комментарии"
+
+#: modules/blog/widgets/blog.php:222 modules/blog/widgets/blog.php:236
+#: modules/flogia/widgets/flogia.php:189 traits/global-widget-controls.php:1941
+msgid "Show Author"
+msgstr "Показать автора"
+
+#: modules/blog/widgets/blog.php:185 modules/general/widgets/general.php:415
+#: modules/isolate/widgets/isolate.php:340
+#: traits/global-widget-controls.php:1661
+msgid "Show Scroll Button"
+msgstr "Показать кнопку прокрутки"
+
+#: modules/general/widgets/general.php:403
+#: modules/isolate/widgets/isolate.php:328
+msgid "Show Social Icon"
+msgstr "Показать Соц. иконки"
+
+#: modules/woolamp/widgets/woolamp.php:150
+#: traits/global-widget-controls.php:1563
+msgid "Strip Shortcode"
+msgstr "Шорткод Strip"
+
+#: traits/global-widget-controls.php:1550
+msgid "It's just work for main content, but not working with excerpt. If you set 0 so you will get full main content."
+msgstr "Это работает только для основного содержимого, но не работает с отрывками. Если вы установите значение 0, то получите полный основной контент."
+
+#: modules/woolamp/widgets/woolamp.php:137
+#: traits/global-widget-controls.php:1549
+msgid "Text Limit"
+msgstr "Ограничение текста"
+
+#: modules/multiscroll/widgets/multiscroll.php:415
+#: traits/global-widget-controls.php:1471
+#: traits/global-widget-controls.php:1525
+#: traits/global-widget-controls.php:1539
+msgid "Show Text"
+msgstr "Показать текст"
+
+#: traits/global-widget-controls.php:1240
+msgid "Size Ratio"
+msgstr "Коэффициент Размера"
+
+#: modules/blog/skins/skin-zinest.php:21
+msgid "Zinest"
+msgstr "Zinest"
+
+#: modules/blog/skins/skin-folio.php:145 modules/blog/widgets/blog.php:2392
+msgid "Comments By"
+msgstr "Комментарии"
+
+#: modules/blog/skins/skin-folio.php:128 modules/blog/widgets/blog.php:2376
+msgid "Published on"
+msgstr "Опубликовано"
+
+#: modules/blog/skins/skin-folio.php:112
+msgid "Written by&nbsp;"
+msgstr "Написано"
+
+#: modules/blog/skins/skin-folio.php:19
+msgid "Folio"
+msgstr "Фолиант"
+
+#: modules/blog/skins/skin-coral.php:21
+msgid "Coral"
+msgstr "Кораловый"
+
+#: includes/helper.php:415
+msgid "Hue"
+msgstr "Оттенок"
+
+#: includes/helper.php:414
+msgid "Exclusion"
+msgstr "Исключение"
+
+#: includes/helper.php:413
+msgid "Difference"
+msgstr "Разница"
+
+#: includes/helper.php:412
+msgid "Soft-Light"
+msgstr "Мягкий свет"
+
+#: includes/helper.php:411
+msgid "Hard-Light"
+msgstr "Жёсткий свет"
+
+#: includes/helper.php:409
+msgid "Color-Dodge"
+msgstr "Цвет Dodge"
+
+#: includes/helper.php:395
+msgid "Slide Right Medium"
+msgstr "Средний Слайд справа"
+
+#: includes/helper.php:394
+msgid "Slide Left Medium"
+msgstr "Средний Слайд слева"
+
+#: includes/helper.php:393
+msgid "Slide Bottom Medium"
+msgstr "Средний Слайд внизу"
+
+#: includes/helper.php:392
+msgid "Slide Top Medium"
+msgstr "Средний Слайд вверху"
+
+#: includes/helper.php:391
+msgid "Slide Right Small"
+msgstr "Мелкий слайд справа"
+
+#: includes/helper.php:390
+msgid "Slide Left Small"
+msgstr "Мелкий слайд слева"
+
+#: includes/helper.php:389
+msgid "Slide Bottom Small"
+msgstr "Мелкий слайд внизу"
+
+#: includes/helper.php:388
+msgid "Slide Top Small"
+msgstr "Слайд верху маленький"
+
+#: includes/helper.php:387
+msgid "Slide Right"
+msgstr "Слайд справа"
+
+#: includes/helper.php:386
+msgid "Slide Left"
+msgstr "Сдвиг влево"
+
+#: includes/helper.php:385
+msgid "Slide Bottom"
+msgstr "Сдвиг вниз"
+
+#: includes/helper.php:384
+msgid "Slide Top"
+msgstr "Сдвиг вверх"
+
+#: includes/helper.php:383
+msgid "Scale Down"
+msgstr "Уменьшить масштаб"
+
+#: includes/helper.php:382
+msgid "Scale Up"
+msgstr "Увеличить масштаб"
+
+#: includes/helper.php:355
+msgid "Select Template"
+msgstr "Выбрать шаблон"
+
+#: includes/helper.php:353
+msgid "Template Not Found!"
+msgstr "Шаблон не найден!"
+
+#: admin/admin.php:105
+msgid "View Prime Slider Video Tutorials"
+msgstr "Просмотр видеоуроков Prime Slider"
+
+#: admin/admin.php:104 includes/setup-wizard/views/good-to-go.php:70
+msgid "Get Support"
+msgstr "Получить поддержку"
+
+#: admin/admin.php:104
+msgid "Go for Get Support"
+msgstr "Обратитесь за поддержкой"
+
+#: admin/admin-settings.php:1905
+msgid "Unknown error, make sure access is correct!"
+msgstr "Неизвестная ошибка, убедитесь, что доступ правильный!"
+
+#: admin/admin-settings.php:1897
+msgid "Settings Saved Successfully."
+msgstr "Настройки успешно сохранены."
+
+#: admin/module-settings.php:720
+msgid "WooStand"
+msgstr "WooStand"
+
+#: modules/woolamp/module.info.php:5
+msgid "Woolamp"
+msgstr "Вуламп"
+
+#: admin/module-settings.php:694
+msgid "WooExpand"
+msgstr "WooExpand"
+
+#: modules/woocircle/module.info.php:5
+msgid "Woocircle"
+msgstr "Woocircle"
+
+#: admin/module-settings.php:620 modules/vertex/widgets/vertex.php:34
+msgid "Vertex"
+msgstr "Вершина"
+
+#: admin/module-settings.php:544 modules/storker/module.info.php:5
+#: modules/storker/widgets/storker.php:37
+msgid "Storker"
+msgstr "Аист"
+
+#: modules/pagepiling/widgets/pagepiling.php:143
+msgid "On Prime Slider"
+msgstr "На Prime Slider"
+
+#: modules/flogia/widgets/flogia.php:678 modules/flogia/widgets/flogia.php:1135
+#: modules/mercury/widgets/mercury.php:665
+#: modules/multiscroll/widgets/multiscroll.php:847
+#: modules/multiscroll/widgets/multiscroll.php:1024
+#: modules/pacific/widgets/pacific.php:1122 modules/rubix/widgets/rubix.php:625
+#: modules/rubix/widgets/rubix.php:749
+#: modules/woocircle/widgets/woocircle.php:433
+#: modules/woocircle/widgets/woocircle.php:854
+#: modules/woocircle/widgets/woocircle.php:1006
+#: modules/woocommerce/widgets/woocommerce.php:538
+#: modules/woocommerce/widgets/woocommerce.php:854
+#: modules/woolamp/widgets/woolamp.php:797 traits/global-widget-controls.php:57
+#: traits/global-widget-controls.php:732
+msgid "Border"
+msgstr "Рамка"
+
+#: modules/blog/widgets/blog.php:1334 modules/fiestar/widgets/fiestar.php:455
+#: modules/flogia/widgets/flogia.php:637
+#: modules/mercury/widgets/mercury.php:608
+#: modules/pacific/widgets/pacific.php:617 modules/rubix/widgets/rubix.php:692
+#: modules/storker/widgets/storker.php:795
+#: modules/vertex/widgets/vertex.php:430
+#: modules/woocommerce/widgets/woocommerce.php:500
+#: modules/woolamp/widgets/woolamp.php:461
+#: traits/global-widget-controls.php:265
+msgid "Category"
+msgstr "Рубрика"
+
+#: modules/blog/widgets/blog.php:197 modules/fiestar/widgets/fiestar.php:224
+#: traits/global-widget-controls.php:1224
+msgid "Show Category"
+msgstr "Показать рубрику"
+
+#: modules/blog/widgets/blog.php:930 modules/blog/widgets/blog.php:1111
+#: modules/blog/widgets/blog.php:1397 modules/dragon/widgets/dragon.php:365
+#: modules/elysium/widgets/elysium.php:570
+#: modules/fiestar/widgets/fiestar.php:371
+#: modules/fiestar/widgets/fiestar.php:531
+#: modules/fiestar/widgets/fiestar.php:720
+#: modules/flogia/widgets/flogia.php:698
+#: modules/general/widgets/general.php:1024
+#: modules/general/widgets/general.php:1143
+#: modules/general/widgets/general.php:1402
+#: modules/general/widgets/general.php:1802
+#: modules/isolate/widgets/isolate.php:1312
+#: modules/isolate/widgets/isolate.php:1532
+#: modules/isolate/widgets/isolate.php:1717
+#: modules/isolate/widgets/isolate.php:1905
+#: modules/isolate/widgets/isolate.php:2070
+#: modules/mercury/widgets/mercury.php:702 modules/mount/widgets/mount.php:615
+#: modules/mount/widgets/mount.php:755
+#: modules/multiscroll/widgets/multiscroll.php:646
+#: modules/multiscroll/widgets/multiscroll.php:895
+#: modules/omatic/widgets/omatic.php:476 modules/omatic/widgets/omatic.php:596
+#: modules/omatic/widgets/omatic.php:787 modules/omatic/widgets/omatic.php:1017
+#: modules/pacific/widgets/pacific.php:687 modules/rubix/widgets/rubix.php:645
+#: modules/rubix/widgets/rubix.php:769 modules/rubix/widgets/rubix.php:934
+#: modules/rubix/widgets/rubix.php:1100
+#: modules/sequester/widgets/sequester.php:710
+#: modules/sequester/widgets/sequester.php:904
+#: modules/storker/widgets/storker.php:715
+#: modules/storker/widgets/storker.php:871
+#: modules/storker/widgets/storker.php:1047
+#: modules/storker/widgets/storker.php:1136
+#: modules/storker/widgets/storker.php:1242
+#: modules/storker/widgets/storker.php:1339 modules/tango/widgets/tango.php:795
+#: modules/vertex/widgets/vertex.php:506
+#: modules/woocircle/widgets/woocircle.php:456
+#: modules/woocircle/widgets/woocircle.php:877
+#: modules/woocircle/widgets/woocircle.php:1028
+#: modules/woocircle/widgets/woocircle.php:1166
+#: modules/woocommerce/widgets/woocommerce.php:385
+#: modules/woocommerce/widgets/woocommerce.php:556
+#: modules/woocommerce/widgets/woocommerce.php:876
+#: modules/woocommerce/widgets/woocommerce.php:1006
+#: modules/woocommerce/widgets/woocommerce.php:1096
+#: modules/woocommerce/widgets/woocommerce.php:1420
+#: modules/woolamp/widgets/woolamp.php:513
+#: modules/woolamp/widgets/woolamp.php:819
+#: modules/woolamp/widgets/woolamp.php:945
+#: modules/woolamp/widgets/woolamp.php:1040
+#: traits/global-widget-controls.php:88 traits/global-widget-controls.php:754
+msgid "Padding"
+msgstr "Внутренний отступ"
+
+#: modules/multiscroll/widgets/multiscroll.php:615
+msgid "Shadow Title Color"
+msgstr "Цвет тени названия"
+
+#: includes/helper.php:410
+msgid "Color-Burn"
+msgstr "Затемнение основы"
+
+#: modules/blog/widgets/blog.php:386
+msgid "Featured Post"
+msgstr "Избранная запись"
+
+#: modules/fiestar/widgets/fiestar.php:88
+#: modules/pacific/widgets/pacific.php:101 modules/rubix/widgets/rubix.php:85
+#: modules/tango/widgets/tango.php:154 modules/vertex/widgets/vertex.php:86
+msgid "Columns"
+msgstr "Столбцы"
+
+#: includes/helper.php:435 includes/helper.php:451 includes/helper.php:465
+#: includes/helper.php:479 modules/flogia/widgets/flogia.php:259
+#: traits/global-widget-controls.php:427
+msgid "Bottom Center"
+msgstr "Внизу по центру"
+
+#: modules/sequester/widgets/sequester.php:1122
+msgid "Active Border Color"
+msgstr "Цвет активной рамки"
+
+#: admin/admin-settings.php:3585
+#: includes/setup-wizard/prime-slider-others-plugin.php:346
+#: modules/elysium/widgets/elysium.php:883
+#: modules/flogia/widgets/flogia.php:1094
+#: modules/flogia/widgets/flogia.php:1257
+#: modules/multiscroll/widgets/multiscroll.php:1148
+#: modules/rubix/widgets/rubix.php:1290
+#: modules/storker/widgets/storker.php:1256
+#: modules/storker/widgets/storker.php:1528
+#: traits/global-widget-controls.php:175
+msgid "Active"
+msgstr "Активный"
+
+#: modules/elysium/widgets/elysium.php:364
+#: modules/elysium/widgets/elysium.php:1074
+#: modules/isolate/skins/skin-locate.php:82
+#: modules/pacific/widgets/pacific.php:321
+#: modules/pacific/widgets/pacific.php:324
+#: traits/global-widget-controls.php:2168
+#: traits/global-widget-controls.php:2178
+msgid "Next"
+msgstr "Вперёд"
+
+#: includes/class-elements-wpml-compatibility.php:367
+#: includes/class-elements-wpml-compatibility.php:492
+#: includes/compatiblity/wpml/class-wpml-prime-slider-dragon.php:46
+#: includes/compatiblity/wpml/class-wpml-prime-slider-general.php:48
+#: includes/compatiblity/wpml/class-wpml-prime-slider-isolate.php:53
+#: modules/blog/widgets/blog.php:167 modules/blog/widgets/blog.php:168
+#: modules/pacific/widgets/pacific.php:264
+#: modules/pacific/widgets/pacific.php:782 modules/rubix/widgets/rubix.php:270
+#: modules/rubix/widgets/rubix.php:864 traits/global-widget-controls.php:1834
+msgid "Read More"
+msgstr "Читайте далее"
+
+#: traits/query-controls/group-query/group-control-query.php:283
+msgid "After"
+msgstr "После"
+
+#: modules/blog/widgets/blog.php:945 modules/dragon/widgets/dragon.php:377
+#: modules/elysium/widgets/elysium.php:582
+#: modules/general/widgets/general.php:1155
+#: modules/general/widgets/general.php:1414
+#: modules/isolate/widgets/isolate.php:1542
+#: modules/isolate/widgets/isolate.php:2086
+#: modules/mercury/widgets/mercury.php:496
+#: modules/omatic/widgets/omatic.php:385 modules/omatic/widgets/omatic.php:488
+#: modules/omatic/widgets/omatic.php:608 modules/omatic/widgets/omatic.php:799
+#: modules/omatic/widgets/omatic.php:1029
+#: modules/pacific/widgets/pacific.php:884
+#: modules/pacific/widgets/pacific.php:952 modules/rubix/widgets/rubix.php:516
+#: modules/rubix/widgets/rubix.php:657 modules/rubix/widgets/rubix.php:957
+#: modules/storker/widgets/storker.php:528
+#: modules/storker/widgets/storker.php:987
+#: modules/woocircle/widgets/woocircle.php:275
+#: modules/woocircle/widgets/woocircle.php:317
+#: modules/woocircle/widgets/woocircle.php:369
+#: modules/woocircle/widgets/woocircle.php:468
+#: modules/woocircle/widgets/woocircle.php:653
+#: modules/woocircle/widgets/woocircle.php:695
+#: modules/woocircle/widgets/woocircle.php:747
+#: modules/woocircle/widgets/woocircle.php:811
+#: modules/woocircle/widgets/woocircle.php:889
+#: modules/woocommerce/widgets/woocommerce.php:396
+#: modules/woocommerce/widgets/woocommerce.php:740
+#: modules/woocommerce/widgets/woocommerce.php:777
+#: modules/woolamp/widgets/woolamp.php:673
+#: modules/woolamp/widgets/woolamp.php:714
+msgid "Margin"
+msgstr "Внешний отступ"
+
+#: admin/module-settings.php:655
+msgid "Event Calendar"
+msgstr "Календарь мероприятий"
+
+#: admin/admin-settings.php:828 admin/class-settings-api.php:841
+msgid "Dashboard"
+msgstr "Консоль"
+
+#: admin/module-settings.php:224 modules/general/module.info.php:5
+#: modules/general/widgets/general.php:35
+msgid "General"
+msgstr "Общие"
+
+#: admin/module-settings.php:48 modules/blog/module.info.php:5
+#: modules/blog/widgets/blog.php:39
+msgid "Blog"
+msgstr "Блог"
+
+#: admin/module-settings.php:522 modules/sequester/widgets/sequester.php:28
+msgid "Sequester"
+msgstr "Секвестр"
+
+#: admin/module-settings.php:500 modules/rubix/module.info.php:5
+#: modules/rubix/widgets/rubix.php:33
+msgid "Rubix"
+msgstr "Rubix"
+
+#: admin/module-settings.php:478
+msgid "Reveal"
+msgstr "Показать"
+
+#: admin/module-settings.php:389
+msgid "Pieces"
+msgstr "Штук"
+
+#: admin/module-settings.php:378
+msgid "Paranoia"
+msgstr "Паранойя"
+
+#: admin/module-settings.php:356 modules/pagepiling/module.info.php:5
+#: modules/pagepiling/widgets/pagepiling.php:28
+msgid "Pagepiling"
+msgstr "Pagepiling"
+
+#: admin/module-settings.php:345 modules/pacific/module.info.php:5
+#: modules/pacific/widgets/pacific.php:35
+msgid "Pacific"
+msgstr "Пасифик"
+
+#: admin/module-settings.php:312 modules/multiscroll/module.info.php:5
+#: modules/multiscroll/widgets/multiscroll.php:30
+msgid "Multiscroll"
+msgstr "Мультискролл"
+
+#: admin/module-settings.php:301 modules/mount/module.info.php:5
+#: modules/mount/widgets/mount.php:29
+msgid "Mount"
+msgstr "Монтировать"
+
+#: admin/module-settings.php:290
+msgid "Monster"
+msgstr "Чудовище"
+
+#: admin/module-settings.php:279 modules/mercury/module.info.php:5
+#: modules/mercury/widgets/mercury.php:33
+msgid "Mercury"
+msgstr "Меркурий"
+
+#: admin/module-settings.php:257
+msgid "Marble"
+msgstr "Мраморный"
+
+#: admin/module-settings.php:246
+msgid "Knily"
+msgstr "Книли"
+
+#: admin/module-settings.php:235 modules/isolate/module.info.php:5
+#: modules/isolate/widgets/isolate.php:34
+msgid "Isolate"
+msgstr "Изолят"
+
+#: admin/module-settings.php:202
+msgid "Fluent"
+msgstr "Свободный"
+
+#: admin/module-settings.php:191 modules/flogia/module.info.php:5
+#: modules/flogia/widgets/flogia.php:32
+msgid "Flogia"
+msgstr "Flogia"
+
+#: admin/module-settings.php:180
+msgid "Flexure"
+msgstr "Изгиб"
+
+#: admin/module-settings.php:169 modules/fiestar/module.info.php:5
+#: modules/fiestar/widgets/fiestar.php:36
+msgid "Fiestar"
+msgstr "Fiestar"
+
+#: admin/module-settings.php:125 modules/dragon/module.info.php:5
+#: modules/dragon/widgets/dragon.php:26
+msgid "Dragon"
+msgstr "Дракон"
+
+#: admin/module-settings.php:102
+msgid "Custom Slider"
+msgstr "Пользовательский слайдер"
+
+#: admin/module-settings.php:91
+msgid "Crossroad"
+msgstr "Перекресток"
+
+#: admin/module-settings.php:26
+msgid "Astoria"
+msgstr "Астория"
+
+#: admin/admin-settings.php:840 admin/admin-settings.php:943
+#: admin/admin-settings.php:1173
+msgid "Core Widgets"
+msgstr "Основные виджеты"
+
+#: admin/admin-settings.php:3083
+msgid "Get Pro"
+msgstr "Получить PRO"
+
+#: admin/admin-feeds.php:172 includes/helper.php:520
+msgid "ago"
+msgstr "назад"
+
+#: bdthemes-prime-slider.php:157
+msgid "Install Elementor Now"
+msgstr "Установить Elementor сейчас"
+
+#: bdthemes-prime-slider.php:156
+msgid "Ops! Prime Slider not working because you need to install the Elementor plugin"
+msgstr "Опс! Prime Slider не работает, потому что нужно установить плагин Elementor"
+
+#: bdthemes-prime-slider.php:150
+msgid "Activate Elementor Now"
+msgstr "Активировать Elementor сейчас"
+
+#: bdthemes-prime-slider.php:149
+msgid "Ops! Prime Slider not working because you need to activate the Elementor plugin first."
+msgstr "Опс! Prime Slider не работает, потому что сначала нужно активировать плагин Elementor."
+
+#: base/prime-slider-module-base.php:34 base/prime-slider-module-base.php:45
+#: loader.php:66 loader.php:77
+msgid "Cheatin&#8217; huh?"
+msgstr "Хакер&#8217; что ли?"
+
+#. Author URI of the plugin
+#: bdthemes-prime-slider.php
+msgid "https://bdthemes.com/"
+msgstr "https://bdthemes.com/"
+
+#. Author of the plugin
+#: bdthemes-prime-slider.php
+msgid "BdThemes"
+msgstr "BdThemes"
+
+#. Plugin URI of the plugin
+#: bdthemes-prime-slider.php
+msgid "https://primeslider.pro/"
+msgstr "https://primeslider.pro/"
+
+#. Plugin Name of the plugin
+#: bdthemes-prime-slider.php modules/dragon/widgets/dragon.php:145
+#: modules/pagepiling/widgets/pagepiling.php:133
+msgid "Prime Slider"
+msgstr "Прайм-слайдер"

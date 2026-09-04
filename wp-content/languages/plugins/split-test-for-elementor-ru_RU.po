@@ -1,0 +1,380 @@
+# Translation of Plugins - Split Test For Elementor - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Split Test For Elementor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-06-18 06:10:01+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Split Test For Elementor - Stable (latest release)\n"
+
+#: Classes/Misc/ActivationSurvey.php:142
+msgid "Agency"
+msgstr "Агентство"
+
+#: Classes/Misc/SelfCheckPage.php:91
+msgid "Caching"
+msgstr "Кеширование"
+
+#: Classes/Misc/ActivationSurvey.php:155
+msgid "WordPress.org"
+msgstr "WordPress.org"
+
+#: Classes/Misc/DeactivationSurvey.php:70 Classes/Misc/FirstUsageSurvey.php:192
+msgid "Cancel"
+msgstr "Отмена"
+
+#: Classes/Misc/SelfCheckPage.php:94
+msgid "Working"
+msgstr "Работает"
+
+#: Classes/Misc/SelfCheckPage.php:93
+msgid "Checking…"
+msgstr "Проверка…"
+
+#: Classes/Misc/DataDisclosure.php:104 Classes/Misc/DeactivationSurvey.php:130
+#: Classes/Misc/FirstUsageSurvey.php:273
+msgid "Close"
+msgstr "Закрыть"
+
+#: Classes/Misc/ActivationSurvey.php:114 Classes/Misc/DeactivationSurvey.php:65
+#: Classes/Misc/FirstUsageSurvey.php:183
+msgid "Your email"
+msgstr "Ваш email"
+
+#: Classes/Misc/SelfCheckPage.php:90
+msgid "Details"
+msgstr "Подробности"
+
+#: Classes/Misc/ActivationSurvey.php:146
+msgid "Developer"
+msgstr "Разработчик"
+
+#: Classes/Misc/FirstUsageSurvey.php:217
+msgid "Excellent"
+msgstr "Превосходно"
+
+#: Classes/Misc/ActivationSurvey.php:143
+msgid "Freelancer"
+msgstr "Фрилансер"
+
+#: Classes/Misc/ActivationSurvey.php:121
+msgid "Get started"
+msgstr "Приступить"
+
+#: Classes/Misc/DeactivationSurvey.php:96
+msgid "I couldn't get the plugin to work"
+msgstr "Я не мог заставить плагин работать"
+
+#: Classes/Misc/DeactivationSurvey.php:91
+msgid "I found a better plugin"
+msgstr "Я нашел лучший плагин"
+
+#: Classes/Misc/DeactivationSurvey.php:86
+msgid "I no longer need the plugin"
+msgstr "Мне больше не нужен плагин"
+
+#: Classes/Misc/DeactivationSurvey.php:106
+msgid "It's a temporary deactivation"
+msgstr "Это временная деактивация"
+
+#: Classes/Misc/CouponSurveyBanner.php:184
+#: Classes/Misc/FirstUsageSurvey.php:266
+msgid "Maybe later"
+msgstr "Возможно позже"
+
+#: Classes/Misc/UsageTelemetry.php:116
+msgid "Once Monthly"
+msgstr "Раз в месяц"
+
+#: Classes/Misc/ActivationSurvey.php:148 Classes/Misc/ActivationSurvey.php:159
+#: Classes/Misc/ActivationSurvey.php:169
+#: Classes/Misc/DeactivationSurvey.php:116
+msgid "Other"
+msgstr "Другой"
+
+#: Classes/Misc/FirstUsageSurvey.php:216
+msgid "Poor"
+msgstr "Плохо"
+
+#: Classes/Misc/DeactivationSurvey.php:61
+msgid "Quick Feedback"
+msgstr "Быстрая обратная связь"
+
+#: Classes/Misc/SelfCheckPage.php:89
+msgid "Running…"
+msgstr "Выполняется..."
+
+#: Classes/Misc/ActivationSurvey.php:123
+msgid "Saving…"
+msgstr "Сохранение..."
+
+#: Classes/Services/SettingsPage.php:32
+msgid "Settings"
+msgstr "Настройки"
+
+#: Classes/Misc/ActivationSurvey.php:122
+msgid "Skip"
+msgstr "Пропустить"
+
+#: Classes/Misc/DeactivationSurvey.php:69
+msgid "Skip & Deactivate"
+msgstr "Пропустить и деактивировать"
+
+#: Classes/Misc/SelfCheckPage.php:95
+msgid "Warning"
+msgstr "Предупреждение"
+
+#: Classes/Misc/ActivationSurvey.php:144
+msgid "Business owner"
+msgstr "Владелец бизнеса"
+
+#: Classes/Misc/FirstUsageSurvey.php:267
+msgid "Don’t show again"
+msgstr "Больше не показывайте"
+
+#: Classes/Misc/ActivationSurvey.php:168
+msgid "Experienced"
+msgstr "Опытный"
+
+#: Classes/Misc/FirstUsageSurvey.php:244
+msgid "Extremely likely"
+msgstr "Очень вероятно"
+
+#: Classes/Misc/ActivationSurvey.php:156
+msgid "Google search"
+msgstr "Поиск Google"
+
+#: Classes/Misc/ActivationSurvey.php:153
+msgid "How did you hear about us?"
+msgstr "Как вы узнали о нас?"
+
+#: Classes/Misc/DeactivationSurvey.php:111
+msgid "It's missing a feature I need"
+msgstr "Отсутствует нужная мне функция"
+
+#: Classes/Misc/ActivationSurvey.php:145
+msgid "Marketer"
+msgstr "Маркетолог"
+
+#: Classes/Misc/SelfCheckPage.php:92
+msgid "Not checked yet"
+msgstr "Еще не проверено"
+
+#: Classes/Misc/SelfCheckPage.php:96
+msgid "Not working"
+msgstr "Не работает"
+
+#: Classes/Misc/DeactivationSurvey.php:117
+msgid "Please share the reason"
+msgstr "Пожалуйста, поделитесь причиной"
+
+#: Classes/Misc/ActivationSurvey.php:120 Classes/Misc/DataDisclosure.php:103
+#: Classes/Misc/ErrorReportPage.php:156 Classes/Misc/FirstUsageSurvey.php:190
+msgid "Read our Privacy Policy"
+msgstr "Ознакомьтесь с Политикой конфиденциальности"
+
+#: Classes/Misc/ActivationSurvey.php:158
+msgid "Recommendation"
+msgstr "Рекомендация"
+
+#: Classes/Misc/DeactivationSurvey.php:68
+msgid "Send & Deactivate"
+msgstr "Отправить и деактивировать"
+
+#: Classes/Misc/FirstUsageSurvey.php:191
+msgid "Send feedback"
+msgstr "Отправить отзыв"
+
+#: Classes/Misc/ErrorReportPage.php:110 Classes/Misc/ErrorReportPage.php:162
+msgid "Send report"
+msgstr "Отправить отчёт"
+
+#: Classes/Misc/DeactivationSurvey.php:71 Classes/Misc/ErrorReportPage.php:109
+#: Classes/Misc/FirstUsageSurvey.php:193
+msgid "Sending…"
+msgstr "Отправка…"
+
+#: Classes/Misc/FirstUsageSurvey.php:265
+msgid "Share feedback"
+msgstr "Поделится отзывом"
+
+#: Classes/Misc/ErrorReportPage.php:302
+msgid "Something else"
+msgstr "Что-то еще"
+
+#: Classes/Misc/ActivationSurvey.php:140
+msgid "What best describes you?"
+msgstr "Что лучше всего описывает вас?"
+
+#: Classes/Misc/SecurityHelper.php:21
+msgid "You do not have permission to access this page."
+msgstr "У вас нет прав на доступ к этой странице."
+
+#: Classes/Misc/SecurityHelper.php:36
+msgid "Security check failed."
+msgstr "Проверка безопасности не удалась."
+
+#: Admin/Classes/Elementor/SplitTestControl.php:162
+msgid "Url"
+msgstr "Url"
+
+#: Admin/Classes/Elementor/SplitTestControl.php:187
+msgid "Conversion Url"
+msgstr "Url конверсии"
+
+#: Admin/Classes/Elementor/SplitTestControl.php:206
+msgid "Save new test"
+msgstr "Сохранить новый тест"
+
+#: Admin/Classes/Elementor/SplitTestControl.php:146
+msgid "New test name"
+msgstr "Название нового теста"
+
+#: Admin/Classes/Elementor/SplitTestControl.php:242
+msgid "Save new variation"
+msgstr "Сохранить новый вариант"
+
+#: Classes/Services/SettingsPage.php:82
+msgid "buy the pro version"
+msgstr "Купить версию pro"
+
+#: Admin/Classes/Elementor/SplitTestControl.php:225
+msgid "New variation name"
+msgstr "Название нового варианта"
+
+#: Classes/Services/SettingsPage.php:47
+msgid "Cache Buster"
+msgstr "Cache Buster"
+
+#: Classes/Services/SettingsPage.php:73
+msgid "Cache Buster active"
+msgstr "Cache Buster активен"
+
+#: Classes/Services/SettingsPage.php:80
+msgid "You have to buy the pro licence to get the cache buster feature."
+msgstr "Чтобы получить доступ к функции Cache Buster, вам необходимо приобрести лицензию Pro."
+
+#: Admin/Classes/Elementor/SplitTestControl.php:163
+msgid "External Page"
+msgstr "Внешняя страница"
+
+#: Admin/Classes/Elementor/SplitTestControl.php:199
+msgid "Tracking Code"
+msgstr "Код отслеживания"
+
+#: Admin/Classes/Elementor/SplitTestControl.php:161
+msgid "Page"
+msgstr "Страница"
+
+#: Admin/views/statistics/index.view.php:99
+msgid "Load data"
+msgstr "Загрузка данных"
+
+#: Admin/views/statistics/index.view.php:149
+msgid "Conversions"
+msgstr "Конверсии"
+
+#: Admin/views/statistics/index.view.php:146
+msgid "Variation"
+msgstr "Вариант"
+
+#: Admin/views/statistics/index.view.php:81
+msgid "Timerange"
+msgstr "Временной диапазон"
+
+#: Admin/Classes/Elementor/SplitTestControl.php:158
+msgid "Conversion Type"
+msgstr "Тип конверсии"
+
+#: Admin/Classes/Elementor/SplitTestControl.php:172
+msgid "Conversion Page"
+msgstr "Страница конверсии"
+
+#: Admin/views/statistics/index.view.php:148
+msgid "Views"
+msgstr "Просмотры"
+
+#: Admin/Classes/Elementor/SplitTestControl.php:235
+#: Admin/views/statistics/index.view.php:147
+msgid "Percentage"
+msgstr "Процент"
+
+#: Admin/views/statistics/index.view.php:150
+msgid "Conversion Rate"
+msgstr "Коэффициент конверсии"
+
+#: Admin/views/statistics/index.view.php:66
+#: Admin/views/statistics/index.view.php:165
+msgid "More variations"
+msgstr "Больше вариантов"
+
+#: Admin/views/statistics/index.view.php:67
+#: Admin/views/statistics/index.view.php:166
+#: Admin/views/statistics/index.view.php:167
+#: Admin/views/statistics/index.view.php:168
+msgid "Pro Version"
+msgstr "Версия Pro"
+
+#: Admin/views/statistics/index.view.php:68
+#: Admin/views/statistics/index.view.php:169
+msgid "unlock now"
+msgstr "разблокировать сейчас"
+
+#: Admin/views/statistics/index.view.php:82
+msgid "Select your analytics period"
+msgstr "Выберите период анализа"
+
+#. Plugin URI of the plugin
+#: plugin.php
+msgid "https://wordpress.org/plugins/split-test-for-elementor/"
+msgstr "https://wordpress.org/plugins/split-test-for-elementor/"
+
+#. Plugin Name of the plugin
+#. Description of the plugin
+#: plugin.php
+msgid "Split Test For Elementor"
+msgstr "Split Test For Elementor"
+
+#. Author of the plugin
+#: plugin.php
+msgid "Rocket Elements"
+msgstr "Rocket Elements"
+
+#. Author URI of the plugin
+#: plugin.php
+msgid "https://www.rocketelements.io"
+msgstr "https://www.rocketelements.io"
+
+#: Admin/Classes/Elementor/ConversionWidget.php:42
+msgid "No Test"
+msgstr "Нет тестов"
+
+#: Admin/views/statistics/index.view.php:40
+msgid "The end Date is smaller then the start Date. Resetting to last month."
+msgstr "Дата окончания меньше даты начала. Сброс до прошлого месяца."
+
+#: Admin/views/statistics/index.view.php:45
+msgid "The given dates are not valid"
+msgstr "Указанные даты не действительны"
+
+#: Admin/Classes/Elementor/ConversionWidget.php:35
+#: Admin/Classes/Elementor/ConversionWidget.php:51
+#: Admin/Classes/Elementor/SplitTestControl.php:133
+#: Admin/Classes/Events/AfterSectionEndEvent.php:84
+#: Admin/Classes/Events/AfterSectionEndEvent.php:111
+#: Admin/Classes/Events/AfterWidgetEndEvent.php:45
+#: Admin/Classes/Events/AfterWidgetEndEvent.php:72
+msgid "Split Test"
+msgstr "Split Test"
+
+#: Admin/Classes/Elementor/ConversionWidget.php:17
+msgid "Splittest Conversion"
+msgstr "Split test конверсий"
+
+#: Admin/Classes/Elementor/SplitTestControl.php:212
+msgid "Split Test Variation"
+msgstr "Варианты Split Test "

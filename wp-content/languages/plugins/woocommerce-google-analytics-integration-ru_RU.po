@@ -1,0 +1,152 @@
+# Translation of Plugins - Google Analytics for WooCommerce - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Google Analytics for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-07-20 09:29:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.1\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Google Analytics for WooCommerce - Stable (latest release)\n"
+
+#: includes/class-wc-google-analytics-task.php:50
+msgid "5 minutes"
+msgstr "5 минут"
+
+#: includes/class-wc-google-analytics-task.php:41
+msgid "Provides the integration between WooCommerce and Google Analytics."
+msgstr "Обеспечивает интеграцию между WooCommerce и Google Analytics."
+
+#: includes/class-wc-google-analytics-task.php:32
+msgid "Set up Google Analytics"
+msgstr "Настроить Google Analytics"
+
+#: includes/class-wc-google-analytics.php:137
+msgid "Enabling this option will allow incoming linker parameters from other websites."
+msgstr "Включение этой опции позволит входящие параметры компоновщика с других веб-сайтов."
+
+#: includes/class-wc-google-analytics.php:136
+msgid "Accept Incoming Linker Parameters"
+msgstr "Прием входящих параметров линкера"
+
+#. translators: Read more link
+#: includes/class-wc-google-analytics.php:193
+msgid "Add a comma separated list of domains for automatic linking. %1$sRead more about Cross Domain Measurement%2$s"
+msgstr "Добавьте через запятую список доменов для автоматического связывания. %1$sПодробнее о кросс-доменном измерении%2$s"
+
+#: includes/class-wc-google-analytics.php:191
+msgid "Cross Domain Tracking"
+msgstr "Отслеживание нескольких доменов"
+
+#: includes/class-wc-google-analytics.php:114
+msgid "Log into your Google Analytics account to find your ID. e.g. <code>GT-XXXXX</code> or <code>G-XXXXX</code>"
+msgstr "Войдите в свою учётную запись Google Analytics, чтобы найти свой id. Например, <code>GT-XXXXX</code> или <code>G-XXXXX</code>."
+
+#: includes/class-wc-google-analytics.php:113
+msgid "Google Analytics Tracking ID"
+msgstr "ID отслеживания Google Analytics"
+
+#. translators: 1: href link to GA pro
+#: woocommerce-google-analytics-integration.php:209
+msgid "Add advanced tracking for your sales funnel, coupons and more. [<a href=\"%s\" target=\"_blank\">Learn more</a> &gt;]"
+msgstr "Добавьте расширенные возможности отслеживания для своей воронки продаж, купонов и пр. [<a href=\"%s\" target=\"_blank\">Подробнее...</a> >]"
+
+#: woocommerce-google-analytics-integration.php:206
+msgid "Get detailed insights into your sales with Google Analytics Pro"
+msgstr "Получите подробную информацию по продажам с помощью Google Analytics Pro"
+
+#. translators: Read more link
+#: includes/class-wc-google-analytics.php:130
+msgid "Enable this to find broken or dead links. An \"Event\" with category \"Error\" and action \"404 Not Found\" will be created in Google Analytics for each incoming pageview to a non-existing page. By setting up a \"Custom Goal\" for these events within Google Analytics you can find out where broken links originated from (the referrer). %1$sRead how to set up a goal%2$s."
+msgstr "Включите это, чтобы найти сломанные или недоступные ссылки. В Google Analytics будет создано событие с рубрикой \"Ошибка\" и действием \"404 Страница не найдена\" для каждого входящего просмотра страницы, которой не существует. Настроив \"Пользовательскую цель\" для этих событий в Google Analytics, вы сможете узнать, откуда происходят сломанные ссылки (реферер). %1$sПрочитайте, как настроить цель%2$s."
+
+#: includes/class-wc-google-analytics.php:128
+msgid "Track 404 (Not found) Errors"
+msgstr "Отслеживать ошибки \"404 Не найдено\""
+
+#. Author URI of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "https://woocommerce.com"
+msgstr "https://woocommerce.com"
+
+#: woocommerce-google-analytics-integration.php:118
+msgid "Support"
+msgstr "Поддержка"
+
+#: woocommerce-google-analytics-integration.php:117
+msgid "Settings"
+msgstr "Настройки"
+
+#: includes/class-wc-google-analytics.php:209
+msgid "Please note, for transaction tracking to work properly, you will need to use a payment gateway that redirects the customer back to a WooCommerce order received/thank you page."
+msgstr "Обратите внимание, что для корректного отслеживания операций нужно использовать платежный шлюз, который перенаправляет клиента обратно на страницу с подтверждением заказа WooCommerce/."
+
+#: includes/class-wc-google-analytics.php:205
+msgid "Please allow Google Analytics 24 hours to start displaying results."
+msgstr "Google Analytics начнет отображать результаты через 24 часа."
+
+#: includes/class-wc-google-analytics.php:185
+msgid "Checkout Process Initiated"
+msgstr "Запущен процесс оформления заказа"
+
+#: includes/class-wc-google-analytics.php:178
+msgid "Product Detail Views"
+msgstr "Просмотры сведений о товаре"
+
+#: includes/class-wc-google-analytics.php:171
+msgid "Product Clicks from Listing Pages"
+msgstr "Переходы на страницу товара со страниц каталога"
+
+#: includes/class-wc-google-analytics.php:164
+msgid "Product Impressions from Listing Pages"
+msgstr "Просмотры товара на страницах каталога"
+
+#: includes/class-wc-google-analytics.php:157
+msgid "Remove from Cart Events"
+msgstr "События удаления из корзины"
+
+#: includes/class-wc-google-analytics.php:151
+msgid "Add to Cart Events"
+msgstr "События добавления в корзину"
+
+#: includes/class-wc-google-analytics.php:145
+msgid "This requires a payment gateway that redirects to the thank you/order received page after payment. Orders paid with gateways which do not do this will not be tracked."
+msgstr "Для этого требуется платежный шлюз, который после оплаты перенаправляет на страницу подтверждения заказа/. Заказы, оплачиваемые через другие шлюзы, не отслеживаются."
+
+#: includes/class-wc-google-analytics.php:144
+msgid "Purchase Transactions"
+msgstr "Операции покупки"
+
+#. translators: Read more link
+#: includes/class-wc-google-analytics.php:122
+msgid "Set the Google Analytics code to support Display Advertising. %1$sRead more about Display Advertising%2$s."
+msgstr "Задать код Google Аналитики для поддержки медийной рекламы. %1$sПодробнее о медийной рекламе%2$s."
+
+#: includes/class-wc-google-analytics.php:120
+msgid "\"Display Advertising\" Support"
+msgstr "Поддержка медийной рекламы"
+
+#. Description of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "Allows Google Analytics tracking code to be inserted into WooCommerce store pages."
+msgstr "Разрешает вставлять код отслеживания Google Analytics на страницы магазина WooCommerce."
+
+#. Plugin URI of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "https://wordpress.org/plugins/woocommerce-google-analytics-integration/"
+msgstr "https://wordpress.org/plugins/woocommerce-google-analytics-integration/"
+
+#. Author of the plugin
+#: woocommerce-google-analytics-integration.php
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: includes/class-wc-google-analytics.php:35
+msgid "Google Analytics is a free service offered by Google that generates detailed statistics about the visitors to a website."
+msgstr "Google Аналитика — это бесплатная служба Google, которая формирует подробную статистику посетителей веб-сайта."
+
+#: includes/class-wc-google-analytics.php:34
+msgid "Google Analytics"
+msgstr "Google Analytics"

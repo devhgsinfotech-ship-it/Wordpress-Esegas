@@ -1,0 +1,53 @@
+# Environment variables & secrets
+.env
+*.env
+.env.*
+!.env.example
+
+# Third-party plugins (keeps repository lightweight and git fast)
+wp-content/plugins/
+!wp-content/plugins/index.php
+
+# WordPress uploads, media, and generated files
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/upgrade-temp-backup/
+wp-content/smush-webp/
+wp-content/litespeed/
+wp-content/mc_data/
+wp-content/autoptimize_404_handler.php
+
+# Security & plugin logs / dynamic data
+wp-content/wflogs/
+wp-content/uploads/wc-logs/
+wp-content/uploads/nitropack-logs/
+
+# Backups & migration dumps
+wp-content/backups/
+wp-content/ai1wm-backups/
+wp-content/aiowps_backups/
+wp-content/updraft/
+wp-content/uploads/xspeed-backups/
+wp-content/uploads/wp-file-manager-pro/fm_backup/
+*.sql
+*.sql.gz
+*.wpress
+*.tar
+*.tar.gz
+*.zip
+*.bak
+
+# System & Application Logs
+*.log
+error_log
+debug.log
+
+# IDE & OS Metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*~
