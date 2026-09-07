@@ -1,8 +1,8 @@
 import type { Metadata } from 'next';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
-import Navbar from '@/components/Navbar';
-import Footer from '@/components/Footer';
+import Navbar from '@/components/global/Navbar';
+import Footer from '@/components/global/Footer';
 
 export const metadata: Metadata = {
   title: 'ESEGAS | Industrial, Commercial & Medical Gas Supplies',

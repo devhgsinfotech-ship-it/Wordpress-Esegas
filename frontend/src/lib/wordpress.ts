@@ -29,9 +29,21 @@ export async function fetchFromWP(endpoint: string, options: RequestInit = {}) {
   }
 }
 
-// Fetch WooCommerce Products
+// Fetch WooCommerce / WordPress Products dynamically via REST API
 export async function getWooProducts(perPage = 6) {
-  const products = await fetchFromWP(`/wc/v3/products?per_page=${perPage}&status=publish`);
+  // 1. Try WooCommerce REST API endpoint
+  let products = await fetchFromWP(`/wc/v3/products?per_page=${perPage}&status=publish`);
+  
+  // 2. Fallback to custom post type 'product'
+  if (!products || !Array.isArray(products) || products.length === 0) {
+    products = await fetchFromWP(`/wp/v2/product?per_page=${perPage}&_embed`);
+  }
+
+  // 3. Fallback to standard WP posts
+  if (!products || !Array.isArray(products) || products.length === 0) {
+    products = await fetchFromWP(`/wp/v2/posts?per_page=${perPage}&_embed`);
+  }
+
   if (!products || !Array.isArray(products)) {
     return [];
   }
@@ -46,3 +58,25 @@ export async function getLatestPosts(perPage = 3) {
   }
   return posts;
 }
+
+// Fetch Custom Post Type 'application' (or fallback posts) dynamically via REST API
+export async function getApplications(perPage = 6) {
+  let apps = await fetchFromWP(`/wp/v2/application?per_page=${perPage}&_embed`);
+  
+  if (!apps || !Array.isArray(apps) || apps.length === 0) {
+    apps = await fetchFromWP(`/wp/v2/posts?per_page=${perPage}&_embed`);
+  }
+
+  if (!apps || !Array.isArray(apps)) {
+    return [];
+  }
+  return apps;
+}
+
+// Convert internal WP Docker image URLs to browser-accessible public URLs
+export function formatWpImageUrl(url?: string): string {
+  if (!url) return '';
+  return url.replace(/^http:\/\/wordpress/i, WP_PUBLIC_URL);
+}
+
+
