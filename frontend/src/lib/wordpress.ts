@@ -9,7 +9,7 @@ export async function fetchFromWP(endpoint: string, options: RequestInit = {}) {
 
   try {
     const res = await fetch(`${baseUrl}/wp-json${cleanEndpoint}`, {
-      next: { revalidate: 60 }, // Cache revalidation every 60s
+      cache: 'no-store',
       ...options,
       headers: {
         'Content-Type': 'application/json',
@@ -33,7 +33,7 @@ export async function fetchFromWP(endpoint: string, options: RequestInit = {}) {
 export async function getWooProducts(perPage = 6) {
   // 1. Try WooCommerce REST API endpoint
   let products = await fetchFromWP(`/wc/v3/products?per_page=${perPage}&status=publish`);
-  
+
   // 2. Fallback to custom post type 'product'
   if (!products || !Array.isArray(products) || products.length === 0) {
     products = await fetchFromWP(`/wp/v2/product?per_page=${perPage}&_embed`);
@@ -50,9 +50,15 @@ export async function getWooProducts(perPage = 6) {
   return products;
 }
 
-// Fetch Posts / News / Announcements
+// Fetch Posts / News / Announcements (Filtered for News category)
 export async function getLatestPosts(perPage = 3) {
-  const posts = await fetchFromWP(`/wp/v2/posts?per_page=${perPage}&_embed`);
+  // Category 159 corresponds to 'News' in WordPress
+  let posts = await fetchFromWP(`/wp/v2/posts?categories=159&per_page=${perPage}&_embed&orderby=date&order=desc`);
+  
+  if (!posts || !Array.isArray(posts) || posts.length === 0) {
+    posts = await fetchFromWP(`/wp/v2/posts?per_page=${perPage}&_embed&orderby=date&order=desc`);
+  }
+
   if (!posts || !Array.isArray(posts)) {
     return [];
   }
@@ -62,7 +68,7 @@ export async function getLatestPosts(perPage = 3) {
 // Fetch Custom Post Type 'application' (or fallback posts) dynamically via REST API
 export async function getApplications(perPage = 6) {
   let apps = await fetchFromWP(`/wp/v2/application?per_page=${perPage}&_embed`);
-  
+
   if (!apps || !Array.isArray(apps) || apps.length === 0) {
     apps = await fetchFromWP(`/wp/v2/posts?per_page=${perPage}&_embed`);
   }
@@ -71,6 +77,20 @@ export async function getApplications(perPage = 6) {
     return [];
   }
   return apps;
+}
+
+// Fetch Custom Post Type 'article' (or fallback posts) dynamically via REST API
+export async function getArticles(perPage = 6) {
+  let articles = await fetchFromWP(`/wp/v2/article?per_page=${perPage}&_embed`);
+
+  if (!articles || !Array.isArray(articles) || articles.length === 0) {
+    articles = await fetchFromWP(`/wp/v2/posts?per_page=${perPage}&_embed`);
+  }
+
+  if (!articles || !Array.isArray(articles)) {
+    return [];
+  }
+  return articles;
 }
 
 // Convert internal WP Docker image URLs to browser-accessible public URLs

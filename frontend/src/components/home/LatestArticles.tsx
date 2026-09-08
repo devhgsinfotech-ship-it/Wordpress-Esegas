@@ -1,6 +1,6 @@
 import React from 'react';
 
-export interface PostItem {
+export interface ArticleItem {
   id: number | string;
   title: string;
   excerpt: string;
@@ -10,15 +10,15 @@ export interface PostItem {
   link?: string;
 }
 
-interface LatestNewsProps {
-  posts?: PostItem[];
+interface LatestArticlesProps {
+  articles?: ArticleItem[];
 }
 
-export default function LatestNews({ posts = [] }: LatestNewsProps) {
-  const displayPosts = (posts || []).slice(0, 3);
+export default function LatestArticles({ articles = [] }: LatestArticlesProps) {
+  const displayArticles = (articles || []).slice(0, 3);
 
   return (
-    <section className="py-5" style={{ backgroundColor: '#f8fafc' }}>
+    <section className="py-5" style={{ backgroundColor: '#ffffff' }}>
       <div className="container py-3 py-md-4">
         {/* Section Header with Top Label & Line */}
         <div className="mb-4">
@@ -32,14 +32,14 @@ export default function LatestNews({ posts = [] }: LatestNewsProps) {
             <div className="flex-grow-1" style={{ height: '2px', backgroundColor: '#004d5a', opacity: 0.25 }}></div>
           </div>
           <h2 className="fw-bold mb-0" style={{ fontSize: '1.9rem', color: '#004d5a' }}>
-            Latest Events
+            Latest Articles
           </h2>
         </div>
 
-        {/* 3 Events / Posts Grid matching reference design */}
-        {displayPosts && displayPosts.length > 0 ? (
+        {/* 3 Articles Cards Grid matching reference screenshot */}
+        {displayArticles && displayArticles.length > 0 ? (
           <div className="row g-4 justify-content-center">
-            {displayPosts.map((item) => (
+            {displayArticles.map((item) => (
               <div key={item.id} className="col-md-6 col-lg-4">
                 <div
                   className="card h-100 border-0 rounded-1 overflow-hidden bg-white d-flex flex-column justify-content-between"
@@ -49,8 +49,8 @@ export default function LatestNews({ posts = [] }: LatestNewsProps) {
                   }}
                 >
                   <div>
-                    {/* Featured Image with Top Right Yellow Category Tag */}
-                    <div className="position-relative bg-light overflow-hidden" style={{ height: '200px' }}>
+                    {/* Featured Image with Top-Right Yellow Category Tag */}
+                    <div className="position-relative bg-light overflow-hidden" style={{ height: '210px' }}>
                       {item.image ? (
                         <img
                           src={item.image}
@@ -72,7 +72,7 @@ export default function LatestNews({ posts = [] }: LatestNewsProps) {
                           zIndex: 2,
                         }}
                       >
-                        {item.category || 'NEWS'}
+                        {item.category || 'ARTICLE'}
                       </span>
                     </div>
 
@@ -121,24 +121,24 @@ export default function LatestNews({ posts = [] }: LatestNewsProps) {
                     </div>
                   </div>
 
-                  {/* Footer Date */}
-                  <div className="px-4 py-3 border-top border-light bg-white">
-                    <small className="text-muted" style={{ fontSize: '0.78rem' }}>
-                      {item.date || 'Recent'}
-                    </small>
-                  </div>
+                  {/* Footer Date (if available) */}
+                  {item.date && (
+                    <div className="px-4 py-3 border-top border-light bg-white">
+                      <small className="text-muted" style={{ fontSize: '0.78rem' }}>
+                        {item.date}
+                      </small>
+                    </div>
+                  )}
                 </div>
               </div>
             ))}
           </div>
         ) : (
           <div className="text-center py-4 bg-white rounded-2 border shadow-sm my-2">
-            <p className="text-muted mb-0 fw-semibold">No news/events available from WordPress REST API.</p>
+            <p className="text-muted mb-0 fw-semibold">No articles available from WordPress REST API.</p>
           </div>
         )}
       </div>
     </section>
   );
 }
-
-

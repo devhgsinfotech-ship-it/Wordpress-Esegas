@@ -4,21 +4,23 @@ import AboutSection from '@/components/home/AboutSection';
 import MainProducts from '@/components/home/MainProducts';
 import ApplicationsSection from '@/components/home/ApplicationsSection';
 import VideoSection from '@/components/home/VideoSection';
-import LatestProjects from '@/components/home/LatestProjects';
 import LatestNews from '@/components/home/LatestNews';
+import LatestArticles from '@/components/home/LatestArticles';
 import StatsBar from '@/components/home/StatsBar';
 import TestimonialsSection from '@/components/home/TestimonialsSection';
 import ClientLogos from '@/components/home/ClientLogos';
-import ContactSection from '@/components/home/ContactSection';
-import { getWooProducts, getApplications, formatWpImageUrl } from '@/lib/wordpress';
+import { getWooProducts, getApplications, getLatestPosts, getArticles, formatWpImageUrl } from '@/lib/wordpress';
 
-export const revalidate = 60; // Server-side ISR revalidation every 60 seconds
+export const dynamic = 'force-dynamic';
+export const revalidate = 0; // Disable caching so newly created WP posts reflect instantly
 
 export default async function HomePage() {
-  // Fetch WooCommerce products & custom post type 'application' dynamically from local WordPress Docker container
-  const [apiProducts, apiApplications] = await Promise.all([
+  // Fetch WooCommerce products, custom post type 'application', standard blog posts, and articles dynamically from local WordPress Docker container
+  const [apiProducts, apiApplications, apiPosts, apiArticles] = await Promise.all([
     getWooProducts(6),
     getApplications(12),
+    getLatestPosts(6),
+    getArticles(6),
   ]);
 
   // Map API products format directly from WordPress REST API response
@@ -70,6 +72,83 @@ export default async function HomePage() {
         .slice(0, 6)
     : [];
 
+  // Map latest 3 blog posts directly from WordPress REST API (/wp/v2/posts?_embed)
+  const latestPostsList = Array.isArray(apiPosts) && apiPosts.length > 0
+    ? apiPosts.slice(0, 3)
+    : [];
+
+  const formattedPosts = latestPostsList.length > 0
+    ? latestPostsList.map((post: any) => {
+        const rawImageUrl =
+          post.images?.[0]?.src ||
+          post._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
+          post._embedded?.['wp:featuredmedia']?.[0]?.media_details?.sizes?.medium?.source_url ||
+          '';
+
+        const categoryName =
+          post._embedded?.['wp:term']?.[0]?.[0]?.name ||
+          'NEWS';
+
+        const formattedDate = post.date
+          ? new Date(post.date).toLocaleDateString('en-US', {
+              month: 'long',
+              day: 'numeric',
+              year: 'numeric',
+            })
+          : '';
+
+        return {
+          id: post.id,
+          title: post.title?.rendered || post.title || 'Event Update',
+          excerpt:
+            post.excerpt?.rendered?.replace(/<[^>]*>?/gm, '') ||
+            post.content?.rendered?.replace(/<[^>]*>?/gm, '') ||
+            '',
+          image: formatWpImageUrl(rawImageUrl),
+          category: categoryName.toUpperCase(),
+          date: formattedDate,
+          link: post.link || `/blog`,
+        };
+      })
+    : [];
+
+  // Map API articles directly from WordPress REST API (/wp/v2/article or fallback)
+  const formattedArticles = Array.isArray(apiArticles) && apiArticles.length > 0
+    ? apiArticles.map((art: any) => {
+        const rawImageUrl =
+          art.images?.[0]?.src ||
+          art._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
+          art._embedded?.['wp:featuredmedia']?.[0]?.media_details?.sizes?.medium?.source_url ||
+          '';
+
+        const categoryName =
+          art._embedded?.['wp:term']?.[0]?.[0]?.name ||
+          art.category ||
+          'ARTICLE';
+
+        const formattedDate = art.date
+          ? new Date(art.date).toLocaleDateString('en-US', {
+              month: 'long',
+              day: 'numeric',
+              year: 'numeric',
+            })
+          : '';
+
+        return {
+          id: art.id,
+          title: art.title?.rendered || art.title || 'Gas Analysis Article',
+          excerpt:
+            art.excerpt?.rendered?.replace(/<[^>]*>?/gm, '') ||
+            art.content?.rendered?.replace(/<[^>]*>?/gm, '') ||
+            '',
+          image: formatWpImageUrl(rawImageUrl),
+          category: categoryName.toUpperCase(),
+          date: formattedDate,
+          link: art.link || `/blog`,
+        };
+      })
+    : [];
+
   return (
     <div className="d-flex flex-column">
       {/* 1. Industrial Hero Banner */}
@@ -90,23 +169,21 @@ export default async function HomePage() {
       {/* 6. Video Showcase */}
       <VideoSection />
 
-      {/* 7. Latest Projects */}
-      <LatestProjects />
+      {/* 7. Latest Events */}
+      <LatestNews posts={formattedPosts} />
 
-      {/* 8. Latest News */}
-      <LatestNews />
+      {/* 8. Latest Articles (Dynamic from WordPress REST API) */}
+      <LatestArticles articles={formattedArticles} />
 
       {/* 9. Impact Statistics Bar */}
       <StatsBar />
 
-      {/* 10. Testimonials */}
+      {/* 11. Testimonials */}
       <TestimonialsSection />
 
-      {/* 11. Client Brand Logos */}
+      {/* 12. Client Brand Logos */}
       <ClientLogos />
-
-      {/* 12. Contact Us Form */}
-      <ContactSection />
     </div>
   );
 }
+
