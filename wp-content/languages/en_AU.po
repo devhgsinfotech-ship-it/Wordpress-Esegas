@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 7.1.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-08-27 06:02:50+0000\n"
+"PO-Revision-Date: 2026-09-07 09:31:29+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -366,15 +366,644 @@ msgctxt "block title"
 msgid "Playlist track"
 msgstr "Playlist track"
 
+#: wp-includes/js/dist/script-modules/content-types/index.js:37245
+#: wp-admin/includes/class-wp-screen.php:764
+msgid "Items list"
+msgstr "Items list"
+
+#: wp-includes/js/dist/script-modules/content-types/index.js:37237
+#: wp-admin/includes/class-wp-screen.php:763
+msgid "Items list navigation"
+msgstr "Items list navigation"
+
+#: wp-includes/js/dist/script-modules/content-types/index.js:37227
+#: wp-admin/includes/class-wp-screen.php:762
+msgid "Filter items list"
+msgstr "Filter items list"
+
+#: wp-includes/js/dist/block-library.js:34508
+#: wp-includes/js/dist/editor.js:54802 wp-includes/js/dist/editor.js:55020
+#: wp-admin/includes/image-edit.php:91
+msgid "Flip vertical"
+msgstr "Flip vertical"
+
+#: wp-includes/js/dist/block-library.js:34497
+#: wp-includes/js/dist/editor.js:54788 wp-includes/js/dist/editor.js:55016
+#: wp-admin/includes/image-edit.php:92
+msgid "Flip horizontal"
+msgstr "Flip horizontal"
+
+#: wp-login.php:1551
+msgid "Selecting \"Remember Me\" increases the length of time until you&#8217;re asked to log in again on this device. To keep your account secure, use this option only on your personal devices."
+msgstr "Selecting \"Remember Me\" increases the length of time until you&#8217;re asked to log in again on this device. To keep your account secure, use this option only on your personal devices."
+
+#. translators: %s: RSS feed title.
+#: wp-includes/widgets/class-wp-widget-rss.php:98
+msgid "RSS feed: %s"
+msgstr "RSS feed: %s"
+
+#: wp-includes/script-loader.php:1041
+msgid "The server cannot process HEIC images. Convert it to JPEG before uploading."
+msgstr "The server cannot process HEIC images. Convert it to JPEG before uploading."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-view-config-controller.php:380
+msgid "Default form configuration."
+msgstr "Default form configuration."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-view-config-controller.php:352
+msgid "List of default views."
+msgstr "List of default views."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-view-config-controller.php:291
+msgid "Default layout configurations."
+msgstr "Default layout configurations."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-view-config-controller.php:277
+msgid "Default view configuration."
+msgstr "Default view configuration."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-view-config-controller.php:272
+msgid "The schema version of the configuration."
+msgstr "The schema version of the configuration."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-view-config-controller.php:87
+msgid "Sorry, you are not allowed to read view config."
+msgstr "Sorry, you are not allowed to read view config."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-view-config-controller.php:79
+msgid "Invalid entity kind or name."
+msgstr "Invalid entity kind or name."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-view-config-controller.php:51
+#: wp-includes/rest-api/endpoints/class-wp-rest-view-config-controller.php:267
+msgid "Entity name."
+msgstr "Entity name."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-view-config-controller.php:46
+#: wp-includes/rest-api/endpoints/class-wp-rest-view-config-controller.php:262
+msgid "Entity kind."
+msgstr "Entity kind."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-templates-controller.php:1195
+msgid "The date the template was published, in the site's timezone."
+msgstr "The date the template was published, in the site's timezone."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-icons-controller.php:317
+msgid "Limit results to icons belonging to the given collection slug."
+msgstr "Limit results to icons belonging to the given collection slug."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-icons-controller.php:292
+msgid "The slug of the collection this icon belongs to."
+msgstr "The slug of the collection this icon belongs to."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-icon-collections-controller.php:241
+msgid "The icon collection description."
+msgstr "The icon collection description."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-icon-collections-controller.php:235
+msgid "The icon collection label."
+msgstr "The icon collection label."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-icon-collections-controller.php:229
+msgid "The icon collection slug."
+msgstr "The icon collection slug."
+
+#. translators: %s: Icon collection slug.
+#: wp-includes/rest-api/endpoints/class-wp-rest-icon-collections-controller.php:172
+#: wp-includes/rest-api/endpoints/class-wp-rest-icons-controller.php:158
+msgid "Icon collection not found: \"%s\"."
+msgstr "Icon collection not found: \"%s\"."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-icon-collections-controller.php:97
+msgid "Sorry, you are not allowed to view the registered icon collections."
+msgstr "Sorry, you are not allowed to view the registered icon collections."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-icon-collections-controller.php:56
+#: wp-includes/rest-api/endpoints/class-wp-rest-icons-controller.php:58
+msgid "Icon collection slug."
+msgstr "Icon collection slug."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-global-styles-controller.php:687
+msgid "CSS must be a string."
+msgstr "CSS must be a string."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:3291
+msgid "A grouped sub-size entry may only name regular image sizes."
+msgstr "A grouped sub-size entry may only name regular image sizes."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:3108
+msgid "Invalid sub-size file name. File names must have been produced by a prior sideload for this attachment."
+msgstr "Invalid sub-size file name. File names must have been produced by a prior sideload for this attachment."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:2974
+msgid "Unable to update the attached file for this attachment."
+msgstr "Unable to update the attached file for this attachment."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:2959
+msgid "Unable to read the sideloaded image file."
+msgstr "Unable to read the sideloaded image file."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:2880
+msgid "Could not read image dimensions. The file may be corrupted or an unsupported format."
+msgstr "Could not read image dimensions. The file may be corrupted or an unsupported format."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:2787
+msgid "The attachment is not stored in the uploads directory, so a file cannot be sideloaded for it."
+msgstr "The attachment is not stored in the uploads directory, so a file cannot be sideloaded for it."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:2767
+msgid "Invalid post ID. Only images and PDFs can be sideloaded."
+msgstr "Invalid post ID. Only images and PDFs can be sideloaded."
+
+#. translators: 1: Image size name, 2: maximum height, 3: actual height.
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:2716
+msgid "Uploaded image height (%3$d) exceeds maximum for \"%1$s\" size (%2$d)."
+msgstr "Uploaded image height (%3$d) exceeds maximum for \"%1$s\" size (%2$d)."
+
+#. translators: 1: Image size name, 2: maximum width, 3: actual width.
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:2702
+msgid "Uploaded image width (%3$d) exceeds maximum for \"%1$s\" size (%2$d)."
+msgstr "Uploaded image width (%3$d) exceeds maximum for \"%1$s\" size (%2$d)."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:2684
+msgid "Unknown image size."
+msgstr "Unknown image size."
+
+#. translators: 1: Actual width, 2: actual height, 3: expected width, 4:
+#. expected height.
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:2651
+msgid "Uploaded image dimensions (%1$dx%2$d) do not match original image dimensions (%3$dx%4$d)."
+msgstr "Uploaded image dimensions (%1$dx%2$d) do not match original image dimensions (%3$dx%4$d)."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:2625
+msgid "Uploaded image must have positive dimensions."
+msgstr "Uploaded image must have positive dimensions."
+
+#. translators: %s: Parameter name.
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:2576
+msgid "%s contains an invalid image size."
+msgstr "%s contains an invalid image size."
+
+#. translators: %s: Parameter name.
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:2567
+msgid "%s must be a string or an array of strings."
+msgstr "%s must be a string or an array of strings."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1882
+msgid "Whether to use progressive/interlaced encoding when saving this image."
+msgstr "Whether to use progressive/interlaced encoding when saving this image."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1875
+msgid "The output MIME type this image should be converted to, based on the image_editor_output_format filter. Null if no conversion is needed."
+msgstr "The output MIME type this image should be converted to, based on the image_editor_output_format filter. Null if no conversion is needed."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:1857
+msgid "Encode quality (1-100) from the wp_editor_set_quality filter, resolved against the output MIME type. The \"default\" value applies to the full-size image; \"sizes\" lists per-registered-size overrides where the filtered value differs from \"default\"."
+msgstr "Encode quality (1-100) from the wp_editor_set_quality filter, resolved against the output MIME type. The \"default\" value applies to the full-size image; \"sizes\" lists per-registered-size overrides where the filtered value differs from \"default\"."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:692
+msgid "The provided URL does not point to a supported image file."
+msgstr "The provided URL does not point to a supported image file."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:677
+msgid "Could not determine a filename from the provided URL."
+msgstr "Could not determine a filename from the provided URL."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:334
+msgid "Invalid URL. Provide a valid, publicly reachable HTTP or HTTPS image URL."
+msgstr "Invalid URL. Provide a valid, publicly reachable HTTP or HTTPS image URL."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:313
+msgid "URL of an external image to sideload into the media library, instead of uploading a file."
+msgstr "URL of an external image to sideload into the media library, instead of uploading a file."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:301
+msgid "Whether to generate image sub sizes."
+msgstr "Whether to generate image sub sizes."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:234
+msgid "Size name, or an array of size names when a single file is registered under multiple sizes with matching dimensions."
+msgstr "Size name, or an array of size names when a single file is registered under multiple sizes with matching dimensions."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:187
+msgid "Array of sub-size metadata collected from sideload responses."
+msgstr "Array of sub-size metadata collected from sideload responses."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:164
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:307
+msgid "Whether to convert image formats."
+msgstr "Whether to convert image formats."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-attachments-controller.php:130
+msgid "Image size. Can be a single size name or an array of size names to register the same file under multiple sizes."
+msgstr "Image size. Can be a single size name or an array of size names to register the same file under multiple sizes."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:370
+msgid "Limit results to abilities matching the given behavioral annotations."
+msgstr "Limit results to abilities matching the given behavioral annotations."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:365
+msgid "Limit results to abilities matching all of the given meta fields."
+msgstr "Limit results to abilities matching all of the given meta fields."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:359
+msgid "Limit results to abilities in a specific namespace."
+msgstr "Limit results to abilities in a specific namespace."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:316
+msgid "Whether the ability is meant to be available to clients such as the REST API, MCP, or AI agents. Defaults to false, but individual channel settings such as show_in_rest can override it."
+msgstr "Whether the ability is meant to be available to clients such as the REST API, MCP, or AI agents. Defaults to false, but individual channel settings such as show_in_rest can override it."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:309
+#: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:382
+msgid "Whether repeated calls with the same arguments have no additional effect."
+msgstr "Whether repeated calls with the same arguments have no additional effect."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:305
+#: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:378
+msgid "Whether the ability may perform destructive updates to its environment."
+msgstr "Whether the ability may perform destructive updates to its environment."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:301
+#: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:374
+msgid "Whether the ability does not modify its environment."
+msgstr "Whether the ability does not modify its environment."
+
+#: wp-includes/rest-api/endpoints/class-wp-rest-abilities-v1-list-controller.php:297
+msgid "Behavioral annotations for the ability."
+msgstr "Behavioural annotations for the ability."
+
+#. translators: %s: Media item title or file name.
+#: wp-includes/media.php:5196
+msgid "Viewing media item: %s"
+msgstr "Viewing media item: %s"
+
+#: wp-includes/media-template.php:550 wp-includes/media-template.php:806
+#: wp-admin/includes/media.php:3282
+msgid "Short Description"
+msgstr "Short Description"
+
+#: wp-includes/media-template.php:548 wp-includes/media-template.php:804
+#: wp-admin/includes/media.php:2955 wp-admin/includes/media.php:3280
+msgid "Image Caption"
+msgstr "Image Caption"
+
+#. translators: %s: The attribute name.
+#: wp-includes/interactivity-api/class-wp-interactivity-api.php:1211
+msgid "Attempted to bind a non-finite number to the \"%s\" attribute. Ensure the state/context property or the derived state closure resolves to a finite number or a string."
+msgstr "Attempted to bind a non-finite number to the \"%s\" attribute. Ensure the state/context property or the derived state closure resolves to a finite number or a string."
+
+#. translators: %s: The attribute name.
+#: wp-includes/interactivity-api/class-wp-interactivity-api.php:1179
+msgid "Attempted to bind a non-scalar value to the \"%s\" attribute. Ensure the state/context property or the derived state closure resolves to a string, number, or boolean."
+msgstr "Attempted to bind a non-scalar value to the \"%s\" attribute. Ensure the state/context property or the derived state closure resolves to a string, number, or boolean."
+
+#: wp-includes/icons.php:89
+msgid "Default icon collection."
+msgstr "Default icon collection."
+
+#: wp-includes/icons.php:88 wp-admin/includes/class-wp-debug-data.php:298
+#: wp-admin/includes/class-wp-privacy-policy-content.php:710
+#: wp-admin/includes/media.php:558 wp-admin/includes/template.php:2140
+#: wp-admin/install.php:76 wp-admin/maint/repair.php:24
+#: wp-admin/setup-config.php:115 wp-admin/upgrade.php:84
+msgid "WordPress"
+msgstr "WordPress"
+
+#: wp-includes/html-api/class-wp-html-tag-processor.php:4201
+msgid "Only the IFRAME, NOEMBED, NOFRAMES, SCRIPT, STYLE, TEXTAREA, TITLE, and XMP tags support setting modifiable text."
+msgstr "Only the IFRAME, NOEMBED, NOFRAMES, SCRIPT, STYLE, TEXTAREA, TITLE, and XMP tags support setting modifiable text."
+
+#. translators: %s: HTML tag name.
+#: wp-includes/html-api/class-wp-html-tag-processor.php:4128
+msgid "%s text cannot contain its own closing tag."
+msgstr "%s text cannot contain its own closing tag."
+
+#: wp-includes/html-api/class-wp-html-tag-processor.php:4106
+msgid "SCRIPT text with an unrecognized content type cannot contain a SCRIPT tag. Apply the escaping appropriate for the content type."
+msgstr "SCRIPT text with an unrecognised content type cannot contain a SCRIPT tag. Apply the escaping appropriate for the content type."
+
+#: wp-includes/html-api/class-wp-html-tag-processor.php:4068
+msgid "This token does not support setting modifiable text."
+msgstr "This token does not support setting modifiable text."
+
+#: wp-includes/html-api/class-wp-html-tag-processor.php:4031
+msgid "Processing instruction data cannot start with whitespace. Try ltrim( $plaintext_content, \" \\t\\f\\r\\n\" )."
+msgstr "Processing instruction data cannot start with whitespace. Try ltrim( $plaintext_content, \" \\t\\f\\r\\n\" )."
+
+#: wp-includes/html-api/class-wp-html-tag-processor.php:4018
+msgid "Processing instruction data cannot contain \">\"."
+msgstr "Processing instruction data cannot contain \">\"."
+
+#: wp-includes/html-api/class-wp-html-tag-processor.php:3994
+msgid "Comment text cannot contain a comment closer."
+msgstr "Comment text cannot contain a comment closer."
+
+#. translators: %s: Connector name.
+#: wp-includes/connectors.php:817
+msgid "Application password credentials for the %s connector."
+msgstr "Application password credentials for the %s connector."
+
+#. translators: %s: Connector name.
+#: wp-includes/connectors.php:812
+msgid "%s Credentials"
+msgstr "%s Credentials"
+
+#. translators: %s: PHP constant name.
+#: wp-includes/connectors.php:561
+msgid "The %s constant must contain application password credentials in \"username:password\" format."
+msgstr "The %s constant must contain application password credentials in \"username:password\" format."
+
+#. translators: %s: Environment variable name.
+#: wp-includes/connectors.php:538
+msgid "The %s environment variable must contain application password credentials in \"username:password\" format."
+msgstr "The %s environment variable must contain application password credentials in \"username:password\" format."
+
+#: wp-includes/comment.php:3483
+msgid "Trackbacks are disabled in non-production environments."
+msgstr "Trackbacks are disabled in non-production environments."
+
+#. translators: Note mention notification email subject. 1: Site title, 2: Post
+#. title.
+#: wp-includes/comment.php:2757
+msgid "[%1$s] You were mentioned in a note on \"%2$s\""
+msgstr "[%1$s] You were mentioned in a note on \"%2$s\""
+
+#. translators: 1: Note author's name, 2: Post title.
+#: wp-includes/comment.php:2755
+msgid "%1$s mentioned you in a note on \"%2$s\"."
+msgstr "%1$s mentioned you in a note on \"%2$s\"."
+
+#: wp-includes/comment.php:2738 wp-admin/includes/ajax-actions.php:2110
+msgid "Someone"
+msgstr "Someone"
+
+#: wp-includes/class-wp-xmlrpc-server.php:6489
+#: wp-includes/class-wp-xmlrpc-server.php:6496
+msgid "Invalid attachment data."
+msgstr "Invalid attachment data."
+
+#: wp-includes/class-wp-view-config-data.php:529
+#: wp-includes/class-wp-view-config-data.php:559
+msgid "A view configuration patch value must match the shape of the value it patches: a list merges into a list, and an associative array into an associative array."
+msgstr "A view configuration patch value must match the shape of the value it patches: a list merges into a list, and an associative array into an associative array."
+
+#. translators: %s: the configuration key.
+#: wp-includes/class-wp-view-config-data.php:283
+#: wp-includes/class-wp-view-config-data.php:427
+msgid "\"%s\" is not a documented view configuration key."
+msgstr "\"%s\" is not a documented view configuration key."
+
+#: wp-includes/class-wp-view-config-data.php:265
+#: wp-includes/class-wp-view-config-data.php:414
+msgid "A view configuration patch must declare a supported schema version."
+msgstr "A view configuration patch must declare a supported schema version."
+
+#. translators: 1: oembed_providers, 2: The oEmbed provider URL pattern.
+#: wp-includes/class-wp-oembed.php:240
+msgid "The oEmbed provider data returned by the %1$s filter at key %2$s is malformed. The providers array must be a mapping of provider URL patterns to a tuple array consisting of a provider endpoint URL string at index 0 and an optional boolean regex flag at index 1."
+msgstr "The oEmbed provider data returned by the %1$s filter at key %2$s is malformed. The providers array must be a mapping of provider URL patterns to a tuple array consisting of a provider endpoint URL string at index 0 and an optional boolean regex flag at index 1."
+
+#: wp-includes/class-wp-icons-registry.php:290
+msgid "Icon file is missing or unreadable."
+msgstr "Icon file is missing or unreadable."
+
+#. translators: %s: Icon name.
+#: wp-includes/class-wp-icons-registry.php:216
+msgid "Icon \"%s\" is not registered."
+msgstr "Icon \"%s\" is not registered."
+
+#: wp-includes/class-wp-icons-registry.php:182
+msgid "Icon is already registered."
+msgstr "Icon is already registered."
+
+#. translators: %s: Icon collection slug.
+#: wp-includes/class-wp-icons-registry.php:125
+msgid "Icon collection \"%s\" is not registered."
+msgstr "Icon collection \"%s\" is not registered."
+
+#: wp-includes/class-wp-icons-registry.php:98
+msgid "Icon names must start and end with a lowercase letter or digit and contain only lowercase letters, digits, hyphens, and underscores."
+msgstr "Icon names must start and end with a lowercase letter or digit and contain only lowercase letters, digits, hyphens, and underscores."
+
+#: wp-includes/class-wp-icons-registry.php:77
+msgid "Icon name must be namespaced in the form \"collection/icon-name\"."
+msgstr "Icon name must be namespaced in the form \"collection/icon-name\"."
+
+#. translators: %s: Icon collection slug.
+#: wp-includes/class-wp-icon-collections-registry.php:152
+msgid "Icon collection \"%s\" not found."
+msgstr "Icon collection \"%s\" not found."
+
+#: wp-includes/class-wp-icon-collections-registry.php:115
+msgid "Icon collection description must be a string."
+msgstr "Icon collection description must be a string."
+
+#: wp-includes/class-wp-icon-collections-registry.php:106
+msgid "Icon collection label must be a string."
+msgstr "Icon collection label must be a string."
+
+#. translators: %s: The name of a user-provided key.
+#: wp-includes/class-wp-icon-collections-registry.php:94
+msgid "Invalid icon collection property: \"%s\"."
+msgstr "Invalid icon collection property: \"%s\"."
+
+#: wp-includes/class-wp-icon-collections-registry.php:81
+msgid "Icon collection properties must be an array."
+msgstr "Icon collection properties must be an array."
+
+#: wp-includes/class-wp-icon-collections-registry.php:72
+msgid "Icon collection is already registered."
+msgstr "Icon collection is already registered."
+
+#: wp-includes/class-wp-icon-collections-registry.php:63
+msgid "Icon collection slug must start and end with a lowercase letter or digit and contain only lowercase letters, digits, hyphens, and underscores."
+msgstr "Icon collection slug must start and end with a lowercase letter or digit and contain only lowercase letters, digits, hyphens, and underscores."
+
+#: wp-includes/class-wp-icon-collections-registry.php:54
+msgid "Icon collection slug must be a string."
+msgstr "Icon collection slug must be a string."
+
+#: wp-includes/class-wp-editor.php:1387
+msgid "Extended Toolbar"
+msgstr "Extended Toolbar"
+
+#. translators: %s: Theme name.
+#: wp-includes/class-wp-customize-manager.php:4962
+#: wp-admin/theme-install.php:71 wp-admin/themes.php:241
+msgid "Theme details: %s"
+msgstr "Theme details: %s"
+
+#. translators: %s: Connector ID.
+#: wp-includes/class-wp-connector-registry.php:206
+msgid "Connector \"%s\" authentication method must be \"api_key\", \"application_password\", or \"none\"."
+msgstr "Connector \"%s\" authentication method must be \"api_key\", \"application_password\", or \"none\"."
+
+#. translators: %s: Block name.
+#: wp-includes/class-wp-block-type-registry.php:69
+msgid "Block type names must not contain uppercase characters. \"%s\" was given."
+msgstr "Block type names must not contain uppercase characters. \"%s\" was given."
+
+#. translators: %s: The received block type name type.
+#: wp-includes/class-wp-block-type-registry.php:59
+msgid "Block type names must be strings, received %s."
+msgstr "Block type names must be strings, received %s."
+
+#: wp-includes/blocks/tab-list.php:26
+msgid "Tabbed content"
+msgstr "Tabbed content"
+
+#. translators: %1$s: current audio time, %2$s: total audio duration.
+#: wp-includes/blocks/playlist.php:98
+#: wp-includes/js/dist/block-library.js:55006
+msgctxt "audio current time of total duration"
+msgid "%1$s of %2$s"
+msgstr "%1$s of %2$s"
+
 #: wp-includes/blocks/playlist.php:96
 #: wp-includes/js/dist/block-library.js:54904
 #: wp-includes/js/dist/block-library.js:55004
 msgid "Seek"
 msgstr "Seek"
 
+#. translators: Visually hidden label for the track duration (screen reader
+#. text).
+#: wp-includes/blocks/playlist-track.php:54
+#: wp-includes/js/dist/block-library.js:56163
+msgid "Duration:"
+msgstr "Duration:"
+
+#: wp-includes/blocks/playlist-track.php:34 wp-includes/blocks/playlist.php:40
+msgid "Unknown title"
+msgstr "Unknown title"
+
+#: wp-includes/abilities.php:298
+msgid "Returns core details about the site's runtime context for diagnostics and compatibility (environment, PHP runtime, database server info, WordPress version). By default returns all fields, or optionally a filtered subset."
+msgstr "Returns core details about the site's runtime context for diagnostics and compatibility (environment, PHP runtime, database server info, WordPress version). By default returns all fields, or optionally a filtered subset."
+
+#: wp-includes/abilities.php:283
+msgid "Database Server Info"
+msgstr "Database Server Info"
+
+#: wp-includes/abilities.php:278
+#: wp-admin/includes/class-wp-site-health.php:2868
+msgid "PHP Version"
+msgstr "PHP Version"
+
+#: wp-includes/abilities.php:273
+msgid "The site's runtime environment classification."
+msgstr "The site's runtime environment classification."
+
+#: wp-includes/abilities.php:272
+msgid "Environment Type"
+msgstr "Environment Type"
+
+#: wp-includes/abilities.php:211
+msgid "Returns profile details for the current authenticated user to support personalization, auditing, and access-aware behavior. By default returns all fields, or optionally a filtered subset."
+msgstr "Returns profile details for the current authenticated user to support personalisation, auditing, and access-aware behaviour. By default returns all fields, or optionally a filtered subset."
+
+#: wp-includes/abilities.php:202
+msgid "Personal website URL."
+msgstr "Personal website URL."
+
+#: wp-includes/abilities.php:197
+msgid "User-authored biography. May be empty."
+msgstr "User-authored biography. May be empty."
+
+#: wp-includes/abilities.php:196 wp-admin/user-edit.php:642
+msgid "Biographical Info"
+msgstr "Biographical Info"
+
+#: wp-includes/abilities.php:192
+msgid "Informal name. Defaults to the username."
+msgstr "Informal name. Defaults to the username."
+
+#: wp-includes/abilities.php:191 wp-admin/user-edit.php:517
+msgid "Nickname"
+msgstr "Nickname"
+
+#: wp-includes/abilities.php:187
+msgid "Family name."
+msgstr "Family name."
+
+#: wp-includes/abilities.php:186 wp-admin/user-edit.php:506
+#: wp-admin/user-new.php:556
+msgid "Last Name"
+msgstr "Last Name"
+
+#: wp-includes/abilities.php:182
+msgid "Given name."
+msgstr "Given name."
+
+#: wp-includes/abilities.php:181 wp-admin/user-edit.php:495
+#: wp-admin/user-new.php:552
+msgid "First Name"
+msgstr "First Name"
+
+#: wp-includes/abilities.php:177
+msgid "Locale code for the user, such as en_US."
+msgstr "Locale code for the user, such as en_US."
+
+#: wp-includes/abilities.php:169
+msgid "Roles assigned to the user, such as administrator, editor, author, contributor, or subscriber."
+msgstr "Roles assigned to the user, such as administrator, editor, author, contributor, or subscriber."
+
 #: wp-includes/abilities.php:168
 msgid "Roles"
 msgstr "Roles"
+
+#: wp-includes/abilities.php:164
+msgid "Login identifier for the user. Cannot be changed once set."
+msgstr "Login identifier for the user. Cannot be changed once set."
+
+#: wp-includes/abilities.php:159
+msgid "URL-friendly slug for the user. Defaults to the username."
+msgstr "URL-friendly slug for the user. Defaults to the username."
+
+#: wp-includes/abilities.php:158
+msgid "User Nicename"
+msgstr "User Nicename"
+
+#: wp-includes/abilities.php:154
+msgid "Public-facing name selected by the user."
+msgstr "Public-facing name selected by the user."
+
+#: wp-includes/abilities.php:84 wp-includes/abilities.php:288
+#: wp-admin/includes/class-wp-site-health.php:2856
+msgid "WordPress Version"
+msgstr "WordPress Version"
+
+#: wp-includes/abilities.php:80
+msgid "The site locale in dash form (e.g. en-US)."
+msgstr "The site locale in dash form (e.g. en-US)."
+
+#: wp-includes/abilities.php:74
+msgid "Site Charset"
+msgstr "Site Charset"
+
+#: wp-includes/abilities.php:69 wp-admin/options-general.php:265
+msgid "Administration Email Address"
+msgstr "Administration Email Address"
+
+#: wp-includes/abilities.php:65
+msgid "The URL where WordPress core files are served. May differ from the public site URL."
+msgstr "The URL where WordPress core files are served. May differ from the public site URL."
+
+#: wp-includes/abilities.php:60
+msgid "The public URL where visitors access the site. May differ from the WordPress installation URL."
+msgstr "The public URL where visitors access the site. May differ from the WordPress installation URL."
+
+#: wp-includes/abilities-api/class-wp-ability.php:750
+msgid "Invalid output."
+msgstr "Invalid output."
+
+#: wp-includes/abilities-api/class-wp-ability.php:568
+msgid "Invalid input."
+msgstr "Invalid input."
+
+#: wp-includes/abilities-api/class-wp-ability.php:348
+msgid "The ability meta should provide a valid `public` boolean."
+msgstr "The ability meta should provide a valid `public` boolean."
 
 #. translators: 1: 'module_dependencies', 2: Script handle, 3: 'in_footer', 4:
 #. 'strategy', 5: 'defer'.
@@ -732,6 +1361,10 @@ msgstr "Icon content does not contain valid SVG markup."
 msgid "Icon content must be a string."
 msgstr "Icon content must be a string."
 
+#: wp-includes/class-wp-icons-registry.php:148
+msgid "Icons must provide either `content` or `file_path`."
+msgstr "Icons must provide either `content` or `file_path`."
+
 #: wp-includes/class-wp-icons-registry.php:136
 msgid "Icon label must be a string."
 msgstr "Icon label must be a string."
@@ -740,6 +1373,10 @@ msgstr "Icon label must be a string."
 #: wp-includes/class-wp-icons-registry.php:111
 msgid "Invalid icon property: \"%s\"."
 msgstr "Invalid icon property: \"%s\"."
+
+#: wp-includes/icons.php:129
+msgid "Core icon collection manifest must provide a valid \"filePath\" for each icon."
+msgstr "Core icon collection manifest must provide a valid \"filePath\" for each icon."
 
 #: wp-includes/icons.php:117
 msgid "Core icon collection manifest is empty or invalid."
@@ -3222,6 +3859,11 @@ msgstr "https://developer.wordpress.org/advanced-administration/wordpress/css/"
 msgid "Block name must be a string or array."
 msgstr "Block name must be a string or array."
 
+#. translators: 1: A URL to a post, 2: Hidden accessibility text: Post title
+#: wp-includes/blocks/latest-posts.php:172
+msgid "… <a class=\"wp-block-latest-posts__read-more\" href=\"%1$s\" rel=\"noopener\">Read more<span class=\"screen-reader-text\">: %2$s</span></a>"
+msgstr "… <a class=\"wp-block-latest-posts__read-more\" href=\"%1$s\" rel=\"noopener\">Read more<span class=\"screen-reader-text\">: %2$s</span></a>"
+
 #: wp-includes/block-supports/typography.php:583
 msgid "`boolean` type for second argument `$settings` is deprecated. Use `array()` instead."
 msgstr "`boolean` type for second argument `$settings` is deprecated. Use `array()` instead."
@@ -3770,6 +4412,12 @@ msgstr "Some required plugins are missing or inactive."
 #: wp-includes/class-wp-duotone.php:682
 msgid "\"%1$s\" in %2$s %3$s is not a hex or rgb string."
 msgstr "\"%1$s\" in %2$s %3$s is not a hex or rgb string."
+
+#. translators: 1: pixel value for icon size. 2: pixel value for icon size.
+#: wp-includes/class-wp-customize-manager.php:5219
+#: wp-admin/options-general.php:215
+msgid "The Site Icon is what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. It should be square and at least <strong>%1$s by %2$s</strong> pixels."
+msgstr "The Site Icon is what you see in browser tabs, bookmark bars, and within the WordPress mobile apps. It should be square and at least <strong>%1$s by %2$s</strong> pixels."
 
 #. translators: %s: Block bindings source name.
 #: wp-includes/class-wp-block-bindings-registry.php:195
@@ -4902,6 +5550,14 @@ msgstr[1] "%s comments"
 #: wp-signup.php:652
 msgid "Create a site or only a username:"
 msgstr "Create a site or only a username:"
+
+#: wp-signup.php:133
+msgid "Site Domain (subdomain only)"
+msgstr "Site Domain (subdomain only)"
+
+#: wp-signup.php:131
+msgid "Site Name (subdirectory only)"
+msgstr "Site Name (subdirectory only)"
 
 #. translators: %s: wp-config.php
 #: wp-load.php:88
@@ -11059,6 +11715,10 @@ msgstr "Give quoted text visual emphasis. \"In quoting others, we cite ourselves
 msgid "Pagination"
 msgstr "Pagination"
 
+#: wp-includes/abilities.php:153
+msgid "Display Name"
+msgstr "Display Name"
+
 #: wp-includes/media.php:5222 wp-includes/js/dist/block-library.js:37679
 #: wp-includes/js/dist/block-library.js:37680
 msgid "Edit image"
@@ -11363,6 +12023,15 @@ msgstr "Block type \"%s\" is not registered."
 #: wp-includes/class-wp-block-type-registry.php:90
 msgid "Block type \"%s\" is already registered."
 msgstr "Block type \"%s\" is already registered."
+
+#. translators: %s: Block name.
+#: wp-includes/class-wp-block-type-registry.php:80
+msgid "Block type names must contain a namespace prefix. Example: my-plugin/my-custom-block-type. \"%s\" was given."
+msgstr "Block type names must contain a namespace prefix. Example: my-plugin/my-custom-block-type. \"%s\" was given."
+
+#: wp-includes/class-wp-icons-registry.php:89
+msgid "Icon names must not contain uppercase characters."
+msgstr "Icon names must not contain uppercase characters."
 
 #: wp-includes/blocks/latest-comments.php:156
 msgid "No comments to show."
@@ -13342,7 +14011,7 @@ msgstr "Unique identifier for the term."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:137
 msgid "Required to be true, as terms do not support trashing."
-msgstr "Required to be true, as terms do not support trashing."
+msgstr "Required to be true, as terms do not support binning."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:58
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:373
@@ -13352,7 +14021,7 @@ msgstr "An alphanumeric identifier for the taxonomy."
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:133
 #: wp-includes/rest-api/endpoints/class-wp-rest-template-revisions-controller.php:149
 msgid "Required to be true, as revisions do not support trashing."
-msgstr "Required to be true, as revisions do not support trashing."
+msgstr "Required to be true, as revisions do not support binning."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-post-types-controller.php:396
 msgid "REST base route for the post type."
@@ -13959,22 +14628,22 @@ msgstr "Please enter a valid YouTube URL."
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-users-controller.php:943
 msgid "Users do not support trashing. Set '%s' to delete."
-msgstr "Users do not support trashing. Set '%s' to delete."
+msgstr "Users do not support binning. Set '%s' to delete."
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-terms-controller.php:783
 msgid "Terms do not support trashing. Set '%s' to delete."
-msgstr "Terms do not support trashing. Set '%s' to delete."
+msgstr "Terms do not support binning. Set '%s' to delete."
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:516
 msgid "Revisions do not support trashing. Set '%s' to delete."
-msgstr "Revisions do not support trashing. Set '%s' to delete."
+msgstr "Revisions do not support binning. Set '%s' to delete."
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1152
 msgid "The post does not support trashing. Set '%s' to delete."
-msgstr "The post does not support trashing. Set '%s' to delete."
+msgstr "The post does not support binning. Set '%s' to delete."
 
 #. translators: %s: force=true
 #: wp-includes/rest-api/endpoints/class-wp-rest-comments-controller.php:1080
@@ -15834,6 +16503,12 @@ msgstr "Oops! That embed cannot be found."
 #: wp-includes/embed.php:1020 wp-includes/post-template.php:303
 msgid "Continue reading %s"
 msgstr "Continue reading %s"
+
+#: wp-includes/abilities.php:79 wp-signup.php:185
+#: wp-admin/includes/class-wp-debug-data.php:177
+#: wp-admin/options-general.php:343 wp-admin/network/site-new.php:251
+msgid "Site Language"
+msgstr "Site Language"
 
 #. translators: %s: The message ID.
 #: wp-mail.php:270
@@ -18374,6 +19049,10 @@ msgstr "Align left"
 msgid "Justify"
 msgstr "Justify"
 
+#: wp-includes/class-wp-editor.php:1367
+msgid "Paste is now in plain text mode. Contents will now be pasted as plain text until you turn this option off."
+msgstr "Paste is now in plain text mode. Contents will now be pasted as plain text until you turn this option off."
+
 #: wp-includes/class-wp-editor.php:1178
 msgid "Decrease indent"
 msgstr "Decrease indent"
@@ -19381,6 +20060,10 @@ msgstr "Header Image"
 #: wp-includes/class-wp-xmlrpc-server.php:595
 msgid "Post Thumbnail"
 msgstr "Post Thumbnail"
+
+#: wp-includes/script-loader.php:806
+msgid "Switch Editor Text Direction"
+msgstr "Switch Editor Text Direction"
 
 #: wp-includes/script-loader.php:805
 msgid "text direction"
@@ -21150,6 +21833,10 @@ msgstr "Get your own %s account in seconds"
 msgid "There was a problem, please correct the form below and try again."
 msgstr "There was a problem, please correct the form below and try again."
 
+#: wp-signup.php:297
+msgid "Email&nbsp;Address"
+msgstr "Email&nbsp;Address"
+
 #: wp-signup.php:293
 msgid "(Must be at least 4 characters, lowercase letters and numbers only.)"
 msgstr "(Must be at least 4 characters, lowercase letters and numbers only.)"
@@ -21566,6 +22253,16 @@ msgstr[1] "Currently %s comments are waiting for approval. Please visit the mode
 msgid "Approve it: %s"
 msgstr "Approve it: %s"
 
+#. translators: %s: Pingback excerpt text.
+#: wp-includes/pluggable.php:2106
+msgid "Pingback excerpt: %s"
+msgstr "Pingback excerpt: %s"
+
+#. translators: %s: Trackback excerpt text.
+#: wp-includes/pluggable.php:2094
+msgid "Trackback excerpt: %s"
+msgstr "Trackback excerpt: %s"
+
 #. translators: Comment moderation. %s: Comment action URL.
 #: wp-includes/pluggable.php:1961 wp-includes/pluggable.php:2142
 msgid "Spam it: %s"
@@ -21579,7 +22276,7 @@ msgstr "Delete it: %s"
 #. translators: Comment moderation. %s: Comment action URL.
 #: wp-includes/pluggable.php:1955 wp-includes/pluggable.php:2135
 msgid "Trash it: %s"
-msgstr "Trash it: %s"
+msgstr "Bin it: %s"
 
 #. translators: Pingback notification email subject. 1: Site title, 2: Post
 #. title.
@@ -22679,6 +23376,11 @@ msgstr "Comments are closed."
 #: wp-includes/post-template.php:962
 msgid "Pages:"
 msgstr "Pages:"
+
+#: wp-includes/category-template.php:1233 wp-admin/includes/theme.php:1052
+#: wp-admin/themes.php:1250
+msgid "Tags:"
+msgstr "Tags:"
 
 #. translators: %s: Login URL.
 #: wp-includes/comment-template.php:2623

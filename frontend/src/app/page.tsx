@@ -18,7 +18,7 @@ export default async function HomePage() {
   // Fetch WooCommerce products & custom post type 'application' dynamically from local WordPress Docker container
   const [apiProducts, apiApplications] = await Promise.all([
     getWooProducts(6),
-    getApplications(6),
+    getApplications(12),
   ]);
 
   // Map API products format directly from WordPress REST API response
@@ -46,25 +46,28 @@ export default async function HomePage() {
 
   // Map API applications format directly from WordPress custom post type 'application'
   const formattedApplications = Array.isArray(apiApplications) && apiApplications.length > 0
-    ? apiApplications.map((app: any) => {
-        const rawImageUrl =
-          app.images?.[0]?.src ||
-          app._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
-          app._embedded?.['wp:featuredmedia']?.[0]?.media_details?.sizes?.medium?.source_url ||
-          '';
+    ? apiApplications
+        .map((app: any) => {
+          const rawImageUrl =
+            app.images?.[0]?.src ||
+            app._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
+            app._embedded?.['wp:featuredmedia']?.[0]?.media_details?.sizes?.medium?.source_url ||
+            '';
 
-        return {
-          id: app.id,
-          title: app.title?.rendered || app.title || app.name || 'Application',
-          description:
-            app.excerpt?.rendered?.replace(/<[^>]*>?/gm, '') ||
-            app.description?.replace(/<[^>]*>?/gm, '') ||
-            app.content?.rendered?.replace(/<[^>]*>?/gm, '') ||
-            '',
-          image: formatWpImageUrl(rawImageUrl),
-          permalink: app.link || `/application`,
-        };
-      })
+          return {
+            id: app.id,
+            title: app.title?.rendered || app.title || app.name || 'Application',
+            description:
+              app.excerpt?.rendered?.replace(/<[^>]*>?/gm, '') ||
+              app.description?.replace(/<[^>]*>?/gm, '') ||
+              app.content?.rendered?.replace(/<[^>]*>?/gm, '') ||
+              '',
+            image: formatWpImageUrl(rawImageUrl),
+            permalink: app.link || `/application`,
+          };
+        })
+        .filter((app: any) => Boolean(app.image && app.image.trim() !== ''))
+        .slice(0, 6)
     : [];
 
   return (
