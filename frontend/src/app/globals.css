@@ -11,6 +11,8 @@ body {
   background-color: #ffffff !important;
   color: #1e293b !important;
   overflow-x: hidden;
+  top: 0px !important;
+  position: static !important;
 }
 
 /* Explicit reset for lists to prevent unstyled bullet points */
@@ -22,6 +24,19 @@ ul.nav, ul.list-unstyled {
   list-style: none !important;
   padding-left: 0 !important;
   margin-bottom: 0;
+}
+
+/* Hide Google Translate top banner & iframe bar */
+.goog-te-banner-frame,
+.skiptranslate,
+iframe.skiptranslate,
+#goog-gt-tt {
+  display: none !important;
+}
+
+.goog-text-highlight {
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 
 /* Ken Burns Zoom Animation for Hero Slider */

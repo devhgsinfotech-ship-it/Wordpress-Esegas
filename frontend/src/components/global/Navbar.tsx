@@ -1,8 +1,8 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
-import { Search, ChevronDown, Mail, MessageCircle, Menu, X, Globe } from 'lucide-react';
+import { Search, ChevronDown, Mail, MessageCircle, Menu, X } from 'lucide-react';
 
 interface NavbarProps {
   logoUrl?: string;
@@ -19,16 +19,65 @@ export default function Navbar({ logoUrl = 'http://localhost:8090/wp-content/upl
     { code: 'es', name: 'Español', flag: '🇪🇸' },
     { code: 'fr', name: 'Français', flag: '🇫🇷' },
     { code: 'de', name: 'Deutsch', flag: '🇩🇪' },
-    { code: 'zh', name: '中文', flag: '🇨🇳' },
+    { code: 'zh-CN', name: '中文', flag: '🇨🇳' },
     { code: 'ar', name: 'العربية', flag: '🇸🇦' },
   ];
+
+  // Initialize selected language label from existing cookie on mount
+  useEffect(() => {
+    if (typeof document === 'undefined') return;
+    const cookies = document.cookie.split(';');
+    const googCookie = cookies.find(c => c.trim().startsWith('googtrans='));
+    if (googCookie) {
+      const parts = googCookie.split('=')[1]?.split('/');
+      const code = parts ? parts[parts.length - 1] : '';
+      const matched = languages.find(l => l.code === code);
+      if (matched) {
+        setSelectedLang(matched.name);
+      }
+    }
+  }, []);
+
+  // Dynamic language switcher function with full Arabic & native name support
+  const changeLanguage = (langCode: string, langName: string) => {
+    setSelectedLang(langName);
+    setLangDropdownOpen(false);
+
+    if (typeof window === 'undefined') return;
+
+    const hostname = window.location.hostname;
+
+    // Clear old cookies across paths and domains
+    document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+    document.cookie = `googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=${hostname};`;
+
+    if (langCode !== 'en') {
+      const transVal = `/auto/${langCode}`;
+      document.cookie = `googtrans=${transVal}; path=/;`;
+      document.cookie = `googtrans=${transVal}; path=/; domain=${hostname};`;
+      
+      const transEnVal = `/en/${langCode}`;
+      document.cookie = `googtrans=${transEnVal}; path=/;`;
+      document.cookie = `googtrans=${transEnVal}; path=/; domain=${hostname};`;
+    }
+
+    // Dispatch change event to Google Translate combo box if mounted
+    const selectElem = document.querySelector('.goog-te-combo') as HTMLSelectElement;
+    if (selectElem) {
+      selectElem.value = langCode;
+      selectElem.dispatchEvent(new Event('change'));
+    }
+
+    // Force reload to apply full-page translation (essential for Arabic RTL)
+    window.location.reload();
+  };
 
   return (
     <header className="sticky-top bg-white border-bottom shadow-sm">
       <div className="container-fluid px-lg-5 py-3 py-lg-4">
         <div className="row align-items-center">
           
-          {/* 1. Brand Logo (Max height 120px) */}
+          {/* 1. Brand Logo */}
           <div className="col-6 col-lg-3">
             <Link href="/" className="d-inline-flex align-items-center gap-2 text-decoration-none">
               <img
@@ -116,35 +165,32 @@ export default function Navbar({ logoUrl = 'http://localhost:8090/wp-content/upl
               </div>
             </div>
 
-            {/* B. Language Dropdown */}
-            <div className="position-relative">
+            {/* B. Dynamic Language Dropdown (Enforced Native Language Display with notranslate) */}
+            <div className="position-relative notranslate">
               <button
-                className="btn btn-sm btn-white border d-flex align-items-center gap-2 px-3 py-1 rounded-2 shadow-sm"
+                className="btn btn-sm btn-white border d-flex align-items-center gap-2 px-3 py-1 rounded-2 shadow-sm notranslate"
                 onClick={() => setLangDropdownOpen(!langDropdownOpen)}
                 style={{ fontSize: '0.85rem', color: '#475569', fontWeight: 600 }}
               >
-                <span>{languages.find(l => l.name === selectedLang)?.flag || '🇬🇧'}</span>
-                <span>{selectedLang}</span>
+                <span className="notranslate">{languages.find(l => l.name === selectedLang)?.flag || '🇬🇧'}</span>
+                <span className="notranslate">{selectedLang}</span>
                 <ChevronDown size={13} className="text-muted" />
               </button>
 
               {langDropdownOpen && (
                 <div
-                  className="position-absolute end-0 top-100 mt-1 bg-white border rounded-2 shadow-lg py-1 z-3"
+                  className="position-absolute end-0 top-100 mt-1 bg-white border rounded-2 shadow-lg py-1 z-3 notranslate"
                   style={{ minWidth: '150px' }}
                 >
                   {languages.map((lang) => (
                     <button
                       key={lang.code}
-                      className="dropdown-item d-flex align-items-center gap-2 px-3 py-1.5 text-start w-100 border-0 bg-transparent"
+                      className="dropdown-item d-flex align-items-center gap-2 px-3 py-1.5 text-start w-100 border-0 bg-transparent notranslate"
                       style={{ fontSize: '0.82rem' }}
-                      onClick={() => {
-                        setSelectedLang(lang.name);
-                        setLangDropdownOpen(false);
-                      }}
+                      onClick={() => changeLanguage(lang.code, lang.name)}
                     >
-                      <span>{lang.flag}</span>
-                      <span>{lang.name}</span>
+                      <span className="notranslate">{lang.flag}</span>
+                      <span className="notranslate">{lang.name}</span>
                     </button>
                   ))}
                 </div>
@@ -220,6 +266,26 @@ export default function Navbar({ logoUrl = 'http://localhost:8090/wp-content/upl
               </Link>
             </li>
           </ul>
+
+          {/* Mobile Language Selector (Enforced Native Language Display with notranslate) */}
+          <div className="pt-3 border-top mt-3 notranslate">
+            <label className="form-label text-muted small fw-semibold mb-1 notranslate">Select Language</label>
+            <div className="d-flex flex-wrap gap-2 notranslate">
+              {languages.map((lang) => (
+                <button
+                  key={lang.code}
+                  className={`btn btn-sm notranslate ${selectedLang === lang.name ? 'btn-warning text-dark' : 'btn-outline-secondary'}`}
+                  onClick={() => {
+                    changeLanguage(lang.code, lang.name);
+                    setMobileMenuOpen(false);
+                  }}
+                  style={{ fontSize: '0.78rem' }}
+                >
+                  <span className="notranslate">{lang.flag}</span> <span className="notranslate">{lang.name}</span>
+                </button>
+              ))}
+            </div>
+          </div>
 
           <div className="pt-3 border-top mt-3 d-flex justify-content-between align-items-center text-sm">
             <a href="mailto:info@esegas.com" className="text-decoration-none text-secondary d-flex align-items-center gap-1">

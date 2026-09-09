@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
 import Navbar from '@/components/global/Navbar';
@@ -24,6 +25,28 @@ export default function RootLayout({
         />
       </head>
       <body className="bg-white text-dark antialiased">
+        <div id="google_translate_element" style={{ display: 'none' }} />
+        <Script
+          id="google-translate-init"
+          strategy="beforeInteractive"
+        >
+          {`
+            function googleTranslateElementInit() {
+              if (window.google && window.google.translate) {
+                new window.google.translate.TranslateElement({
+                  pageLanguage: 'en',
+                  autoDisplay: false
+                }, 'google_translate_element');
+              }
+            }
+          `}
+        </Script>
+        <Script
+          id="google-translate-script"
+          src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+          strategy="afterInteractive"
+        />
+        
         <Navbar />
         <main className="min-vh-100">{children}</main>
         <Footer />
