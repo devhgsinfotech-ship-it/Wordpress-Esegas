@@ -1,46 +1,72 @@
 import React from 'react';
 import Link from 'next/link';
 import ProductList from '@/components/product/ProductList';
+import { getProductCategories, getProductsCatalog, formatWpImageUrl } from '@/lib/wordpress';
+
+export const revalidate = 60; // 60s background revalidation for instant page load
 
 export const metadata = {
   title: 'Gas Analyzer Products & OEM Modules | ESE GAS',
   description: 'Explore high-precision TDLAS laser gas analyzers, CEMS emission monitoring cabinets, NDIR gas analyzers, and OEM sensor modules.',
 };
 
-export default function ProductPage() {
+export default async function ProductPage() {
+  // Server-side pre-fetching categories and page 1 products for 0ms instant page display
+  const [categories, catalogData] = await Promise.all([
+    getProductCategories(),
+    getProductsCatalog(null, 1, 15),
+  ]);
+
+  const formattedInitialProducts = catalogData.products.map((p: any) => {
+    const rawImage =
+      p._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
+      p._embedded?.['wp:featuredmedia']?.[0]?.media_details?.sizes?.medium?.source_url ||
+      p.images?.[0]?.src ||
+      '';
+
+    return {
+      id: p.id,
+      title: p.title?.rendered || p.title || 'Gas Analyzer Product',
+      image: formatWpImageUrl(rawImage),
+      link: p.link || `/product`,
+    };
+  });
+
   return (
-    <div>
+    <div style={{ backgroundColor: '#ffffff', minHeight: '100vh' }}>
       {/* Product Page Hero Banner */}
       <section
-        className="py-5 text-white position-relative"
+        className="py-4 text-white text-center"
         style={{
-          backgroundColor: '#004b5c',
-          backgroundImage: `linear-gradient(rgba(0, 75, 92, 0.85), rgba(0, 75, 92, 0.85)), url('https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=1920&auto=format&fit=crop')`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundColor: '#004d5a',
         }}
       >
-        <div className="container py-4 text-center">
-          <h1 className="fw-black text-white text-uppercase mb-3" style={{ fontSize: '2.4rem' }}>
-            Gas Analyzer Products & OEM Modules
+        <div className="container py-3">
+          <h1 className="fw-bold text-white mb-1" style={{ fontSize: '2rem' }}>
+            Product
           </h1>
-          <nav className="d-flex justify-content-center text-sm">
-            <ol className="breadcrumb mb-0">
+          <nav className="d-flex justify-content-center">
+            <ol className="breadcrumb mb-0" style={{ fontSize: '0.85rem' }}>
               <li className="breadcrumb-item">
-                <Link href="/" className="text-warning text-decoration-none fw-bold">
+                <Link href="/" className="text-white-50 text-decoration-none hover-white">
                   Home
                 </Link>
               </li>
-              <li className="breadcrumb-item active text-light opacity-75">
-                Products
+              <li className="breadcrumb-item active text-white fw-semibold">
+                Product
               </li>
             </ol>
           </nav>
         </div>
       </section>
 
-      {/* Main Product Catalog List */}
-      <ProductList />
+      {/* Main Product Catalog List with Server-Preloaded Initial Data */}
+      <ProductList
+        initialCategories={categories}
+        initialProducts={formattedInitialProducts}
+        initialTotalProducts={catalogData.totalProducts}
+        initialTotalPages={catalogData.totalPages}
+      />
     </div>
   );
 }

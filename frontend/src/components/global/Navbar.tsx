@@ -53,14 +53,14 @@ export default function Navbar({ logoUrl = 'http://localhost:8090/wp-content/upl
 
           {/* 2. Navigation Links (Center Desktop) */}
           <div className="col-lg-6 d-none d-lg-flex justify-content-center">
-            <ul className="nav align-items-center gap-4 fw-bold text-dark" style={{ fontSize: '1.02rem' }}>
+            <ul className="nav align-items-center gap-4 fw-bold text-dark list-unstyled mb-0" style={{ fontSize: '1.02rem', listStyle: 'none', paddingLeft: 0 }}>
               <li className="nav-item">
                 <Link href="/" className="nav-link px-0 text-dark active">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#about" className="nav-link px-0 text-dark">
+                <Link href="/about" className="nav-link px-0 text-dark">
                   About us
                 </Link>
               </li>
@@ -183,19 +183,19 @@ export default function Navbar({ logoUrl = 'http://localhost:8090/wp-content/upl
             </button>
           </div>
 
-          <ul className="nav flex-column gap-2 fw-bold text-dark">
+          <ul className="nav flex-column gap-2 fw-bold text-dark list-unstyled mb-0" style={{ listStyle: 'none', paddingLeft: 0 }}>
             <li className="nav-item">
               <Link href="/" onClick={() => setMobileMenuOpen(false)} className="nav-link text-dark">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#about" onClick={() => setMobileMenuOpen(false)} className="nav-link text-dark">
+              <Link href="/about" onClick={() => setMobileMenuOpen(false)} className="nav-link text-dark">
                 About us
               </Link>
             </li>
             <li className="nav-item">
-              <Link href="#products" onClick={() => setMobileMenuOpen(false)} className="nav-link text-dark">
+              <Link href="/product" onClick={() => setMobileMenuOpen(false)} className="nav-link text-dark">
                 Product
               </Link>
             </li>

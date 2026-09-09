@@ -11,8 +11,7 @@ import TestimonialsSection from '@/components/home/TestimonialsSection';
 import ClientLogos from '@/components/home/ClientLogos';
 import { getWooProducts, getApplications, getLatestPosts, getArticles, formatWpImageUrl } from '@/lib/wordpress';
 
-export const dynamic = 'force-dynamic';
-export const revalidate = 0; // Disable caching so newly created WP posts reflect instantly
+export const revalidate = 60; // 60s background revalidation for instant Home page navigation
 
 export default async function HomePage() {
   // Fetch WooCommerce products, custom post type 'application', standard blog posts, and articles dynamically from local WordPress Docker container

@@ -5,17 +5,9 @@ import Navbar from '@/components/global/Navbar';
 import Footer from '@/components/global/Footer';
 
 export const metadata: Metadata = {
-  title: 'ESEGAS | Industrial, Commercial & Medical Gas Supplies',
-  description: 'High-purity industrial oxygen, commercial LPG cylinders, argon shielding gas, medical oxygen, and turnkey gas pipeline engineering.',
-  keywords: ['Industrial Gas', 'LPG Cylinders', 'Medical Oxygen', 'Argon Gas', 'Gas Piping System', 'ESEGAS'],
-  openGraph: {
-    title: 'ESEGAS | High-Purity Gas Supplies & Engineering',
-    description: 'Leading provider of industrial, commercial, and medical gas cylinders & turnkey pipeline solutions.',
-    url: 'https://esegas.com',
-    siteName: 'ESEGAS',
-    locale: 'en_IN',
-    type: 'website',
-  },
+  title: 'ESEGAS | High-Precision Gas Analyzer & CEMS Manufacturer',
+  description: 'Leading developer and manufacturer of online gas analyzers, OEM gas modules, portable analyzers, and continuous emission monitoring systems.',
+  keywords: ['Gas Analyzer', 'CEMS', 'AQMS', 'OEM Gas Module', 'Portable Gas Analyzer', 'ESEGAS'],
 };
 
 export default function RootLayout({
@@ -24,8 +16,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" data-bs-theme="dark">
-      <body className="bg-dark text-light antialiased">
+    <html lang="en">
+      <head>
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        />
+      </head>
+      <body className="bg-white text-dark antialiased">
         <Navbar />
         <main className="min-vh-100">{children}</main>
         <Footer />

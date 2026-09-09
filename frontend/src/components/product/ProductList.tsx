@@ -1,208 +1,386 @@
 'use client';
 
-import React, { useState } from 'react';
-import Link from 'next/link';
-import { Search, ChevronRight, CheckCircle } from 'lucide-react';
+import React, { useState, useEffect, useRef } from 'react';
+import { getPublicWpUrl, formatWpImageUrl } from '@/lib/wordpress';
+
+interface CategoryItem {
+  id: number;
+  name: string;
+  count: number;
+  slug: string;
+}
 
 interface ProductItem {
   id: number;
-  name: string;
-  category: string;
-  description: string;
+  title: string;
   image: string;
-  model: string;
+  link?: string;
 }
 
-const allProductsData: ProductItem[] = [
-  {
-    id: 1,
-    name: 'Laser Gas Analyzer (TDLAS)',
-    category: 'Gas Analyzer',
-    model: 'ESE-LASER-3000',
-    description: 'High-precision in-situ laser gas analyzer utilizing TDLAS technology for fast, zero-drift measurement of CO, CO2, H2O, NH3, and HCl.',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=400&auto=format&fit=crop',
-  },
-  {
-    id: 2,
-    name: 'Continuous Emission Monitoring System (CEMS)',
-    category: 'CEMS System',
-    model: 'ESE-CEMS-8000',
-    description: 'Complete integrated CEMS cabinet for thermal power plants, boilers, and industrial stack flue gas SO2, NOx, CO, and O2 monitoring.',
-    image: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?q=80&w=400&auto=format&fit=crop',
-  },
-  {
-    id: 3,
-    name: 'Laser Gas Detection OEM Module',
-    category: 'OEM Gas Module',
-    model: 'ESE-OEM-TDL-01',
-    description: 'Compact TDLAS optical sensor engine module for system integrators and gas detector manufacturers.',
-    image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=400&auto=format&fit=crop',
-  },
-  {
-    id: 4,
-    name: 'NDIR Infrared Gas Analyzer',
-    category: 'Gas Analyzer',
-    model: 'ESE-NDIR-5000',
-    description: 'Non-dispersive infrared analyzer for continuous online process gas composition measurement in chemical and metallurgical plants.',
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=400&auto=format&fit=crop',
-  },
-  {
-    id: 5,
-    name: 'UV DOAS OEM Module',
-    category: 'OEM Gas Module',
-    model: 'ESE-OEM-UV-02',
-    description: 'Ultraviolet Differential Optical Absorption Spectroscopy OEM optical module for ultralow SO2 and NOx measurement.',
-    image: 'https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?q=80&w=400&auto=format&fit=crop',
-  },
-  {
-    id: 6,
-    name: 'Portable Multi-Gas Detector',
-    category: 'Portable Analyzer',
-    model: 'ESE-PORTABLE-100',
-    description: 'Rechargeable multi-gas portable detector with wireless Bluetooth logging for toxic and combustible gas safety audits.',
-    image: 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=400&auto=format&fit=crop',
-  },
-  {
-    id: 7,
-    name: 'VOC Monitoring System (PID/FID)',
-    category: 'CEMS System',
-    model: 'ESE-VOC-9000',
-    description: 'Continuous photoionization and flame ionization volatile organic compound monitoring system for industrial parks.',
-    image: 'https://images.unsplash.com/photo-1581092335397-9583fe92d232?q=80&w=400&auto=format&fit=crop',
-  },
-  {
-    id: 8,
-    name: 'Zirconia Oxygen Analyzer Probe',
-    category: 'Gas Analyzer',
-    model: 'ESE-O2-ZIR-400',
-    description: 'High-temperature in-situ zirconia oxygen probe for boiler combustion optimization and fuel efficiency.',
-    image: 'https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=400&auto=format&fit=crop',
-  },
-  {
-    id: 9,
-    name: 'NDIR Gas Sensor Module',
-    category: 'OEM Gas Module',
-    model: 'ESE-OEM-NDIR-03',
-    description: 'Dual-channel NDIR gas sensor module for OEM gas detector integrators.',
-    image: 'https://images.unsplash.com/photo-1581094794329-c8112a89af12?q=80&w=400&auto=format&fit=crop',
-  },
-];
+interface ProductListProps {
+  initialCategories?: CategoryItem[];
+  initialProducts?: ProductItem[];
+  initialTotalProducts?: number;
+  initialTotalPages?: number;
+}
 
-const categories = ['All Products', 'Gas Analyzer', 'OEM Gas Module', 'CEMS System', 'Portable Analyzer'];
+export default function ProductList({
+  initialCategories = [],
+  initialProducts = [],
+  initialTotalProducts = 0,
+  initialTotalPages = 1,
+}: ProductListProps) {
+  const [categories, setCategories] = useState<CategoryItem[]>(initialCategories);
+  const [selectedCatId, setSelectedCatId] = useState<number | null>(null);
+  const [selectedCatName, setSelectedCatName] = useState<string>('All Products');
 
-export default function ProductList() {
-  const [selectedCat, setSelectedCat] = useState('All Products');
-  const [searchFilter, setSearchFilter] = useState('');
+  const [products, setProducts] = useState<ProductItem[]>(initialProducts);
+  const [currentPage, setCurrentPage] = useState<number>(1);
+  const [totalPages, setTotalPages] = useState<number>(initialTotalPages);
+  const [totalProducts, setTotalProducts] = useState<number>(initialTotalProducts);
+  const [loading, setLoading] = useState<boolean>(initialProducts.length === 0);
 
-  const filteredProducts = allProductsData.filter((p) => {
-    const matchesCat = selectedCat === 'All Products' || p.category === selectedCat;
-    const matchesSearch = p.name.toLowerCase().includes(searchFilter.toLowerCase()) || p.description.toLowerCase().includes(searchFilter.toLowerCase());
-    return matchesCat && matchesSearch;
+  // In-memory client cache for instant 0ms category switches & pagination
+  const cacheRef = useRef<Record<string, { products: ProductItem[]; totalProducts: number; totalPages: number }>>({
+    'all_1': {
+      products: initialProducts,
+      totalProducts: initialTotalProducts,
+      totalPages: initialTotalPages,
+    },
   });
 
+  // Keep state updated if initial props arrive/change
+  useEffect(() => {
+    if (initialCategories.length > 0) {
+      setCategories(initialCategories);
+    }
+  }, [initialCategories]);
+
+  useEffect(() => {
+    if (initialProducts.length > 0 && selectedCatId === null && currentPage === 1) {
+      setProducts(initialProducts);
+      setTotalProducts(initialTotalProducts);
+      setTotalPages(initialTotalPages);
+      setLoading(false);
+      cacheRef.current['all_1'] = {
+        products: initialProducts,
+        totalProducts: initialTotalProducts,
+        totalPages: initialTotalPages,
+      };
+    }
+  }, [initialProducts, initialTotalProducts, initialTotalPages, selectedCatId, currentPage]);
+
+  // 1. Fetch Product Categories dynamically on client if not preloaded
+  useEffect(() => {
+    if (categories.length > 0) return;
+
+    async function fetchCategories() {
+      try {
+        const wpUrl = getPublicWpUrl();
+        const res = await fetch(`${wpUrl}/wp-json/wp/v2/product_cat?per_page=100`);
+        if (res.ok) {
+          const data = await res.json();
+          if (Array.isArray(data)) {
+            const validCats = data
+              .filter((c: any) => c.count > 0 && c.slug !== 'uncategorized')
+              .sort((a: any, b: any) => a.name.localeCompare(b.name));
+            setCategories(validCats);
+          }
+        }
+      } catch (err) {
+        console.error('Failed to fetch product categories:', err);
+      }
+    }
+    fetchCategories();
+  }, [categories.length]);
+
+  // 2. Fetch Products with in-memory caching for instant category switching
+  useEffect(() => {
+    const cacheKey = `${selectedCatId || 'all'}_${currentPage}`;
+
+    // If data is already in client-side in-memory cache, render INSTANTLY (0ms)!
+    if (cacheRef.current[cacheKey]) {
+      const cached = cacheRef.current[cacheKey];
+      setProducts(cached.products);
+      setTotalProducts(cached.totalProducts);
+      setTotalPages(cached.totalPages);
+      setLoading(false);
+      return;
+    }
+
+    async function fetchProducts() {
+      setLoading(true);
+      try {
+        const wpUrl = getPublicWpUrl();
+        let endpoint = `${wpUrl}/wp-json/wp/v2/product?per_page=15&page=${currentPage}&_embed`;
+        if (selectedCatId) {
+          endpoint += `&product_cat=${selectedCatId}`;
+        }
+
+        const res = await fetch(endpoint);
+        if (res.ok) {
+          const totalHeader = parseInt(res.headers.get('x-wp-total') || '0', 10);
+          const pagesHeader = parseInt(res.headers.get('x-wp-totalpages') || '1', 10);
+
+          const data = await res.json();
+          if (Array.isArray(data)) {
+            const formatted = data.map((p: any) => {
+              const rawImage =
+                p._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
+                p._embedded?.['wp:featuredmedia']?.[0]?.media_details?.sizes?.medium?.source_url ||
+                p.images?.[0]?.src ||
+                '';
+
+              return {
+                id: p.id,
+                title: p.title?.rendered || 'Gas Analyzer Product',
+                image: formatWpImageUrl(rawImage),
+                link: p.link || `/product`,
+              };
+            });
+
+            // Store in in-memory cache
+            cacheRef.current[cacheKey] = {
+              products: formatted,
+              totalProducts: totalHeader,
+              totalPages: pagesHeader,
+            };
+
+            setProducts(formatted);
+            setTotalProducts(totalHeader);
+            setTotalPages(pagesHeader);
+          }
+        } else {
+          setProducts([]);
+        }
+      } catch (err) {
+        console.error('Failed to fetch products:', err);
+        setProducts([]);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    fetchProducts();
+  }, [selectedCatId, currentPage]);
+
+  const handleCategorySelect = (catId: number | null, catName: string) => {
+    setSelectedCatId(catId);
+    setSelectedCatName(catName);
+    setCurrentPage(1);
+  };
+
   return (
-    <section className="py-5 bg-light">
+    <section className="py-5 bg-white" style={{ fontFamily: 'Inter, system-ui, -apple-system, sans-serif' }}>
       <div className="container py-3">
-        
-        {/* Category Filters & Search */}
-        <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-center gap-3 mb-5 p-3 bg-white rounded shadow-sm border">
-          {/* Category Tabs */}
-          <div className="d-flex flex-wrap gap-2">
-            {categories.map((cat) => (
-              <button
-                key={cat}
-                onClick={() => setSelectedCat(cat)}
-                className={`btn btn-sm font-weight-bold px-3 py-1.5 rounded-2 transition-all ${
-                  selectedCat === cat ? 'text-white' : 'btn-light text-secondary'
-                }`}
+        <div className="row g-4 justify-content-between">
+
+          {/* Left Column: Categories Panel with Light Gray Background & Soft Shadow */}
+          <div className="col-12 col-md-4 col-lg-3">
+            <div
+              className="p-4 rounded-1"
+              style={{
+                backgroundColor: '#f1f5f9',
+                boxShadow: '0 4px 15px rgba(0, 0, 0, 0.03)',
+                border: '1px solid #e2e8f0',
+              }}
+            >
+              {/* Sidebar Header */}
+              <h4
+                className="fw-bold mb-4"
                 style={{
-                  backgroundColor: selectedCat === cat ? '#004b93' : '#f1f5f9',
-                  fontSize: '0.88rem',
+                  color: '#0f172a',
+                  fontSize: '1.45rem',
+                  letterSpacing: '-0.3px',
                 }}
               >
-                {cat}
-              </button>
-            ))}
-          </div>
+                Categories
+              </h4>
 
-          {/* Search Filter */}
-          <div className="input-group input-group-sm" style={{ maxWidth: '240px' }}>
-            <input
-              type="text"
-              className="form-control bg-light border px-3"
-              placeholder="Search products..."
-              value={searchFilter}
-              onChange={(e) => setSearchFilter(e.target.value)}
-              style={{ fontSize: '0.82rem' }}
-            />
-            <button className="btn border-0 text-white" style={{ backgroundColor: '#ffb700' }}>
-              <Search size={15} />
-            </button>
-          </div>
-        </div>
-
-        {/* Product Cards Grid */}
-        <div className="row g-4">
-          {filteredProducts.map((prod) => (
-            <div key={prod.id} className="col-md-6 col-lg-4">
-              <div className="card h-100 border-0 shadow-sm rounded-3 overflow-hidden bg-white d-flex flex-column justify-content-between hover-shadow transition-all">
-                <div>
-                  {/* Category Pill */}
-                  <div className="p-3 bg-light d-flex align-items-center justify-content-between">
-                    <span className="badge text-dark font-weight-bold uppercase" style={{ backgroundColor: '#ffb700', fontSize: '0.72rem' }}>
-                      {prod.category}
-                    </span>
-                    <span className="small text-muted font-monospace" style={{ fontSize: '0.75rem' }}>
-                      {prod.model}
-                    </span>
-                  </div>
-
-                  {/* Product Image */}
-                  <div className="p-3 text-center bg-white" style={{ height: '190px' }}>
-                    <img
-                      src={prod.image}
-                      alt={prod.name}
-                      className="img-fluid object-fit-contain h-100"
-                    />
-                  </div>
-
-                  {/* Product Details */}
-                  <div className="p-4 border-top">
-                    <h5 className="fw-bold mb-2" style={{ color: '#004b93', fontSize: '1.1rem' }}>
-                      {prod.name}
-                    </h5>
-                    <p className="text-secondary small mb-3 lh-base" style={{ fontSize: '0.85rem' }}>
-                      {prod.description}
-                    </p>
-
-                    <div className="d-flex items-center gap-1 text-success small font-weight-medium">
-                      <CheckCircle size={14} />
-                      <span>Certified Industrial Grade</span>
-                    </div>
-                  </div>
-                </div>
-
-                {/* Actions */}
-                <div className="p-4 pt-0 d-flex gap-2">
-                  <Link
-                    href={`#inquiry-${prod.id}`}
-                    className="btn fw-bold w-100 text-dark text-uppercase shadow-sm"
-                    style={{ backgroundColor: '#ffb700', borderRadius: '2px', fontSize: '0.82rem' }}
+              {/* Categories List */}
+              <div>
+                <ul className="list-unstyled mb-0 d-flex flex-column gap-2" style={{ fontSize: '0.84rem' }}>
+                  {/* All Products Option */}
+                  <li
+                    onClick={() => handleCategorySelect(null, 'All Products')}
+                    className="py-1 cursor-pointer transition-all"
+                    style={{
+                      cursor: 'pointer',
+                      color: selectedCatId === null ? '#004d5a' : '#475569',
+                      fontWeight: selectedCatId === null ? 700 : 400,
+                    }}
                   >
-                    Inquire Now
-                  </Link>
-                </div>
+                    All Products ({totalProducts})
+                  </li>
+
+                  {/* Dynamic Product Categories from API */}
+                  {categories.map((cat) => {
+                    const isSelected = selectedCatId === cat.id;
+                    return (
+                      <li
+                        key={cat.id}
+                        onClick={() => handleCategorySelect(cat.id, cat.name)}
+                        className="py-1 cursor-pointer transition-all"
+                        style={{
+                          cursor: 'pointer',
+                          color: isSelected ? '#004d5a' : '#475569',
+                          fontWeight: isSelected ? 700 : 400,
+                        }}
+                      >
+                        {cat.name} ({cat.count})
+                      </li>
+                    );
+                  })}
+                </ul>
               </div>
             </div>
-          ))}
-        </div>
-
-        {filteredProducts.length === 0 && (
-          <div className="text-center py-5 bg-white rounded border my-4">
-            <h5 className="text-muted">No products found matching your search.</h5>
           </div>
-        )}
 
+          {/* Right Column: Product Introduction & Products Grid */}
+          <div className="col-12 col-md-8 col-lg-9 ps-lg-4">
+            {/* Section Heading */}
+            <h3
+              className="fw-bold mb-4"
+              style={{ color: '#004d5a', fontSize: '1.3rem', letterSpacing: '0.2px' }}
+            >
+              Product Introduction {selectedCatId && `- ${selectedCatName}`}
+            </h3>
+
+            {/* Products Loading State */}
+            {loading && products.length === 0 ? (
+              <div className="text-center py-5">
+                <div className="spinner-border text-warning" role="status">
+                  <span className="visually-hidden">Loading products...</span>
+                </div>
+                <p className="text-muted mt-2 small">Loading products from WordPress API...</p>
+              </div>
+            ) : products && products.length > 0 ? (
+              <>
+                {/* 3 Columns Products Grid matching design screenshot */}
+                <div className="row row-cols-1 row-cols-sm-2 row-cols-lg-3 g-4">
+                  {products.map((prod) => (
+                    <div key={prod.id} className="col">
+                      <div className="h-100 bg-white d-flex flex-column justify-content-between text-center">
+                        <div>
+                          {/* Gray Square Product Image Container matching reference */}
+                          <div
+                            className="p-3 mb-3 d-flex align-items-center justify-content-center mx-auto rounded-1"
+                            style={{
+                              height: '210px',
+                              width: '100%',
+                              backgroundColor: '#f1f5f9',
+                              border: '1px solid #e2e8f0',
+                            }}
+                          >
+                            <div className="bg-white p-2 w-100 h-100 d-flex align-items-center justify-content-center rounded-1">
+                              {prod.image ? (
+                                <img
+                                  src={prod.image}
+                                  alt={prod.title}
+                                  className="img-fluid h-100 object-fit-contain"
+                                />
+                              ) : (
+                                <div className="text-muted small">No Image</div>
+                              )}
+                            </div>
+                          </div>
+
+                          {/* Product Title */}
+                          <h6
+                            className="fw-bold mb-3 px-1 lh-base"
+                            style={{
+                              color: '#004d5a',
+                              fontSize: '0.88rem',
+                              lineHeight: '1.38',
+                              display: '-webkit-box',
+                              WebkitLineClamp: 3,
+                              WebkitBoxOrient: 'vertical',
+                              overflow: 'hidden',
+                              minHeight: '3.6em',
+                            }}
+                          >
+                            {prod.title}
+                          </h6>
+                        </div>
+
+                        {/* Yellow Read More Button */}
+                        <div className="pb-2">
+                          <a
+                            href={prod.link || `#product-${prod.id}`}
+                            className="btn fw-bold text-dark text-uppercase px-4 py-1.5 border-0 shadow-sm"
+                            style={{
+                              backgroundColor: '#ffc107',
+                              fontSize: '0.78rem',
+                              borderRadius: '3px',
+                              letterSpacing: '0.3px',
+                              display: 'inline-block',
+                            }}
+                          >
+                            Read more
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+
+                {/* API Pagination matching design screenshot */}
+                {totalPages > 1 && (
+                  <div className="d-flex justify-content-end align-items-center gap-1.5 mt-5 pt-3">
+                    {Array.from({ length: totalPages }).map((_, idx) => {
+                      const pageNum = idx + 1;
+                      const isActive = currentPage === pageNum;
+                      return (
+                        <button
+                          key={pageNum}
+                          onClick={() => setCurrentPage(pageNum)}
+                          className="btn btn-sm px-2.5 py-1"
+                          style={{
+                            minWidth: '32px',
+                            fontSize: '0.82rem',
+                            border: '1px solid #d1d5db',
+                            backgroundColor: isActive ? '#f1f5f9' : '#ffffff',
+                            color: isActive ? '#1e293b' : '#4b5563',
+                            fontWeight: isActive ? 700 : 400,
+                            borderRadius: '2px',
+                          }}
+                        >
+                          {pageNum}
+                        </button>
+                      );
+                    })}
+
+                    {currentPage < totalPages && (
+                      <button
+                        onClick={() => setCurrentPage(currentPage + 1)}
+                        className="btn btn-sm px-2.5 py-1"
+                        style={{
+                          minWidth: '32px',
+                          fontSize: '0.82rem',
+                          border: '1px solid #d1d5db',
+                          backgroundColor: '#ffffff',
+                          color: '#4b5563',
+                          borderRadius: '2px',
+                        }}
+                        aria-label="Next Page"
+                      >
+                        &rarr;
+                      </button>
+                    )}
+                  </div>
+                )}
+              </>
+            ) : (
+              <div className="text-center py-5 bg-light rounded border my-3">
+                <p className="text-secondary mb-0 fw-semibold">
+                  No products available in category "{selectedCatName}".
+                </p>
+              </div>
+            )}
+
+          </div>
+
+        </div>
       </div>
     </section>
   );
