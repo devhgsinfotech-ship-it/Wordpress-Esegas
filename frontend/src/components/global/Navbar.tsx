@@ -8,7 +8,7 @@ interface NavbarProps {
   logoUrl?: string;
 }
 
-export default function Navbar({ logoUrl = 'http://localhost:8090/wp-content/uploads/2024/02/logo-3.png' }: NavbarProps) {
+export default function Navbar({ logoUrl = 'https://esegas.com/wp-content/uploads/2024/02/logo-3.png' }: NavbarProps) {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedLang, setSelectedLang] = useState('English');
@@ -55,7 +55,7 @@ export default function Navbar({ logoUrl = 'http://localhost:8090/wp-content/upl
       const transVal = `/auto/${langCode}`;
       document.cookie = `googtrans=${transVal}; path=/;`;
       document.cookie = `googtrans=${transVal}; path=/; domain=${hostname};`;
-      
+
       const transEnVal = `/en/${langCode}`;
       document.cookie = `googtrans=${transEnVal}; path=/;`;
       document.cookie = `googtrans=${transEnVal}; path=/; domain=${hostname};`;
@@ -76,7 +76,7 @@ export default function Navbar({ logoUrl = 'http://localhost:8090/wp-content/upl
     <header className="sticky-top bg-white border-bottom shadow-sm">
       <div className="container-fluid px-lg-5 py-3 py-lg-4">
         <div className="row align-items-center">
-          
+
           {/* 1. Brand Logo */}
           <div className="col-6 col-lg-3">
             <Link href="/" className="d-inline-flex align-items-center gap-2 text-decoration-none">
@@ -143,7 +143,7 @@ export default function Navbar({ logoUrl = 'http://localhost:8090/wp-content/upl
 
           {/* 3. Right Utility Bar (Sleek Search, Language Dropdown & Contact info) */}
           <div className="col-lg-3 d-none d-lg-flex flex-column align-items-end gap-3">
-            
+
             {/* A. Search Bar */}
             <div className="w-100 d-flex justify-content-end">
               <div className="input-group input-group-sm rounded-2 overflow-hidden border" style={{ maxWidth: '260px' }}>
