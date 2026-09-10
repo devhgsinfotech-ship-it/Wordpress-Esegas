@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Plugins - Yoast SEO &#8211; Advanced SEO with real-time guidance and built-in AI - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-08-18 15:24:42+0000\n"
+"PO-Revision-Date: 2026-09-05 16:25:58+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,6 +10,10 @@ msgstr ""
 "X-Generator: GlotPress/4.1.0\n"
 "Language: ru\n"
 "Project-Id-Version: Plugins - Yoast SEO &#8211; Advanced SEO with real-time guidance and built-in AI - Stable (latest release)\n"
+
+#: src/bulk-editor/user-interface/posts-overview-bulk-actions-integration.php:110
+msgid "Bulk edit"
+msgstr "Массовое редактирование"
 
 #. translators: 1: description of the failing object (e.g. "post #123"); 2:
 #. underlying error message.
@@ -32,6 +36,10 @@ msgstr "анализ читабельности"
 #: src/abilities/user-interface/abilities-integration.php:432
 msgid "Whether search engines should be told not to index this post. true sets noindex (the post is excluded from search results); false forces the post to be indexed; null clears the setting and falls back to the post-type default."
 msgstr "Следует ли указать поисковым системам не индексировать эту запись. true устанавливает noindex (запись исключается из результатов поиска); false заставляет индексироваться; null очищает настройку и возвращает значение по умолчанию для типа записи."
+
+#: src/abilities/user-interface/abilities-integration.php:550
+msgid "Open Graph title"
+msgstr "Заголовок Open Graph"
 
 #: src/myyoast-client/user-interface/myyoast-client-integration.php:76
 msgid "Every 90 days"
@@ -267,7 +275,7 @@ msgstr "Меньше противоречий. Более умная оптим�
 
 #: src/presenters/admin/sidebar-presenter.php:92 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -277,7 +285,7 @@ msgstr "Оптимизируйте страницы для нескольких 
 
 #: src/presenters/admin/sidebar-presenter.php:91 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -287,7 +295,7 @@ msgstr "Управляйте переадресациями легко и без
 
 #: src/presenters/admin/sidebar-presenter.php:90 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -297,7 +305,7 @@ msgstr "Применяйте предложения ИИ для улучшени
 
 #: src/presenters/admin/sidebar-presenter.php:89 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -307,7 +315,7 @@ msgstr "Создавайте оптимизированные SEO-заголов
 
 #: src/presenters/admin/sidebar-presenter.php:86 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -317,7 +325,7 @@ msgstr "Получите четкие рекомендации по SEO чита
 
 #: src/presenters/admin/sidebar-presenter.php:85 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -327,7 +335,7 @@ msgstr "Создавайте оптимизированные SEO-заголов
 
 #: src/presenters/admin/sidebar-presenter.php:84 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -337,7 +345,7 @@ msgstr "Убедитесь, что поисковые системы отобр�
 
 #: src/presenters/admin/sidebar-presenter.php:83 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -418,6 +426,7 @@ msgid "Your recent posts are using default %1$s, which can make them easy to ove
 msgstr "В ваших последних публикациях используется стандартный %1$s, из-за чего их легко пропустить в результатах поиска. Обновите их вручную или %2$sузнайте, как %3$sYoast AI Generate%4$s может их улучшить.%5$s"
 
 #: src/alerts/application/default-seo-data/default-seo-data-alert.php:182
+#: js/dist/bulk-editor-page.js:8 js/dist/bulk-editor-page.js:20
 msgid "SEO titles"
 msgstr "Заголовки SEO"
 
@@ -479,7 +488,7 @@ msgstr "Указаны не все необходимые поля."
 
 #: admin/class-premium-upsell-admin-block.php:155 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -489,7 +498,7 @@ msgstr "Сделайте статьи видимыми, будьте видим�
 
 #: admin/class-premium-upsell-admin-block.php:154 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -499,7 +508,7 @@ msgstr "Сгенерируйте оптимизированные метадан
 
 #: admin/class-premium-upsell-admin-block.php:158 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -509,7 +518,7 @@ msgstr "Внутренние перелинковки и управление п
 
 #: admin/class-premium-upsell-admin-block.php:157 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -518,14 +527,14 @@ msgid "Easy Local SEO. Show up in Google Maps results"
 msgstr "Простое локальное SEO. Появляйтесь в результатах Google Maps"
 
 #: admin/class-premium-upsell-admin-block.php:163
-#: js/dist/ai-content-planner.js:237 js/dist/block-editor.js:265
+#: js/dist/ai-content-planner.js:237 js/dist/block-editor.js:237
 #: js/dist/general-page.js:5 js/dist/new-settings.js:5 js/dist/support.js:5
 msgid "Boost visibility for your products, from 10 or 10,000+"
 msgstr "Повысьте видимость своих товаров от 10 или 10 000+"
 
 #: admin/class-premium-upsell-admin-block.php:156 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -535,7 +544,7 @@ msgstr "Создан, чтобы быть найденным поисковым�
 
 #: admin/class-premium-upsell-admin-block.php:159 js/dist/ai-consent.js:2
 #: js/dist/ai-content-planner.js:237 js/dist/ai-generator.js:2
-#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:2
+#: js/dist/block-editor.js:237 js/dist/bulk-editor-page.js:2
 #: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
 #: js/dist/externals-components.js:26 js/dist/general-page.js:5
 #: js/dist/integrations-page.js:57 js/dist/new-settings.js:5
@@ -555,8 +564,8 @@ msgstr "Гарантия возврата денег в течении 30 дне
 msgid "%1$s%2$s %3$s"
 msgstr "%1$s%2$s %3$s"
 
-#: src/ai-consent/user-interface/ai-consent-integration.php:123
-#: src/ai/consent/user-interface/ai-consent-integration.php:125
+#: src/ai/consent/user-interface/ai-consent-integration.php:124
+#: src/deprecated/src/ai-consent/user-interface/ai-consent-integration.php:150
 msgid "AI features"
 msgstr "Функции ИИ"
 
@@ -1047,8 +1056,8 @@ msgstr "ЧЁРНАЯ ПЯТНИЦА - СКИДКА 30 %"
 #: admin/views/class-yoast-feature-toggles.php:206
 #: js/dist/ai-content-planner.js:97 js/dist/ai-content-planner.js:275
 #: js/dist/ai-content-planner.js:296 js/dist/ai-generator.js:55
-#: js/dist/block-editor.js:97 js/dist/block-editor.js:118
-#: js/dist/block-editor.js:139 js/dist/bulk-editor-page.js:4
+#: js/dist/block-editor.js:97 js/dist/block-editor.js:244
+#: js/dist/block-editor.js:265 js/dist/bulk-editor-page.js:5
 #: js/dist/editor-modules.js:166 js/dist/externals-components.js:76
 #: js/dist/general-page.js:8 js/dist/general-page.js:21
 #: js/dist/integrations-page.js:3 js/dist/integrations-page.js:6
@@ -2099,7 +2108,7 @@ msgid "Import settings from another %1$s installation by pasting them here and c
 msgstr "Импортируйте настройки из другой установки %1$s, вставив их здесь и нажав \"%2$s\"."
 
 #: src/presenters/admin/sidebar-presenter.php:137
-#: js/dist/ai-content-planner.js:134 js/dist/block-editor.js:162
+#: js/dist/ai-content-planner.js:134 js/dist/block-editor.js:134
 #: js/dist/general-page.js:2 js/dist/new-settings.js:2 js/dist/support.js:2
 msgid "Learn SEO"
 msgstr "Изучайте SEO"
@@ -2107,7 +2116,7 @@ msgstr "Изучайте SEO"
 #. translators: %1$s expands to Yoast SEO academy
 #. translators: %1$s expands to "Yoast SEO academy".
 #: src/presenters/admin/sidebar-presenter.php:154
-#: js/dist/ai-content-planner.js:135 js/dist/block-editor.js:163
+#: js/dist/ai-content-planner.js:135 js/dist/block-editor.js:135
 #: js/dist/general-page.js:3 js/dist/new-settings.js:3 js/dist/support.js:3
 msgid "Check out %1$s"
 msgstr "Смотрите %1$s"
@@ -2115,13 +2124,13 @@ msgstr "Смотрите %1$s"
 #. translators: %1$s expands to Yoast SEO academy, which is a clickable link.
 #. translators: %1$s expands to "Yoast SEO" academy, which is a clickable link.
 #: src/presenters/admin/sidebar-presenter.php:145
-#: js/dist/ai-content-planner.js:134 js/dist/block-editor.js:162
+#: js/dist/ai-content-planner.js:134 js/dist/block-editor.js:134
 #: js/dist/general-page.js:2 js/dist/new-settings.js:2 js/dist/support.js:2
 msgid "Want to learn SEO from Team Yoast? Check out our %1$s!"
 msgstr "Хотите изучать SEO вместе с Командой Yoast? Смотрите нашу %1$s!"
 
 #: src/presenters/admin/sidebar-presenter.php:147
-#: js/dist/ai-content-planner.js:134 js/dist/block-editor.js:162
+#: js/dist/ai-content-planner.js:134 js/dist/block-editor.js:134
 #: js/dist/general-page.js:2 js/dist/new-settings.js:2 js/dist/support.js:2
 msgid "We have both free and premium online courses to learn everything you need to know about SEO."
 msgstr "У нас есть бесплатные и платные онлайн-курсы, чтобы узнать все, что вам нужно знать о SEO."
@@ -2985,18 +2994,18 @@ msgstr "Обозначьте, какой контент (%1$s) является 
 #: js/dist/ai-content-planner.js:292 js/dist/ai-generator.js:2
 #: js/dist/ai-generator.js:55 js/dist/ai-generator.js:67
 #: js/dist/ai-generator.js:282 js/dist/block-editor.js:85
-#: js/dist/block-editor.js:97 js/dist/block-editor.js:118
-#: js/dist/block-editor.js:123 js/dist/block-editor.js:135
-#: js/dist/block-editor.js:164 js/dist/block-editor.js:584
+#: js/dist/block-editor.js:97 js/dist/block-editor.js:136
+#: js/dist/block-editor.js:244 js/dist/block-editor.js:249
+#: js/dist/block-editor.js:261 js/dist/block-editor.js:584
 #: js/dist/block-editor.js:585 js/dist/bulk-editor-page.js:2
-#: js/dist/bulk-editor-page.js:4 js/dist/bulk-editor-page.js:13
-#: js/dist/classic-editor.js:2 js/dist/editor-modules.js:116
-#: js/dist/editor-modules.js:166 js/dist/editor-modules.js:181
-#: js/dist/editor-modules.js:396 js/dist/externals-components.js:21
-#: js/dist/externals-components.js:25 js/dist/externals-components.js:26
-#: js/dist/externals-components.js:76 js/dist/externals-components.js:124
-#: js/dist/externals-components.js:339 js/dist/externals/componentsNew.js:675
-#: js/dist/externals/helpers.js:11
+#: js/dist/bulk-editor-page.js:5 js/dist/bulk-editor-page.js:6
+#: js/dist/bulk-editor-page.js:15 js/dist/classic-editor.js:2
+#: js/dist/editor-modules.js:116 js/dist/editor-modules.js:166
+#: js/dist/editor-modules.js:181 js/dist/editor-modules.js:396
+#: js/dist/externals-components.js:21 js/dist/externals-components.js:25
+#: js/dist/externals-components.js:26 js/dist/externals-components.js:76
+#: js/dist/externals-components.js:124 js/dist/externals-components.js:339
+#: js/dist/externals/componentsNew.js:675 js/dist/externals/helpers.js:11
 #: js/dist/externals/relatedKeyphraseSuggestions.js:3
 #: js/dist/externals/relatedKeyphraseSuggestions.js:7 js/dist/general-page.js:4
 #: js/dist/general-page.js:5 js/dist/general-page.js:8
@@ -3083,7 +3092,7 @@ msgid "Cornerstone content"
 msgstr "Ключевое содержимое"
 
 #: admin/class-yoast-form.php:149 admin/class-yoast-form.php:154
-#: js/dist/bulk-editor-page.js:15 js/dist/general-page.js:45
+#: js/dist/bulk-editor-page.js:19 js/dist/general-page.js:45
 #: js/dist/new-settings.js:9
 msgid "Save changes"
 msgstr "Сохранить изменения"
@@ -3117,7 +3126,7 @@ msgstr "Нет новых уведомлений."
 msgid "Save all"
 msgstr "Сохранить все"
 
-#: admin/class-bulk-editor-list-table.php:926 js/dist/bulk-editor-page.js:15
+#: admin/class-bulk-editor-list-table.php:926 js/dist/bulk-editor-page.js:19
 msgid "Save"
 msgstr "Сохранить"
 
@@ -3182,7 +3191,7 @@ msgstr "Меню в панели администратора"
 
 #: admin/metabox/class-metabox.php:172
 #: src/abilities/user-interface/abilities-integration.php:534
-#: js/dist/bulk-editor-page.js:16
+#: js/dist/bulk-editor-page.js:20
 #: js/dist/externals/replacementVariableEditor.js:71
 #: js/dist/externals/searchMetadataPreviews.js:102 js/dist/new-settings.js:18
 #: js/dist/new-settings.js:24 js/dist/new-settings.js:28
@@ -3324,9 +3333,10 @@ msgstr "Анализ удобочитаемости"
 #: inc/class-wpseo-rank.php:208 inc/class-wpseo-rank.php:240
 #: src/task-list/application/tasks/child-tasks/improve-content-readability-child.php:52
 #: src/task-list/application/tasks/child-tasks/improve-content-seo-child.php:52
-#: js/dist/block-editor.js:583 js/dist/editor-modules.js:115
-#: js/dist/editor-modules.js:398 js/dist/externals-components.js:84
-#: js/dist/externals/analysis.js:410 js/dist/externals/dashboardFrontend.js:4
+#: js/dist/block-editor.js:583 js/dist/bulk-editor-page.js:8
+#: js/dist/editor-modules.js:115 js/dist/editor-modules.js:398
+#: js/dist/externals-components.js:84 js/dist/externals/analysis.js:410
+#: js/dist/externals/dashboardFrontend.js:4
 #: js/dist/frontend-inspector-resources.js:1
 msgid "Needs improvement"
 msgstr "Требуется улучшение"
@@ -3608,8 +3618,8 @@ msgid "A replacement variable can only contain alphanumeric characters, an under
 msgstr "Переменная для замены может содержать только алфавитно-цифровые символы, подчёркивание или дефис. Попробуйте переименовать переменную."
 
 #: admin/pages/tools.php:42
-#: src/bulk-editor/user-interface/bulk-editor-integration.php:186
-#: js/dist/bulk-editor-page.js:17
+#: src/bulk-editor/user-interface/bulk-editor-integration.php:227
+#: js/dist/bulk-editor-page.js:21
 msgid "Bulk editor"
 msgstr "Групповой редактор"
 
@@ -3954,8 +3964,8 @@ msgid "Permalink"
 msgstr "Постоянная ссылка"
 
 #: inc/class-wpseo-replace-vars.php:1471 js/dist/ai-content-planner.js:276
-#: js/dist/ai-content-planner.js:277 js/dist/block-editor.js:119
-#: js/dist/block-editor.js:120 js/dist/bulk-editor-page.js:15
+#: js/dist/ai-content-planner.js:277 js/dist/block-editor.js:245
+#: js/dist/block-editor.js:246 js/dist/bulk-editor-page.js:19
 #: js/dist/externals-redux.js:1
 msgid "Title"
 msgstr "Заголовок"
@@ -3972,8 +3982,7 @@ msgid "Both %1$s and %2$s can create XML sitemaps. Having two XML sitemaps is no
 msgstr "И %1$s и %2$s могут создавать XML-карты вашего сайта. Наличие двух карт сайта плохо сказывается на результатах выдачи поисковых систем, а также замедляет скорость работы сайта."
 
 #: admin/google_search_console/views/gsc-redirect-nopremium.php:27
-#: js/dist/ai-consent.js:3 js/dist/ai-consent.js:6
-#: js/dist/ai-content-planner.js:4 js/dist/ai-content-planner.js:96
+#: js/dist/ai-consent.js:6 js/dist/ai-content-planner.js:4
 #: js/dist/ai-content-planner.js:133 js/dist/ai-content-planner.js:268
 #: js/dist/ai-content-planner.js:275 js/dist/ai-content-planner.js:278
 #: js/dist/ai-content-planner.js:280 js/dist/ai-content-planner.js:288
@@ -3982,13 +3991,12 @@ msgstr "И %1$s и %2$s могут создавать XML-карты вашег�
 #: js/dist/ai-generator.js:53 js/dist/ai-generator.js:61
 #: js/dist/ai-generator.js:67 js/dist/ai-generator.js:278
 #: js/dist/ai-generator.js:280 js/dist/ai-generator.js:282
-#: js/dist/block-editor.js:4 js/dist/block-editor.js:96
-#: js/dist/block-editor.js:118 js/dist/block-editor.js:121
-#: js/dist/block-editor.js:123 js/dist/block-editor.js:131
-#: js/dist/block-editor.js:135 js/dist/block-editor.js:136
-#: js/dist/block-editor.js:161 js/dist/block-editor.js:296
-#: js/dist/bulk-editor-page.js:3 js/dist/bulk-editor-page.js:4
-#: js/dist/classic-editor.js:3 js/dist/editor-modules.js:116
+#: js/dist/block-editor.js:4 js/dist/block-editor.js:133
+#: js/dist/block-editor.js:244 js/dist/block-editor.js:247
+#: js/dist/block-editor.js:249 js/dist/block-editor.js:257
+#: js/dist/block-editor.js:261 js/dist/block-editor.js:262
+#: js/dist/block-editor.js:296 js/dist/bulk-editor-page.js:3
+#: js/dist/bulk-editor-page.js:5 js/dist/editor-modules.js:116
 #: js/dist/editor-modules.js:132 js/dist/editor-modules.js:159
 #: js/dist/editor-modules.js:164 js/dist/editor-modules.js:169
 #: js/dist/editor-modules.js:175 js/dist/editor-modules.js:181
@@ -4001,12 +4009,10 @@ msgstr "И %1$s и %2$s могут создавать XML-карты вашег�
 #: js/dist/externals/aiFrontend.js:190 js/dist/externals/aiFrontend.js:195
 #: js/dist/externals/componentsNew.js:626
 #: js/dist/externals/dashboardFrontend.js:6 js/dist/general-page.js:8
-#: js/dist/general-page.js:9 js/dist/general-page.js:29
-#: js/dist/integrations-page.js:57 js/dist/integrations-page.js:58
+#: js/dist/general-page.js:29 js/dist/integrations-page.js:57
 #: js/dist/introductions.js:5 js/dist/introductions.js:9
 #: js/dist/introductions.js:10 js/dist/new-settings.js:8
-#: js/dist/new-settings.js:9 js/dist/new-settings.js:38 js/dist/redirects.js:4
-#: js/dist/support.js:6
+#: js/dist/new-settings.js:38
 msgid "Close"
 msgstr "Закрыть"
 
@@ -4088,7 +4094,7 @@ msgstr "Действие"
 msgid "Canonical URL"
 msgstr "Канонический URL-адрес"
 
-#: admin/class-bulk-editor-list-table.php:849 js/dist/bulk-editor-page.js:15
+#: admin/class-bulk-editor-list-table.php:849 js/dist/bulk-editor-page.js:19
 #: js/dist/externals/dashboardFrontend.js:4 js/dist/general-page.js:44
 #: js/dist/general-page.js:59
 msgid "Edit"
@@ -4264,8 +4270,8 @@ msgid "New Yoast Meta Description"
 msgstr "Новое мета-описание Yoast"
 
 #: admin/metabox/class-metabox.php:173 js/dist/ai-content-planner.js:276
-#: js/dist/ai-content-planner.js:277 js/dist/block-editor.js:119
-#: js/dist/block-editor.js:120 js/dist/bulk-editor-page.js:16
+#: js/dist/ai-content-planner.js:277 js/dist/block-editor.js:245
+#: js/dist/block-editor.js:246 js/dist/bulk-editor-page.js:20
 #: js/dist/externals/replacementVariableEditor.js:71
 #: js/dist/externals/searchMetadataPreviews.js:102 js/dist/new-settings.js:18
 #: js/dist/new-settings.js:24 js/dist/new-settings.js:31

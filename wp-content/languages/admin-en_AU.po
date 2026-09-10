@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 7.1.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-08-22 12:12:02+0000\n"
+"PO-Revision-Date: 2026-09-07 09:07:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -41,6 +41,15 @@ msgstr "Australia/Sydney"
 msgid "Users could not be deleted because no user was selected for content reassignment."
 msgstr "Users could not be deleted because no user was selected for content reassignment."
 
+#. translators: 1: User login. 2: User ID
+#: wp-admin/users.php:404
+msgid "%1$s (ID #%2$s): This user does not have any content."
+msgstr "%1$s (ID #%2$s): This user does not have any content."
+
+#: wp-admin/user-edit.php:384
+msgid "Disable infinite scrolling in the Media Library grid view"
+msgstr "Disable infinite scrolling in the Media Library grid view"
+
 #: wp-admin/user-edit.php:381
 msgid "Infinite Scrolling"
 msgstr "Infinite Scrolling"
@@ -53,10 +62,22 @@ msgstr "Use the buttons at the top of the dialogue, or <code>alt</code>/<code>op
 msgid "Use the buttons at the top of the dialog, or <code>alt</code>/<code>option</code> plus the left or right arrow keys on your keyboard, to navigate between themes quickly."
 msgstr "Use the buttons at the top of the dialogue, or <code>alt</code>/<code>option</code> plus the left or right arrow keys on your keyboard, to navigate between themes quickly."
 
+#: wp-admin/themes.php:136
+msgid "Click on a theme to open the Theme Details dialog and see the theme name, version, author, description, tags, and the Delete link."
+msgstr "Click on a theme to open the Theme Details dialogue and see the theme name, version, author, description, tags, and the Delete link."
+
 #. translators: Hidden accessibility text.
 #: wp-admin/site-health.php:176
 msgid "Show or hide extra menu items"
 msgstr "Show or hide extra menu items"
+
+#: wp-admin/post.php:120
+msgid "Draft created successfully."
+msgstr "Draft created successfully."
+
+#: wp-admin/post.php:103
+msgid "Cannot create a draft post with empty title and content."
+msgstr "Cannot create a draft post with empty title and content."
 
 #: wp-admin/options-reading.php:184
 msgid "Number of recent items shown in syndication feeds"
@@ -74,6 +95,10 @@ msgstr "No Privacy Policy page is currently set."
 msgid "Privacy Policy page removed."
 msgstr "Privacy Policy page removed."
 
+#: wp-admin/options-discussion.php:187
+msgid "(A common characteristic of comment spam is a large number of hyperlinks.)"
+msgstr "(A common characteristic of comment spam is a large number of hyperlinks.)"
+
 #: wp-admin/options-discussion.php:185
 msgid "Number of links to allow in a comment before holding for moderation:"
 msgstr "Number of links to allow in a comment before holding for moderation:"
@@ -90,17 +115,34 @@ msgstr "Show or hide panel"
 msgid "Select a user to attribute the content to."
 msgstr "Select a user to attribute the content to."
 
+#: wp-admin/includes/ms.php:995 wp-admin/users.php:432
+msgid "Attribute all content to another user."
+msgstr "Attribute all content to another user."
+
 #: wp-admin/includes/ms.php:977
 msgid "This user does not have any content."
 msgstr "This user does not have any content."
+
+#. translators: 1: User login, 2: User ID.
+#: wp-admin/includes/ms.php:921 wp-admin/users.php:418
+msgid "%1$s (ID #%2$s): What should be done with the content owned by this user?"
+msgstr "%1$s (ID #%2$s): What should be done with the content owned by this user?"
 
 #: wp-admin/includes/comment.php:155
 msgid "The comment cannot be moved there because it or its replies would exceed the maximum threading depth."
 msgstr "The comment cannot be moved there because it or its replies would exceed the maximum threading depth."
 
+#: wp-admin/includes/comment.php:118
+msgid "A comment cannot be a reply to one of its own replies."
+msgstr "A comment cannot be a reply to one of its own replies."
+
 #: wp-admin/includes/comment.php:108
 msgid "Invalid parent comment."
 msgstr "Invalid parent comment."
+
+#: wp-admin/includes/comment.php:92
+msgid "A comment cannot be a reply to itself."
+msgstr "A comment cannot be a reply to itself."
 
 #: wp-admin/includes/comment.php:88
 msgid "The comment parent cannot be changed because threaded comments are disabled."
@@ -110,6 +152,18 @@ msgstr "The comment parent cannot be changed because threaded comments are disab
 #: wp-admin/includes/class-wp-privacy-policy-content.php:612
 msgid "Where applicable, European data protection law requires personal data of individuals in the European Union or European Economic Area, and other personal data subject to that law, to be protected when transferred outside the European Union or European Economic Area. In addition to listing where the data is transferred, you should explain the legal basis and safeguards relied on for the transfer, such as an adequacy decision, Standard Contractual Clauses, or Binding Corporate Rules. You should also describe any supplementary measures used where relevant."
 msgstr "Where applicable, European data protection law requires personal data of individuals in the European Union or European Economic Area, and other personal data subject to that law, to be protected when transferred outside the European Union or European Economic Area. In addition to listing where the data is transferred, you should explain the legal basis and safeguards relied on for the transfer, such as an adequacy decision, Standard Contractual Clauses, or Binding Corporate Rules. You should also describe any supplementary measures used where relevant."
+
+#. translators: %s: Parent post title.
+#: wp-admin/includes/class-wp-posts-list-table.php:1216
+#: wp-admin/includes/class-wp-posts-list-table.php:1222
+msgid "Child of %s"
+msgstr "Child of %s"
+
+#. translators: Number is a fixed value. This is default text when no items are
+#. found.
+#: wp-admin/includes/class-wp-list-table.php:1033
+msgid "0 items"
+msgstr "0 items"
 
 #: wp-admin/font-library.php:32
 msgid "The Fonts screen requires JavaScript. Please enable JavaScript in your browser settings to install and manage fonts."
@@ -126,6 +180,11 @@ msgstr "None (top-level comment)"
 msgid "Parent comment"
 msgstr "Parent comment"
 
+#. translators: Hidden accessibility text.
+#: wp-admin/edit-form-comment.php:305
+msgid "Edit parent comment"
+msgstr "Edit parent comment"
+
 #: wp-admin/customize.php:278
 msgctxt "label for responsive previews group"
 msgid "Responsive Views"
@@ -134,6 +193,10 @@ msgstr "Responsive Views"
 #: wp-admin/about.php:148
 msgid "WordPress 7.1 continues to polish accessibility across WordPress Core and Gutenberg, advancing the goals to meet accessibility standards. In this release, high impact changes include the new accessible tooltips API, improved predictability for screen readers, and improved labeling in many places in the admin. The editor adds extensive improvements to navigation and interaction."
 msgstr "WordPress 7.1 continues to polish accessibility across WordPress Core and Gutenberg, advancing the goals to meet accessibility standards. In this release, high impact changes include the new accessible tooltips API, improved predictability for screen readers, and improved labelling in many places in the admin. The editor adds extensive improvements to navigation and interaction."
+
+#: wp-admin/about.php:139
+msgid "Image compression, resizing, and thumbnail generation now happen in the browser, via a WebAssembly build of libvips, so large uploads won&#8217;t hit PHP memory limits or time out on shared hosts. This also frees up server CPU and memory, while producing smaller files for visitors. Media handling includes built-in support for AVIF, HEIC and HDR gain maps."
+msgstr "Image compression, resizing, and thumbnail generation now happen in the browser, via a WebAssembly build of libvips, so large uploads won&#8217;t hit PHP memory limits or time out on shared hosts. This also frees up server CPU and memory, while producing smaller files for visitors. Media handling includes built-in support for AVIF, HEIC and HDR gain maps."
 
 #: wp-admin/about.php:138
 msgid "Improved media handling"
@@ -151,9 +214,17 @@ msgstr "More ways to leave feedback."
 msgid "Inline notes with mentions and rich text"
 msgstr "Inline notes with mentions and rich text"
 
+#: wp-admin/about.php:103
+msgid "A new media editor modal replaces the old inline cropping tool, bringing freeform and aspect-ratio cropping, flip, precise rotation, and metadata editing together in a single streamlined workflow. The familiar Crop button still gets you there, now opening a dedicated space to crop, rotate, and adjust images before publishing."
+msgstr "A new media editor modal replaces the old inline cropping tool, bringing freeform and aspect-ratio cropping, flip, precise rotation, and metadata editing together in a single streamlined workflow. The familiar Crop button still gets you there, now opening a dedicated space to crop, rotate, and adjust images before publishing."
+
 #: wp-admin/about.php:102
 msgid "One dedicated workflow for editing your images."
 msgstr "One dedicated workflow for editing your images."
+
+#: wp-admin/about.php:100
+msgid "A new way to crop"
+msgstr "A new way to crop"
 
 #: wp-admin/about.php:93
 msgid "The admin bar now stays with you across all editors, so you always know where you are. The admin bar also gets a small visual refresh."
@@ -174,6 +245,10 @@ msgstr "WordPress 7.1 takes a major step toward built-in responsive design. Set 
 #: wp-admin/about.php:72
 msgid "Style content your way, on every screen."
 msgstr "Style content your way, on every screen."
+
+#: wp-admin/about.php:70
+msgid "Apply responsive styles"
+msgstr "Apply responsive styles"
 
 #: wp-admin/about.php:64
 msgid "WordPress 7.1 makes styling and collaborating easier. Style how all blocks look across screen sizes and how the Button block responds to hover, focus, and active states, all without writing custom CSS. A streamlined media editor brings cropping, rotation, and metadata editing together in one workflow. Notes now support rich text and @mentions, and the admin bar travels with you into every editor, so the tools you rely on stay with you wherever you&#8217;re working."
@@ -819,6 +894,11 @@ msgstr "Autoloaded options are acceptable"
 #: wp-admin/includes/class-wp-site-health.php:2683
 msgid "Autoloaded options are configuration settings for plugins and themes that are automatically loaded with every page load in WordPress. Having too many autoloaded options can slow down your site."
 msgstr "Autoloaded options are configuration settings for plugins and themes that are automatically loaded with every page load in WordPress. Having too many autoloaded options can slow down your site."
+
+#. translators: Localized Support reference.
+#: wp-admin/includes/class-wp-site-health.php:2571
+msgid "https://developer.wordpress.org/advanced-administration/performance/optimization/#object-caching"
+msgstr "https://developer.wordpress.org/advanced-administration/performance/optimization/#object-caching"
 
 #: wp-admin/includes/class-wp-site-health.php:2462
 msgid "https://developer.wordpress.org/advanced-administration/performance/optimization/#caching"
@@ -7922,6 +8002,10 @@ msgstr "Excerpts are optional hand-crafted summaries of your content that can be
 msgid "The Code mode allows you to enter HTML along with your post text. Note that &lt;p&gt; and &lt;br&gt; tags are converted to line breaks when switching to the Code editor to make it less cluttered. When you type, a single line break can be used instead of typing &lt;br&gt;, and two line breaks instead of paragraph tags. The line breaks are converted back to tags automatically."
 msgstr "The Code mode allows you to enter HTML along with your post text. Note that &lt;p&gt; and &lt;br&gt; tags are converted to line breaks when switching to the Code editor to make it less cluttered. When you type, a single line break can be used instead of typing &lt;br&gt;, and two line breaks instead of paragraph tags. The line breaks are converted back to tags automatically."
 
+#: wp-admin/edit-form-advanced.php:287
+msgid "Visual mode gives you an editor that is similar to a word processor. Click the Extended Toolbar button to get a second row of controls."
+msgstr "Visual mode gives you an editor that is similar to a word processor. Click the Extended Toolbar button to get a second row of controls."
+
 #: wp-admin/upload.php:117
 msgid "Error saving media file."
 msgstr "Error saving media file."
@@ -9790,6 +9874,14 @@ msgstr "Tap or hover on any theme then click the Live Preview button to see a li
 msgid "The active theme is displayed highlighted as the first theme."
 msgstr "The active theme is displayed highlighted as the first theme."
 
+#: wp-admin/themes.php:135
+msgid "Click Customize for the active theme or Live Preview for any other theme to see a live preview."
+msgstr "Click Customise for the active theme or Live Preview for any other theme to see a live preview."
+
+#: wp-admin/themes.php:134
+msgid "Hover or tap to see Activate and Live Preview buttons."
+msgstr "Hover or tap to see Activate and Live Preview buttons."
+
 #: wp-admin/themes.php:132
 msgid "This screen is used for managing your installed themes. Aside from the default theme(s) included with your WordPress installation, themes are designed and developed by third parties."
 msgstr "This screen is used for managing your installed themes. Aside from the default theme(s) included with your WordPress installation, themes are designed and developed by third parties."
@@ -10660,6 +10752,11 @@ msgstr "%s has taken over and is currently editing."
 #: wp-admin/nav-menus.php:982
 msgid "Select a menu to edit:"
 msgstr "Select a menu to edit:"
+
+#. translators: %s: URL to Upgrade Network screen.
+#: wp-admin/includes/ms.php:695
+msgid "Thank you for updating! Please visit the <a href=\"%s\">Upgrade Network</a> page to update all your sites."
+msgstr "Thank you for updating! Please visit the <a href=\"%s\">Upgrade Network</a> page to update all your sites."
 
 #: wp-admin/setup-config.php:509
 msgid "All right, sparky! You&#8217;ve made it through this part of the installation. WordPress can now communicate with your database. If you are ready, time now to&hellip;"
@@ -11868,6 +11965,10 @@ msgstr "<strong>Edit</strong> takes you to the editing screen for that post. You
 #: wp-admin/user-new.php:280
 msgid "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
 msgstr "Because this is a multisite installation, you may add accounts that already exist on the Network by specifying a username or email, and defining a role. For more options, such as specifying a password, you have to be a Network Administrator and use the hover link under an existing user&#8217;s name to Edit the user profile under Network Admin > All Users."
+
+#: wp-admin/about.php:63
+msgid "Welcome to WordPress 7.1"
+msgstr "Welcome to WordPress 7.1"
 
 #: wp-admin/about.php:276
 msgid "Go to Dashboard &rarr; Home"
