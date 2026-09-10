@@ -52,8 +52,9 @@ services:
         define( 'DISABLE_WP_CRON', true );
         define( 'AUTOMATIC_UPDATER_DISABLED', true );
         define( 'WP_AUTO_UPDATE_CORE', false );
-        define( 'WP_HTTP_BLOCK_EXTERNAL', true );
-        define( 'ACCESSIBLE_HOSTS', 'api.wordpress.org,*.wordpress.org' );
+        define( 'WP_HTTP_BLOCK_EXTERNAL', false );
+        define( 'WP_ACCESSIBLE_HOSTS', 'api.wordpress.org,*.wordpress.org,downloads.wordpress.org' );
+        define( 'FS_METHOD', 'direct' );
         define( 'WP_REDIS_HOST', 'redis' );
         define( 'WP_REDIS_PORT', 6379 );
 

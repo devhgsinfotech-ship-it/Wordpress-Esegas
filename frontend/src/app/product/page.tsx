@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import ProductList from '@/components/product/ProductList';
-import { getProductCategories, getProductsCatalog, formatWpImageUrl } from '@/lib/wordpress';
+import { getProductCategories, getAllProducts } from '@/lib/wordpress';
 
 export const revalidate = 60; // 60s background revalidation for instant page load
 
@@ -11,26 +11,11 @@ export const metadata = {
 };
 
 export default async function ProductPage() {
-  // Server-side pre-fetching categories and page 1 products for 0ms instant page display
-  const [categories, catalogData] = await Promise.all([
+  // Server-side pre-fetching categories and all catalog products for instant 0ms client filtering
+  const [categories, allProducts] = await Promise.all([
     getProductCategories(),
-    getProductsCatalog(null, 1, 15),
+    getAllProducts(),
   ]);
-
-  const formattedInitialProducts = catalogData.products.map((p: any) => {
-    const rawImage =
-      p._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
-      p._embedded?.['wp:featuredmedia']?.[0]?.media_details?.sizes?.medium?.source_url ||
-      p.images?.[0]?.src ||
-      '';
-
-    return {
-      id: p.id,
-      title: p.title?.rendered || p.title || 'Gas Analyzer Product',
-      image: formatWpImageUrl(rawImage),
-      link: p.link || `/product`,
-    };
-  });
 
   return (
     <div style={{ backgroundColor: '#ffffff', minHeight: '100vh' }}>
@@ -63,9 +48,7 @@ export default async function ProductPage() {
       {/* Main Product Catalog List with Server-Preloaded Initial Data */}
       <ProductList
         initialCategories={categories}
-        initialProducts={formattedInitialProducts}
-        initialTotalProducts={catalogData.totalProducts}
-        initialTotalPages={catalogData.totalPages}
+        allProductsData={allProducts}
       />
     </div>
   );

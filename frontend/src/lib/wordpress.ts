@@ -20,10 +20,10 @@ export async function fetchFromWP(endpoint: string, options: RequestInit = {}) {
   for (const baseUrl of urlsToTry) {
     try {
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 8000);
+      const timeoutId = setTimeout(() => controller.abort(), 25000);
 
       const res = await fetch(`${baseUrl}/wp-json${cleanEndpoint}`, {
-        next: { revalidate: 60 },
+        next: { revalidate: 300 },
         signal: controller.signal,
         ...options,
         headers: {
@@ -43,6 +43,14 @@ export async function fetchFromWP(endpoint: string, options: RequestInit = {}) {
   }
 
   return null;
+}
+
+// Convert internal WP Docker image URLs to browser-accessible public URLs with fallback
+export function formatWpImageUrl(url?: string): string {
+  if (!url || typeof url !== 'string' || url.trim() === '') {
+    return 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?q=80&w=400&auto=format&fit=crop';
+  }
+  return url.replace(/^http:\/\/(wordpress|127\.0\.0\.1:8090)/i, 'http://localhost:8090');
 }
 
 // Fetch WooCommerce / WordPress Products dynamically via REST API
@@ -93,12 +101,6 @@ export async function getArticles(perPage = 6) {
   return articles;
 }
 
-// Convert internal WP Docker image URLs to browser-accessible public URLs
-export function formatWpImageUrl(url?: string): string {
-  if (!url) return '';
-  return url.replace(/^http:\/\/(wordpress|127\.0\.0\.1:8090)/i, 'http://localhost:8090');
-}
-
 // Fetch Product Categories from WordPress REST API (/wp/v2/product_cat)
 export async function getProductCategories() {
   const categories = await fetchFromWP('/wp/v2/product_cat?per_page=100');
@@ -110,46 +112,51 @@ export async function getProductCategories() {
     .sort((a: any, b: any) => a.name.localeCompare(b.name));
 }
 
-// Fetch Paginated Products with Category Filtering from WordPress REST API (/wp/v2/product)
-export async function getProductsCatalog(catId?: number | null, page = 1, perPage = 15) {
-  let endpoint = `/wp/v2/product?per_page=${perPage}&page=${page}&_embed`;
-  if (catId) {
-    endpoint += `&product_cat=${catId}`;
+// Server in-memory products cache for lightning-fast 0ms responses
+let cachedProducts: any[] | null = null;
+let lastProductsFetchTime = 0;
+
+// Fetch All Products with Parallel Chunking & In-Memory Cache
+export async function getAllProducts() {
+  const now = Date.now();
+  // Return cached result if less than 5 minutes old
+  if (cachedProducts && cachedProducts.length > 0 && now - lastProductsFetchTime < 300000) {
+    return cachedProducts;
   }
 
-  const isServer = typeof window === 'undefined';
-  const urlsToTry = isServer
-    ? ['http://localhost:8090', 'http://127.0.0.1:8090', process.env.WORDPRESS_INTERNAL_URL || 'http://wordpress']
-    : ['http://localhost:8090', 'http://127.0.0.1:8090'];
+  // Parallel fetch 4 pages of 20 products with optimized field selection
+  const pages = [1, 2, 3, 4];
+  const promises = pages.map(page =>
+    fetchFromWP(`/wp/v2/product?per_page=20&page=${page}&_embed&_fields=id,title,link,product_cat,_links,_embedded`)
+  );
 
-  for (const baseUrl of urlsToTry) {
-    try {
-      const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 8000);
+  const results = await Promise.all(promises);
+  const rawProducts = results.filter(res => Array.isArray(res)).flat();
 
-      const res = await fetch(`${baseUrl}/wp-json${endpoint}`, {
-        next: { revalidate: 60 },
-        signal: controller.signal,
-        headers: { 'Content-Type': 'application/json' },
-      });
-
-      clearTimeout(timeoutId);
-
-      if (res.ok) {
-        const totalProducts = parseInt(res.headers.get('x-wp-total') || '0', 10);
-        const totalPages = parseInt(res.headers.get('x-wp-totalpages') || '1', 10);
-        const products = await res.json();
-
-        return {
-          products: Array.isArray(products) ? products : [],
-          totalProducts,
-          totalPages,
-        };
-      }
-    } catch (error) {
-      continue;
-    }
+  if (rawProducts.length === 0 && cachedProducts) {
+    return cachedProducts;
   }
 
-  return { products: [], totalProducts: 0, totalPages: 1 };
+  const formatted = rawProducts.map((p: any) => {
+    const rawImage =
+      p._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
+      p._embedded?.['wp:featuredmedia']?.[0]?.media_details?.sizes?.medium?.source_url ||
+      p.images?.[0]?.src ||
+      '';
+
+    return {
+      id: p.id,
+      title: p.title?.rendered || p.title || 'Gas Analyzer Product',
+      image: formatWpImageUrl(rawImage),
+      link: p.link || `/product`,
+      categoryIds: Array.isArray(p.product_cat) ? p.product_cat : [],
+    };
+  });
+
+  if (formatted.length > 0) {
+    cachedProducts = formatted;
+    lastProductsFetchTime = now;
+  }
+
+  return formatted.length > 0 ? formatted : (cachedProducts || []);
 }
